@@ -6,6 +6,8 @@ from mlb_api import (
     obtener_standings,
     obtener_lideres,
 )
+# OJO ACÁ: Si te tira ImportError, es porque en tu archivo predictor.py 
+# la función no se llama "prediccion". 
 from predictor import prediccion
 from favoritos import obtener_favoritos
 from estadisticas import obtener_estadisticas_equipo
@@ -51,14 +53,16 @@ for fecha in partidos.get("dates", []):
             "bullpen": away_stats["bullpen"],
         }
 
-prob = prediccion(home, away)
+        # ESTO AHORA ESTÁ ADENTRO DEL BUCLE (8 espacios de sangría)
+        prob = prediccion(home, away)
 
-predicciones.append({
- "local": local,
-   "visitante": visitante,
-  "probabilidad": prob
+        predicciones.append({
+            "local": local,
+            "visitante": visitante,
+            "probabilidad": prob
         })
 
+# Esto queda afuera del bucle
 favoritos = obtener_favoritos(predicciones)
 
 with open("datos/partidos.json", "w", encoding="utf-8") as f:
@@ -77,3 +81,4 @@ with open("datos/favoritos.json", "w", encoding="utf-8") as f:
     json.dump(favoritos, f, ensure_ascii=False, indent=4)
 
 print("Actualización terminada.")
+

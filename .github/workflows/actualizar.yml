@@ -28,5 +28,6 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add datos/*.json
-          git commit -m "Actualizar datos MLB" || echo "Sin cambios"
-          git push
+git commit -m "Actualizar datos MLB" || echo "Sin cambios"
+git pull --rebase origin main
+git push origin main

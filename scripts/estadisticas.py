@@ -15,6 +15,12 @@ def obtener_estadisticas_equipo(team_id):
             timeout=30
         ).json()
 
+        record = requests.get(
+            f"{BASE}/teams/{team_id}",
+            params={"hydrate": "record"},
+            timeout=30
+        ).json()
+
         h = hit["stats"][0]["splits"][0]["stat"]
         p = pit["stats"][0]["splits"][0]["stat"]
 
@@ -30,9 +36,22 @@ def obtener_estadisticas_equipo(team_id):
 
         home_wins = wins // 2
         home_losses = losses // 2
-
         away_wins = wins - home_wins
         away_losses = losses - home_losses
+
+        bullpen = float(p.get("era", 4.20))
+
+        ultimos10 = 5
+
+        try:
+            records = record["teams"][0]["record"]["records"]
+
+            for r in records:
+                if r["type"] == "lastTen":
+                    ultimos10 = int(r["wins"])
+                    break
+        except:
+            pass
 
         return {
             "RS": int(h.get("runs", 500)),
@@ -42,8 +61,8 @@ def obtener_estadisticas_equipo(team_id):
 
             "elo": round(elo),
 
-            "ultimos10": 5,
-            "bullpen": 0,
+            "ultimos10": ultimos10,
+            "bullpen": bullpen,
 
             "wins": wins,
             "losses": losses,
@@ -57,7 +76,7 @@ def obtener_estadisticas_equipo(team_id):
         }
 
     except Exception as e:
-        print(f"Error obteniendo estadísticas del equipo {team_id}: {e}")
+        print(e)
 
         return {
             "RS": 500,
@@ -68,7 +87,7 @@ def obtener_estadisticas_equipo(team_id):
             "elo": 1500,
 
             "ultimos10": 5,
-            "bullpen": 0,
+            "bullpen": 4.20,
 
             "wins": 81,
             "losses": 81,

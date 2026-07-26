@@ -57,14 +57,14 @@ away = {
     "bullpen": 0
 }
 
-        prob = prediction(home, away)
+   prob = prediction(home, away)
 
-        predicciones.append({
-            "local": local,
-            "visitante": visitante,
-            "probabilidad": prob
-        })
-        favoritos = obtener_favoritos(predicciones)
+   predicciones.append({
+  "local": local,
+   "visitante": visitante,
+   "probabilidad": prob
+   })
+favoritos = obtener_favoritos(predicciones)
 
 with open("datos/partidos.json", "w", encoding="utf-8") as f:
     json.dump(partidos, f, ensure_ascii=False, indent=4)

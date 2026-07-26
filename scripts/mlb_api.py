@@ -40,10 +40,22 @@ def obtener_partidos(fecha):
                     else "Sin anunciar"
                 ),
 
+                "pitcher_local_id": (
+                    home["probablePitcher"]["id"]
+                    if "probablePitcher" in home
+                    else None
+                ),
+
                 "pitcher_visitante": (
                     away["probablePitcher"]["fullName"]
                     if "probablePitcher" in away
                     else "Sin anunciar"
+                ),
+
+                "pitcher_visitante_id": (
+                    away["probablePitcher"]["id"]
+                    if "probablePitcher" in away
+                    else None
                 )
             })
 

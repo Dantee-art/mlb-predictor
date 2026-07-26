@@ -21,15 +21,12 @@ def prediccion(home, away, pitcher_home, pitcher_away):
     py_away = pythag(away["RS"], away["RA"])
 
     p5 = log5(py_home, py_away)
-
     elo = elo_prob(home["elo"], away["elo"])
 
     avg = (home["AVG"] - away["AVG"]) * 0.60
-
     era = (away["ERA"] - home["ERA"]) * 0.08
 
     pitcher = (pitcher_away["era"] - pitcher_home["era"]) * 0.05
-
     whip = (pitcher_away["whip"] - pitcher_home["whip"]) * 0.03
 
     run_diff = (home["run_diff"] - away["run_diff"]) * 0.0005
@@ -41,9 +38,7 @@ def prediccion(home, away, pitcher_home, pitcher_away):
 
     ultimos = (home["ultimos10"] - away["ultimos10"]) * 0.02
 
-    bullpen = (home["bullpen"] - away["bullpen"]) * 0.01
-
-    local = 0.03
+    bullpen = (away["bullpen"] - home["bullpen"]) * 0.02
 
     prob = (
         p5 * 0.38 +
@@ -57,7 +52,7 @@ def prediccion(home, away, pitcher_home, pitcher_away):
         home_record +
         ultimos +
         bullpen +
-        local
+        0.03
     )
 
     if prob > 0.99:

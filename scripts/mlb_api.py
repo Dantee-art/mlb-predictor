@@ -22,14 +22,29 @@ def obtener_partidos(fecha):
     for d in datos.get("dates", []):
         for g in d.get("games", []):
 
+            home = g["teams"]["home"]
+            away = g["teams"]["away"]
+
             partidos.append({
                 "gamePk": g["gamePk"],
                 "estado": g["status"]["detailedState"],
-                "local": g["teams"]["home"]["team"]["name"],
-                "visitante": g["teams"]["away"]["team"]["name"],
-                "home_id": g["teams"]["home"]["team"]["id"],
-                "away_id": g["teams"]["away"]["team"]["id"],
-                "hora": g["gameDate"]
+                "local": home["team"]["name"],
+                "visitante": away["team"]["name"],
+                "home_id": home["team"]["id"],
+                "away_id": away["team"]["id"],
+                "hora": g["gameDate"],
+
+                "pitcher_local": (
+                    home["probablePitcher"]["fullName"]
+                    if "probablePitcher" in home
+                    else "Sin anunciar"
+                ),
+
+                "pitcher_visitante": (
+                    away["probablePitcher"]["fullName"]
+                    if "probablePitcher" in away
+                    else "Sin anunciar"
+                )
             })
 
     return partidos
@@ -50,8 +65,8 @@ def obtener_lideres():
         f"{BASE}/stats/leaders",
         params={
             "leaderCategories":
-            "homeRuns,runsBattedIn,battingAverage,"
-            "earnedRunAverage,strikeOuts,wins"
+                "homeRuns,runsBattedIn,battingAverage,"
+                "earnedRunAverage,strikeOuts,wins"
         },
         timeout=30
     )

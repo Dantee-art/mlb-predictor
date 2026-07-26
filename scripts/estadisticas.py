@@ -4,25 +4,24 @@ BASE = "https://statsapi.mlb.com/api/v1"
 
 def obtener_estadisticas_equipo(team_id):
     try:
-        url = f"{BASE}/teams/{team_id}/stats?stats=season&group=hitting"
-        r = requests.get(url, timeout=30)
-        datos = r.json()
+        hit = requests.get(
+            f"{BASE}/teams/{team_id}/stats?stats=season&group=hitting",
+            timeout=30
+        ).json()
 
-        stats = datos["stats"][0]["splits"][0]["stat"]
+        pit = requests.get(
+            f"{BASE}/teams/{team_id}/stats?stats=season&group=pitching",
+            timeout=30
+        ).json()
 
-        carreras = stats.get("runs", 500)
-
-        url2 = f"{BASE}/teams/{team_id}/stats?stats=season&group=pitching"
-        r2 = requests.get(url2, timeout=30)
-        datos2 = r2.json()
-
-        stats2 = datos2["stats"][0]["splits"][0]["stat"]
-
-        carreras_recibidas = stats2.get("runs", 450)
+        h = hit["stats"][0]["splits"][0]["stat"]
+        p = pit["stats"][0]["splits"][0]["stat"]
 
         return {
-            "RS": carreras,
-            "RA": carreras_recibidas,
+            "RS": h.get("runs", 500),
+            "RA": p.get("runs", 450),
+            "AVG": float(h.get("avg", ".250")),
+            "ERA": float(p.get("era", "4.20")),
             "elo": 1500,
             "ultimos10": 5,
             "bullpen": 0
@@ -33,6 +32,8 @@ def obtener_estadisticas_equipo(team_id):
         return {
             "RS": 500,
             "RA": 450,
+            "AVG": 0.250,
+            "ERA": 4.20,
             "elo": 1500,
             "ultimos10": 5,
             "bullpen": 0

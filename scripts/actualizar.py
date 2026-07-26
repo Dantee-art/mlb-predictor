@@ -11,7 +11,7 @@ from estadisticas import obtener_estadisticas_equipo
 from predictor import prediction
 from favoritos import obtener_favoritos
 
-HOY = datetime.now().strftime("%Y-%m-%d")
+HOY = "2026-07-25"
 
 print("Descargando datos...")
 

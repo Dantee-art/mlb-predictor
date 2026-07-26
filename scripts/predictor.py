@@ -26,8 +26,13 @@ def prediccion(home, away, pitcher_home, pitcher_away):
     avg = (home["AVG"] - away["AVG"]) * 0.60
     era = (away["ERA"] - home["ERA"]) * 0.08
 
-    pitcher = (pitcher_away["era"] - pitcher_home["era"]) * 0.05
-    whip = (pitcher_away["whip"] - pitcher_home["whip"]) * 0.03
+    # Pitchers abridores
+    pitcher_era = (pitcher_away["era"] - pitcher_home["era"]) * 0.05
+    pitcher_whip = (pitcher_away["whip"] - pitcher_home["whip"]) * 0.03
+    pitcher_record = (
+        (pitcher_home["wins"] - pitcher_home["losses"])
+        - (pitcher_away["wins"] - pitcher_away["losses"])
+    ) * 0.002
 
     run_diff = (home["run_diff"] - away["run_diff"]) * 0.0005
 
@@ -46,8 +51,9 @@ def prediccion(home, away, pitcher_home, pitcher_away):
         HOME_ADV * 0.10 +
         avg +
         era +
-        pitcher +
-        whip +
+        pitcher_era +
+        pitcher_whip +
+        pitcher_record +
         run_diff +
         home_record +
         ultimos +

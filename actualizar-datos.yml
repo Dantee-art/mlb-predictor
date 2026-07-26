@@ -1,0 +1,37 @@
+name: Actualizar datos MLB
+
+on:
+  schedule:
+    # Cada 15 minutos, entre las 16:00 y las 05:00 UTC (aprox. 12 PM a 1 AM hora Este de EE.UU.)
+    # que es la franja donde suele haber partidos de MLB en curso.
+    - cron: "*/15 16-23 * * *"
+    - cron: "*/15 0-5 * * *"
+    # Una corrida extra a las 09:00 UTC para asegurar standings/líderes frescos aunque no haya partidos
+    - cron: "0 9 * * *"
+  workflow_dispatch: {}  # permite ejecutarlo manualmente desde la pestaña "Actions" en GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Ejecutar script de actualización
+        run: python actualizar_datos.py
+
+      - name: Subir datos.json si hubo cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add datos.json
+          git diff --staged --quiet || git commit -m "Actualizar datos MLB $(date -u +%Y-%m-%d\ %H:%M) UTC"
+          git push

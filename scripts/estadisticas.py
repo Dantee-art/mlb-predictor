@@ -1,49 +1,42 @@
-from math import pow
+import requests
 
-HOME_ADV = 0.54
-
-
-def pythag(rs, ra):
-    return pow(rs, 1.83) / (pow(rs, 1.83) + pow(ra, 1.83))
+BASE = "https://statsapi.mlb.com/api/v1"
 
 
-def log5(a, b):
-    return (a - a * b) / (a + b - 2 * a * b)
+def obtener_estadisticas_equipo(team_id):
+    try:
+        hit = requests.get(
+            f"{BASE}/teams/{team_id}/stats?stats=season&group=hitting",
+            timeout=30
+        ).json()
 
+        pit = requests.get(
+            f"{BASE}/teams/{team_id}/stats?stats=season&group=pitching",
+            timeout=30
+        ).json()
 
-def elo_prob(a, b):
-    return 1 / (1 + 10 ** ((b - a) / 400))
+        h = hit["stats"][0]["splits"][0]["stat"]
+        p = pit["stats"][0]["splits"][0]["stat"]
 
+        return {
+            "RS": int(h.get("runs", 500)),
+            "RA": int(p.get("runs", 450)),
+            "AVG": float(h.get("avg", ".250")),
+            "ERA": float(p.get("era", "4.20")),
+            "elo": 1500,
+            "ultimos10": 5,
+            "bullpen": 0
+        }
 
-def prediction(home, away):
+    except Exception as e:
+        print(f"Error obteniendo estadísticas del equipo {team_id}: {e}")
 
-    py_home = pythag(home["RS"], home["RA"])
-    py_away = pythag(away["RS"], away["RA"])
-
-    l5 = log5(py_home, py_away)
-    elo = elo_prob(home["elo"], away["elo"])
-
-    avg = (home["AVG"] - away["AVG"]) * 0.60
-    era = (away["ERA"] - home["ERA"]) * 0.05
-    ultimos = (home["ultimos10"] - away["ultimos10"]) * 0.02
-    bullpen = (home["bullpen"] - away["bullpen"]) * 0.01
-    local = 0.03
-
-    prob = (
-        l5 * 0.30 +
-        elo * 0.25 +
-        HOME_ADV * 0.15 +
-        avg +
-        era +
-        ultimos +
-        bullpen +
-        local
-    )
-
-    if prob > 0.99:
-        prob = 0.99
-
-    if prob < 0.01:
-        prob = 0.01
-
-    return round(prob * 100, 1)
+        return {
+            "RS": 500,
+            "RA": 450,
+            "AVG": 0.250,
+            "ERA": 4.20,
+            "elo": 1500,
+            "ultimos10": 5,
+            "bullpen": 0
+        }

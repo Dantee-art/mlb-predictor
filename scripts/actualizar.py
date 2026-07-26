@@ -1,3 +1,19 @@
+import json
+from datetime import datetime
+
+from mlb_api import (
+    obtener_partidos,
+    obtener_standings,
+    obtener_lideres,
+    obtener_estadisticas_pitcher,
+)
+
+from estadisticas import obtener_estadisticas_equipo
+from predictor import prediccion
+from favoritos import obtener_favoritos
+
+HOY = datetime.now().strftime("%Y-%m-%d")
+
 print("Descargando datos...")
 
 partidos_api = obtener_partidos(HOY)

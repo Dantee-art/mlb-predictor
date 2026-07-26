@@ -51,12 +51,12 @@ for fecha in partidos.get("dates", []):
             "bullpen": away_stats["bullpen"],
         }
 
-        prob = prediccion(home, away)
+prob = prediccion(home, away)
 
-        predicciones.append({
-            "local": local,
-            "visitante": visitante,
-            "probabilidad": prob
+predicciones.append({
+ "local": local,
+   "visitante": visitante,
+  "probabilidad": prob
         })
 
 favoritos = obtener_favoritos(predicciones)

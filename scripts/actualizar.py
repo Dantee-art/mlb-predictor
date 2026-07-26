@@ -5,7 +5,6 @@ from mlb_api import (
     obtener_partidos,
     obtener_standings,
     obtener_lideres,
-    obtener_pitcher
 )
 
 from estadisticas import obtener_estadisticas_equipo
@@ -26,18 +25,16 @@ for juego in partidos_api:
     home = obtener_estadisticas_equipo(juego["home_id"])
     away = obtener_estadisticas_equipo(juego["away_id"])
 
-    # Pitchers abridores
-    home["pitcher"] = obtener_pitcher(juego["home_id"])
-    away["pitcher"] = obtener_pitcher(juego["away_id"])
-
     prob = prediction(home, away)
 
     partido = {
         "gamePk": juego["gamePk"],
         "local": juego["local"],
         "visitante": juego["visitante"],
-        "pitcher_local": home["pitcher"],
-        "pitcher_visitante": away["pitcher"],
+        "pitcher_local": juego["pitcher_local"],
+        "pitcher_visitante": juego["pitcher_visitante"],
+        "pitcher_local_id": juego["pitcher_local_id"],
+        "pitcher_visitante_id": juego["pitcher_visitante_id"],
         "estado": juego["estado"],
         "hora": juego["hora"],
         "probabilidad": prob

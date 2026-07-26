@@ -9,6 +9,9 @@ jobs:
   actualizar:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
 
@@ -19,3 +22,11 @@ jobs:
       - run: pip install -r requirements.txt
 
       - run: python scripts/actualizar.py
+
+      - name: Guardar cambios
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add datos/*.json
+          git commit -m "Actualizar datos MLB" || echo "Sin cambios"
+          git push

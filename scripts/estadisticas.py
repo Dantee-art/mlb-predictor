@@ -26,14 +26,34 @@ def obtener_estadisticas_equipo(team_id):
 
         elo = 1500 + (win_pct - 0.5) * 400
 
+        run_diff = int(h.get("runs", 500)) - int(p.get("runs", 450))
+
+        home_wins = wins // 2
+        home_losses = losses // 2
+
+        away_wins = wins - home_wins
+        away_losses = losses - home_losses
+
         return {
             "RS": int(h.get("runs", 500)),
             "RA": int(p.get("runs", 450)),
             "AVG": float(h.get("avg", ".250")),
             "ERA": float(p.get("era", "4.20")),
+
             "elo": round(elo),
+
             "ultimos10": 5,
-            "bullpen": 0
+            "bullpen": 0,
+
+            "wins": wins,
+            "losses": losses,
+            "win_pct": round(win_pct, 3),
+            "run_diff": run_diff,
+
+            "home_wins": home_wins,
+            "home_losses": home_losses,
+            "away_wins": away_wins,
+            "away_losses": away_losses
         }
 
     except Exception as e:
@@ -44,7 +64,19 @@ def obtener_estadisticas_equipo(team_id):
             "RA": 450,
             "AVG": 0.250,
             "ERA": 4.20,
+
             "elo": 1500,
+
             "ultimos10": 5,
-            "bullpen": 0
+            "bullpen": 0,
+
+            "wins": 81,
+            "losses": 81,
+            "win_pct": 0.500,
+            "run_diff": 0,
+
+            "home_wins": 40,
+            "home_losses": 41,
+            "away_wins": 41,
+            "away_losses": 40
         }

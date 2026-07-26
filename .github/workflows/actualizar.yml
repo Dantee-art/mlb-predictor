@@ -5,31 +5,33 @@ on:
     - cron: "*/10 * * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   actualizar:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - name: Configurar Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - run: pip install -r requirements.txt
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
 
-      - run: python scripts/actualizar.py
+      - name: Actualizar datos
+        run: python scripts/actualizar.py
 
-      - name: Guardar cambios
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git pull --rebase origin main
-          git add datos/*.json
-          git commit -m "Actualizar datos MLB" || echo "Sin cambios"
-          git push origin HEAD:main
+      - name: Commit y Push
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "datos/*.json"
+          message: "Actualizar datos MLB"
+          default_author: github_actions

@@ -1,19 +1,3 @@
-import json
-from datetime import datetime
-
-from mlb_api import (
-    obtener_partidos,
-    obtener_standings,
-    obtener_lideres,
-    obtener_estadisticas_pitcher
-)
-
-from estadisticas import obtener_estadisticas_equipo
-from predictor import prediccion
-from favoritos import obtener_favoritos
-
-HOY = datetime.now().strftime("%Y-%m-%d")
-
 print("Descargando datos...")
 
 partidos_api = obtener_partidos(HOY)
@@ -48,6 +32,12 @@ for juego in partidos_api:
         "estado": juego["estado"],
         "hora": juego["hora"],
 
+        # Marcador en vivo/final (0 si el partido todavía no arrancó)
+        "marcador_local": juego.get("marcador_local", 0),
+        "marcador_visitante": juego.get("marcador_visitante", 0),
+        "inning": juego.get("inning"),
+        "inning_estado": juego.get("inning_estado"),
+
         "pitcher_local": juego["pitcher_local"],
         "pitcher_visitante": juego["pitcher_visitante"],
 
@@ -81,4 +71,3 @@ with open("datos/lideres.json", "w", encoding="utf-8") as f:
     json.dump(lideres, f, ensure_ascii=False, indent=4)
 
 print(f"Se encontraron {len(partidos)} partidos.")
-print("Actualización terminada.")

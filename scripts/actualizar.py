@@ -1,7 +1,13 @@
 import json
 from datetime import datetime
 
-from mlb_api import obtener_partidos, obtener_standings, obtener_lideres
+from mlb_api import (
+    obtener_partidos,
+    obtener_standings,
+    obtener_lideres,
+    obtener_pitcher
+)
+
 from estadisticas import obtener_estadisticas_equipo
 from predictor import prediction
 from favoritos import obtener_favoritos
@@ -20,12 +26,18 @@ for juego in partidos_api:
     home = obtener_estadisticas_equipo(juego["home_id"])
     away = obtener_estadisticas_equipo(juego["away_id"])
 
+    # Pitchers abridores
+    home["pitcher"] = obtener_pitcher(juego["home_id"])
+    away["pitcher"] = obtener_pitcher(juego["away_id"])
+
     prob = prediction(home, away)
 
     partido = {
         "gamePk": juego["gamePk"],
         "local": juego["local"],
         "visitante": juego["visitante"],
+        "pitcher_local": home["pitcher"],
+        "pitcher_visitante": away["pitcher"],
         "estado": juego["estado"],
         "hora": juego["hora"],
         "probabilidad": prob

@@ -4,62 +4,37 @@ from datetime import datetime
 from mlb_api import (
     obtener_partidos,
     obtener_standings,
-    obtener_lideres,
+    obtener_lideres
 )
-# CAMBIO 1: Importamos "prediction" en lugar de "prediccion"
+
+from estadisticas import obtener_estadisticas_equipo
 from predictor import prediction
 from favoritos import obtener_favoritos
-from estadisticas import obtener_estadisticas_equipo
 
-HOY = "2026-07-25"
+HOY = datetime.now().strftime("%Y-%m-%d")
 
-print("Descargando partidos...")
+print("Descargando datos...")
+
 partidos = obtener_partidos(HOY)
-
-print("Descargando standings...")
 standings = obtener_standings()
-
-print("Descargando líderes...")
 lideres = obtener_lideres()
 
 predicciones = []
 
-for fecha in partidos.get("dates", []):
-    for juego in fecha.get("games", []):
+for juego in partidos:
 
-        local = juego["teams"]["home"]["team"]["name"]
-        visitante = juego["teams"]["away"]["team"]["name"]
+    home = obtener_estadisticas_equipo(juego["home_id"])
+    away = obtener_estadisticas_equipo(juego["away_id"])
 
-        home_id = juego["teams"]["home"]["team"]["id"]
-        away_id = juego["teams"]["away"]["team"]["id"]
+    prob = prediction(home, away)
 
-        home_stats = obtener_estadisticas_equipo(home_id)
-        away_stats = obtener_estadisticas_equipo(away_id)
-
-        home = {
-            "RS": home_stats["RS"],
-            "RA": home_stats["RA"],
-            "elo": home_stats["elo"],
-            "ultimos10": home_stats["ultimos10"],
-            "bullpen": home_stats["bullpen"],
-        }
-
-        away = {
-            "RS": away_stats["RS"],
-            "RA": away_stats["RA"],
-            "elo": away_stats["elo"],
-            "ultimos10": away_stats["ultimos10"],
-            "bullpen": away_stats["bullpen"],
-        }
-
-        # CAMBIO 2: Usamos "prediction" acá adentro del bucle
-        prob = prediction(home, away)
-
-        predicciones.append({
-            "local": local,
-            "visitante": visitante,
-            "probabilidad": prob
-        })
+    predicciones.append({
+        "local": juego["local"],
+        "visitante": juego["visitante"],
+        "probabilidad": prob,
+        "estado": juego["estado"],
+        "hora": juego["hora"]
+    })
 
 favoritos = obtener_favoritos(predicciones)
 

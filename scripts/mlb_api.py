@@ -9,7 +9,7 @@ def obtener_partidos(fecha):
     params = {
         "sportId": 1,
         "date": fecha,
-        "hydrate": "team,probablePitcher"
+        "hydrate": "team,probablePitcher,linescore"
     }
 
     r = requests.get(url, params=params, timeout=30)
@@ -32,6 +32,16 @@ def obtener_partidos(fecha):
                 "home_id": home["team"]["id"],
                 "away_id": away["team"]["id"],
                 "hora": g["gameDate"],
+
+                # Marcador en vivo/final. "score" solo existe una vez que el
+                # partido arrancó; antes de eso lo dejamos en 0.
+                "marcador_local": home.get("score", 0),
+                "marcador_visitante": away.get("score", 0),
+
+                # Inning actual y si está en alta/baja, útil para mostrar
+                # "Top 5ta", "Fin 7ma", etc. en la UI si se quiere.
+                "inning": g.get("linescore", {}).get("currentInning"),
+                "inning_estado": g.get("linescore", {}).get("inningState"),
 
                 "pitcher_local": (
                     home["probablePitcher"]["fullName"]
@@ -126,4 +136,4 @@ def obtener_estadisticas_pitcher(pitcher_id):
         "whip": float(s.get("whip", 1.30)),
         "wins": int(s.get("wins", 0)),
         "losses": int(s.get("losses", 0))
-        }
+    }

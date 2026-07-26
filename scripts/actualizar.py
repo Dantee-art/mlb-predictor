@@ -9,7 +9,7 @@ from mlb_api import (
 
 from predictor import prediction
 from favoritos import obtener_favoritos
-
+from estadisticas import obtener_estadisticas_equipo
 
 HOY = datetime.now().strftime("%Y-%m-%d")
 

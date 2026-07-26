@@ -4,41 +4,56 @@ BASE = "https://statsapi.mlb.com/api/v1"
 
 
 def obtener_partidos(fecha):
+    url = f"{BASE}/schedule"
 
-    url = f"{BASE}/schedule?sportId=1&date={fecha}&hydrate=probablePitcher,team"
+    params = {
+        "sportId": 1,
+        "date": fecha,
+        "hydrate": "team,probablePitcher"
+    }
 
-    r = requests.get(url, timeout=30)
+    r = requests.get(url, params=params, timeout=30)
+    r.raise_for_status()
 
-    return r.json()
+    datos = r.json()
+
+    partidos = []
+
+    for d in datos.get("dates", []):
+        for g in d.get("games", []):
+
+            partidos.append({
+                "gamePk": g["gamePk"],
+                "estado": g["status"]["detailedState"],
+                "local": g["teams"]["home"]["team"]["name"],
+                "visitante": g["teams"]["away"]["team"]["name"],
+                "home_id": g["teams"]["home"]["team"]["id"],
+                "away_id": g["teams"]["away"]["team"]["id"],
+                "hora": g["gameDate"]
+            })
+
+    return partidos
 
 
 def obtener_standings():
-
-    url = f"{BASE}/standings?leagueId=103,104"
-
-    return requests.get(url, timeout=30).json()
-
-
-def obtener_boxscore(gamePk):
-
-    url = f"{BASE}/game/{gamePk}/boxscore"
-
-    return requests.get(url, timeout=30).json()
-
-
-def obtener_live(gamePk):
-
-    url = f"{BASE}/game/{gamePk}/feed/live"
-
-    return requests.get(url, timeout=30).json()
+    r = requests.get(
+        f"{BASE}/standings",
+        params={"leagueId": "103,104"},
+        timeout=30
+    )
+    r.raise_for_status()
+    return r.json()
 
 
 def obtener_lideres():
-
-    url = (
-        f"{BASE}/stats/leaders"
-        "?leaderCategories=homeRuns,runsBattedIn,battingAverage,"
-        "earnedRunAverage,strikeOuts,wins"
+    r = requests.get(
+        f"{BASE}/stats/leaders",
+        params={
+            "leaderCategories":
+            "homeRuns,runsBattedIn,battingAverage,"
+            "earnedRunAverage,strikeOuts,wins"
+        },
+        timeout=30
     )
-
-    return requests.get(url, timeout=30).json()
+    r.raise_for_status()
+    return r.json()

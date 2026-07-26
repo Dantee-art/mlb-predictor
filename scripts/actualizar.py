@@ -35,17 +35,27 @@ for fecha in partidos.get("dates", []):
         visitante = juego["teams"]["away"]["team"]["name"]
 
         # Datos de ejemplo (después los reemplazaremos por estadísticas reales)
-        home = {
-            "RS": 500,
-            "RA": 420,
-            "elo": 1550
-        }
+        home_id = juego["teams"]["home"]["team"]["id"]
+away_id = juego["teams"]["away"]["team"]["id"]
 
-        away = {
-            "RS": 470,
-            "RA": 450,
-            "elo": 1500
-        }
+home_stats = obtener_estadisticas_equipo(home_id)
+away_stats = obtener_estadisticas_equipo(away_id)
+
+home = {
+    "RS": 500,
+    "RA": 420,
+    "elo": 1550,
+    "ultimos10": 5,
+    "bullpen": 0
+}
+
+away = {
+    "RS": 470,
+    "RA": 450,
+    "elo": 1500,
+    "ultimos10": 5,
+    "bullpen": 0
+}
 
         prob = prediction(home, away)
 

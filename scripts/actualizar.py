@@ -26,8 +26,13 @@ for juego in partidos_api:
     home = obtener_estadisticas_equipo(juego["home_id"])
     away = obtener_estadisticas_equipo(juego["away_id"])
 
-    pitcher_home = obtener_estadisticas_pitcher(juego["pitcher_local_id"])
-    pitcher_away = obtener_estadisticas_pitcher(juego["pitcher_visitante_id"])
+    pitcher_home = obtener_estadisticas_pitcher(
+        juego["pitcher_local_id"]
+    )
+
+    pitcher_away = obtener_estadisticas_pitcher(
+        juego["pitcher_visitante_id"]
+    )
 
     prob = prediccion(
         home,
@@ -40,12 +45,15 @@ for juego in partidos_api:
         "gamePk": juego["gamePk"],
         "local": juego["local"],
         "visitante": juego["visitante"],
-        "pitcher_local": juego["pitcher_local"],
-        "pitcher_visitante": juego["pitcher_visitante"],
-        "pitcher_local_id": juego["pitcher_local_id"],
-        "pitcher_visitante_id": juego["pitcher_visitante_id"],
         "estado": juego["estado"],
         "hora": juego["hora"],
+
+        "pitcher_local": juego["pitcher_local"],
+        "pitcher_visitante": juego["pitcher_visitante"],
+
+        "pitcher_local_id": juego["pitcher_local_id"],
+        "pitcher_visitante_id": juego["pitcher_visitante_id"],
+
         "probabilidad": prob
     }
 

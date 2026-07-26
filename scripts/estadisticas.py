@@ -18,12 +18,20 @@ def obtener_estadisticas_equipo(team_id):
         h = hit["stats"][0]["splits"][0]["stat"]
         p = pit["stats"][0]["splits"][0]["stat"]
 
+        wins = int(h.get("wins", 81))
+        losses = int(h.get("losses", 81))
+
+        games = wins + losses
+        win_pct = wins / games if games > 0 else 0.5
+
+        elo = 1500 + (win_pct - 0.5) * 400
+
         return {
             "RS": int(h.get("runs", 500)),
             "RA": int(p.get("runs", 450)),
             "AVG": float(h.get("avg", ".250")),
             "ERA": float(p.get("era", "4.20")),
-            "elo": 1500,
+            "elo": round(elo),
             "ultimos10": 5,
             "bullpen": 0
         }

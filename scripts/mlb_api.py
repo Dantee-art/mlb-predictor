@@ -84,3 +84,39 @@ def obtener_lideres():
     )
     r.raise_for_status()
     return r.json()
+
+ def obtener_estadisticas_pitcher(pitcher_id):
+    if pitcher_id is None:
+        return {
+            "era": 4.20,
+            "whip": 1.30,
+            "wins": 0,
+            "losses": 0
+        }
+
+    r = requests.get(
+        f"{BASE}/people/{pitcher_id}/stats",
+        params={"stats": "season", "group": "pitching"},
+        timeout=30
+    )
+
+    r.raise_for_status()
+
+    stats = r.json()["stats"]
+
+    if not stats or not stats[0]["splits"]:
+        return {
+            "era": 4.20,
+            "whip": 1.30,
+            "wins": 0,
+            "losses": 0
+        }
+
+    s = stats[0]["splits"][0]["stat"]
+
+    return {
+        "era": float(s.get("era", 4.20)),
+        "whip": float(s.get("whip", 1.30)),
+        "wins": int(s.get("wins", 0)),
+        "losses": int(s.get("losses", 0))
+    }

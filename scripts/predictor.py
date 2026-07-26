@@ -2,14 +2,18 @@ from math import pow
 
 HOME_ADV = 0.54
 
+
 def pythag(rs, ra):
     return pow(rs, 1.83) / (pow(rs, 1.83) + pow(ra, 1.83))
 
+
 def log5(a, b):
-    return (a - a*b) / (a + b - 2*a*b)
+    return (a - a * b) / (a + b - 2 * a * b)
+
 
 def elo_prob(a, b):
-    return 1 / (1 + 10 ** ((b-a)/400))
+    return 1 / (1 + 10 ** ((b - a) / 400))
+
 
 def prediction(home, away):
 
@@ -20,16 +24,22 @@ def prediction(home, away):
 
     elo = elo_prob(home["elo"], away["elo"])
 
-    ultimos = (home["ultimos10"] - away["ultimos10"]) * 0.02
+    avg = (home["AVG"] - away["AVG"]) * 0.50
 
-    local = 0.03
+    era = (away["ERA"] - home["ERA"]) * 0.03
+
+    ultimos = (home["ultimos10"] - away["ultimos10"]) * 0.02
 
     bullpen = (home["bullpen"] - away["bullpen"]) * 0.01
 
+    local = 0.03
+
     prob = (
-        l5*0.35 +
-        elo*0.30 +
-        HOME_ADV*0.15 +
+        l5 * 0.30 +
+        elo * 0.25 +
+        HOME_ADV * 0.10 +
+        avg +
+        era +
         ultimos +
         bullpen +
         local
@@ -41,4 +51,4 @@ def prediction(home, away):
     if prob < 0.01:
         prob = 0.01
 
-    return round(prob*100,1)
+    return round(prob * 100, 1)

@@ -1,12 +1,18 @@
 def obtener_favoritos(predicciones):
-    """
-    Devuelve los 3 equipos con mayor probabilidad de ganar.
-    """
+    favoritos = []
 
-    ordenados = sorted(
-        predicciones,
-        key=lambda x: x["probabilidad"],
-        reverse=True
-    )
+    for p in predicciones:
+        if p["probabilidad"] >= 55:
+            favoritos.append({
+                "equipo": p["local"],
+                "probabilidad": p["probabilidad"]
+            })
+        elif p["probabilidad"] <= 45:
+            favoritos.append({
+                "equipo": p["visitante"],
+                "probabilidad": round(100 - p["probabilidad"], 1)
+            })
 
-    return ordenados[:3]
+    favoritos.sort(key=lambda x: x["probabilidad"], reverse=True)
+
+    return favoritos

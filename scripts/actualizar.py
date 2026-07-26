@@ -5,10 +5,11 @@ from mlb_api import (
     obtener_partidos,
     obtener_standings,
     obtener_lideres,
+    obtener_estadisticas_pitcher
 )
 
 from estadisticas import obtener_estadisticas_equipo
-from predictor import prediction
+from predictor import prediccion
 from favoritos import obtener_favoritos
 
 HOY = datetime.now().strftime("%Y-%m-%d")
@@ -25,7 +26,15 @@ for juego in partidos_api:
     home = obtener_estadisticas_equipo(juego["home_id"])
     away = obtener_estadisticas_equipo(juego["away_id"])
 
-    prob = prediction(home, away)
+    pitcher_home = obtener_estadisticas_pitcher(juego["pitcher_local_id"])
+    pitcher_away = obtener_estadisticas_pitcher(juego["pitcher_visitante_id"])
+
+    prob = prediccion(
+        home,
+        away,
+        pitcher_home,
+        pitcher_away
+    )
 
     partido = {
         "gamePk": juego["gamePk"],

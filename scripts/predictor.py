@@ -15,8 +15,7 @@ def elo_prob(a, b):
     return 1 / (1 + 10 ** ((b - a) / 400))
 
 
-def prediccion(home, away, pitcher_home, pitcher_away):
-
+def prediccion(home, away, pitcher_home, pitcher_away, ballpark_factor=1.0):
     py_home = pythag(home["RS"], home["RA"])
     py_away = pythag(away["RS"], away["RA"])
 
@@ -45,6 +44,16 @@ def prediccion(home, away, pitcher_home, pitcher_away):
 
     bullpen = (away["bullpen"] - home["bullpen"]) * 0.02
 
+    # --- Ballpark factor ---
+    # ballpark_factor > 1.0: el estadio del local favorece el ataque en
+    # general (más carreras de ambos equipos). Un estadio así ayuda un
+    # poco más al equipo local porque juega ahí la mayoría de sus partidos
+    # y está más habituado a esas condiciones (dimensiones, altura, viento).
+    # El efecto se mantiene chico a propósito: es una ventaja de contexto,
+    # no un cambio de nivel real entre los equipos.
+    # factor 1.15 -> +0.015 aprox a favor del local; factor 0.85 -> -0.015
+    ballpark = (ballpark_factor - 1.0) * 0.10
+
     prob = (
         p5 * 0.38 +
         elo * 0.25 +
@@ -58,6 +67,7 @@ def prediccion(home, away, pitcher_home, pitcher_away):
         home_record +
         ultimos +
         bullpen +
+        ballpark +
         0.03
     )
 
@@ -68,3 +78,4 @@ def prediccion(home, away, pitcher_home, pitcher_away):
         prob = 0.01
 
     return round(prob * 100, 1)
+    

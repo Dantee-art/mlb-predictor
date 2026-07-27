@@ -18,6 +18,32 @@ print("Descargando datos...")
 
 partidos_api = obtener_partidos(HOY)
 
+# Ballpark factors: los calcula un workflow aparte una vez por día
+# (scripts/ballpark.py) y los deja en datos/ballpark_factors.json.
+# Si el archivo todavía no existe (primera corrida) o falla la lectura,
+# usamos 1.0 (neutro) para todos los equipos y seguimos sin romper nada.
+try:
+    with open("datos/ballpark_factors.json", "r", encoding="utf-8") as f:
+        ballpark_factors = json.load(f).get("factores", {})
+except Exception:
+    ballpark_factors = {}
+
+# Nombre completo de equipo (como viene de mlb_api) -> código corto usado
+# en ballpark_factors.json.
+NOMBRE_A_CODIGO = {
+    "New York Yankees": "NYY", "Tampa Bay Rays": "TB", "Toronto Blue Jays": "TOR",
+    "Baltimore Orioles": "BAL", "Boston Red Sox": "BOS", "Cleveland Guardians": "CLE",
+    "Chicago White Sox": "CHW", "Minnesota Twins": "MIN", "Detroit Tigers": "DET",
+    "Kansas City Royals": "KC", "Seattle Mariners": "SEA", "Athletics": "ATH",
+    "Oakland Athletics": "ATH", "Texas Rangers": "TEX", "Houston Astros": "HOU",
+    "Los Angeles Angels": "LAA", "Atlanta Braves": "ATL", "Philadelphia Phillies": "PHI",
+    "Miami Marlins": "MIA", "Washington Nationals": "WSH", "New York Mets": "NYM",
+    "Milwaukee Brewers": "MIL", "St. Louis Cardinals": "STL", "Chicago Cubs": "CHC",
+    "Pittsburgh Pirates": "PIT", "Cincinnati Reds": "CIN", "Los Angeles Dodgers": "LAD",
+    "San Diego Padres": "SD", "Arizona Diamondbacks": "ARI", "San Francisco Giants": "SF",
+    "Colorado Rockies": "COL",
+}
+
 partidos = []
 predicciones = []
 
@@ -34,11 +60,15 @@ for juego in partidos_api:
         juego["pitcher_visitante_id"]
     )
 
+    cod_local = NOMBRE_A_CODIGO.get(juego["local"])
+    factor_estadio = ballpark_factors.get(cod_local, 1.0)
+
     prob = prediccion(
         home,
         away,
         pitcher_home,
-        pitcher_away
+        pitcher_away,
+        ballpark_factor=factor_estadio
     )
 
     partido = {
@@ -48,7 +78,6 @@ for juego in partidos_api:
         "estado": juego["estado"],
         "hora": juego["hora"],
 
-        # Marcador en vivo/final (0 si el partido todavía no arrancó)
         "marcador_local": juego.get("marcador_local", 0),
         "marcador_visitante": juego.get("marcador_visitante", 0),
         "inning": juego.get("inning"),
@@ -59,6 +88,8 @@ for juego in partidos_api:
 
         "pitcher_local_id": juego["pitcher_local_id"],
         "pitcher_visitante_id": juego["pitcher_visitante_id"],
+
+        "ballpark_factor": factor_estadio,
 
         "probabilidad": prob
     }

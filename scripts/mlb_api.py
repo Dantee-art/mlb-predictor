@@ -102,7 +102,9 @@ def obtener_estadisticas_pitcher(pitcher_id):
             "era": 4.20,
             "whip": 1.30,
             "wins": 0,
-            "losses": 0
+            "losses": 0,
+            "fip": 4.20,
+            "k9": 8.0,
         }
 
     r = requests.get(
@@ -127,15 +129,71 @@ def obtener_estadisticas_pitcher(pitcher_id):
             "era": 4.20,
             "whip": 1.30,
             "wins": 0,
-            "losses": 0
+            "losses": 0,
+            "fip": 4.20,
+            "k9": 8.0,
         }
 
     s = datos["stats"][0]["splits"][0]["stat"]
+
+    fip = calcular_fip(s)
+    k9 = calcular_k9(s)
 
     return {
         "era": float(s.get("era", 4.20)),
         "whip": float(s.get("whip", 1.30)),
         "wins": int(s.get("wins", 0)),
-        "losses": int(s.get("losses", 0))
-    }
+        "losses": int(s.get("losses", 0)),
+        "fip": fip,
+        "k9": k9,
+        }
+
+
+# Constante estándar de FIP para la temporada (varía levemente año a año;
+# 3.10 es un valor de referencia típico de MLB moderno). Se usa para que
+# el FIP quede en una escala comparable al ERA (ambos "menor es mejor",
+# rondando los mismos números, ~3.00-4.50).
+FIP_CONSTANT = 3.10
+
+
+def _innings_a_float(ip_str):
+    """La API devuelve innings pitched como string tipo '123.1' donde el
+    decimal representa outs (.1 = 1 out = 1/3 de inning, .2 = 2 outs = 2/3),
+    no una fracción decimal real. Hay que convertirlo correctamente."""
+    try:
+        ip_str = str(ip_str)
+        if "." in ip_str:
+            enteros, decimales = ip_str.split(".")
+            enteros = int(enteros)
+            outs = int(decimales)  # 0, 1 o 2
+            return enteros + outs / 3
+        return float(ip_str)
+    except (ValueError, TypeError):
+        return 0.0
+
+
+def calcular_fip(stat):
+    """FIP = ((13*HR + 3*BB - 2*K) / IP) + constante
+    Aísla lo que el pitcher controla (jonrones, bases por bolas, ponches)
+    de lo que depende de la defensa detrás de él."""
+    ip = _innings_a_float(stat.get("inningsPitched", 0))
+    if ip <= 0:
+        return 4.20
+
+    hr = float(stat.get("homeRuns", 0))
+    bb = float(stat.get("baseOnBalls", 0))
+    k = float(stat.get("strikeOuts", 0))
+
+    fip = ((13 * hr) + (3 * bb) - (2 * k)) / ip + FIP_CONSTANT
+    return round(fip, 2)
+
+
+def calcular_k9(stat):
+    """Ponches cada 9 innings lanzados."""
+    ip = _innings_a_float(stat.get("inningsPitched", 0))
+    if ip <= 0:
+        return 8.0
+
+    k = float(stat.get("strikeOuts", 0))
+    return round((k / ip) * 9, 2)
     

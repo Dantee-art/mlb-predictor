@@ -34,10 +34,10 @@ def obtener_estadisticas_equipo(team_id):
 
         run_diff = int(h.get("runs", 500)) - int(p.get("runs", 450))
 
-        home_wins = wins // 2
-        home_losses = losses // 2
-        away_wins = wins - home_wins
-        away_losses = losses - home_losses
+        # Split real de local/visitante (antes se estimaba wins/2, wins/2,
+        # lo cual ocultaba equipos que rinden distinto en su propio estadio).
+        home_wins, home_losses = wins // 2, losses // 2
+        away_wins, away_losses = wins - home_wins, losses - home_losses
 
         bullpen = float(p.get("era", 4.20))
 
@@ -49,9 +49,14 @@ def obtener_estadisticas_equipo(team_id):
             for r in records:
                 if r["type"] == "lastTen":
                     ultimos10 = int(r["wins"])
-                    break
-        except:
-            pass
+                elif r["type"] == "home":
+                    home_wins = int(r["wins"])
+                    home_losses = int(r["losses"])
+                elif r["type"] == "away":
+                    away_wins = int(r["wins"])
+                    away_losses = int(r["losses"])
+        except Exception:
+            pass  # si algo falla, quedan los valores estimados como respaldo
 
         return {
             "RS": int(h.get("runs", 500)),
@@ -99,3 +104,4 @@ def obtener_estadisticas_equipo(team_id):
             "away_wins": 41,
             "away_losses": 40
         }
+        

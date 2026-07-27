@@ -32,6 +32,7 @@ def obtener_partidos(fecha):
                 "home_id": home["team"]["id"],
                 "away_id": away["team"]["id"],
                 "hora": g["gameDate"],
+                "venue_id": g.get("venue", {}).get("id"),
 
                 # Marcador en vivo/final. "score" solo existe una vez que el
                 # partido arrancó; antes de eso lo dejamos en 0.
@@ -137,3 +138,4 @@ def obtener_estadisticas_pitcher(pitcher_id):
         "wins": int(s.get("wins", 0)),
         "losses": int(s.get("losses", 0))
     }
+    

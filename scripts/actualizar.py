@@ -11,6 +11,8 @@ from mlb_api import (
 from estadisticas import obtener_estadisticas_equipo
 from predictor import prediccion
 from favoritos import obtener_favoritos
+from backtesting_registro import registrar_predicciones
+from backtesting_resumen import main as ejecutar_backtesting
 
 HOY = datetime.now().strftime("%Y-%m-%d")
 
@@ -166,3 +168,12 @@ with open("datos/equipos_avanzado.json", "w", encoding="utf-8") as f:
 
 print(f"Se encontraron {len(partidos)} partidos.")
 print(f"Estadísticas avanzadas guardadas para {len(equipos_avanzado)} equipos.")
+
+# --- Backtesting ---
+# 1) Registra las predicciones de hoy (una sola vez por partido, cuando
+#    el pitcher abridor ya está confirmado).
+# 2) Completa resultados reales de partidos de días anteriores que ya
+#    terminaron, y recalcula el resumen de calibración del modelo.
+registrar_predicciones(partidos)
+ejecutar_backtesting()
+    

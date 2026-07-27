@@ -1,0 +1,44 @@
+name: Calcular factores de estadio (ballpark)
+
+on:
+  schedule:
+    # Una vez por día, a las 09:00 UTC (~06:00 en Argentina)
+    - cron: "0 9 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ballpark-factors
+  cancel-in-progress: true
+
+jobs:
+  calcular:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repo
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Calcular ballpark factors
+        run: python scripts/ballpark.py
+
+      - name: Commit y push si hubo cambios
+        run: |
+          git config user.name "mlb-predictor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add datos/ballpark_factors.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios, no se hace commit."
+          else
+            git commit -m "Actualizar ballpark factors [automático]"
+            git push
+          fi

@@ -13,8 +13,8 @@
         "pitcher_visitante": "Slade Cecconi",
         "pitcher_local_id": 695505,
         "pitcher_visitante_id": 677944,
-        "ballpark_factor": 0.97,
-        "probabilidad": 39.7
+        "ballpark_factor": 0.975,
+        "probabilidad": 54.0
     },
     {
         "gamePk": 824489,
@@ -30,8 +30,8 @@
         "pitcher_visitante": "Gavin Williams",
         "pitcher_local_id": 657571,
         "pitcher_visitante_id": 668909,
-        "ballpark_factor": 0.97,
-        "probabilidad": 18.2
+        "ballpark_factor": 0.975,
+        "probabilidad": 42.1
     },
     {
         "gamePk": 824243,
@@ -48,7 +48,7 @@
         "pitcher_local_id": 675512,
         "pitcher_visitante_id": 665152,
         "ballpark_factor": 0.948,
-        "probabilidad": 55.5
+        "probabilidad": 63.6
     },
     {
         "gamePk": 823350,
@@ -65,7 +65,7 @@
         "pitcher_local_id": 696149,
         "pitcher_visitante_id": 694297,
         "ballpark_factor": 1.134,
-        "probabilidad": 50.4
+        "probabilidad": 60.8
     },
     {
         "gamePk": 822949,
@@ -82,7 +82,7 @@
         "pitcher_local_id": 643377,
         "pitcher_visitante_id": 615698,
         "ballpark_factor": 1.021,
-        "probabilidad": 54.0
+        "probabilidad": 63.1
     },
     {
         "gamePk": 823838,
@@ -99,7 +99,7 @@
         "pitcher_local_id": 645261,
         "pitcher_visitante_id": 605400,
         "ballpark_factor": 0.83,
-        "probabilidad": 45.7
+        "probabilidad": 58.0
     },
     {
         "gamePk": 822703,
@@ -116,7 +116,7 @@
         "pitcher_local_id": 676917,
         "pitcher_visitante_id": 669456,
         "ballpark_factor": 1.105,
-        "probabilidad": 64.0
+        "probabilidad": 68.9
     },
     {
         "gamePk": 823676,
@@ -133,7 +133,7 @@
         "pitcher_local_id": 671737,
         "pitcher_visitante_id": 607625,
         "ballpark_factor": 0.87,
-        "probabilidad": 54.9
+        "probabilidad": 63.6
     },
     {
         "gamePk": 824569,
@@ -150,7 +150,7 @@
         "pitcher_local_id": 641743,
         "pitcher_visitante_id": 543037,
         "ballpark_factor": 0.938,
-        "probabilidad": 24.6
+        "probabilidad": 45.6
     },
     {
         "gamePk": 823026,
@@ -167,7 +167,7 @@
         "pitcher_local_id": 700241,
         "pitcher_visitante_id": 607067,
         "ballpark_factor": 0.829,
-        "probabilidad": 36.9
+        "probabilidad": 52.1
     },
     {
         "gamePk": 824003,
@@ -184,7 +184,7 @@
         "pitcher_local_id": 672282,
         "pitcher_visitante_id": 663567,
         "ballpark_factor": 0.809,
-        "probabilidad": 44.1
+        "probabilidad": 56.7
     },
     {
         "gamePk": 824976,
@@ -201,7 +201,7 @@
         "pitcher_local_id": 695611,
         "pitcher_visitante_id": 687562,
         "ballpark_factor": 1.35,
-        "probabilidad": 12.4
+        "probabilidad": 37.6
     },
     {
         "gamePk": 823275,
@@ -218,13 +218,13 @@
         "pitcher_local_id": 650633,
         "pitcher_visitante_id": 547179,
         "ballpark_factor": 0.832,
-        "probabilidad": 60.8
+        "probabilidad": 66.9
     },
     {
         "gamePk": 823193,
         "local": "San Francisco Giants",
         "visitante": "Milwaukee Brewers",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-07-29T01:45:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
@@ -235,7 +235,7 @@
         "pitcher_local_id": 694738,
         "pitcher_visitante_id": 701656,
         "ballpark_factor": 0.904,
-        "probabilidad": 9.6
+        "probabilidad": 35.8
     },
     {
         "gamePk": 823923,
@@ -252,7 +252,7 @@
         "pitcher_local_id": 680736,
         "pitcher_visitante_id": 622491,
         "ballpark_factor": 0.906,
-        "probabilidad": 60.6
+        "probabilidad": 67.6
     },
     {
         "gamePk": 823598,
@@ -269,6 +269,6 @@
         "pitcher_local_id": 681035,
         "pitcher_visitante_id": 519242,
         "ballpark_factor": 1.14,
-        "probabilidad": 21.0
+        "probabilidad": 42.6
     }
 ]

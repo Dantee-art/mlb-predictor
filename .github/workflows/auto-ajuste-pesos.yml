@@ -1,0 +1,42 @@
+name: Auto-ajustar pesos del modelo
+
+on:
+  schedule:
+    # Una vez por día, a las 10:00 UTC (~07:00 en Argentina), después de
+    # que corrió el cálculo de ballpark factors.
+    - cron: "0 10 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-ajuste-pesos
+  cancel-in-progress: true
+
+jobs:
+  ajustar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repo
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Recalibrar pesos del modelo
+        run: python scripts/auto_ajuste.py
+
+      - name: Commit y push si hubo cambios
+        run: |
+          git config user.name "mlb-predictor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add datos/pesos_modelo.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios, no se hace commit."
+          else
+            git commit -m "Recalibrar pesos del modelo [automático]"
+            git push
+          fi

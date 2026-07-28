@@ -42,42 +42,39 @@ def cargar_json(ruta, default):
 
 def consultar_resultado_partido(game_pk):
     """Consulta directamente el estado/marcador de UN partido puntual por
-    su gamePk, sin depender de datos/partidos.json (que solo tiene el día
-    actual y se pisa cada corrida). Devuelve None si todavía no terminó
-    o si falla la consulta."""
+    su gamePk, usando el feed completo del partido (más pesado que pedir
+    solo linescore, pero mucho más confiable: sin depender de parámetros
+    de filtrado de campos que pueden no funcionar como se espera).
+    Devuelve None si todavía no terminó o si falla la consulta."""
     try:
-        r = requests.get(f"{BASE}/game/{game_pk}/linescore", timeout=15)
+        r = requests.get(
+            f"https://statsapi.mlb.com/api/v1.1/game/{game_pk}/feed/live",
+            timeout=20,
+        )
         r.raise_for_status()
         datos = r.json()
     except Exception:
         return None
 
-    # El linescore no siempre trae el estado abstracto; usamos el
-    # endpoint de feed liviano de todas formas por las dudas de que
-    # linescore no alcance, pero probamos primero con lo más liviano.
-    teams = datos.get("teams", {})
-    home = teams.get("home", {})
-    away = teams.get("away", {})
-
-    if "runs" not in home or "runs" not in away:
-        return None  # el partido no tiene marcador todavía (no arrancó o no terminó)
-
-    # Confirmamos que el juego esté realmente finalizado con un segundo
-    # chequeo liviano al endpoint de estado del juego.
-    try:
-        r2 = requests.get(f"{BASE}/game/{game_pk}/feed/live", timeout=15,
-                            params={"fields": "gameData,status,abstractGameState"})
-        r2.raise_for_status()
-        estado = r2.json().get("gameData", {}).get("status", {}).get("abstractGameState", "")
-    except Exception:
-        estado = ""
-
+    estado = (
+        datos.get("gameData", {})
+        .get("status", {})
+        .get("abstractGameState", "")
+    )
     if estado != "Final":
+        return None  # todavía no terminó, o el partido fue suspendido/cancelado
+
+    linescore = datos.get("liveData", {}).get("linescore", {})
+    teams = linescore.get("teams", {})
+    home_runs = teams.get("home", {}).get("runs")
+    away_runs = teams.get("away", {}).get("runs")
+
+    if home_runs is None or away_runs is None:
         return None
 
     return {
-        "marcador_local": home.get("runs", 0),
-        "marcador_visitante": away.get("runs", 0),
+        "marcador_local": home_runs,
+        "marcador_visitante": away_runs,
     }
 
 
@@ -157,12 +154,43 @@ def calcular_resumen(historial):
     precision_general = (
         round((total_aciertos / total_partidos) * 100, 1) if total_partidos > 0 else None
     )
+    total_errores = total_partidos - total_aciertos
+    error_general = (
+        round((total_errores / total_partidos) * 100, 1) if total_partidos > 0 else None
+    )
+
+    # Lista de partidos recientes evaluados, para mostrar partido por
+    # partido en el sitio (más recientes primero). Se guarda junto con
+    # el game_pk para poder ordenar y el detalle de cada uno.
+    partidos_recientes = []
+    for game_pk, registro in historial.items():
+        if registro.get("resultado") is None:
+            continue
+        prob_local = registro.get("probabilidad_local", 50.0)
+        partidos_recientes.append({
+            "gamePk": game_pk,
+            "local": registro.get("local"),
+            "visitante": registro.get("visitante"),
+            "hora": registro.get("hora"),
+            "probabilidad_local": prob_local,
+            "resultado": registro.get("resultado"),
+            "marcador_local_final": registro.get("marcador_local_final"),
+            "marcador_visitante_final": registro.get("marcador_visitante_final"),
+            "acerto": bool(registro.get("acerto")),
+        })
+
+    # Más recientes primero (por hora del partido)
+    partidos_recientes.sort(key=lambda p: p.get("hora") or "", reverse=True)
+    partidos_recientes = partidos_recientes[:50]  # no acumular sin límite en el JSON
 
     return {
         "total_partidos_evaluados": total_partidos,
         "total_aciertos": total_aciertos,
+        "total_errores": total_errores,
         "precision_general": precision_general,
+        "error_general": error_general,
         "por_rango": resumen_rangos,
+        "partidos_recientes": partidos_recientes,
     }
 
 
@@ -185,4 +213,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-  
+        

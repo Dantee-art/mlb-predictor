@@ -1,0 +1,18 @@
+{
+  "activo": false,
+  "motivo": "Todavía no hay suficiente historial (12/100 partidos evaluados).",
+  "pesos": {
+    "p5": 0.38,
+    "elo": 0.25,
+    "home_adv": 0.1,
+    "woba": 0.6,
+    "fip": 0.08,
+    "pitcher_fip": 0.05,
+    "pitcher_whip": 0.03,
+    "pitcher_k9": 0.01,
+    "bullpen": 0.02,
+    "ballpark": 0.1
+  },
+  "factor_escala": 1.0,
+  "ajuste_sesgo_local": 0.0
+}

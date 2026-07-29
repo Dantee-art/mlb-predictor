@@ -330,10 +330,10 @@
     "probabilidad_local": 64.7,
     "pitcher_local": "Jared Jones",
     "pitcher_visitante": "Eduardo Rodriguez",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 0,
+    "marcador_visitante_final": 3,
+    "acerto": false
   },
   "822702": {
     "local": "Washington Nationals",
@@ -342,10 +342,10 @@
     "probabilidad_local": 50.9,
     "pitcher_local": "Zack Littell",
     "pitcher_visitante": "Trey Yesavage",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 2,
+    "marcador_visitante_final": 5,
+    "acerto": false
   },
   "824242": {
     "local": "Detroit Tigers",
@@ -366,10 +366,10 @@
     "probabilidad_local": 47.1,
     "pitcher_local": "Sean Manaea",
     "pitcher_visitante": "AJ Smith-Shawver",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 2,
+    "acerto": false
   },
   "823192": {
     "local": "San Francisco Giants",
@@ -462,10 +462,10 @@
     "probabilidad_local": 50.7,
     "pitcher_local": "Ryan Gusto",
     "pitcher_visitante": "Jesús Luzardo",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 8,
+    "marcador_visitante_final": 6,
+    "acerto": true
   },
   "823677": {
     "local": "Minnesota Twins",
@@ -486,6 +486,18 @@
     "probabilidad_local": 50.1,
     "pitcher_local": "Grayson Rodriguez",
     "pitcher_visitante": "Hayden Wesneski",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823273": {
+    "local": "San Diego Padres",
+    "visitante": "Colorado Rockies",
+    "hora": "2026-07-29T20:10:00Z",
+    "probabilidad_local": 57.3,
+    "pitcher_local": "Kyle Hart",
+    "pitcher_visitante": "Gabriel Hughes",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

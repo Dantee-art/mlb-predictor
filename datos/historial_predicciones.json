@@ -354,10 +354,10 @@
     "probabilidad_local": 65.7,
     "pitcher_local": "Tarik Skubal",
     "pitcher_visitante": "Trevor Rogers",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 9,
+    "marcador_visitante_final": 10,
+    "acerto": false
   },
   "823596": {
     "local": "New York Mets",
@@ -378,10 +378,10 @@
     "probabilidad_local": 36.1,
     "pitcher_local": "Logan Webb",
     "pitcher_visitante": "Shane Drohan",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 16,
+    "marcador_visitante_final": 3,
+    "acerto": false
   },
   "822947": {
     "local": "Tampa Bay Rays",
@@ -498,9 +498,9 @@
     "probabilidad_local": 57.3,
     "pitcher_local": "Kyle Hart",
     "pitcher_visitante": "Gabriel Hughes",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 1,
+    "acerto": true
   }
 }

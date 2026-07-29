@@ -1,21 +1,21 @@
 {
-  "total_partidos_evaluados": 21,
-  "total_aciertos": 12,
-  "total_errores": 9,
-  "precision_general": 57.1,
-  "error_general": 42.9,
+  "total_partidos_evaluados": 26,
+  "total_aciertos": 15,
+  "total_errores": 11,
+  "precision_general": 57.7,
+  "error_general": 42.3,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 7,
-      "aciertos": 4,
-      "pct_acierto_real": 57.1
+      "partidos": 8,
+      "aciertos": 5,
+      "pct_acierto_real": 62.5
     },
     {
       "rango": "60-70",
-      "partidos": 7,
-      "aciertos": 5,
-      "pct_acierto_real": 71.4
+      "partidos": 9,
+      "aciertos": 6,
+      "pct_acierto_real": 66.7
     },
     {
       "rango": "70-80",
@@ -25,18 +25,73 @@
     },
     {
       "rango": "80-90",
-      "partidos": 4,
+      "partidos": 5,
       "aciertos": 2,
-      "pct_acierto_real": 50.0
+      "pct_acierto_real": 40.0
     },
     {
       "rango": "90-101",
-      "partidos": 0,
-      "aciertos": 0,
-      "pct_acierto_real": null
+      "partidos": 1,
+      "aciertos": 1,
+      "pct_acierto_real": 100.0
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823923",
+      "local": "Los Angeles Dodgers",
+      "visitante": "Seattle Mariners",
+      "hora": "2026-07-29T02:10:00Z",
+      "probabilidad_local": 60.6,
+      "resultado": "visitante",
+      "marcador_local_final": 6,
+      "marcador_visitante_final": 7,
+      "acerto": false
+    },
+    {
+      "gamePk": "823193",
+      "local": "San Francisco Giants",
+      "visitante": "Milwaukee Brewers",
+      "hora": "2026-07-29T01:45:00Z",
+      "probabilidad_local": 9.5,
+      "resultado": "visitante",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 8,
+      "acerto": true
+    },
+    {
+      "gamePk": "824976",
+      "local": "Athletics",
+      "visitante": "Boston Red Sox",
+      "hora": "2026-07-29T01:40:00Z",
+      "probabilidad_local": 13.2,
+      "resultado": "local",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 3,
+      "acerto": false
+    },
+    {
+      "gamePk": "823275",
+      "local": "San Diego Padres",
+      "visitante": "Colorado Rockies",
+      "hora": "2026-07-29T01:40:00Z",
+      "probabilidad_local": 60.8,
+      "resultado": "local",
+      "marcador_local_final": 8,
+      "marcador_visitante_final": 7,
+      "acerto": true
+    },
+    {
+      "gamePk": "824003",
+      "local": "Los Angeles Angels",
+      "visitante": "Houston Astros",
+      "hora": "2026-07-29T01:38:00Z",
+      "probabilidad_local": 45.5,
+      "resultado": "visitante",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 3,
+      "acerto": true
+    },
     {
       "gamePk": "823026",
       "local": "St. Louis Cardinals",

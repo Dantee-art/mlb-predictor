@@ -1,21 +1,21 @@
 {
-  "total_partidos_evaluados": 42,
-  "total_aciertos": 23,
+  "total_partidos_evaluados": 44,
+  "total_aciertos": 25,
   "total_errores": 19,
-  "precision_general": 54.8,
-  "error_general": 45.2,
+  "precision_general": 56.8,
+  "error_general": 43.2,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 18,
-      "aciertos": 11,
-      "pct_acierto_real": 61.1
+      "partidos": 19,
+      "aciertos": 12,
+      "pct_acierto_real": 63.2
     },
     {
       "rango": "60-70",
-      "partidos": 14,
-      "aciertos": 7,
-      "pct_acierto_real": 50.0
+      "partidos": 15,
+      "aciertos": 8,
+      "pct_acierto_real": 53.3
     },
     {
       "rango": "70-80",
@@ -37,6 +37,28 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823674",
+      "local": "Minnesota Twins",
+      "visitante": "Kansas City Royals",
+      "hora": "2026-07-30T17:40:00Z",
+      "probabilidad_local": 58.7,
+      "resultado": "local",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 3,
+      "acerto": true
+    },
+    {
+      "gamePk": "822946",
+      "local": "Tampa Bay Rays",
+      "visitante": "Texas Rangers",
+      "hora": "2026-07-30T16:10:00Z",
+      "probabilidad_local": 62.5,
+      "resultado": "local",
+      "marcador_local_final": 3,
+      "marcador_visitante_final": 2,
+      "acerto": true
+    },
     {
       "gamePk": "823924",
       "local": "Los Angeles Dodgers",

@@ -13,14 +13,14 @@
         "pitcher_visitante": "Cole Winn",
         "pitcher_local_id": 663556,
         "pitcher_visitante_id": 668390,
-        "ballpark_factor": 1.001,
+        "ballpark_factor": 0.993,
         "probabilidad": 62.8
     },
     {
         "gamePk": 823674,
         "local": "Minnesota Twins",
         "visitante": "Kansas City Royals",
-        "estado": "Game Over",
+        "estado": "Final",
         "hora": "2026-07-30T17:40:00Z",
         "marcador_local": 4,
         "marcador_visitante": 3,
@@ -30,7 +30,7 @@
         "pitcher_visitante": "Noah Cameron",
         "pitcher_local_id": 641927,
         "pitcher_visitante_id": 702070,
-        "ballpark_factor": 0.855,
+        "ballpark_factor": 0.851,
         "probabilidad": 58.0
     },
     {
@@ -41,8 +41,8 @@
         "hora": "2026-07-30T18:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": 8,
-        "inning_estado": "Middle",
+        "inning": 9,
+        "inning_estado": "End",
         "pitcher_local": "Sean Burke",
         "pitcher_visitante": "Ryan Weathers",
         "pitcher_local_id": 680732,
@@ -56,16 +56,16 @@
         "visitante": "Chicago Cubs",
         "estado": "In Progress",
         "hora": "2026-07-30T18:15:00Z",
-        "marcador_local": 1,
+        "marcador_local": 2,
         "marcador_visitante": 2,
-        "inning": 7,
-        "inning_estado": "Bottom",
+        "inning": 9,
+        "inning_estado": "Top",
         "pitcher_local": "Andre Pallante",
         "pitcher_visitante": "Javier Assad",
         "pitcher_local_id": 669467,
         "pitcher_visitante_id": 665871,
         "ballpark_factor": 0.831,
-        "probabilidad": 53.3
+        "probabilidad": 53.4
     },
     {
         "gamePk": 824488,

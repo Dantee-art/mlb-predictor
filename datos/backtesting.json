@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 44,
-  "total_aciertos": 25,
-  "total_errores": 19,
-  "precision_general": 56.8,
-  "error_general": 43.2,
+  "total_partidos_evaluados": 46,
+  "total_aciertos": 26,
+  "total_errores": 20,
+  "precision_general": 56.5,
+  "error_general": 43.5,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 19,
-      "aciertos": 12,
-      "pct_acierto_real": 63.2
+      "partidos": 21,
+      "aciertos": 13,
+      "pct_acierto_real": 61.9
     },
     {
       "rango": "60-70",
@@ -37,6 +37,28 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823023",
+      "local": "St. Louis Cardinals",
+      "visitante": "Chicago Cubs",
+      "hora": "2026-07-30T18:15:00Z",
+      "probabilidad_local": 54.1,
+      "resultado": "visitante",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 4,
+      "acerto": false
+    },
+    {
+      "gamePk": "824568",
+      "local": "Chicago White Sox",
+      "visitante": "New York Yankees",
+      "hora": "2026-07-30T18:10:00Z",
+      "probabilidad_local": 50.8,
+      "resultado": "local",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 1,
+      "acerto": true
+    },
     {
       "gamePk": "823674",
       "local": "Minnesota Twins",

@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 51,
-  "total_aciertos": 30,
+  "total_partidos_evaluados": 52,
+  "total_aciertos": 31,
   "total_errores": 21,
-  "precision_general": 58.8,
-  "error_general": 41.2,
+  "precision_general": 59.6,
+  "error_general": 40.4,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 24,
-      "aciertos": 16,
-      "pct_acierto_real": 66.7
+      "partidos": 25,
+      "aciertos": 17,
+      "pct_acierto_real": 68.0
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824651",
+      "local": "Chicago Cubs",
+      "visitante": "New York Yankees",
+      "hora": "2026-07-31T18:20:00Z",
+      "probabilidad_local": 48.9,
+      "resultado": "visitante",
+      "marcador_local_final": 0,
+      "marcador_visitante_final": 2,
+      "acerto": true
+    },
     {
       "gamePk": "823921",
       "local": "Los Angeles Dodgers",
@@ -575,17 +586,6 @@
       "marcador_local_final": 3,
       "marcador_visitante_final": 2,
       "acerto": true
-    },
-    {
-      "gamePk": "823839",
-      "local": "Miami Marlins",
-      "visitante": "Philadelphia Phillies",
-      "hora": "2026-07-27T22:40:00Z",
-      "probabilidad_local": 23.9,
-      "resultado": "local",
-      "marcador_local_final": 8,
-      "marcador_visitante_final": 7,
-      "acerto": false
     }
   ]
 }

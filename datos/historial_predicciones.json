@@ -1134,10 +1134,10 @@
     "probabilidad_local": 58.4,
     "pitcher_local": "Emmet Sheehan",
     "pitcher_visitante": "Jake Bennett",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 4,
+    "marcador_visitante_final": 8,
+    "acerto": false
   },
   "824891": {
     "local": "Atlanta Braves",
@@ -1150,5 +1150,65 @@
     "marcador_local_final": 4,
     "marcador_visitante_final": 2,
     "acerto": true
+  },
+  "823520": {
+    "local": "New York Yankees",
+    "visitante": "St. Louis Cardinals",
+    "hora": "2026-08-03T23:05:00Z",
+    "probabilidad_local": 73.5,
+    "pitcher_local": "Cam Schlittler",
+    "pitcher_visitante": "Michael McGreevy",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823757": {
+    "local": "Milwaukee Brewers",
+    "visitante": "Pittsburgh Pirates",
+    "hora": "2026-08-03T23:40:00Z",
+    "probabilidad_local": 61.9,
+    "pitcher_local": "Brandon Sproat",
+    "pitcher_visitante": "Bubba Chandler",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824160": {
+    "local": "Houston Astros",
+    "visitante": "Toronto Blue Jays",
+    "hora": "2026-08-04T00:10:00Z",
+    "probabilidad_local": 58.2,
+    "pitcher_local": "Cristian Javier",
+    "pitcher_visitante": "Shane Bieber",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824324": {
+    "local": "Colorado Rockies",
+    "visitante": "Tampa Bay Rays",
+    "hora": "2026-08-04T00:40:00Z",
+    "probabilidad_local": 36.7,
+    "pitcher_local": "Michael Lorenzen",
+    "pitcher_visitante": "Ian Seymour",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "825095": {
+    "local": "Arizona Diamondbacks",
+    "visitante": "San Diego Padres",
+    "hora": "2026-08-04T01:40:00Z",
+    "probabilidad_local": 53.5,
+    "pitcher_local": "Brandon Pfaadt",
+    "pitcher_visitante": "Michael King",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
   }
 }

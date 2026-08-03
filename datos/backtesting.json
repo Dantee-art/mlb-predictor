@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 95,
+  "total_partidos_evaluados": 96,
   "total_aciertos": 57,
-  "total_errores": 38,
-  "precision_general": 60.0,
-  "error_general": 40.0,
+  "total_errores": 39,
+  "precision_general": 59.4,
+  "error_general": 40.6,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 51,
+      "partidos": 52,
       "aciertos": 34,
-      "pct_acierto_real": 66.7
+      "pct_acierto_real": 65.4
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823919",
+      "local": "Los Angeles Dodgers",
+      "visitante": "Boston Red Sox",
+      "hora": "2026-08-02T23:20:00Z",
+      "probabilidad_local": 58.4,
+      "resultado": "visitante",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 8,
+      "acerto": false
+    },
     {
       "gamePk": "823270",
       "local": "San Diego Padres",
@@ -575,17 +586,6 @@
       "marcador_local_final": 4,
       "marcador_visitante_final": 2,
       "acerto": true
-    },
-    {
-      "gamePk": "823023",
-      "local": "St. Louis Cardinals",
-      "visitante": "Chicago Cubs",
-      "hora": "2026-07-30T18:15:00Z",
-      "probabilidad_local": 54.1,
-      "resultado": "visitante",
-      "marcador_local_final": 2,
-      "marcador_visitante_final": 4,
-      "acerto": false
     }
   ]
 }

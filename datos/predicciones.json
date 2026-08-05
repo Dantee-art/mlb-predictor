@@ -3,69 +3,69 @@
         "gamePk": 824158,
         "local": "Houston Astros",
         "visitante": "Toronto Blue Jays",
-        "estado": "Scheduled",
+        "estado": "In Progress",
         "hora": "2026-08-05T18:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Hunter Brown",
         "pitcher_visitante": "Jameson Taillon",
         "pitcher_local_id": 686613,
         "pitcher_visitante_id": 592791,
         "ballpark_factor": 0.934,
-        "probabilidad": 60.1
+        "probabilidad": 61.1
     },
     {
         "gamePk": 824646,
         "local": "Chicago Cubs",
         "visitante": "Los Angeles Dodgers",
-        "estado": "Scheduled",
+        "estado": "Warmup",
         "hora": "2026-08-05T18:20:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Shota Imanaga",
         "pitcher_visitante": "Eric Lauer",
         "pitcher_local_id": 684007,
         "pitcher_visitante_id": 641778,
-        "ballpark_factor": 1.01,
-        "probabilidad": 52.0
+        "ballpark_factor": 1.004,
+        "probabilidad": 52.6
     },
     {
         "gamePk": 822866,
         "local": "Texas Rangers",
         "visitante": "San Francisco Giants",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-08-05T18:35:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Cody Bradford",
         "pitcher_visitante": "Carson Whisenhunt",
         "pitcher_local_id": 674003,
         "pitcher_visitante_id": 687931,
-        "ballpark_factor": 0.934,
-        "probabilidad": 58.8
+        "ballpark_factor": 0.936,
+        "probabilidad": 59.8
     },
     {
         "gamePk": 824322,
         "local": "Colorado Rockies",
         "visitante": "Tampa Bay Rays",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-08-05T19:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Tomoyuki Sugano",
         "pitcher_visitante": "Nick Martinez",
         "pitcher_local_id": 608372,
         "pitcher_visitante_id": 607259,
-        "ballpark_factor": 1.17,
-        "probabilidad": 38.9
+        "ballpark_factor": 1.178,
+        "probabilidad": 38.6
     },
     {
         "gamePk": 824806,
@@ -81,8 +81,8 @@
         "pitcher_visitante": "Reid Detmers",
         "pitcher_local_id": 669432,
         "pitcher_visitante_id": 672282,
-        "ballpark_factor": 0.975,
-        "probabilidad": 53.9
+        "ballpark_factor": 0.966,
+        "probabilidad": 54.3
     },
     {
         "gamePk": 824402,
@@ -98,8 +98,8 @@
         "pitcher_visitante": "Christian Scott",
         "pitcher_local_id": 676440,
         "pitcher_visitante_id": 681035,
-        "ballpark_factor": 1.064,
-        "probabilidad": 50.2
+        "ballpark_factor": 1.063,
+        "probabilidad": 50.5
     },
     {
         "gamePk": 824482,
@@ -116,7 +116,7 @@
         "pitcher_local_id": 695076,
         "pitcher_visitante_id": 682052,
         "ballpark_factor": 0.961,
-        "probabilidad": 61.0
+        "probabilidad": 62.1
     },
     {
         "gamePk": 823429,
@@ -132,8 +132,8 @@
         "pitcher_visitante": "Jake Irvin",
         "pitcher_local_id": 691725,
         "pitcher_visitante_id": 663623,
-        "ballpark_factor": 1.16,
-        "probabilidad": 52.3
+        "ballpark_factor": 1.151,
+        "probabilidad": 52.8
     },
     {
         "gamePk": 823516,
@@ -149,8 +149,8 @@
         "pitcher_visitante": "Andre Pallante",
         "pitcher_local_id": 701542,
         "pitcher_visitante_id": 669467,
-        "ballpark_factor": 1.186,
-        "probabilidad": 61.3
+        "ballpark_factor": 1.168,
+        "probabilidad": 62.3
     },
     {
         "gamePk": 824728,
@@ -166,8 +166,8 @@
         "pitcher_visitante": "Sean Burke",
         "pitcher_local_id": 543243,
         "pitcher_visitante_id": 680732,
-        "ballpark_factor": 0.96,
-        "probabilidad": 55.3
+        "ballpark_factor": 0.978,
+        "probabilidad": 55.9
     },
     {
         "gamePk": 824889,
@@ -183,8 +183,8 @@
         "pitcher_visitante": "Eury Pérez",
         "pitcher_local_id": 693821,
         "pitcher_visitante_id": 691587,
-        "ballpark_factor": 1.025,
-        "probabilidad": 55.3
+        "ballpark_factor": 1.019,
+        "probabilidad": 55.7
     },
     {
         "gamePk": 824082,
@@ -200,8 +200,8 @@
         "pitcher_visitante": "Dean Kremer",
         "pitcher_local_id": 702070,
         "pitcher_visitante_id": 665152,
-        "ballpark_factor": 1.1,
-        "probabilidad": 52.8
+        "ballpark_factor": 1.101,
+        "probabilidad": 53.5
     },
     {
         "gamePk": 823753,
@@ -217,8 +217,8 @@
         "pitcher_visitante": "Paul Skenes",
         "pitcher_local_id": 690986,
         "pitcher_visitante_id": 694973,
-        "ballpark_factor": 0.969,
-        "probabilidad": 60.5
+        "ballpark_factor": 0.964,
+        "probabilidad": 61.4
     },
     {
         "gamePk": 825052,
@@ -234,8 +234,8 @@
         "pitcher_visitante": "Casey Mize",
         "pitcher_local_id": 683352,
         "pitcher_visitante_id": 663554,
-        "ballpark_factor": 1.051,
-        "probabilidad": 40.6
+        "ballpark_factor": 1.058,
+        "probabilidad": 40.1
     },
     {
         "gamePk": 823106,
@@ -251,7 +251,7 @@
         "pitcher_visitante": "Drew Anderson",
         "pitcher_local_id": 693433,
         "pitcher_visitante_id": 623454,
-        "ballpark_factor": 0.878,
-        "probabilidad": 48.4
+        "ballpark_factor": 0.879,
+        "probabilidad": 48.7
     }
 ]

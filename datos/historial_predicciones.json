@@ -1698,10 +1698,10 @@
     "probabilidad_local": 64.9,
     "pitcher_local": "Ranger Suarez",
     "pitcher_visitante": "Luis Castillo",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 12,
+    "marcador_visitante_final": 11,
+    "acerto": true
   },
   "824885": {
     "local": "Atlanta Braves",
@@ -1710,10 +1710,10 @@
     "probabilidad_local": 59.2,
     "pitcher_local": "Martín Pérez",
     "pitcher_visitante": "Janson Junk",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 11,
+    "marcador_visitante_final": 3,
+    "acerto": true
   },
   "824080": {
     "local": "Kansas City Royals",
@@ -1722,10 +1722,10 @@
     "probabilidad_local": 49.8,
     "pitcher_local": "Michael Wacha",
     "pitcher_visitante": "Bailey Ober",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 4,
+    "acerto": true
   },
   "825053": {
     "local": "Arizona Diamondbacks",
@@ -1734,10 +1734,10 @@
     "probabilidad_local": 51.8,
     "pitcher_local": "Kohl Drake",
     "pitcher_visitante": "Walker Buehler",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 1,
+    "marcador_visitante_final": 5,
+    "acerto": false
   },
   "823349": {
     "local": "Pittsburgh Pirates",
@@ -1866,6 +1866,18 @@
     "probabilidad_local": 49.3,
     "pitcher_local": "Logan Gilbert",
     "pitcher_visitante": "Drew Rasmussen",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823750": {
+    "local": "Milwaukee Brewers",
+    "visitante": "Minnesota Twins",
+    "hora": "2026-08-07T23:40:00Z",
+    "probabilidad_local": 74.3,
+    "pitcher_local": "Shane Drohan",
+    "pitcher_visitante": "Zebby Matthews",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

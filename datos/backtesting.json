@@ -1,21 +1,21 @@
 {
-  "total_partidos_evaluados": 158,
+  "total_partidos_evaluados": 160,
   "total_aciertos": 94,
-  "total_errores": 64,
-  "precision_general": 59.5,
-  "error_general": 40.5,
+  "total_errores": 66,
+  "precision_general": 58.8,
+  "error_general": 41.2,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 90,
+      "partidos": 91,
       "aciertos": 57,
-      "pct_acierto_real": 63.3
+      "pct_acierto_real": 62.6
     },
     {
       "rango": "60-70",
-      "partidos": 50,
+      "partidos": 51,
       "aciertos": 28,
-      "pct_acierto_real": 56.0
+      "pct_acierto_real": 54.9
     },
     {
       "rango": "70-80",
@@ -38,6 +38,17 @@
   ],
   "partidos_recientes": [
     {
+      "gamePk": "823191",
+      "local": "San Francisco Giants",
+      "visitante": "Detroit Tigers",
+      "hora": "2026-08-08T02:15:00Z",
+      "probabilidad_local": 41.5,
+      "resultado": "local",
+      "marcador_local_final": 5,
+      "marcador_visitante_final": 2,
+      "acerto": false
+    },
+    {
       "gamePk": "823103",
       "local": "Seattle Mariners",
       "visitante": "Tampa Bay Rays",
@@ -57,6 +68,17 @@
       "resultado": "local",
       "marcador_local_final": 4,
       "marcador_visitante_final": 3,
+      "acerto": false
+    },
+    {
+      "gamePk": "823266",
+      "local": "San Diego Padres",
+      "visitante": "Houston Astros",
+      "hora": "2026-08-08T01:40:00Z",
+      "probabilidad_local": 61.2,
+      "resultado": "visitante",
+      "marcador_local_final": 3,
+      "marcador_visitante_final": 6,
       "acerto": false
     },
     {
@@ -563,28 +585,6 @@
       "resultado": "local",
       "marcador_local_final": 4,
       "marcador_visitante_final": 2,
-      "acerto": true
-    },
-    {
-      "gamePk": "824731",
-      "local": "Boston Red Sox",
-      "visitante": "Chicago White Sox",
-      "hora": "2026-08-04T23:10:00Z",
-      "probabilidad_local": 52.1,
-      "resultado": "local",
-      "marcador_local_final": 14,
-      "marcador_visitante_final": 2,
-      "acerto": true
-    },
-    {
-      "gamePk": "823517",
-      "local": "New York Yankees",
-      "visitante": "St. Louis Cardinals",
-      "hora": "2026-08-04T23:05:00Z",
-      "probabilidad_local": 63.8,
-      "resultado": "local",
-      "marcador_local_final": 2,
-      "marcador_visitante_final": 0,
       "acerto": true
     }
   ]

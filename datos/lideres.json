@@ -153,157 +153,6 @@
             "totalSplits": 743
         },
         {
-            "leaderCategory": "homeRuns",
-            "gameType": {
-                "id": "R",
-                "description": "Regular Season"
-            },
-            "leaders": [
-                {
-                    "rank": 1,
-                    "value": "35",
-                    "team": {
-                        "id": 117,
-                        "name": "Houston Astros",
-                        "link": "/api/v1/teams/117"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 670541,
-                        "fullName": "Yordan Alvarez",
-                        "link": "/api/v1/people/670541",
-                        "firstName": "Yordan",
-                        "lastName": "Alvarez"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 2,
-                    "value": "33",
-                    "team": {
-                        "id": 139,
-                        "name": "Tampa Bay Rays",
-                        "link": "/api/v1/teams/139"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 691406,
-                        "fullName": "Junior Caminero",
-                        "link": "/api/v1/people/691406",
-                        "firstName": "Junior",
-                        "lastName": "Caminero"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 2,
-                    "value": "33",
-                    "team": {
-                        "id": 115,
-                        "name": "Colorado Rockies",
-                        "link": "/api/v1/teams/115"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 696100,
-                        "fullName": "Hunter Goodman",
-                        "link": "/api/v1/people/696100",
-                        "firstName": "Hunter",
-                        "lastName": "Goodman"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 2,
-                    "value": "33",
-                    "team": {
-                        "id": 144,
-                        "name": "Atlanta Braves",
-                        "link": "/api/v1/teams/144"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 621566,
-                        "fullName": "Matt Olson",
-                        "link": "/api/v1/people/621566",
-                        "firstName": "Matt",
-                        "lastName": "Olson"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 2,
-                    "value": "33",
-                    "team": {
-                        "id": 143,
-                        "name": "Philadelphia Phillies",
-                        "link": "/api/v1/teams/143"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 656941,
-                        "fullName": "Kyle Schwarber",
-                        "link": "/api/v1/people/656941",
-                        "firstName": "Kyle",
-                        "lastName": "Schwarber"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                }
-            ],
-            "statGroup": "hitting",
-            "totalSplits": 500
-        },
-        {
             "leaderCategory": "battingAverage",
             "gameType": {
                 "id": "R",
@@ -453,6 +302,157 @@
             ],
             "statGroup": "pitching",
             "totalSplits": 56
+        },
+        {
+            "leaderCategory": "homeRuns",
+            "gameType": {
+                "id": "R",
+                "description": "Regular Season"
+            },
+            "leaders": [
+                {
+                    "rank": 1,
+                    "value": "35",
+                    "team": {
+                        "id": 117,
+                        "name": "Houston Astros",
+                        "link": "/api/v1/teams/117"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 670541,
+                        "fullName": "Yordan Alvarez",
+                        "link": "/api/v1/people/670541",
+                        "firstName": "Yordan",
+                        "lastName": "Alvarez"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 2,
+                    "value": "33",
+                    "team": {
+                        "id": 139,
+                        "name": "Tampa Bay Rays",
+                        "link": "/api/v1/teams/139"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 691406,
+                        "fullName": "Junior Caminero",
+                        "link": "/api/v1/people/691406",
+                        "firstName": "Junior",
+                        "lastName": "Caminero"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 2,
+                    "value": "33",
+                    "team": {
+                        "id": 115,
+                        "name": "Colorado Rockies",
+                        "link": "/api/v1/teams/115"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 696100,
+                        "fullName": "Hunter Goodman",
+                        "link": "/api/v1/people/696100",
+                        "firstName": "Hunter",
+                        "lastName": "Goodman"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 2,
+                    "value": "33",
+                    "team": {
+                        "id": 144,
+                        "name": "Atlanta Braves",
+                        "link": "/api/v1/teams/144"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 621566,
+                        "fullName": "Matt Olson",
+                        "link": "/api/v1/people/621566",
+                        "firstName": "Matt",
+                        "lastName": "Olson"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 2,
+                    "value": "33",
+                    "team": {
+                        "id": 143,
+                        "name": "Philadelphia Phillies",
+                        "link": "/api/v1/teams/143"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 656941,
+                        "fullName": "Kyle Schwarber",
+                        "link": "/api/v1/people/656941",
+                        "firstName": "Kyle",
+                        "lastName": "Schwarber"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                }
+            ],
+            "statGroup": "hitting",
+            "totalSplits": 500
         },
         {
             "leaderCategory": "battingAverage",
@@ -726,7 +726,7 @@
                 },
                 {
                     "rank": 5,
-                    "value": "646",
+                    "value": "647",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -755,157 +755,6 @@
             ],
             "statGroup": "catching",
             "totalSplits": 107
-        },
-        {
-            "leaderCategory": "runsBattedIn",
-            "gameType": {
-                "id": "R",
-                "description": "Regular Season"
-            },
-            "leaders": [
-                {
-                    "rank": 1,
-                    "value": "88",
-                    "team": {
-                        "id": 120,
-                        "name": "Washington Nationals",
-                        "link": "/api/v1/teams/120"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 682928,
-                        "fullName": "CJ Abrams",
-                        "link": "/api/v1/people/682928",
-                        "firstName": "CJ",
-                        "lastName": "Abrams"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 2,
-                    "value": "87",
-                    "team": {
-                        "id": 113,
-                        "name": "Cincinnati Reds",
-                        "link": "/api/v1/teams/113"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 701398,
-                        "fullName": "Sal Stewart",
-                        "link": "/api/v1/people/701398",
-                        "firstName": "Sal",
-                        "lastName": "Stewart"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 3,
-                    "value": "86",
-                    "team": {
-                        "id": 117,
-                        "name": "Houston Astros",
-                        "link": "/api/v1/teams/117"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 670541,
-                        "fullName": "Yordan Alvarez",
-                        "link": "/api/v1/people/670541",
-                        "firstName": "Yordan",
-                        "lastName": "Alvarez"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 4,
-                    "value": "81",
-                    "team": {
-                        "id": 138,
-                        "name": "St. Louis Cardinals",
-                        "link": "/api/v1/teams/138"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 691023,
-                        "fullName": "Jordan Walker",
-                        "link": "/api/v1/people/691023",
-                        "firstName": "Jordan",
-                        "lastName": "Walker"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 5,
-                    "value": "79",
-                    "team": {
-                        "id": 116,
-                        "name": "Detroit Tigers",
-                        "link": "/api/v1/teams/116"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 693307,
-                        "fullName": "Dillon Dingler",
-                        "link": "/api/v1/people/693307",
-                        "firstName": "Dillon",
-                        "lastName": "Dingler"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                }
-            ],
-            "statGroup": "hitting",
-            "totalSplits": 569
         },
         {
             "leaderCategory": "battingAverage",
@@ -1057,6 +906,157 @@
             ],
             "statGroup": "catching",
             "totalSplits": 27
+        },
+        {
+            "leaderCategory": "runsBattedIn",
+            "gameType": {
+                "id": "R",
+                "description": "Regular Season"
+            },
+            "leaders": [
+                {
+                    "rank": 1,
+                    "value": "88",
+                    "team": {
+                        "id": 120,
+                        "name": "Washington Nationals",
+                        "link": "/api/v1/teams/120"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 682928,
+                        "fullName": "CJ Abrams",
+                        "link": "/api/v1/people/682928",
+                        "firstName": "CJ",
+                        "lastName": "Abrams"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 2,
+                    "value": "87",
+                    "team": {
+                        "id": 113,
+                        "name": "Cincinnati Reds",
+                        "link": "/api/v1/teams/113"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 701398,
+                        "fullName": "Sal Stewart",
+                        "link": "/api/v1/people/701398",
+                        "firstName": "Sal",
+                        "lastName": "Stewart"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 3,
+                    "value": "86",
+                    "team": {
+                        "id": 117,
+                        "name": "Houston Astros",
+                        "link": "/api/v1/teams/117"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 670541,
+                        "fullName": "Yordan Alvarez",
+                        "link": "/api/v1/people/670541",
+                        "firstName": "Yordan",
+                        "lastName": "Alvarez"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 4,
+                    "value": "81",
+                    "team": {
+                        "id": 138,
+                        "name": "St. Louis Cardinals",
+                        "link": "/api/v1/teams/138"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 691023,
+                        "fullName": "Jordan Walker",
+                        "link": "/api/v1/people/691023",
+                        "firstName": "Jordan",
+                        "lastName": "Walker"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 5,
+                    "value": "79",
+                    "team": {
+                        "id": 116,
+                        "name": "Detroit Tigers",
+                        "link": "/api/v1/teams/116"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 693307,
+                        "fullName": "Dillon Dingler",
+                        "link": "/api/v1/people/693307",
+                        "firstName": "Dillon",
+                        "lastName": "Dingler"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                }
+            ],
+            "statGroup": "hitting",
+            "totalSplits": 569
         },
         {
             "leaderCategory": "homeRuns",

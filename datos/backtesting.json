@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 160,
+  "total_partidos_evaluados": 161,
   "total_aciertos": 94,
-  "total_errores": 66,
-  "precision_general": 58.8,
-  "error_general": 41.2,
+  "total_errores": 67,
+  "precision_general": 58.4,
+  "error_general": 41.6,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 91,
+      "partidos": 92,
       "aciertos": 57,
-      "pct_acierto_real": 62.6
+      "pct_acierto_real": 62.0
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823514",
+      "local": "New York Yankees",
+      "visitante": "Atlanta Braves",
+      "hora": "2026-08-08T19:05:00Z",
+      "probabilidad_local": 48.7,
+      "resultado": "local",
+      "marcador_local_final": 5,
+      "marcador_visitante_final": 4,
+      "acerto": false
+    },
     {
       "gamePk": "823191",
       "local": "San Francisco Giants",
@@ -571,17 +582,6 @@
       "visitante": "Pittsburgh Pirates",
       "hora": "2026-08-04T23:40:00Z",
       "probabilidad_local": 66.0,
-      "resultado": "local",
-      "marcador_local_final": 4,
-      "marcador_visitante_final": 2,
-      "acerto": true
-    },
-    {
-      "gamePk": "824888",
-      "local": "Atlanta Braves",
-      "visitante": "Miami Marlins",
-      "hora": "2026-08-04T23:15:00Z",
-      "probabilidad_local": 56.3,
       "resultado": "local",
       "marcador_local_final": 4,
       "marcador_visitante_final": 2,

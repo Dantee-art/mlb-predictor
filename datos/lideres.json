@@ -519,7 +519,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": ".315",
+                    "value": ".314",
                     "team": {
                         "id": 146,
                         "name": "Miami Marlins",
@@ -603,7 +603,7 @@
                 }
             ],
             "statGroup": "hitting",
-            "totalSplits": 145
+            "totalSplits": 144
         },
         {
             "leaderCategory": "strikeouts",
@@ -726,7 +726,7 @@
                 },
                 {
                     "rank": 5,
-                    "value": "647",
+                    "value": "655",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -767,34 +767,6 @@
                     "rank": 1,
                     "value": ".216",
                     "team": {
-                        "id": 144,
-                        "name": "Atlanta Braves",
-                        "link": "/api/v1/teams/144"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 686948,
-                        "fullName": "Drake Baldwin",
-                        "link": "/api/v1/people/686948",
-                        "firstName": "Drake",
-                        "lastName": "Baldwin"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 1,
-                    "value": ".216",
-                    "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
                         "link": "/api/v1/teams/158"
@@ -810,6 +782,34 @@
                         "link": "/api/v1/people/661388",
                         "firstName": "William",
                         "lastName": "Contreras"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 2,
+                    "value": ".217",
+                    "team": {
+                        "id": 144,
+                        "name": "Atlanta Braves",
+                        "link": "/api/v1/teams/144"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 686948,
+                        "fullName": "Drake Baldwin",
+                        "link": "/api/v1/people/686948",
+                        "firstName": "Drake",
+                        "lastName": "Baldwin"
                     },
                     "sport": {
                         "id": 1,
@@ -1246,7 +1246,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "2.08",
+                    "value": "2.20",
                     "team": {
                         "id": 144,
                         "name": "Atlanta Braves",
@@ -1397,7 +1397,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "162",
+                    "value": "163",
                     "team": {
                         "id": 108,
                         "name": "Los Angeles Angels",
@@ -1604,7 +1604,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": "3.53",
+                    "value": "3.54",
                     "team": {
                         "id": 144,
                         "name": "Atlanta Braves",

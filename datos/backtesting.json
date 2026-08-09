@@ -1,27 +1,27 @@
 {
-  "total_partidos_evaluados": 181,
-  "total_aciertos": 106,
-  "total_errores": 75,
-  "precision_general": 58.6,
-  "error_general": 41.4,
+  "total_partidos_evaluados": 185,
+  "total_aciertos": 109,
+  "total_errores": 76,
+  "precision_general": 58.9,
+  "error_general": 41.1,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 100,
+      "partidos": 101,
       "aciertos": 64,
-      "pct_acierto_real": 64.0
+      "pct_acierto_real": 63.4
     },
     {
       "rango": "60-70",
-      "partidos": 61,
-      "aciertos": 33,
-      "pct_acierto_real": 54.1
+      "partidos": 63,
+      "aciertos": 35,
+      "pct_acierto_real": 55.6
     },
     {
       "rango": "70-80",
-      "partidos": 14,
-      "aciertos": 6,
-      "pct_acierto_real": 42.9
+      "partidos": 15,
+      "aciertos": 7,
+      "pct_acierto_real": 46.7
     },
     {
       "rango": "80-90",
@@ -38,6 +38,28 @@
   ],
   "partidos_recientes": [
     {
+      "gamePk": "822862",
+      "local": "Texas Rangers",
+      "visitante": "Baltimore Orioles",
+      "hora": "2026-08-09T18:35:00Z",
+      "probabilidad_local": 55.3,
+      "resultado": "visitante",
+      "marcador_local_final": 5,
+      "marcador_visitante_final": 10,
+      "acerto": false
+    },
+    {
+      "gamePk": "823020",
+      "local": "St. Louis Cardinals",
+      "visitante": "Colorado Rockies",
+      "hora": "2026-08-09T18:15:00Z",
+      "probabilidad_local": 63.9,
+      "resultado": "local",
+      "marcador_local_final": 7,
+      "marcador_visitante_final": 4,
+      "acerto": true
+    },
+    {
       "gamePk": "824078",
       "local": "Kansas City Royals",
       "visitante": "Chicago Cubs",
@@ -46,6 +68,17 @@
       "resultado": "visitante",
       "marcador_local_final": 2,
       "marcador_visitante_final": 10,
+      "acerto": true
+    },
+    {
+      "gamePk": "823751",
+      "local": "Milwaukee Brewers",
+      "visitante": "Minnesota Twins",
+      "hora": "2026-08-09T18:10:00Z",
+      "probabilidad_local": 75.6,
+      "resultado": "local",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 3,
       "acerto": true
     },
     {
@@ -69,6 +102,17 @@
       "marcador_local_final": 1,
       "marcador_visitante_final": 11,
       "acerto": false
+    },
+    {
+      "gamePk": "823425",
+      "local": "Philadelphia Phillies",
+      "visitante": "Toronto Blue Jays",
+      "hora": "2026-08-09T17:35:00Z",
+      "probabilidad_local": 68.4,
+      "resultado": "local",
+      "marcador_local_final": 7,
+      "marcador_visitante_final": 6,
+      "acerto": true
     },
     {
       "gamePk": "823513",
@@ -541,50 +585,6 @@
       "resultado": "local",
       "marcador_local_final": 6,
       "marcador_visitante_final": 5,
-      "acerto": true
-    },
-    {
-      "gamePk": "824804",
-      "local": "Baltimore Orioles",
-      "visitante": "Los Angeles Angels",
-      "hora": "2026-08-06T16:35:00Z",
-      "probabilidad_local": 64.7,
-      "resultado": "visitante",
-      "marcador_local_final": 1,
-      "marcador_visitante_final": 4,
-      "acerto": false
-    },
-    {
-      "gamePk": "825052",
-      "local": "Arizona Diamondbacks",
-      "visitante": "San Diego Padres",
-      "hora": "2026-08-06T01:40:00Z",
-      "probabilidad_local": 40.6,
-      "resultado": "local",
-      "marcador_local_final": 10,
-      "marcador_visitante_final": 4,
-      "acerto": false
-    },
-    {
-      "gamePk": "823106",
-      "local": "Seattle Mariners",
-      "visitante": "Detroit Tigers",
-      "hora": "2026-08-06T01:40:00Z",
-      "probabilidad_local": 48.4,
-      "resultado": "local",
-      "marcador_local_final": 4,
-      "marcador_visitante_final": 2,
-      "acerto": false
-    },
-    {
-      "gamePk": "824082",
-      "local": "Kansas City Royals",
-      "visitante": "Minnesota Twins",
-      "hora": "2026-08-05T23:40:00Z",
-      "probabilidad_local": 52.8,
-      "resultado": "local",
-      "marcador_local_final": 2,
-      "marcador_visitante_final": 1,
       "acerto": true
     }
   ]

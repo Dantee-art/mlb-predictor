@@ -1,9 +1,9 @@
 {
-  "total_partidos_evaluados": 175,
-  "total_aciertos": 103,
+  "total_partidos_evaluados": 176,
+  "total_aciertos": 104,
   "total_errores": 72,
-  "precision_general": 58.9,
-  "error_general": 41.1,
+  "precision_general": 59.1,
+  "error_general": 40.9,
   "por_rango": [
     {
       "rango": "50-60",
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 56,
-      "aciertos": 30,
-      "pct_acierto_real": 53.6
+      "partidos": 57,
+      "aciertos": 31,
+      "pct_acierto_real": 54.4
     },
     {
       "rango": "70-80",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "822700",
+      "local": "Washington Nationals",
+      "visitante": "Cincinnati Reds",
+      "hora": "2026-08-09T16:15:00Z",
+      "probabilidad_local": 62.2,
+      "resultado": "local",
+      "marcador_local_final": 7,
+      "marcador_visitante_final": 1,
+      "acerto": true
+    },
     {
       "gamePk": "823102",
       "local": "Seattle Mariners",
@@ -575,17 +586,6 @@
       "marcador_local_final": 5,
       "marcador_visitante_final": 6,
       "acerto": false
-    },
-    {
-      "gamePk": "824482",
-      "local": "Cincinnati Reds",
-      "visitante": "Athletics",
-      "hora": "2026-08-05T22:40:00Z",
-      "probabilidad_local": 61.0,
-      "resultado": "local",
-      "marcador_local_final": 3,
-      "marcador_visitante_final": 2,
-      "acerto": true
     }
   ]
 }

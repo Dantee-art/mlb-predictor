@@ -10,7 +10,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "195",
+                    "value": "203",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -94,6 +94,62 @@
                 },
                 {
                     "rank": 4,
+                    "value": "182",
+                    "team": {
+                        "id": 147,
+                        "name": "New York Yankees",
+                        "link": "/api/v1/teams/147"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 693645,
+                        "fullName": "Cam Schlittler",
+                        "link": "/api/v1/people/693645",
+                        "firstName": "Cam",
+                        "lastName": "Schlittler"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 5,
+                    "value": "174",
+                    "team": {
+                        "id": 143,
+                        "name": "Philadelphia Phillies",
+                        "link": "/api/v1/teams/143"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 666200,
+                        "fullName": "Jesús Luzardo",
+                        "link": "/api/v1/people/666200",
+                        "firstName": "Jesús",
+                        "lastName": "Luzardo"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 5,
                     "value": "174",
                     "team": {
                         "id": 143,
@@ -119,34 +175,6 @@
                     },
                     "season": "2026",
                     "numTeams": 1
-                },
-                {
-                    "rank": 5,
-                    "value": "171",
-                    "team": {
-                        "id": 147,
-                        "name": "New York Yankees",
-                        "link": "/api/v1/teams/147"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 693645,
-                        "fullName": "Cam Schlittler",
-                        "link": "/api/v1/people/693645",
-                        "firstName": "Cam",
-                        "lastName": "Schlittler"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
                 }
             ],
             "statGroup": "pitching",
@@ -161,7 +189,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": ".145",
+                    "value": ".147",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -245,7 +273,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": ".199",
+                    "value": ".196",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -301,7 +329,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 58
+            "totalSplits": 59
         },
         {
             "leaderCategory": "homeRuns",
@@ -339,7 +367,63 @@
                     "numTeams": 1
                 },
                 {
-                    "rank": 2,
+                    "rank": 1,
+                    "value": "35",
+                    "team": {
+                        "id": 143,
+                        "name": "Philadelphia Phillies",
+                        "link": "/api/v1/teams/143"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 656941,
+                        "fullName": "Kyle Schwarber",
+                        "link": "/api/v1/people/656941",
+                        "firstName": "Kyle",
+                        "lastName": "Schwarber"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 3,
+                    "value": "34",
+                    "team": {
+                        "id": 144,
+                        "name": "Atlanta Braves",
+                        "link": "/api/v1/teams/144"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 621566,
+                        "fullName": "Matt Olson",
+                        "link": "/api/v1/people/621566",
+                        "firstName": "Matt",
+                        "lastName": "Olson"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 4,
                     "value": "33",
                     "team": {
                         "id": 139,
@@ -367,7 +451,7 @@
                     "numTeams": 1
                 },
                 {
-                    "rank": 2,
+                    "rank": 4,
                     "value": "33",
                     "team": {
                         "id": 115,
@@ -385,62 +469,6 @@
                         "link": "/api/v1/people/696100",
                         "firstName": "Hunter",
                         "lastName": "Goodman"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 2,
-                    "value": "33",
-                    "team": {
-                        "id": 144,
-                        "name": "Atlanta Braves",
-                        "link": "/api/v1/teams/144"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 621566,
-                        "fullName": "Matt Olson",
-                        "link": "/api/v1/people/621566",
-                        "firstName": "Matt",
-                        "lastName": "Olson"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 2,
-                    "value": "33",
-                    "team": {
-                        "id": 143,
-                        "name": "Philadelphia Phillies",
-                        "link": "/api/v1/teams/143"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 656941,
-                        "fullName": "Kyle Schwarber",
-                        "link": "/api/v1/people/656941",
-                        "firstName": "Kyle",
-                        "lastName": "Schwarber"
                     },
                     "sport": {
                         "id": 1,
@@ -491,7 +519,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": ".324",
+                    "value": ".322",
                     "team": {
                         "id": 143,
                         "name": "Philadelphia Phillies",
@@ -519,7 +547,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": ".317",
+                    "value": ".320",
                     "team": {
                         "id": 146,
                         "name": "Miami Marlins",
@@ -549,34 +577,6 @@
                     "rank": 4,
                     "value": ".309",
                     "team": {
-                        "id": 134,
-                        "name": "Pittsburgh Pirates",
-                        "link": "/api/v1/teams/134"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 693304,
-                        "fullName": "Nick Gonzales",
-                        "link": "/api/v1/people/693304",
-                        "firstName": "Nick",
-                        "lastName": "Gonzales"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 5,
-                    "value": ".305",
-                    "team": {
                         "id": 115,
                         "name": "Colorado Rockies",
                         "link": "/api/v1/teams/115"
@@ -600,10 +600,38 @@
                     },
                     "season": "2026",
                     "numTeams": 1
+                },
+                {
+                    "rank": 5,
+                    "value": ".308",
+                    "team": {
+                        "id": 134,
+                        "name": "Pittsburgh Pirates",
+                        "link": "/api/v1/teams/134"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 693304,
+                        "fullName": "Nick Gonzales",
+                        "link": "/api/v1/people/693304",
+                        "firstName": "Nick",
+                        "lastName": "Gonzales"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
                 }
             ],
             "statGroup": "hitting",
-            "totalSplits": 142
+            "totalSplits": 141
         },
         {
             "leaderCategory": "strikeouts",
@@ -642,7 +670,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "843",
+                    "value": "853",
                     "team": {
                         "id": 143,
                         "name": "Philadelphia Phillies",
@@ -698,35 +726,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "657",
-                    "team": {
-                        "id": 113,
-                        "name": "Cincinnati Reds",
-                        "link": "/api/v1/teams/113"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 663886,
-                        "fullName": "Tyler Stephenson",
-                        "link": "/api/v1/people/663886",
-                        "firstName": "Tyler",
-                        "lastName": "Stephenson"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 5,
-                    "value": "656",
+                    "value": "667",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -743,6 +743,34 @@
                         "link": "/api/v1/people/669224",
                         "firstName": "Austin",
                         "lastName": "Wells"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 5,
+                    "value": "664",
+                    "team": {
+                        "id": 113,
+                        "name": "Cincinnati Reds",
+                        "link": "/api/v1/teams/113"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 663886,
+                        "fullName": "Tyler Stephenson",
+                        "link": "/api/v1/people/663886",
+                        "firstName": "Tyler",
+                        "lastName": "Stephenson"
                     },
                     "sport": {
                         "id": 1,
@@ -849,7 +877,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "82",
+                    "value": "83",
                     "team": {
                         "id": 138,
                         "name": "St. Louis Cardinals",
@@ -905,7 +933,7 @@
                 }
             ],
             "statGroup": "hitting",
-            "totalSplits": 570
+            "totalSplits": 572
         },
         {
             "leaderCategory": "battingAverage",
@@ -914,6 +942,34 @@
                 "description": "Regular Season"
             },
             "leaders": [
+                {
+                    "rank": 1,
+                    "value": ".216",
+                    "team": {
+                        "id": 144,
+                        "name": "Atlanta Braves",
+                        "link": "/api/v1/teams/144"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 686948,
+                        "fullName": "Drake Baldwin",
+                        "link": "/api/v1/people/686948",
+                        "firstName": "Drake",
+                        "lastName": "Baldwin"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
                 {
                     "rank": 1,
                     "value": ".216",
@@ -943,24 +999,24 @@
                     "numTeams": 1
                 },
                 {
-                    "rank": 2,
-                    "value": ".217",
+                    "rank": 3,
+                    "value": ".220",
                     "team": {
-                        "id": 144,
-                        "name": "Atlanta Braves",
-                        "link": "/api/v1/teams/144"
+                        "id": 147,
+                        "name": "New York Yankees",
+                        "link": "/api/v1/teams/147"
                     },
                     "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
                     },
                     "person": {
-                        "id": 686948,
-                        "fullName": "Drake Baldwin",
-                        "link": "/api/v1/people/686948",
-                        "firstName": "Drake",
-                        "lastName": "Baldwin"
+                        "id": 669224,
+                        "fullName": "Austin Wells",
+                        "link": "/api/v1/people/669224",
+                        "firstName": "Austin",
+                        "lastName": "Wells"
                     },
                     "sport": {
                         "id": 1,
@@ -971,7 +1027,7 @@
                     "numTeams": 1
                 },
                 {
-                    "rank": 3,
+                    "rank": 4,
                     "value": ".221",
                     "team": {
                         "id": 117,
@@ -989,34 +1045,6 @@
                         "link": "/api/v1/people/543877",
                         "firstName": "Christian",
                         "lastName": "Vázquez"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 3,
-                    "value": ".221",
-                    "team": {
-                        "id": 147,
-                        "name": "New York Yankees",
-                        "link": "/api/v1/teams/147"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 669224,
-                        "fullName": "Austin Wells",
-                        "link": "/api/v1/people/669224",
-                        "firstName": "Austin",
-                        "lastName": "Wells"
                     },
                     "sport": {
                         "id": 1,
@@ -1095,7 +1123,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "105",
+                    "value": "106",
                     "team": {
                         "id": 113,
                         "name": "Cincinnati Reds",
@@ -1246,7 +1274,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "164",
+                    "value": "165",
                     "team": {
                         "id": 108,
                         "name": "Los Angeles Angels",
@@ -1274,6 +1302,34 @@
                 },
                 {
                     "rank": 3,
+                    "value": "154",
+                    "team": {
+                        "id": 145,
+                        "name": "Chicago White Sox",
+                        "link": "/api/v1/teams/145"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 695657,
+                        "fullName": "Colson Montgomery",
+                        "link": "/api/v1/people/695657",
+                        "firstName": "Colson",
+                        "lastName": "Montgomery"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 4,
                     "value": "153",
                     "team": {
                         "id": 112,
@@ -1301,35 +1357,7 @@
                     "numTeams": 1
                 },
                 {
-                    "rank": 3,
-                    "value": "153",
-                    "team": {
-                        "id": 145,
-                        "name": "Chicago White Sox",
-                        "link": "/api/v1/teams/145"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 695657,
-                        "fullName": "Colson Montgomery",
-                        "link": "/api/v1/people/695657",
-                        "firstName": "Colson",
-                        "lastName": "Montgomery"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 3,
+                    "rank": 4,
                     "value": "153",
                     "team": {
                         "id": 120,
@@ -1369,7 +1397,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "1.63",
+                    "value": "1.64",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -1425,7 +1453,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": "2.26",
+                    "value": "2.21",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -1509,7 +1537,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 58
+            "totalSplits": 59
         },
         {
             "leaderCategory": "earnedRunAverage",
@@ -1520,7 +1548,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "2.96",
+                    "value": "2.94",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -1576,6 +1604,34 @@
                 },
                 {
                     "rank": 3,
+                    "value": "3.52",
+                    "team": {
+                        "id": 144,
+                        "name": "Atlanta Braves",
+                        "link": "/api/v1/teams/144"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 686948,
+                        "fullName": "Drake Baldwin",
+                        "link": "/api/v1/people/686948",
+                        "firstName": "Drake",
+                        "lastName": "Baldwin"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 4,
                     "value": "3.54",
                     "team": {
                         "id": 139,
@@ -1593,34 +1649,6 @@
                         "link": "/api/v1/people/663743",
                         "firstName": "Nick",
                         "lastName": "Fortes"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 4,
-                    "value": "3.56",
-                    "team": {
-                        "id": 144,
-                        "name": "Atlanta Braves",
-                        "link": "/api/v1/teams/144"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 686948,
-                        "fullName": "Drake Baldwin",
-                        "link": "/api/v1/people/686948",
-                        "firstName": "Drake",
-                        "lastName": "Baldwin"
                     },
                     "sport": {
                         "id": 1,
@@ -1990,7 +2018,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 464
+            "totalSplits": 465
         }
     ]
 }

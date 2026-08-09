@@ -3534,7 +3534,7 @@
             "roundRobin": {
                 "status": "false"
             },
-            "lastUpdated": "2026-08-09T12:42:45.098Z",
+            "lastUpdated": "2026-08-09T19:06:20.077Z",
             "teamRecords": [
                 {
                     "team": {
@@ -4235,36 +4235,36 @@
                     },
                     "season": "2026",
                     "streak": {
-                        "streakCode": "W2",
+                        "streakCode": "W3",
                         "streakType": "wins",
-                        "streakNumber": 2
+                        "streakNumber": 3
                     },
                     "divisionRank": "4",
-                    "leagueRank": "11",
-                    "wildCardRank": "8",
-                    "sportRank": "19",
-                    "gamesPlayed": 119,
-                    "gamesBack": "13.0",
-                    "wildCardGamesBack": "4.5",
-                    "leagueGamesBack": "16.0",
+                    "leagueRank": "10",
+                    "wildCardRank": "7",
+                    "sportRank": "16",
+                    "gamesPlayed": 120,
+                    "gamesBack": "12.5",
+                    "wildCardGamesBack": "4.0",
+                    "leagueGamesBack": "15.5",
                     "springLeagueGamesBack": "-",
-                    "sportGamesBack": "16.0",
-                    "divisionGamesBack": "13.0",
+                    "sportGamesBack": "15.5",
+                    "divisionGamesBack": "12.5",
                     "conferenceGamesBack": "-",
                     "leagueRecord": {
-                        "wins": 58,
+                        "wins": 59,
                         "losses": 61,
                         "ties": 0,
-                        "pct": ".487"
+                        "pct": ".492"
                     },
-                    "lastUpdated": "2026-08-09T01:32:45Z",
+                    "lastUpdated": "2026-08-09T19:06:20Z",
                     "records": {
                         "splitRecords": [
                             {
-                                "wins": 25,
+                                "wins": 26,
                                 "losses": 34,
                                 "type": "home",
-                                "pct": ".424"
+                                "pct": ".433"
                             },
                             {
                                 "wins": 33,
@@ -4291,10 +4291,10 @@
                                 "pct": ".667"
                             },
                             {
-                                "wins": 20,
+                                "wins": 21,
                                 "losses": 27,
                                 "type": "rightHome",
-                                "pct": ".426"
+                                "pct": ".438"
                             },
                             {
                                 "wins": 15,
@@ -4303,16 +4303,16 @@
                                 "pct": ".455"
                             },
                             {
-                                "wins": 35,
+                                "wins": 36,
                                 "losses": 45,
                                 "type": "right",
-                                "pct": ".438"
+                                "pct": ".444"
                             },
                             {
-                                "wins": 3,
-                                "losses": 7,
+                                "wins": 4,
+                                "losses": 6,
                                 "type": "lastTen",
-                                "pct": ".300"
+                                "pct": ".400"
                             },
                             {
                                 "wins": 6,
@@ -4333,10 +4333,10 @@
                                 "pct": ".406"
                             },
                             {
-                                "wins": 25,
+                                "wins": 26,
                                 "losses": 26,
                                 "type": "day",
-                                "pct": ".490"
+                                "pct": ".500"
                             },
                             {
                                 "wins": 33,
@@ -4345,10 +4345,10 @@
                                 "pct": ".485"
                             },
                             {
-                                "wins": 54,
+                                "wins": 55,
                                 "losses": 56,
                                 "type": "grass",
-                                "pct": ".491"
+                                "pct": ".495"
                             },
                             {
                                 "wins": 4,
@@ -4379,9 +4379,9 @@
                                 }
                             },
                             {
-                                "wins": 14,
+                                "wins": 15,
                                 "losses": 10,
-                                "pct": ".583",
+                                "pct": ".600",
                                 "division": {
                                     "id": 205,
                                     "name": "National League Central",
@@ -4391,10 +4391,10 @@
                         ],
                         "overallRecords": [
                             {
-                                "wins": 25,
+                                "wins": 26,
                                 "losses": 34,
                                 "type": "home",
-                                "pct": ".424"
+                                "pct": ".433"
                             },
                             {
                                 "wins": 33,
@@ -4415,9 +4415,9 @@
                                 }
                             },
                             {
-                                "wins": 36,
+                                "wins": 37,
                                 "losses": 44,
-                                "pct": ".450",
+                                "pct": ".457",
                                 "league": {
                                     "id": 104,
                                     "name": "National League",
@@ -4427,21 +4427,21 @@
                         ],
                         "expectedRecords": [
                             {
-                                "wins": 61,
+                                "wins": 62,
                                 "losses": 58,
                                 "type": "xWinLoss",
-                                "pct": ".513"
+                                "pct": ".517"
                             },
                             {
-                                "wins": 83,
-                                "losses": 79,
+                                "wins": 84,
+                                "losses": 78,
                                 "type": "xWinLossSeason",
-                                "pct": ".512"
+                                "pct": ".519"
                             }
                         ]
                     },
-                    "runsAllowed": 618,
-                    "runsScored": 636,
+                    "runsAllowed": 619,
+                    "runsScored": 643,
                     "divisionChamp": false,
                     "divisionLeader": false,
                     "hasWildcard": true,
@@ -4452,10 +4452,10 @@
                     "eliminationNumberDivision": "32",
                     "eliminationNumberConference": "29",
                     "wildCardEliminationNumber": "40",
-                    "wins": 58,
+                    "wins": 59,
                     "losses": 61,
-                    "runDifferential": 18,
-                    "winningPercentage": ".487"
+                    "runDifferential": 24,
+                    "winningPercentage": ".492"
                 },
                 {
                     "team": {
@@ -4706,7 +4706,7 @@
             "roundRobin": {
                 "status": "false"
             },
-            "lastUpdated": "2026-08-09T04:53:05.059Z",
+            "lastUpdated": "2026-08-09T19:06:21.141Z",
             "teamRecords": [
                 {
                     "team": {
@@ -5412,9 +5412,9 @@
                         "streakNumber": 1
                     },
                     "divisionRank": "4",
-                    "leagueRank": "10",
-                    "wildCardRank": "7",
-                    "sportRank": "18",
+                    "leagueRank": "11",
+                    "wildCardRank": "8",
+                    "sportRank": "19",
                     "gamesPlayed": 119,
                     "gamesBack": "16.0",
                     "wildCardGamesBack": "4.5",
@@ -5637,29 +5637,29 @@
                     },
                     "season": "2026",
                     "streak": {
-                        "streakCode": "L2",
+                        "streakCode": "L3",
                         "streakType": "losses",
-                        "streakNumber": 2
+                        "streakNumber": 3
                     },
                     "divisionRank": "5",
                     "leagueRank": "12",
                     "wildCardRank": "9",
-                    "sportRank": "21",
-                    "gamesPlayed": 116,
-                    "gamesBack": "16.5",
-                    "wildCardGamesBack": "5.0",
-                    "leagueGamesBack": "16.5",
+                    "sportRank": "22",
+                    "gamesPlayed": 117,
+                    "gamesBack": "17.0",
+                    "wildCardGamesBack": "5.5",
+                    "leagueGamesBack": "17.0",
                     "springLeagueGamesBack": "-",
-                    "sportGamesBack": "16.5",
-                    "divisionGamesBack": "16.5",
+                    "sportGamesBack": "17.0",
+                    "divisionGamesBack": "17.0",
                     "conferenceGamesBack": "-",
                     "leagueRecord": {
                         "wins": 56,
-                        "losses": 60,
+                        "losses": 61,
                         "ties": 0,
-                        "pct": ".483"
+                        "pct": ".479"
                     },
-                    "lastUpdated": "2026-08-09T01:32:45Z",
+                    "lastUpdated": "2026-08-09T19:06:21Z",
                     "records": {
                         "splitRecords": [
                             {
@@ -5670,9 +5670,9 @@
                             },
                             {
                                 "wins": 27,
-                                "losses": 29,
+                                "losses": 30,
                                 "type": "away",
-                                "pct": ".482"
+                                "pct": ".474"
                             },
                             {
                                 "wins": 12,
@@ -5700,15 +5700,15 @@
                             },
                             {
                                 "wins": 23,
-                                "losses": 23,
+                                "losses": 24,
                                 "type": "rightAway",
-                                "pct": ".500"
+                                "pct": ".489"
                             },
                             {
                                 "wins": 44,
-                                "losses": 46,
+                                "losses": 47,
                                 "type": "right",
-                                "pct": ".489"
+                                "pct": ".484"
                             },
                             {
                                 "wins": 6,
@@ -5736,9 +5736,9 @@
                             },
                             {
                                 "wins": 26,
-                                "losses": 20,
+                                "losses": 21,
                                 "type": "day",
-                                "pct": ".565"
+                                "pct": ".553"
                             },
                             {
                                 "wins": 30,
@@ -5748,9 +5748,9 @@
                             },
                             {
                                 "wins": 49,
-                                "losses": 57,
+                                "losses": 58,
                                 "type": "grass",
-                                "pct": ".462"
+                                "pct": ".458"
                             },
                             {
                                 "wins": 7,
@@ -5772,8 +5772,8 @@
                             },
                             {
                                 "wins": 11,
-                                "losses": 13,
-                                "pct": ".458",
+                                "losses": 14,
+                                "pct": ".440",
                                 "division": {
                                     "id": 204,
                                     "name": "National League East",
@@ -5800,9 +5800,9 @@
                             },
                             {
                                 "wins": 27,
-                                "losses": 29,
+                                "losses": 30,
                                 "type": "away",
-                                "pct": ".482"
+                                "pct": ".474"
                             }
                         ],
                         "leagueRecords": [
@@ -5818,8 +5818,8 @@
                             },
                             {
                                 "wins": 30,
-                                "losses": 44,
-                                "pct": ".405",
+                                "losses": 45,
+                                "pct": ".400",
                                 "league": {
                                     "id": 104,
                                     "name": "National League",
@@ -5830,34 +5830,34 @@
                         "expectedRecords": [
                             {
                                 "wins": 51,
-                                "losses": 65,
+                                "losses": 66,
                                 "type": "xWinLoss",
-                                "pct": ".440"
+                                "pct": ".436"
                             },
                             {
-                                "wins": 71,
-                                "losses": 91,
+                                "wins": 70,
+                                "losses": 92,
                                 "type": "xWinLossSeason",
-                                "pct": ".438"
+                                "pct": ".432"
                             }
                         ]
                     },
-                    "runsAllowed": 549,
-                    "runsScored": 481,
+                    "runsAllowed": 556,
+                    "runsScored": 482,
                     "divisionChamp": false,
                     "divisionLeader": false,
                     "hasWildcard": true,
                     "clinched": false,
-                    "eliminationNumber": "30",
-                    "eliminationNumberSport": "30",
-                    "eliminationNumberLeague": "30",
-                    "eliminationNumberDivision": "30",
-                    "eliminationNumberConference": "30",
-                    "wildCardEliminationNumber": "41",
+                    "eliminationNumber": "29",
+                    "eliminationNumberSport": "29",
+                    "eliminationNumberLeague": "29",
+                    "eliminationNumberDivision": "29",
+                    "eliminationNumberConference": "29",
+                    "wildCardEliminationNumber": "40",
                     "wins": 56,
-                    "losses": 60,
-                    "runDifferential": -68,
-                    "winningPercentage": ".483"
+                    "losses": 61,
+                    "runDifferential": -74,
+                    "winningPercentage": ".479"
                 }
             ]
         },

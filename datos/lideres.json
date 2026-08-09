@@ -10,7 +10,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "203",
+                    "value": "204",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -122,7 +122,7 @@
                 },
                 {
                     "rank": 5,
-                    "value": "174",
+                    "value": "176",
                     "team": {
                         "id": 143,
                         "name": "Philadelphia Phillies",
@@ -147,38 +147,10 @@
                     },
                     "season": "2026",
                     "numTeams": 1
-                },
-                {
-                    "rank": 5,
-                    "value": "174",
-                    "team": {
-                        "id": 143,
-                        "name": "Philadelphia Phillies",
-                        "link": "/api/v1/teams/143"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 650911,
-                        "fullName": "Cristopher Sánchez",
-                        "link": "/api/v1/people/650911",
-                        "firstName": "Cristopher",
-                        "lastName": "Sánchez"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 744
+            "totalSplits": 748
         },
         {
             "leaderCategory": "battingAverage",
@@ -329,7 +301,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 59
+            "totalSplits": 60
         },
         {
             "leaderCategory": "homeRuns",
@@ -398,6 +370,34 @@
                     "rank": 3,
                     "value": "34",
                     "team": {
+                        "id": 115,
+                        "name": "Colorado Rockies",
+                        "link": "/api/v1/teams/115"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 696100,
+                        "fullName": "Hunter Goodman",
+                        "link": "/api/v1/people/696100",
+                        "firstName": "Hunter",
+                        "lastName": "Goodman"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 3,
+                    "value": "34",
+                    "team": {
                         "id": 144,
                         "name": "Atlanta Braves",
                         "link": "/api/v1/teams/144"
@@ -423,7 +423,7 @@
                     "numTeams": 1
                 },
                 {
-                    "rank": 4,
+                    "rank": 5,
                     "value": "33",
                     "team": {
                         "id": 139,
@@ -441,34 +441,6 @@
                         "link": "/api/v1/people/691406",
                         "firstName": "Junior",
                         "lastName": "Caminero"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 4,
-                    "value": "33",
-                    "team": {
-                        "id": 115,
-                        "name": "Colorado Rockies",
-                        "link": "/api/v1/teams/115"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 696100,
-                        "fullName": "Hunter Goodman",
-                        "link": "/api/v1/people/696100",
-                        "firstName": "Hunter",
-                        "lastName": "Goodman"
                     },
                     "sport": {
                         "id": 1,
@@ -519,7 +491,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": ".322",
+                    "value": ".320",
                     "team": {
                         "id": 143,
                         "name": "Philadelphia Phillies",
@@ -547,7 +519,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": ".320",
+                    "value": ".318",
                     "team": {
                         "id": 146,
                         "name": "Miami Marlins",
@@ -575,7 +547,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": ".309",
+                    "value": ".307",
                     "team": {
                         "id": 115,
                         "name": "Colorado Rockies",
@@ -603,7 +575,7 @@
                 },
                 {
                     "rank": 5,
-                    "value": ".308",
+                    "value": ".306",
                     "team": {
                         "id": 134,
                         "name": "Pittsburgh Pirates",
@@ -670,7 +642,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "853",
+                    "value": "858",
                     "team": {
                         "id": 143,
                         "name": "Philadelphia Phillies",
@@ -726,7 +698,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "667",
+                    "value": "670",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -1304,34 +1276,6 @@
                     "rank": 3,
                     "value": "154",
                     "team": {
-                        "id": 145,
-                        "name": "Chicago White Sox",
-                        "link": "/api/v1/teams/145"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 695657,
-                        "fullName": "Colson Montgomery",
-                        "link": "/api/v1/people/695657",
-                        "firstName": "Colson",
-                        "lastName": "Montgomery"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 4,
-                    "value": "153",
-                    "team": {
                         "id": 112,
                         "name": "Chicago Cubs",
                         "link": "/api/v1/teams/112"
@@ -1357,7 +1301,35 @@
                     "numTeams": 1
                 },
                 {
-                    "rank": 4,
+                    "rank": 3,
+                    "value": "154",
+                    "team": {
+                        "id": 145,
+                        "name": "Chicago White Sox",
+                        "link": "/api/v1/teams/145"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 695657,
+                        "fullName": "Colson Montgomery",
+                        "link": "/api/v1/people/695657",
+                        "firstName": "Colson",
+                        "lastName": "Montgomery"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 5,
                     "value": "153",
                     "team": {
                         "id": 120,
@@ -1386,7 +1358,7 @@
                 }
             ],
             "statGroup": "hitting",
-            "totalSplits": 611
+            "totalSplits": 612
         },
         {
             "leaderCategory": "earnedRunAverage",
@@ -1397,7 +1369,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "1.64",
+                    "value": "1.76",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -1537,7 +1509,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 59
+            "totalSplits": 60
         },
         {
             "leaderCategory": "earnedRunAverage",
@@ -1548,7 +1520,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "2.94",
+                    "value": "2.93",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -1604,7 +1576,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": "3.52",
+                    "value": "3.51",
                     "team": {
                         "id": 144,
                         "name": "Atlanta Braves",
@@ -1867,7 +1839,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 681
+            "totalSplits": 683
         },
         {
             "leaderCategory": "wins",
@@ -2018,7 +1990,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 465
+            "totalSplits": 466
         }
     ]
 }

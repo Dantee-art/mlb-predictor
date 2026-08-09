@@ -2118,10 +2118,10 @@
     "probabilidad_local": 60.9,
     "pitcher_local": "Jared Jones",
     "pitcher_visitante": "Sean Manaea",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 1,
+    "marcador_visitante_final": 11,
+    "acerto": false
   },
   "823425": {
     "local": "Philadelphia Phillies",
@@ -2142,10 +2142,10 @@
     "probabilidad_local": 62.1,
     "pitcher_local": "Cam Schlittler",
     "pitcher_visitante": "Grant Holmes",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 1,
+    "marcador_visitante_final": 2,
+    "acerto": false
   },
   "823835": {
     "local": "Miami Marlins",
@@ -2154,10 +2154,10 @@
     "probabilidad_local": 63.9,
     "pitcher_local": "Ryan Gusto",
     "pitcher_visitante": "Grayson Rodriguez",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 12,
+    "marcador_visitante_final": 3,
+    "acerto": true
   },
   "824078": {
     "local": "Kansas City Royals",
@@ -2166,10 +2166,10 @@
     "probabilidad_local": 37.9,
     "pitcher_local": "Randy Dobnak",
     "pitcher_visitante": "Matthew Boyd",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 2,
+    "marcador_visitante_final": 10,
+    "acerto": true
   },
   "824564": {
     "local": "Chicago White Sox",
@@ -2250,10 +2250,10 @@
     "probabilidad_local": 77.8,
     "pitcher_local": "Erik Miller",
     "pitcher_visitante": "J.T. Ginn",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 4,
+    "acerto": false
   },
   "823104": {
     "local": "Seattle Mariners",
@@ -2262,6 +2262,18 @@
     "probabilidad_local": 49.0,
     "pitcher_local": "Emerson Hancock",
     "pitcher_visitante": "Ian Seymour",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823268": {
+    "local": "San Diego Padres",
+    "visitante": "Houston Astros",
+    "hora": "2026-08-10T00:20:00Z",
+    "probabilidad_local": 55.6,
+    "pitcher_local": "Randy Vásquez",
+    "pitcher_visitante": "Cristian Javier",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

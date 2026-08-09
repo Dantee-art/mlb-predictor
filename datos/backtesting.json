@@ -1,9 +1,9 @@
 {
-  "total_partidos_evaluados": 176,
-  "total_aciertos": 104,
-  "total_errores": 72,
-  "precision_general": 59.1,
-  "error_general": 40.9,
+  "total_partidos_evaluados": 181,
+  "total_aciertos": 106,
+  "total_errores": 75,
+  "precision_general": 58.6,
+  "error_general": 41.4,
   "por_rango": [
     {
       "rango": "50-60",
@@ -13,15 +13,15 @@
     },
     {
       "rango": "60-70",
-      "partidos": 57,
-      "aciertos": 31,
-      "pct_acierto_real": 54.4
+      "partidos": 61,
+      "aciertos": 33,
+      "pct_acierto_real": 54.1
     },
     {
       "rango": "70-80",
-      "partidos": 13,
+      "partidos": 14,
       "aciertos": 6,
-      "pct_acierto_real": 46.2
+      "pct_acierto_real": 42.9
     },
     {
       "rango": "80-90",
@@ -37,6 +37,61 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824078",
+      "local": "Kansas City Royals",
+      "visitante": "Chicago Cubs",
+      "hora": "2026-08-09T18:10:00Z",
+      "probabilidad_local": 37.9,
+      "resultado": "visitante",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 10,
+      "acerto": true
+    },
+    {
+      "gamePk": "823835",
+      "local": "Miami Marlins",
+      "visitante": "Los Angeles Angels",
+      "hora": "2026-08-09T17:40:00Z",
+      "probabilidad_local": 63.9,
+      "resultado": "local",
+      "marcador_local_final": 12,
+      "marcador_visitante_final": 3,
+      "acerto": true
+    },
+    {
+      "gamePk": "823345",
+      "local": "Pittsburgh Pirates",
+      "visitante": "New York Mets",
+      "hora": "2026-08-09T17:35:00Z",
+      "probabilidad_local": 60.9,
+      "resultado": "visitante",
+      "marcador_local_final": 1,
+      "marcador_visitante_final": 11,
+      "acerto": false
+    },
+    {
+      "gamePk": "823513",
+      "local": "New York Yankees",
+      "visitante": "Atlanta Braves",
+      "hora": "2026-08-09T17:35:00Z",
+      "probabilidad_local": 62.1,
+      "resultado": "visitante",
+      "marcador_local_final": 1,
+      "marcador_visitante_final": 2,
+      "acerto": false
+    },
+    {
+      "gamePk": "824724",
+      "local": "Boston Red Sox",
+      "visitante": "Athletics",
+      "hora": "2026-08-09T17:35:00Z",
+      "probabilidad_local": 77.8,
+      "resultado": "visitante",
+      "marcador_local_final": 3,
+      "marcador_visitante_final": 4,
+      "acerto": false
+    },
     {
       "gamePk": "822700",
       "local": "Washington Nationals",
@@ -531,61 +586,6 @@
       "marcador_local_final": 2,
       "marcador_visitante_final": 1,
       "acerto": true
-    },
-    {
-      "gamePk": "823753",
-      "local": "Milwaukee Brewers",
-      "visitante": "Pittsburgh Pirates",
-      "hora": "2026-08-05T23:40:00Z",
-      "probabilidad_local": 60.5,
-      "resultado": "local",
-      "marcador_local_final": 4,
-      "marcador_visitante_final": 2,
-      "acerto": true
-    },
-    {
-      "gamePk": "824889",
-      "local": "Atlanta Braves",
-      "visitante": "Miami Marlins",
-      "hora": "2026-08-05T23:15:00Z",
-      "probabilidad_local": 55.3,
-      "resultado": "local",
-      "marcador_local_final": 4,
-      "marcador_visitante_final": 1,
-      "acerto": true
-    },
-    {
-      "gamePk": "824728",
-      "local": "Boston Red Sox",
-      "visitante": "Chicago White Sox",
-      "hora": "2026-08-05T23:10:00Z",
-      "probabilidad_local": 55.3,
-      "resultado": "local",
-      "marcador_local_final": 4,
-      "marcador_visitante_final": 0,
-      "acerto": true
-    },
-    {
-      "gamePk": "823516",
-      "local": "New York Yankees",
-      "visitante": "St. Louis Cardinals",
-      "hora": "2026-08-05T23:05:00Z",
-      "probabilidad_local": 61.3,
-      "resultado": "visitante",
-      "marcador_local_final": 1,
-      "marcador_visitante_final": 3,
-      "acerto": false
-    },
-    {
-      "gamePk": "824402",
-      "local": "Cleveland Guardians",
-      "visitante": "New York Mets",
-      "hora": "2026-08-05T22:40:00Z",
-      "probabilidad_local": 50.2,
-      "resultado": "visitante",
-      "marcador_local_final": 5,
-      "marcador_visitante_final": 6,
-      "acerto": false
     }
   ]
 }

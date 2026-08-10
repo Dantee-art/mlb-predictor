@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 189,
-  "total_aciertos": 112,
+  "total_partidos_evaluados": 190,
+  "total_aciertos": 113,
   "total_errores": 77,
-  "precision_general": 59.3,
-  "error_general": 40.7,
+  "precision_general": 59.5,
+  "error_general": 40.5,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 105,
-      "aciertos": 67,
-      "pct_acierto_real": 63.8
+      "partidos": 106,
+      "aciertos": 68,
+      "pct_acierto_real": 64.2
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823268",
+      "local": "San Diego Padres",
+      "visitante": "Houston Astros",
+      "hora": "2026-08-10T00:20:00Z",
+      "probabilidad_local": 55.6,
+      "resultado": "local",
+      "marcador_local_final": 7,
+      "marcador_visitante_final": 2,
+      "acerto": true
+    },
     {
       "gamePk": "825050",
       "local": "Arizona Diamondbacks",
@@ -575,17 +586,6 @@
       "marcador_local_final": 7,
       "marcador_visitante_final": 3,
       "acerto": true
-    },
-    {
-      "gamePk": "823105",
-      "local": "Seattle Mariners",
-      "visitante": "Detroit Tigers",
-      "hora": "2026-08-06T20:10:00Z",
-      "probabilidad_local": 50.5,
-      "resultado": "visitante",
-      "marcador_local_final": 0,
-      "marcador_visitante_final": 11,
-      "acerto": false
     }
   ]
 }

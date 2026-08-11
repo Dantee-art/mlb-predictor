@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 199,
-  "total_aciertos": 116,
+  "total_partidos_evaluados": 200,
+  "total_aciertos": 117,
   "total_errores": 83,
-  "precision_general": 58.3,
-  "error_general": 41.7,
+  "precision_general": 58.5,
+  "error_general": 41.5,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 110,
-      "aciertos": 68,
-      "pct_acierto_real": 61.8
+      "partidos": 111,
+      "aciertos": 69,
+      "pct_acierto_real": 62.2
     },
     {
       "rango": "60-70",
@@ -91,6 +91,17 @@
       "marcador_local_final": 3,
       "marcador_visitante_final": 2,
       "acerto": false
+    },
+    {
+      "gamePk": "823998",
+      "local": "Los Angeles Angels",
+      "visitante": "Texas Rangers",
+      "hora": "2026-08-11T01:38:00Z",
+      "probabilidad_local": 49.9,
+      "resultado": "visitante",
+      "marcador_local_final": 1,
+      "marcador_visitante_final": 4,
+      "acerto": true
     },
     {
       "gamePk": "823018",
@@ -575,17 +586,6 @@
       "marcador_local_final": 13,
       "marcador_visitante_final": 1,
       "acerto": true
-    },
-    {
-      "gamePk": "823836",
-      "local": "Miami Marlins",
-      "visitante": "Los Angeles Angels",
-      "hora": "2026-08-07T23:10:00Z",
-      "probabilidad_local": 74.3,
-      "resultado": "visitante",
-      "marcador_local_final": 3,
-      "marcador_visitante_final": 4,
-      "acerto": false
     }
   ]
 }

@@ -2586,10 +2586,10 @@
     "probabilidad_local": 48.5,
     "pitcher_local": "Zebby Matthews",
     "pitcher_visitante": "Shane Baz",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 7,
+    "marcador_visitante_final": 5,
+    "acerto": false
   },
   "823017": {
     "local": "St. Louis Cardinals",
@@ -2598,10 +2598,10 @@
     "probabilidad_local": 47.8,
     "pitcher_local": "Kyle Leahy",
     "pitcher_visitante": "Zack Wheeler",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 7,
+    "marcador_visitante_final": 1,
+    "acerto": false
   },
   "824967": {
     "local": "Athletics",
@@ -2610,10 +2610,10 @@
     "probabilidad_local": 31.2,
     "pitcher_local": "Jack Perkins",
     "pitcher_visitante": "Drew Rasmussen",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 4,
+    "marcador_visitante_final": 8,
+    "acerto": true
   },
   "825047": {
     "local": "Arizona Diamondbacks",
@@ -2754,9 +2754,9 @@
     "probabilidad_local": 51.2,
     "pitcher_local": "Adrian Houser",
     "pitcher_visitante": "Bryan King",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 1,
+    "marcador_visitante_final": 2,
+    "acerto": false
   }
 }

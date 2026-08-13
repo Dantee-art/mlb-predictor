@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 230,
-  "total_aciertos": 131,
+  "total_partidos_evaluados": 232,
+  "total_aciertos": 133,
   "total_errores": 99,
-  "precision_general": 57.0,
-  "error_general": 43.0,
+  "precision_general": 57.3,
+  "error_general": 42.7,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 126,
-      "aciertos": 75,
-      "pct_acierto_real": 59.5
+      "partidos": 128,
+      "aciertos": 77,
+      "pct_acierto_real": 60.2
     },
     {
       "rango": "60-70",
@@ -37,6 +37,28 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824238",
+      "local": "Detroit Tigers",
+      "visitante": "Cleveland Guardians",
+      "hora": "2026-08-13T17:10:00Z",
+      "probabilidad_local": 58.0,
+      "resultado": "local",
+      "marcador_local_final": 3,
+      "marcador_visitante_final": 0,
+      "acerto": true
+    },
+    {
+      "gamePk": "823829",
+      "local": "Miami Marlins",
+      "visitante": "Pittsburgh Pirates",
+      "hora": "2026-08-13T17:10:00Z",
+      "probabilidad_local": 48.7,
+      "resultado": "visitante",
+      "marcador_local_final": 1,
+      "marcador_visitante_final": 13,
+      "acerto": true
+    },
     {
       "gamePk": "823916",
       "local": "Los Angeles Dodgers",
@@ -562,28 +584,6 @@
       "probabilidad_local": 57.0,
       "resultado": "local",
       "marcador_local_final": 5,
-      "marcador_visitante_final": 3,
-      "acerto": true
-    },
-    {
-      "gamePk": "823751",
-      "local": "Milwaukee Brewers",
-      "visitante": "Minnesota Twins",
-      "hora": "2026-08-09T18:10:00Z",
-      "probabilidad_local": 75.6,
-      "resultado": "local",
-      "marcador_local_final": 4,
-      "marcador_visitante_final": 3,
-      "acerto": true
-    },
-    {
-      "gamePk": "823835",
-      "local": "Miami Marlins",
-      "visitante": "Los Angeles Angels",
-      "hora": "2026-08-09T17:40:00Z",
-      "probabilidad_local": 63.9,
-      "resultado": "local",
-      "marcador_local_final": 12,
       "marcador_visitante_final": 3,
       "acerto": true
     }

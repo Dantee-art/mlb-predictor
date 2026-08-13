@@ -1,9 +1,9 @@
 {
-  "total_partidos_evaluados": 232,
-  "total_aciertos": 133,
-  "total_errores": 99,
-  "precision_general": 57.3,
-  "error_general": 42.7,
+  "total_partidos_evaluados": 235,
+  "total_aciertos": 134,
+  "total_errores": 101,
+  "precision_general": 57.0,
+  "error_general": 43.0,
   "por_rango": [
     {
       "rango": "50-60",
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 81,
-      "aciertos": 44,
-      "pct_acierto_real": 54.3
+      "partidos": 84,
+      "aciertos": 45,
+      "pct_acierto_real": 53.6
     },
     {
       "rango": "70-80",
@@ -37,6 +37,39 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "822776",
+      "local": "Toronto Blue Jays",
+      "visitante": "Boston Red Sox",
+      "hora": "2026-08-13T19:07:00Z",
+      "probabilidad_local": 31.5,
+      "resultado": "visitante",
+      "marcador_local_final": 0,
+      "marcador_visitante_final": 7,
+      "acerto": true
+    },
+    {
+      "gamePk": "824561",
+      "local": "Chicago White Sox",
+      "visitante": "Cincinnati Reds",
+      "hora": "2026-08-13T18:10:00Z",
+      "probabilidad_local": 67.1,
+      "resultado": "visitante",
+      "marcador_local_final": 8,
+      "marcador_visitante_final": 9,
+      "acerto": false
+    },
+    {
+      "gamePk": "823508",
+      "local": "New York Yankees",
+      "visitante": "Seattle Mariners",
+      "hora": "2026-08-13T17:35:00Z",
+      "probabilidad_local": 63.9,
+      "resultado": "visitante",
+      "marcador_local_final": 0,
+      "marcador_visitante_final": 1,
+      "acerto": false
+    },
     {
       "gamePk": "824238",
       "local": "Detroit Tigers",
@@ -553,39 +586,6 @@
       "marcador_local_final": 5,
       "marcador_visitante_final": 10,
       "acerto": false
-    },
-    {
-      "gamePk": "823020",
-      "local": "St. Louis Cardinals",
-      "visitante": "Colorado Rockies",
-      "hora": "2026-08-09T18:15:00Z",
-      "probabilidad_local": 63.9,
-      "resultado": "local",
-      "marcador_local_final": 7,
-      "marcador_visitante_final": 4,
-      "acerto": true
-    },
-    {
-      "gamePk": "824078",
-      "local": "Kansas City Royals",
-      "visitante": "Chicago Cubs",
-      "hora": "2026-08-09T18:10:00Z",
-      "probabilidad_local": 37.9,
-      "resultado": "visitante",
-      "marcador_local_final": 2,
-      "marcador_visitante_final": 10,
-      "acerto": true
-    },
-    {
-      "gamePk": "824564",
-      "local": "Chicago White Sox",
-      "visitante": "Cleveland Guardians",
-      "hora": "2026-08-09T18:10:00Z",
-      "probabilidad_local": 57.0,
-      "resultado": "local",
-      "marcador_local_final": 5,
-      "marcador_visitante_final": 3,
-      "acerto": true
     }
   ]
 }

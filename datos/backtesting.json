@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 235,
+  "total_partidos_evaluados": 237,
   "total_aciertos": 134,
-  "total_errores": 101,
-  "precision_general": 57.0,
-  "error_general": 43.0,
+  "total_errores": 103,
+  "precision_general": 56.5,
+  "error_general": 43.5,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 128,
+      "partidos": 130,
       "aciertos": 77,
-      "pct_acierto_real": 60.2
+      "pct_acierto_real": 59.2
     },
     {
       "rango": "60-70",
@@ -37,6 +37,28 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823669",
+      "local": "Minnesota Twins",
+      "visitante": "Philadelphia Phillies",
+      "hora": "2026-08-13T23:30:00Z",
+      "probabilidad_local": 55.1,
+      "resultado": "visitante",
+      "marcador_local_final": 1,
+      "marcador_visitante_final": 7,
+      "acerto": false
+    },
+    {
+      "gamePk": "822696",
+      "local": "Washington Nationals",
+      "visitante": "Chicago Cubs",
+      "hora": "2026-08-13T20:05:00Z",
+      "probabilidad_local": 49.5,
+      "resultado": "local",
+      "marcador_local_final": 7,
+      "marcador_visitante_final": 0,
+      "acerto": false
+    },
     {
       "gamePk": "822776",
       "local": "Toronto Blue Jays",
@@ -564,28 +586,6 @@
       "marcador_local_final": 1,
       "marcador_visitante_final": 4,
       "acerto": true
-    },
-    {
-      "gamePk": "823190",
-      "local": "San Francisco Giants",
-      "visitante": "Detroit Tigers",
-      "hora": "2026-08-09T20:05:00Z",
-      "probabilidad_local": 42.7,
-      "resultado": "visitante",
-      "marcador_local_final": 1,
-      "marcador_visitante_final": 3,
-      "acerto": true
-    },
-    {
-      "gamePk": "822862",
-      "local": "Texas Rangers",
-      "visitante": "Baltimore Orioles",
-      "hora": "2026-08-09T18:35:00Z",
-      "probabilidad_local": 55.3,
-      "resultado": "visitante",
-      "marcador_local_final": 5,
-      "marcador_visitante_final": 10,
-      "acerto": false
     }
   ]
 }

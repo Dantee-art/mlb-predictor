@@ -1,7 +1,7 @@
 {
-  "total_partidos_evaluados": 255,
-  "total_aciertos": 138,
-  "total_errores": 117,
+  "total_partidos_evaluados": 257,
+  "total_aciertos": 139,
+  "total_errores": 118,
   "precision_general": 54.1,
   "error_general": 45.9,
   "por_rango": [
@@ -13,8 +13,8 @@
     },
     {
       "rango": "60-70",
-      "partidos": 91,
-      "aciertos": 46,
+      "partidos": 93,
+      "aciertos": 47,
       "pct_acierto_real": 50.5
     },
     {
@@ -37,6 +37,28 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823184",
+      "local": "San Francisco Giants",
+      "visitante": "Colorado Rockies",
+      "hora": "2026-08-15T20:05:00Z",
+      "probabilidad_local": 65.4,
+      "resultado": "local",
+      "marcador_local_final": 7,
+      "marcador_visitante_final": 1,
+      "acerto": true
+    },
+    {
+      "gamePk": "822775",
+      "local": "Toronto Blue Jays",
+      "visitante": "New York Yankees",
+      "hora": "2026-08-15T19:07:00Z",
+      "probabilidad_local": 36.5,
+      "resultado": "local",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 1,
+      "acerto": false
+    },
     {
       "gamePk": "824644",
       "local": "Chicago Cubs",
@@ -564,28 +586,6 @@
       "marcador_local_final": 2,
       "marcador_visitante_final": 5,
       "acerto": false
-    },
-    {
-      "gamePk": "824563",
-      "local": "Chicago White Sox",
-      "visitante": "Cincinnati Reds",
-      "hora": "2026-08-11T23:40:00Z",
-      "probabilidad_local": 67.6,
-      "resultado": "visitante",
-      "marcador_local_final": 4,
-      "marcador_visitante_final": 5,
-      "acerto": false
-    },
-    {
-      "gamePk": "824886",
-      "local": "Atlanta Braves",
-      "visitante": "New York Mets",
-      "hora": "2026-08-11T23:15:00Z",
-      "probabilidad_local": 57.8,
-      "resultado": "local",
-      "marcador_local_final": 4,
-      "marcador_visitante_final": 0,
-      "acerto": true
     }
   ]
 }

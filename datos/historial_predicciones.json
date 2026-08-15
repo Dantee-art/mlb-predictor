@@ -3042,10 +3042,10 @@
     "probabilidad_local": 60.3,
     "pitcher_local": "Troy Melton",
     "pitcher_visitante": "Anthony Kay",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 4,
+    "acerto": false
   },
   "824644": {
     "local": "Chicago Cubs",
@@ -3198,6 +3198,18 @@
     "probabilidad_local": 42.1,
     "pitcher_local": "J.T. Ginn",
     "pitcher_visitante": "MacKenzie Gore",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824400": {
+    "local": "Cleveland Guardians",
+    "visitante": "San Diego Padres",
+    "hora": "2026-08-15T23:10:00Z",
+    "probabilidad_local": 54.9,
+    "pitcher_local": "Joey Cantillo",
+    "pitcher_visitante": "Wandy Peralta",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

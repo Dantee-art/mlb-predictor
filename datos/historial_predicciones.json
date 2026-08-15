@@ -2886,10 +2886,10 @@
     "probabilidad_local": 48.1,
     "pitcher_local": "Chase Burns",
     "pitcher_visitante": "Sandy Alcantara",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 1,
+    "marcador_visitante_final": 0,
+    "acerto": false
   },
   "823346": {
     "local": "Pittsburgh Pirates",
@@ -2898,10 +2898,10 @@
     "probabilidad_local": 46.5,
     "pitcher_local": "Bubba Chandler",
     "pitcher_visitante": "Jake Bennett",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 8,
+    "marcador_visitante_final": 4,
+    "acerto": false
   },
   "824237": {
     "local": "Detroit Tigers",
@@ -2910,10 +2910,10 @@
     "probabilidad_local": 60.5,
     "pitcher_local": "Jackson Jobe",
     "pitcher_visitante": "Sean Newcomb",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 5,
+    "marcador_visitante_final": 9,
+    "acerto": false
   },
   "823591": {
     "local": "New York Mets",
@@ -2922,10 +2922,10 @@
     "probabilidad_local": 47.4,
     "pitcher_local": "Robert Stock",
     "pitcher_visitante": "Andrew Alvarez",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 4,
+    "marcador_visitante_final": 1,
+    "acerto": false
   },
   "824399": {
     "local": "Cleveland Guardians",
@@ -2934,10 +2934,10 @@
     "probabilidad_local": 57.3,
     "pitcher_local": "Gavin Williams",
     "pitcher_visitante": "Michael King",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 5,
+    "marcador_visitante_final": 7,
+    "acerto": false
   },
   "822777": {
     "local": "Toronto Blue Jays",
@@ -2946,10 +2946,10 @@
     "probabilidad_local": 33.7,
     "pitcher_local": "Shane Bieber",
     "pitcher_visitante": "Gerrit Cole",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 1,
+    "acerto": false
   },
   "824159": {
     "local": "Houston Astros",
@@ -3006,10 +3006,10 @@
     "probabilidad_local": 59.1,
     "pitcher_local": "Steven Matz",
     "pitcher_visitante": "Chris Bassitt",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 5,
+    "marcador_visitante_final": 6,
+    "acerto": false
   },
   "824882": {
     "local": "Atlanta Braves",
@@ -3018,10 +3018,10 @@
     "probabilidad_local": 68.5,
     "pitcher_local": "Chris Sale",
     "pitcher_visitante": "Brandon Pfaadt",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 0,
+    "marcador_visitante_final": 2,
+    "acerto": false
   },
   "824968": {
     "local": "Athletics",
@@ -3030,6 +3030,174 @@
     "probabilidad_local": 46.5,
     "pitcher_local": "Gage Jump",
     "pitcher_visitante": "Kumar Rocker",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824239": {
+    "local": "Detroit Tigers",
+    "visitante": "Chicago White Sox",
+    "hora": "2026-08-15T17:10:00Z",
+    "probabilidad_local": 60.3,
+    "pitcher_local": "Troy Melton",
+    "pitcher_visitante": "Anthony Kay",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824644": {
+    "local": "Chicago Cubs",
+    "visitante": "St. Louis Cardinals",
+    "hora": "2026-08-15T18:20:00Z",
+    "probabilidad_local": 61.2,
+    "pitcher_local": "Matthew Boyd",
+    "pitcher_visitante": "Michael McGreevy",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "822775": {
+    "local": "Toronto Blue Jays",
+    "visitante": "New York Yankees",
+    "hora": "2026-08-15T19:07:00Z",
+    "probabilidad_local": 36.5,
+    "pitcher_local": "Braydon Fisher",
+    "pitcher_visitante": "Cam Schlittler",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823184": {
+    "local": "San Francisco Giants",
+    "visitante": "Colorado Rockies",
+    "hora": "2026-08-15T20:05:00Z",
+    "probabilidad_local": 65.4,
+    "pitcher_local": "Logan Webb",
+    "pitcher_visitante": "Michael Lorenzen",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823588": {
+    "local": "New York Mets",
+    "visitante": "Washington Nationals",
+    "hora": "2026-08-15T20:10:00Z",
+    "probabilidad_local": 52.6,
+    "pitcher_local": "Sean Manaea",
+    "pitcher_visitante": "Brad Lord",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "822941": {
+    "local": "Tampa Bay Rays",
+    "visitante": "Baltimore Orioles",
+    "hora": "2026-08-15T22:10:00Z",
+    "probabilidad_local": 62.2,
+    "pitcher_local": "Ian Seymour",
+    "pitcher_visitante": "Kyle Bradish",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824480": {
+    "local": "Cincinnati Reds",
+    "visitante": "Miami Marlins",
+    "hora": "2026-08-15T22:40:00Z",
+    "probabilidad_local": 42.0,
+    "pitcher_local": "Brady Singer",
+    "pitcher_visitante": "Ryan Gusto",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824157": {
+    "local": "Houston Astros",
+    "visitante": "Seattle Mariners",
+    "hora": "2026-08-15T23:10:00Z",
+    "probabilidad_local": 47.6,
+    "pitcher_local": "Hayden Wesneski",
+    "pitcher_visitante": "Emerson Hancock",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823671": {
+    "local": "Minnesota Twins",
+    "visitante": "Philadelphia Phillies",
+    "hora": "2026-08-15T23:10:00Z",
+    "probabilidad_local": 44.2,
+    "pitcher_local": "Connor Prielipp",
+    "pitcher_visitante": "Jesús Luzardo",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823347": {
+    "local": "Pittsburgh Pirates",
+    "visitante": "Boston Red Sox",
+    "hora": "2026-08-15T23:15:00Z",
+    "probabilidad_local": 47.6,
+    "pitcher_local": "Jared Jones",
+    "pitcher_visitante": "Sonny Gray",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824884": {
+    "local": "Atlanta Braves",
+    "visitante": "Arizona Diamondbacks",
+    "hora": "2026-08-15T23:15:00Z",
+    "probabilidad_local": 58.7,
+    "pitcher_local": "Grant Holmes",
+    "pitcher_visitante": "Eduardo Rodriguez",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823914": {
+    "local": "Los Angeles Dodgers",
+    "visitante": "Milwaukee Brewers",
+    "hora": "2026-08-15T23:15:00Z",
+    "probabilidad_local": 43.7,
+    "pitcher_local": "Justin Wrobleski",
+    "pitcher_visitante": "Jacob Misiorowski",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823990": {
+    "local": "Los Angeles Angels",
+    "visitante": "Kansas City Royals",
+    "hora": "2026-08-16T01:38:00Z",
+    "probabilidad_local": 60.4,
+    "pitcher_local": "Reid Detmers",
+    "pitcher_visitante": "Randy Dobnak",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824966": {
+    "local": "Athletics",
+    "visitante": "Texas Rangers",
+    "hora": "2026-08-16T01:40:00Z",
+    "probabilidad_local": 42.1,
+    "pitcher_local": "J.T. Ginn",
+    "pitcher_visitante": "MacKenzie Gore",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

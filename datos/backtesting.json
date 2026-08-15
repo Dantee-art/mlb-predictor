@@ -1,21 +1,21 @@
 {
-  "total_partidos_evaluados": 248,
-  "total_aciertos": 136,
-  "total_errores": 112,
-  "precision_general": 54.8,
-  "error_general": 45.2,
+  "total_partidos_evaluados": 253,
+  "total_aciertos": 138,
+  "total_errores": 115,
+  "precision_general": 54.5,
+  "error_general": 45.5,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 137,
-      "aciertos": 78,
-      "pct_acierto_real": 56.9
+      "partidos": 141,
+      "aciertos": 80,
+      "pct_acierto_real": 56.7
     },
     {
       "rango": "60-70",
-      "partidos": 88,
+      "partidos": 89,
       "aciertos": 46,
-      "pct_acierto_real": 52.3
+      "pct_acierto_real": 51.7
     },
     {
       "rango": "70-80",
@@ -37,6 +37,61 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823185",
+      "local": "San Francisco Giants",
+      "visitante": "Colorado Rockies",
+      "hora": "2026-08-15T02:15:00Z",
+      "probabilidad_local": 62.8,
+      "resultado": "visitante",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 5,
+      "acerto": false
+    },
+    {
+      "gamePk": "823913",
+      "local": "Los Angeles Dodgers",
+      "visitante": "Milwaukee Brewers",
+      "hora": "2026-08-15T02:10:00Z",
+      "probabilidad_local": 56.1,
+      "resultado": "local",
+      "marcador_local_final": 3,
+      "marcador_visitante_final": 1,
+      "acerto": true
+    },
+    {
+      "gamePk": "824968",
+      "local": "Athletics",
+      "visitante": "Texas Rangers",
+      "hora": "2026-08-15T01:40:00Z",
+      "probabilidad_local": 46.5,
+      "resultado": "local",
+      "marcador_local_final": 8,
+      "marcador_visitante_final": 3,
+      "acerto": false
+    },
+    {
+      "gamePk": "823993",
+      "local": "Los Angeles Angels",
+      "visitante": "Kansas City Royals",
+      "hora": "2026-08-15T01:38:00Z",
+      "probabilidad_local": 55.2,
+      "resultado": "visitante",
+      "marcador_local_final": 6,
+      "marcador_visitante_final": 7,
+      "acerto": false
+    },
+    {
+      "gamePk": "824159",
+      "local": "Houston Astros",
+      "visitante": "Seattle Mariners",
+      "hora": "2026-08-15T00:10:00Z",
+      "probabilidad_local": 50.7,
+      "resultado": "local",
+      "marcador_local_final": 10,
+      "marcador_visitante_final": 7,
+      "acerto": true
+    },
     {
       "gamePk": "822777",
       "local": "Toronto Blue Jays",
@@ -531,61 +586,6 @@
       "marcador_local_final": 4,
       "marcador_visitante_final": 1,
       "acerto": true
-    },
-    {
-      "gamePk": "822697",
-      "local": "Washington Nationals",
-      "visitante": "Chicago Cubs",
-      "hora": "2026-08-11T22:45:00Z",
-      "probabilidad_local": 47.9,
-      "resultado": "visitante",
-      "marcador_local_final": 6,
-      "marcador_visitante_final": 8,
-      "acerto": true
-    },
-    {
-      "gamePk": "824240",
-      "local": "Detroit Tigers",
-      "visitante": "Cleveland Guardians",
-      "hora": "2026-08-11T22:40:00Z",
-      "probabilidad_local": 65.7,
-      "resultado": "local",
-      "marcador_local_final": 6,
-      "marcador_visitante_final": 4,
-      "acerto": true
-    },
-    {
-      "gamePk": "823832",
-      "local": "Miami Marlins",
-      "visitante": "Pittsburgh Pirates",
-      "hora": "2026-08-11T22:40:00Z",
-      "probabilidad_local": 49.6,
-      "resultado": "local",
-      "marcador_local_final": 2,
-      "marcador_visitante_final": 0,
-      "acerto": false
-    },
-    {
-      "gamePk": "823918",
-      "local": "Los Angeles Dodgers",
-      "visitante": "Kansas City Royals",
-      "hora": "2026-08-11T02:10:00Z",
-      "probabilidad_local": 75.5,
-      "resultado": "local",
-      "marcador_local_final": 6,
-      "marcador_visitante_final": 5,
-      "acerto": true
-    },
-    {
-      "gamePk": "823189",
-      "local": "San Francisco Giants",
-      "visitante": "Houston Astros",
-      "hora": "2026-08-11T01:45:00Z",
-      "probabilidad_local": 52.7,
-      "resultado": "visitante",
-      "marcador_local_final": 3,
-      "marcador_visitante_final": 6,
-      "acerto": false
     }
   ]
 }

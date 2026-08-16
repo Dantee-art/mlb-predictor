@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 274,
-  "total_aciertos": 152,
+  "total_partidos_evaluados": 275,
+  "total_aciertos": 153,
   "total_errores": 122,
-  "precision_general": 55.5,
-  "error_general": 44.5,
+  "precision_general": 55.6,
+  "error_general": 44.4,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 156,
-      "aciertos": 92,
-      "pct_acierto_real": 59.0
+      "partidos": 157,
+      "aciertos": 93,
+      "pct_acierto_real": 59.2
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823670",
+      "local": "Minnesota Twins",
+      "visitante": "Philadelphia Phillies",
+      "hora": "2026-08-16T18:10:00Z",
+      "probabilidad_local": 49.6,
+      "resultado": "visitante",
+      "marcador_local_final": 5,
+      "marcador_visitante_final": 7,
+      "acerto": true
+    },
     {
       "gamePk": "823590",
       "local": "New York Mets",
@@ -575,17 +586,6 @@
       "marcador_local_final": 6,
       "marcador_visitante_final": 4,
       "acerto": false
-    },
-    {
-      "gamePk": "823511",
-      "local": "New York Yankees",
-      "visitante": "Seattle Mariners",
-      "hora": "2026-08-12T23:05:00Z",
-      "probabilidad_local": 60.8,
-      "resultado": "local",
-      "marcador_local_final": 10,
-      "marcador_visitante_final": 5,
-      "acerto": true
     }
   ]
 }

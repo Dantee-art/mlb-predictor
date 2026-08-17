@@ -3,18 +3,18 @@
         "gamePk": 824514,
         "local": "Cincinnati Reds",
         "visitante": "St. Louis Cardinals",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-08-17T17:40:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
-        "pitcher_local": "Sin anunciar",
-        "pitcher_visitante": "Sin anunciar",
-        "pitcher_local_id": null,
-        "pitcher_visitante_id": null,
+        "inning": 1,
+        "inning_estado": "Top",
+        "pitcher_local": "Kent Emanuel",
+        "pitcher_visitante": "Quinn Mathews",
+        "pitcher_local_id": 592288,
+        "pitcher_visitante_id": 687273,
         "ballpark_factor": 0.945,
-        "probabilidad": 45.7
+        "probabilidad": 46.5
     },
     {
         "gamePk": 824478,
@@ -27,11 +27,11 @@
         "inning": null,
         "inning_estado": null,
         "pitcher_local": "Rhett Lowder",
-        "pitcher_visitante": "Sin anunciar",
+        "pitcher_visitante": "Andre Pallante",
         "pitcher_local_id": 695076,
-        "pitcher_visitante_id": null,
+        "pitcher_visitante_id": 669467,
         "ballpark_factor": 0.945,
-        "probabilidad": 44.2
+        "probabilidad": 42.8
     },
     {
         "gamePk": 822939,
@@ -94,12 +94,12 @@
         "marcador_visitante": 0,
         "inning": null,
         "inning_estado": null,
-        "pitcher_local": "Sin anunciar",
+        "pitcher_local": "Alec Gamboa",
         "pitcher_visitante": "Mitch Bratt",
-        "pitcher_local_id": null,
+        "pitcher_local_id": 687941,
         "pitcher_visitante_id": 683352,
         "ballpark_factor": 1.019,
-        "probabilidad": 62.6
+        "probabilidad": 64.0
     },
     {
         "gamePk": 823589,

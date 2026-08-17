@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 283,
-  "total_aciertos": 157,
+  "total_partidos_evaluados": 284,
+  "total_aciertos": 158,
   "total_errores": 126,
-  "precision_general": 55.5,
-  "error_general": 44.5,
+  "precision_general": 55.6,
+  "error_general": 44.4,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 163,
-      "aciertos": 97,
-      "pct_acierto_real": 59.5
+      "partidos": 164,
+      "aciertos": 98,
+      "pct_acierto_real": 59.8
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824514",
+      "local": "Cincinnati Reds",
+      "visitante": "St. Louis Cardinals",
+      "hora": "2026-08-17T17:40:00Z",
+      "probabilidad_local": 46.5,
+      "resultado": "visitante",
+      "marcador_local_final": 1,
+      "marcador_visitante_final": 2,
+      "acerto": true
+    },
     {
       "gamePk": "824156",
       "local": "Houston Astros",
@@ -575,17 +586,6 @@
       "marcador_local_final": 0,
       "marcador_visitante_final": 7,
       "acerto": true
-    },
-    {
-      "gamePk": "824561",
-      "local": "Chicago White Sox",
-      "visitante": "Cincinnati Reds",
-      "hora": "2026-08-13T18:10:00Z",
-      "probabilidad_local": 67.1,
-      "resultado": "visitante",
-      "marcador_local_final": 8,
-      "marcador_visitante_final": 9,
-      "acerto": false
     }
   ]
 }

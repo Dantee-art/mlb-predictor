@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 282,
-  "total_aciertos": 156,
+  "total_partidos_evaluados": 283,
+  "total_aciertos": 157,
   "total_errores": 126,
-  "precision_general": 55.3,
-  "error_general": 44.7,
+  "precision_general": 55.5,
+  "error_general": 44.5,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 162,
-      "aciertos": 96,
-      "pct_acierto_real": 59.3
+      "partidos": 163,
+      "aciertos": 97,
+      "pct_acierto_real": 59.5
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824156",
+      "local": "Houston Astros",
+      "visitante": "Seattle Mariners",
+      "hora": "2026-08-16T23:20:00Z",
+      "probabilidad_local": 47.3,
+      "resultado": "visitante",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 3,
+      "acerto": true
+    },
     {
       "gamePk": "823912",
       "local": "Los Angeles Dodgers",
@@ -574,17 +585,6 @@
       "resultado": "visitante",
       "marcador_local_final": 8,
       "marcador_visitante_final": 9,
-      "acerto": false
-    },
-    {
-      "gamePk": "823508",
-      "local": "New York Yankees",
-      "visitante": "Seattle Mariners",
-      "hora": "2026-08-13T17:35:00Z",
-      "probabilidad_local": 63.9,
-      "resultado": "visitante",
-      "marcador_local_final": 0,
-      "marcador_visitante_final": 1,
       "acerto": false
     }
   ]

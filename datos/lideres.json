@@ -301,7 +301,7 @@
                 }
             ],
             "statGroup": "hitting",
-            "totalSplits": 509
+            "totalSplits": 510
         },
         {
             "leaderCategory": "battingAverage",
@@ -519,35 +519,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": ".309",
-                    "team": {
-                        "id": 146,
-                        "name": "Miami Marlins",
-                        "link": "/api/v1/teams/146"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 672640,
-                        "fullName": "Otto Lopez",
-                        "link": "/api/v1/people/672640",
-                        "firstName": "Otto",
-                        "lastName": "Lopez"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 4,
-                    "value": ".308",
+                    "value": ".310",
                     "team": {
                         "id": 139,
                         "name": "Tampa Bay Rays",
@@ -564,6 +536,34 @@
                         "link": "/api/v1/people/802415",
                         "firstName": "Chandler",
                         "lastName": "Simpson"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 4,
+                    "value": ".308",
+                    "team": {
+                        "id": 146,
+                        "name": "Miami Marlins",
+                        "link": "/api/v1/teams/146"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 672640,
+                        "fullName": "Otto Lopez",
+                        "link": "/api/v1/people/672640",
+                        "firstName": "Otto",
+                        "lastName": "Lopez"
                     },
                     "sport": {
                         "id": 1,
@@ -603,7 +603,7 @@
                 }
             ],
             "statGroup": "hitting",
-            "totalSplits": 140
+            "totalSplits": 141
         },
         {
             "leaderCategory": "strikeouts",
@@ -614,7 +614,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "947",
+                    "value": "948",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -642,7 +642,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "919",
+                    "value": "924",
                     "team": {
                         "id": 143,
                         "name": "Philadelphia Phillies",
@@ -698,7 +698,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "720",
+                    "value": "723",
                     "team": {
                         "id": 113,
                         "name": "Cincinnati Reds",
@@ -726,7 +726,7 @@
                 },
                 {
                     "rank": 5,
-                    "value": "705",
+                    "value": "709",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -1095,7 +1095,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "112",
+                    "value": "113",
                     "team": {
                         "id": 113,
                         "name": "Cincinnati Reds",
@@ -1151,7 +1151,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "102",
+                    "value": "103",
                     "team": {
                         "id": 143,
                         "name": "Philadelphia Phillies",
@@ -1218,7 +1218,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "182",
+                    "value": "183",
                     "team": {
                         "id": 143,
                         "name": "Philadelphia Phillies",
@@ -1358,7 +1358,7 @@
                 }
             ],
             "statGroup": "hitting",
-            "totalSplits": 625
+            "totalSplits": 626
         },
         {
             "leaderCategory": "earnedRunAverage",
@@ -1520,7 +1520,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "2.90",
+                    "value": "2.91",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -1548,7 +1548,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "3.35",
+                    "value": "3.34",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",

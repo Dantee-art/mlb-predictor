@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 310,
-  "total_aciertos": 176,
-  "total_errores": 134,
-  "precision_general": 56.8,
-  "error_general": 43.2,
+  "total_partidos_evaluados": 313,
+  "total_aciertos": 177,
+  "total_errores": 136,
+  "precision_general": 56.5,
+  "error_general": 43.5,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 181,
-      "aciertos": 107,
-      "pct_acierto_real": 59.1
+      "partidos": 184,
+      "aciertos": 108,
+      "pct_acierto_real": 58.7
     },
     {
       "rango": "60-70",
@@ -37,6 +37,39 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824640",
+      "local": "Chicago Cubs",
+      "visitante": "Chicago White Sox",
+      "hora": "2026-08-19T18:20:00Z",
+      "probabilidad_local": 52.3,
+      "resultado": "visitante",
+      "marcador_local_final": 0,
+      "marcador_visitante_final": 3,
+      "acerto": false
+    },
+    {
+      "gamePk": "823664",
+      "local": "Minnesota Twins",
+      "visitante": "Atlanta Braves",
+      "hora": "2026-08-19T17:40:00Z",
+      "probabilidad_local": 41.8,
+      "resultado": "local",
+      "marcador_local_final": 6,
+      "marcador_visitante_final": 4,
+      "acerto": false
+    },
+    {
+      "gamePk": "823587",
+      "local": "New York Mets",
+      "visitante": "San Diego Padres",
+      "hora": "2026-08-19T17:10:00Z",
+      "probabilidad_local": 51.0,
+      "resultado": "local",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 2,
+      "acerto": true
+    },
     {
       "gamePk": "823342",
       "local": "Pittsburgh Pirates",
@@ -552,39 +585,6 @@
       "resultado": "visitante",
       "marcador_local_final": 1,
       "marcador_visitante_final": 4,
-      "acerto": true
-    },
-    {
-      "gamePk": "824157",
-      "local": "Houston Astros",
-      "visitante": "Seattle Mariners",
-      "hora": "2026-08-15T23:10:00Z",
-      "probabilidad_local": 47.6,
-      "resultado": "visitante",
-      "marcador_local_final": 5,
-      "marcador_visitante_final": 10,
-      "acerto": true
-    },
-    {
-      "gamePk": "823671",
-      "local": "Minnesota Twins",
-      "visitante": "Philadelphia Phillies",
-      "hora": "2026-08-15T23:10:00Z",
-      "probabilidad_local": 44.2,
-      "resultado": "visitante",
-      "marcador_local_final": 1,
-      "marcador_visitante_final": 9,
-      "acerto": true
-    },
-    {
-      "gamePk": "824400",
-      "local": "Cleveland Guardians",
-      "visitante": "San Diego Padres",
-      "hora": "2026-08-15T23:10:00Z",
-      "probabilidad_local": 54.9,
-      "resultado": "local",
-      "marcador_local_final": 6,
-      "marcador_visitante_final": 1,
       "acerto": true
     }
   ]

@@ -1,9 +1,9 @@
 {
-  "total_partidos_evaluados": 313,
+  "total_partidos_evaluados": 314,
   "total_aciertos": 177,
-  "total_errores": 136,
-  "precision_general": 56.5,
-  "error_general": 43.5,
+  "total_errores": 137,
+  "precision_general": 56.4,
+  "error_general": 43.6,
   "por_rango": [
     {
       "rango": "50-60",
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 105,
+      "partidos": 106,
       "aciertos": 56,
-      "pct_acierto_real": 53.3
+      "pct_acierto_real": 52.8
     },
     {
       "rango": "70-80",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824722",
+      "local": "Boston Red Sox",
+      "visitante": "Arizona Diamondbacks",
+      "hora": "2026-08-19T20:10:00Z",
+      "probabilidad_local": 64.6,
+      "resultado": "visitante",
+      "marcador_local_final": 6,
+      "marcador_visitante_final": 7,
+      "acerto": false
+    },
     {
       "gamePk": "824640",
       "local": "Chicago Cubs",
@@ -575,17 +586,6 @@
       "marcador_local_final": 3,
       "marcador_visitante_final": 10,
       "acerto": false
-    },
-    {
-      "gamePk": "823914",
-      "local": "Los Angeles Dodgers",
-      "visitante": "Milwaukee Brewers",
-      "hora": "2026-08-15T23:15:00Z",
-      "probabilidad_local": 43.7,
-      "resultado": "visitante",
-      "marcador_local_final": 1,
-      "marcador_visitante_final": 4,
-      "acerto": true
     }
   ]
 }

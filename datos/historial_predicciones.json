@@ -3714,10 +3714,10 @@
     "probabilidad_local": 56.7,
     "pitcher_local": "Paul Skenes",
     "pitcher_visitante": "Jackson Jobe",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 4,
+    "marcador_visitante_final": 3,
+    "acerto": true
   },
   "823587": {
     "local": "New York Mets",
@@ -3870,6 +3870,18 @@
     "probabilidad_local": 52.3,
     "pitcher_local": "Clay Holmes",
     "pitcher_visitante": "Sean Newcomb",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824076": {
+    "local": "Kansas City Royals",
+    "visitante": "Athletics",
+    "hora": "2026-08-19T23:40:00Z",
+    "probabilidad_local": 63.8,
+    "pitcher_local": "Seth Lugo",
+    "pitcher_visitante": "Jeffrey Springs",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

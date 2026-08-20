@@ -66,7 +66,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": "190",
+                    "value": "194",
                     "team": {
                         "id": 114,
                         "name": "Cleveland Guardians",
@@ -301,7 +301,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 53
+            "totalSplits": 54
         },
         {
             "leaderCategory": "homeRuns",
@@ -726,7 +726,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "727",
+                    "value": "730",
                     "team": {
                         "id": 113,
                         "name": "Cincinnati Reds",
@@ -971,7 +971,35 @@
                     "numTeams": 1
                 },
                 {
-                    "rank": 2,
+                    "rank": 1,
+                    "value": "94",
+                    "team": {
+                        "id": 138,
+                        "name": "St. Louis Cardinals",
+                        "link": "/api/v1/teams/138"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 691023,
+                        "fullName": "Jordan Walker",
+                        "link": "/api/v1/people/691023",
+                        "firstName": "Jordan",
+                        "lastName": "Walker"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 3,
                     "value": "92",
                     "team": {
                         "id": 138,
@@ -999,7 +1027,7 @@
                     "numTeams": 1
                 },
                 {
-                    "rank": 3,
+                    "rank": 4,
                     "value": "91",
                     "team": {
                         "id": 120,
@@ -1017,34 +1045,6 @@
                         "link": "/api/v1/people/682928",
                         "firstName": "CJ",
                         "lastName": "Abrams"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 4,
-                    "value": "90",
-                    "team": {
-                        "id": 138,
-                        "name": "St. Louis Cardinals",
-                        "link": "/api/v1/teams/138"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 691023,
-                        "fullName": "Jordan Walker",
-                        "link": "/api/v1/people/691023",
-                        "firstName": "Jordan",
-                        "lastName": "Walker"
                     },
                     "sport": {
                         "id": 1,
@@ -1123,7 +1123,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "113",
+                    "value": "114",
                     "team": {
                         "id": 113,
                         "name": "Cincinnati Reds",
@@ -1537,7 +1537,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 53
+            "totalSplits": 54
         },
         {
             "leaderCategory": "earnedRunAverage",

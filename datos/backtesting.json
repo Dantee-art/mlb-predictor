@@ -1,21 +1,21 @@
 {
-  "total_partidos_evaluados": 328,
-  "total_aciertos": 187,
+  "total_partidos_evaluados": 330,
+  "total_aciertos": 189,
   "total_errores": 141,
-  "precision_general": 57.0,
-  "error_general": 43.0,
+  "precision_general": 57.3,
+  "error_general": 42.7,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 192,
-      "aciertos": 115,
-      "pct_acierto_real": 59.9
+      "partidos": 193,
+      "aciertos": 116,
+      "pct_acierto_real": 60.1
     },
     {
       "rango": "60-70",
-      "partidos": 111,
-      "aciertos": 58,
-      "pct_acierto_real": 52.3
+      "partidos": 112,
+      "aciertos": 59,
+      "pct_acierto_real": 52.7
     },
     {
       "rango": "70-80",
@@ -38,6 +38,17 @@
   ],
   "partidos_recientes": [
     {
+      "gamePk": "824074",
+      "local": "Kansas City Royals",
+      "visitante": "Athletics",
+      "hora": "2026-08-20T18:10:00Z",
+      "probabilidad_local": 56.9,
+      "resultado": "local",
+      "marcador_local_final": 6,
+      "marcador_visitante_final": 2,
+      "acerto": true
+    },
+    {
       "gamePk": "824589",
       "local": "Chicago White Sox",
       "visitante": "Atlanta Braves",
@@ -47,6 +58,17 @@
       "marcador_local_final": 0,
       "marcador_visitante_final": 2,
       "acerto": false
+    },
+    {
+      "gamePk": "823747",
+      "local": "Milwaukee Brewers",
+      "visitante": "Seattle Mariners",
+      "hora": "2026-08-20T18:10:00Z",
+      "probabilidad_local": 64.4,
+      "resultado": "local",
+      "marcador_local_final": 7,
+      "marcador_visitante_final": 4,
+      "acerto": true
     },
     {
       "gamePk": "824395",
@@ -564,28 +586,6 @@
       "marcador_local_final": 0,
       "marcador_visitante_final": 3,
       "acerto": true
-    },
-    {
-      "gamePk": "823182",
-      "local": "San Francisco Giants",
-      "visitante": "Colorado Rockies",
-      "hora": "2026-08-16T20:05:00Z",
-      "probabilidad_local": 60.5,
-      "resultado": "visitante",
-      "marcador_local_final": 7,
-      "marcador_visitante_final": 13,
-      "acerto": false
-    },
-    {
-      "gamePk": "824965",
-      "local": "Athletics",
-      "visitante": "Texas Rangers",
-      "hora": "2026-08-16T20:05:00Z",
-      "probabilidad_local": 39.9,
-      "resultado": "local",
-      "marcador_local_final": 5,
-      "marcador_visitante_final": 2,
-      "acerto": false
     }
   ]
 }

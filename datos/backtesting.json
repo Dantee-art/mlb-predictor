@@ -1,9 +1,9 @@
 {
-  "total_partidos_evaluados": 323,
-  "total_aciertos": 184,
+  "total_partidos_evaluados": 324,
+  "total_aciertos": 185,
   "total_errores": 139,
-  "precision_general": 57.0,
-  "error_general": 43.0,
+  "precision_general": 57.1,
+  "error_general": 42.9,
   "por_rango": [
     {
       "rango": "50-60",
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 109,
-      "aciertos": 57,
-      "pct_acierto_real": 52.3
+      "partidos": 110,
+      "aciertos": 58,
+      "pct_acierto_real": 52.7
     },
     {
       "rango": "70-80",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824318",
+      "local": "Colorado Rockies",
+      "visitante": "Los Angeles Dodgers",
+      "hora": "2026-08-20T00:40:00Z",
+      "probabilidad_local": 34.4,
+      "resultado": "visitante",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 6,
+      "acerto": true
+    },
     {
       "gamePk": "824155",
       "local": "Houston Astros",
@@ -575,17 +586,6 @@
       "marcador_local_final": 0,
       "marcador_visitante_final": 5,
       "acerto": true
-    },
-    {
-      "gamePk": "824236",
-      "local": "Detroit Tigers",
-      "visitante": "Chicago White Sox",
-      "hora": "2026-08-16T17:40:00Z",
-      "probabilidad_local": 55.4,
-      "resultado": "visitante",
-      "marcador_local_final": 5,
-      "marcador_visitante_final": 7,
-      "acerto": false
     }
   ]
 }

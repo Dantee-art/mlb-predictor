@@ -519,7 +519,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": ".317",
+                    "value": ".319",
                     "team": {
                         "id": 117,
                         "name": "Houston Astros",
@@ -631,7 +631,7 @@
                 }
             ],
             "statGroup": "hitting",
-            "totalSplits": 140
+            "totalSplits": 139
         },
         {
             "leaderCategory": "strikeouts",
@@ -754,7 +754,7 @@
                 },
                 {
                     "rank": 5,
-                    "value": "723",
+                    "value": "732",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -820,7 +820,35 @@
                     "numTeams": 1
                 },
                 {
-                    "rank": 2,
+                    "rank": 1,
+                    "value": ".217",
+                    "team": {
+                        "id": 147,
+                        "name": "New York Yankees",
+                        "link": "/api/v1/teams/147"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 669224,
+                        "fullName": "Austin Wells",
+                        "link": "/api/v1/people/669224",
+                        "firstName": "Austin",
+                        "lastName": "Wells"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 3,
                     "value": ".218",
                     "team": {
                         "id": 144,
@@ -848,63 +876,7 @@
                     "numTeams": 1
                 },
                 {
-                    "rank": 2,
-                    "value": ".218",
-                    "team": {
-                        "id": 147,
-                        "name": "New York Yankees",
-                        "link": "/api/v1/teams/147"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 669224,
-                        "fullName": "Austin Wells",
-                        "link": "/api/v1/people/669224",
-                        "firstName": "Austin",
-                        "lastName": "Wells"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
                     "rank": 4,
-                    "value": ".222",
-                    "team": {
-                        "id": 117,
-                        "name": "Houston Astros",
-                        "link": "/api/v1/teams/117"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 543877,
-                        "fullName": "Christian Vázquez",
-                        "link": "/api/v1/people/543877",
-                        "firstName": "Christian",
-                        "lastName": "Vázquez"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 5,
                     "value": ".225",
                     "team": {
                         "id": 119,
@@ -930,6 +902,34 @@
                     },
                     "season": "2026",
                     "numTeams": 2
+                },
+                {
+                    "rank": 4,
+                    "value": ".225",
+                    "team": {
+                        "id": 117,
+                        "name": "Houston Astros",
+                        "link": "/api/v1/teams/117"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 543877,
+                        "fullName": "Christian Vázquez",
+                        "link": "/api/v1/people/543877",
+                        "firstName": "Christian",
+                        "lastName": "Vázquez"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
                 }
             ],
             "statGroup": "catching",
@@ -1207,7 +1207,7 @@
                 },
                 {
                     "rank": 5,
-                    "value": "99",
+                    "value": "100",
                     "team": {
                         "id": 120,
                         "name": "Washington Nationals",
@@ -1548,7 +1548,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "2.89",
+                    "value": "2.87",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -2074,7 +2074,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 698
+            "totalSplits": 699
         }
     ]
 }

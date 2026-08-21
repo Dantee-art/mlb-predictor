@@ -10,7 +10,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "210",
+                    "value": "213",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -161,7 +161,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": ".151",
+                    "value": ".152",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -642,7 +642,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "968",
+                    "value": "971",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -1000,7 +1000,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": ".218",
+                    "value": ".219",
                     "team": {
                         "id": 144,
                         "name": "Atlanta Braves",
@@ -1330,7 +1330,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "161",
+                    "value": "162",
                     "team": {
                         "id": 144,
                         "name": "Atlanta Braves",
@@ -1397,7 +1397,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "1.75",
+                    "value": "1.71",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -1425,34 +1425,6 @@
                 },
                 {
                     "rank": 2,
-                    "value": "2.16",
-                    "team": {
-                        "id": 144,
-                        "name": "Atlanta Braves",
-                        "link": "/api/v1/teams/144"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 519242,
-                        "fullName": "Chris Sale",
-                        "link": "/api/v1/people/519242",
-                        "firstName": "Chris",
-                        "lastName": "Sale"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 3,
                     "value": "2.19",
                     "team": {
                         "id": 147,
@@ -1470,6 +1442,34 @@
                         "link": "/api/v1/people/693645",
                         "firstName": "Cam",
                         "lastName": "Schlittler"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 3,
+                    "value": "2.19",
+                    "team": {
+                        "id": 144,
+                        "name": "Atlanta Braves",
+                        "link": "/api/v1/teams/144"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 519242,
+                        "fullName": "Chris Sale",
+                        "link": "/api/v1/people/519242",
+                        "firstName": "Chris",
+                        "lastName": "Sale"
                     },
                     "sport": {
                         "id": 1,
@@ -1576,7 +1576,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "3.35",
+                    "value": "3.34",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",

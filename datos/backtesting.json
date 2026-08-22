@@ -1,21 +1,21 @@
 {
-  "total_partidos_evaluados": 348,
-  "total_aciertos": 205,
-  "total_errores": 143,
+  "total_partidos_evaluados": 350,
+  "total_aciertos": 206,
+  "total_errores": 144,
   "precision_general": 58.9,
   "error_general": 41.1,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 203,
+      "partidos": 204,
       "aciertos": 125,
-      "pct_acierto_real": 61.6
+      "pct_acierto_real": 61.3
     },
     {
       "rango": "60-70",
-      "partidos": 120,
-      "aciertos": 66,
-      "pct_acierto_real": 55.0
+      "partidos": 121,
+      "aciertos": 67,
+      "pct_acierto_real": 55.4
     },
     {
       "rango": "70-80",
@@ -37,6 +37,28 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823743",
+      "local": "Milwaukee Brewers",
+      "visitante": "Atlanta Braves",
+      "hora": "2026-08-22T18:10:00Z",
+      "probabilidad_local": 63.0,
+      "resultado": "local",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 1,
+      "acerto": true
+    },
+    {
+      "gamePk": "823509",
+      "local": "New York Yankees",
+      "visitante": "Toronto Blue Jays",
+      "hora": "2026-08-22T17:35:00Z",
+      "probabilidad_local": 58.1,
+      "resultado": "visitante",
+      "marcador_local_final": 3,
+      "marcador_visitante_final": 4,
+      "acerto": false
+    },
     {
       "gamePk": "823911",
       "local": "Los Angeles Dodgers",
@@ -564,28 +586,6 @@
       "marcador_local_final": 2,
       "marcador_visitante_final": 5,
       "acerto": false
-    },
-    {
-      "gamePk": "823341",
-      "local": "Pittsburgh Pirates",
-      "visitante": "Detroit Tigers",
-      "hora": "2026-08-18T22:40:00Z",
-      "probabilidad_local": 52.5,
-      "resultado": "local",
-      "marcador_local_final": 4,
-      "marcador_visitante_final": 1,
-      "acerto": true
-    },
-    {
-      "gamePk": "824398",
-      "local": "Cleveland Guardians",
-      "visitante": "San Francisco Giants",
-      "hora": "2026-08-18T22:40:00Z",
-      "probabilidad_local": 60.9,
-      "resultado": "local",
-      "marcador_local_final": 8,
-      "marcador_visitante_final": 1,
-      "acerto": true
     }
   ]
 }

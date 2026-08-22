@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 350,
-  "total_aciertos": 206,
+  "total_partidos_evaluados": 351,
+  "total_aciertos": 207,
   "total_errores": 144,
-  "precision_general": 58.9,
-  "error_general": 41.1,
+  "precision_general": 59.0,
+  "error_general": 41.0,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 204,
-      "aciertos": 125,
-      "pct_acierto_real": 61.3
+      "partidos": 205,
+      "aciertos": 126,
+      "pct_acierto_real": 61.5
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823831",
+      "local": "Miami Marlins",
+      "visitante": "Washington Nationals",
+      "hora": "2026-08-22T20:10:00Z",
+      "probabilidad_local": 59.7,
+      "resultado": "local",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 2,
+      "acerto": true
+    },
     {
       "gamePk": "823743",
       "local": "Milwaukee Brewers",
@@ -575,17 +586,6 @@
       "marcador_local_final": 9,
       "marcador_visitante_final": 4,
       "acerto": true
-    },
-    {
-      "gamePk": "823586",
-      "local": "New York Mets",
-      "visitante": "San Diego Padres",
-      "hora": "2026-08-18T23:10:00Z",
-      "probabilidad_local": 52.1,
-      "resultado": "visitante",
-      "marcador_local_final": 2,
-      "marcador_visitante_final": 5,
-      "acerto": false
     }
   ]
 }

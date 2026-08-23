@@ -4338,10 +4338,10 @@
     "probabilidad_local": 61.8,
     "pitcher_local": "Casey Mize",
     "pitcher_visitante": "Dean Kremer",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 7,
+    "marcador_visitante_final": 5,
+    "acerto": true
   },
   "823422": {
     "local": "Philadelphia Phillies",
@@ -4506,6 +4506,18 @@
     "probabilidad_local": 62.3,
     "pitcher_local": "Shane Drohan",
     "pitcher_visitante": "Tyler Mahle",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823909": {
+    "local": "Los Angeles Dodgers",
+    "visitante": "Pittsburgh Pirates",
+    "hora": "2026-08-23T20:10:00Z",
+    "probabilidad_local": 68.8,
+    "pitcher_local": "Blake Snell",
+    "pitcher_visitante": "Lake Bachar",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

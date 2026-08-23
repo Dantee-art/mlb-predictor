@@ -1,9 +1,9 @@
 {
-  "total_partidos_evaluados": 371,
-  "total_aciertos": 218,
+  "total_partidos_evaluados": 374,
+  "total_aciertos": 221,
   "total_errores": 153,
-  "precision_general": 58.8,
-  "error_general": 41.2,
+  "precision_general": 59.1,
+  "error_general": 40.9,
   "por_rango": [
     {
       "rango": "50-60",
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 131,
-      "aciertos": 73,
-      "pct_acierto_real": 55.7
+      "partidos": 134,
+      "aciertos": 76,
+      "pct_acierto_real": 56.7
     },
     {
       "rango": "70-80",
@@ -37,6 +37,39 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823909",
+      "local": "Los Angeles Dodgers",
+      "visitante": "Pittsburgh Pirates",
+      "hora": "2026-08-23T20:10:00Z",
+      "probabilidad_local": 68.8,
+      "resultado": "local",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 0,
+      "acerto": true
+    },
+    {
+      "gamePk": "824720",
+      "local": "Boston Red Sox",
+      "visitante": "San Francisco Giants",
+      "hora": "2026-08-23T19:15:00Z",
+      "probabilidad_local": 68.6,
+      "resultado": "local",
+      "marcador_local_final": 5,
+      "marcador_visitante_final": 4,
+      "acerto": true
+    },
+    {
+      "gamePk": "824315",
+      "local": "Colorado Rockies",
+      "visitante": "Cleveland Guardians",
+      "hora": "2026-08-23T19:10:00Z",
+      "probabilidad_local": 37.8,
+      "resultado": "visitante",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 7,
+      "acerto": true
+    },
     {
       "gamePk": "822856",
       "local": "Texas Rangers",
@@ -552,39 +585,6 @@
       "resultado": "visitante",
       "marcador_local_final": 9,
       "marcador_visitante_final": 10,
-      "acerto": true
-    },
-    {
-      "gamePk": "824318",
-      "local": "Colorado Rockies",
-      "visitante": "Los Angeles Dodgers",
-      "hora": "2026-08-20T00:40:00Z",
-      "probabilidad_local": 34.4,
-      "resultado": "visitante",
-      "marcador_local_final": 4,
-      "marcador_visitante_final": 6,
-      "acerto": true
-    },
-    {
-      "gamePk": "824155",
-      "local": "Houston Astros",
-      "visitante": "Los Angeles Angels",
-      "hora": "2026-08-20T00:10:00Z",
-      "probabilidad_local": 52.7,
-      "resultado": "local",
-      "marcador_local_final": 3,
-      "marcador_visitante_final": 2,
-      "acerto": true
-    },
-    {
-      "gamePk": "822860",
-      "local": "Texas Rangers",
-      "visitante": "Washington Nationals",
-      "hora": "2026-08-20T00:05:00Z",
-      "probabilidad_local": 47.5,
-      "resultado": "visitante",
-      "marcador_local_final": 0,
-      "marcador_visitante_final": 6,
       "acerto": true
     }
   ]

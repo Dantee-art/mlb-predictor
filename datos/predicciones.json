@@ -173,7 +173,7 @@
         "gamePk": 823909,
         "local": "Los Angeles Dodgers",
         "visitante": "Pittsburgh Pirates",
-        "estado": "Game Over",
+        "estado": "Final",
         "hora": "2026-08-23T20:10:00Z",
         "marcador_local": 4,
         "marcador_visitante": 0,
@@ -184,30 +184,30 @@
         "pitcher_local_id": 605483,
         "pitcher_visitante_id": 669199,
         "ballpark_factor": 0.896,
-        "probabilidad": 68.5
+        "probabilidad": 68.7
     },
     {
         "gamePk": 823099,
         "local": "Seattle Mariners",
         "visitante": "Chicago Cubs",
-        "estado": "In Progress",
+        "estado": "Final",
         "hora": "2026-08-23T20:10:00Z",
         "marcador_local": 2,
-        "marcador_visitante": 8,
-        "inning": 8,
-        "inning_estado": "Top",
+        "marcador_visitante": 19,
+        "inning": 9,
+        "inning_estado": "Bottom",
         "pitcher_local": "Bryce Miller",
         "pitcher_visitante": "Shota Imanaga",
         "pitcher_local_id": 682243,
         "pitcher_visitante_id": 684007,
         "ballpark_factor": 0.835,
-        "probabilidad": 47.7
+        "probabilidad": 46.5
     },
     {
         "gamePk": 823258,
         "local": "San Diego Padres",
         "visitante": "Minnesota Twins",
-        "estado": "In Progress",
+        "estado": "Final",
         "hora": "2026-08-23T20:10:00Z",
         "marcador_local": 8,
         "marcador_visitante": 1,
@@ -218,40 +218,40 @@
         "pitcher_local_id": 621111,
         "pitcher_visitante_id": 641927,
         "ballpark_factor": 0.869,
-        "probabilidad": 59.8
+        "probabilidad": 59.9
     },
     {
         "gamePk": 825043,
         "local": "Arizona Diamondbacks",
         "visitante": "Cincinnati Reds",
-        "estado": "In Progress",
+        "estado": "Final",
         "hora": "2026-08-23T20:15:00Z",
         "marcador_local": 5,
         "marcador_visitante": 3,
-        "inning": 8,
-        "inning_estado": "End",
+        "inning": 9,
+        "inning_estado": "Top",
         "pitcher_local": "Mitch Bratt",
         "pitcher_visitante": "Andrew Abbott",
         "pitcher_local_id": 683352,
         "pitcher_visitante_id": 671096,
         "ballpark_factor": 1.029,
-        "probabilidad": 58.2
+        "probabilidad": 58.3
     },
     {
         "gamePk": 823745,
         "local": "Milwaukee Brewers",
         "visitante": "Atlanta Braves",
-        "estado": "Warmup",
+        "estado": "In Progress",
         "hora": "2026-08-23T23:10:00Z",
         "marcador_local": 0,
-        "marcador_visitante": 0,
-        "inning": 1,
-        "inning_estado": "Top",
+        "marcador_visitante": 1,
+        "inning": 2,
+        "inning_estado": "Bottom",
         "pitcher_local": "Shane Drohan",
         "pitcher_visitante": "Tyler Mahle",
         "pitcher_local_id": 675660,
         "pitcher_visitante_id": 641816,
         "ballpark_factor": 0.998,
-        "probabilidad": 62.3
+        "probabilidad": 61.9
     }
 ]

@@ -1,9 +1,9 @@
 {
-  "total_partidos_evaluados": 377,
+  "total_partidos_evaluados": 378,
   "total_aciertos": 224,
-  "total_errores": 153,
-  "precision_general": 59.4,
-  "error_general": 40.6,
+  "total_errores": 154,
+  "precision_general": 59.3,
+  "error_general": 40.7,
   "por_rango": [
     {
       "rango": "50-60",
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 134,
+      "partidos": 135,
       "aciertos": 76,
-      "pct_acierto_real": 56.7
+      "pct_acierto_real": 56.3
     },
     {
       "rango": "70-80",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823745",
+      "local": "Milwaukee Brewers",
+      "visitante": "Atlanta Braves",
+      "hora": "2026-08-23T23:10:00Z",
+      "probabilidad_local": 62.3,
+      "resultado": "visitante",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 4,
+      "acerto": false
+    },
     {
       "gamePk": "825043",
       "local": "Arizona Diamondbacks",
@@ -575,17 +586,6 @@
       "marcador_local_final": 0,
       "marcador_visitante_final": 2,
       "acerto": false
-    },
-    {
-      "gamePk": "823747",
-      "local": "Milwaukee Brewers",
-      "visitante": "Seattle Mariners",
-      "hora": "2026-08-20T18:10:00Z",
-      "probabilidad_local": 64.4,
-      "resultado": "local",
-      "marcador_local_final": 7,
-      "marcador_visitante_final": 4,
-      "acerto": true
     }
   ]
 }

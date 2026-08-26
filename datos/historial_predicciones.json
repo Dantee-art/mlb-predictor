@@ -4674,10 +4674,10 @@
     "probabilidad_local": 64.8,
     "pitcher_local": "Will Warren",
     "pitcher_visitante": "Ethan Pecko",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 7,
+    "marcador_visitante_final": 9,
+    "acerto": false
   },
   "822773": {
     "local": "Toronto Blue Jays",
@@ -4698,10 +4698,10 @@
     "probabilidad_local": 34.2,
     "pitcher_local": "Zac Thornton",
     "pitcher_visitante": "Kyle Harrison",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 2,
+    "acerto": false
   },
   "824881": {
     "local": "Atlanta Braves",
@@ -4722,10 +4722,10 @@
     "probabilidad_local": 52.1,
     "pitcher_local": "Anthony Kay",
     "pitcher_visitante": "Jacob deGrom",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 11,
+    "marcador_visitante_final": 7,
+    "acerto": true
   },
   "823989": {
     "local": "Los Angeles Angels",
@@ -4818,10 +4818,10 @@
     "probabilidad_local": 55.8,
     "pitcher_local": "Matthew Liberatore",
     "pitcher_visitante": "Chris Bassitt",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 1,
+    "marcador_visitante_final": 13,
+    "acerto": false
   },
   "822693": {
     "local": "Washington Nationals",
@@ -4962,6 +4962,18 @@
     "probabilidad_local": 44.4,
     "pitcher_local": "J.T. Ginn",
     "pitcher_visitante": "Connor Prielipp",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "822692": {
+    "local": "Washington Nationals",
+    "visitante": "Colorado Rockies",
+    "hora": "2026-08-26T22:45:00Z",
+    "probabilidad_local": 63.9,
+    "pitcher_local": "Matt Waldron",
+    "pitcher_visitante": "Tanner Gordon",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

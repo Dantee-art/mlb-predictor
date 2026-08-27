@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 418,
-  "total_aciertos": 244,
+  "total_partidos_evaluados": 420,
+  "total_aciertos": 246,
   "total_errores": 174,
-  "precision_general": 58.4,
-  "error_general": 41.6,
+  "precision_general": 58.6,
+  "error_general": 41.4,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 248,
-      "aciertos": 150,
-      "pct_acierto_real": 60.5
+      "partidos": 250,
+      "aciertos": 152,
+      "pct_acierto_real": 60.8
     },
     {
       "rango": "60-70",
@@ -37,6 +37,28 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823014",
+      "local": "St. Louis Cardinals",
+      "visitante": "Baltimore Orioles",
+      "hora": "2026-08-27T18:15:00Z",
+      "probabilidad_local": 52.1,
+      "resultado": "local",
+      "marcador_local_final": 7,
+      "marcador_visitante_final": 5,
+      "acerto": true
+    },
+    {
+      "gamePk": "822694",
+      "local": "Washington Nationals",
+      "visitante": "Colorado Rockies",
+      "hora": "2026-08-27T17:05:00Z",
+      "probabilidad_local": 59.9,
+      "resultado": "local",
+      "marcador_local_final": 7,
+      "marcador_visitante_final": 1,
+      "acerto": true
+    },
     {
       "gamePk": "824963",
       "local": "Athletics",
@@ -563,28 +585,6 @@
       "resultado": "local",
       "marcador_local_final": 5,
       "marcador_visitante_final": 3,
-      "acerto": true
-    },
-    {
-      "gamePk": "824150",
-      "local": "Houston Astros",
-      "visitante": "Athletics",
-      "hora": "2026-08-23T18:10:00Z",
-      "probabilidad_local": 55.8,
-      "resultado": "visitante",
-      "marcador_local_final": 6,
-      "marcador_visitante_final": 7,
-      "acerto": false
-    },
-    {
-      "gamePk": "824558",
-      "local": "Chicago White Sox",
-      "visitante": "New York Mets",
-      "hora": "2026-08-23T18:10:00Z",
-      "probabilidad_local": 57.4,
-      "resultado": "local",
-      "marcador_local_final": 2,
-      "marcador_visitante_final": 1,
       "acerto": true
     }
   ]

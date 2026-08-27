@@ -5022,10 +5022,10 @@
     "probabilidad_local": 59.9,
     "pitcher_local": "Jake Irvin",
     "pitcher_visitante": "Gabriel Hughes",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 7,
+    "marcador_visitante_final": 1,
+    "acerto": true
   },
   "823503": {
     "local": "New York Yankees",
@@ -5086,5 +5086,17 @@
     "marcador_local_final": null,
     "marcador_visitante_final": null,
     "acerto": null
+  },
+  "823014": {
+    "local": "St. Louis Cardinals",
+    "visitante": "Baltimore Orioles",
+    "hora": "2026-08-27T18:15:00Z",
+    "probabilidad_local": 52.1,
+    "pitcher_local": "Gordon Graceffo",
+    "pitcher_visitante": "Trevor Rogers",
+    "resultado": "local",
+    "marcador_local_final": 7,
+    "marcador_visitante_final": 5,
+    "acerto": true
   }
 }

@@ -3,18 +3,18 @@
         "gamePk": 823539,
         "local": "New York Yankees",
         "visitante": "Boston Red Sox",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-08-29T17:05:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Carlos Rodón",
         "pitcher_visitante": "Jake Bennett",
         "pitcher_local_id": 607074,
         "pitcher_visitante_id": 687562,
-        "ballpark_factor": 1.152,
-        "probabilidad": 54.2
+        "ballpark_factor": 1.136,
+        "probabilidad": 54.1
     },
     {
         "gamePk": 823501,
@@ -30,31 +30,31 @@
         "pitcher_visitante": "Sin anunciar",
         "pitcher_local_id": 608331,
         "pitcher_visitante_id": null,
-        "ballpark_factor": 1.152,
-        "probabilidad": 58.9
+        "ballpark_factor": 1.136,
+        "probabilidad": 58.8
     },
     {
         "gamePk": 824230,
         "local": "Detroit Tigers",
         "visitante": "Los Angeles Dodgers",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-08-29T17:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Keider Montero",
         "pitcher_visitante": "Blake Snell",
         "pitcher_local_id": 672456,
         "pitcher_visitante_id": 605483,
-        "ballpark_factor": 0.955,
+        "ballpark_factor": 0.946,
         "probabilidad": 41.0
     },
     {
         "gamePk": 823665,
         "local": "Minnesota Twins",
         "visitante": "Chicago White Sox",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-08-29T18:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
@@ -64,7 +64,7 @@
         "pitcher_visitante": "Erick Fedde",
         "pitcher_local_id": 641927,
         "pitcher_visitante_id": 607200,
-        "ballpark_factor": 0.882,
+        "ballpark_factor": 0.885,
         "probabilidad": 49.1
     },
     {
@@ -81,14 +81,14 @@
         "pitcher_visitante": "Lake Bachar",
         "pitcher_local_id": 681517,
         "pitcher_visitante_id": 669199,
-        "ballpark_factor": 0.871,
-        "probabilidad": 53.0
+        "ballpark_factor": 0.866,
+        "probabilidad": 52.9
     },
     {
         "gamePk": 824637,
         "local": "Chicago Cubs",
         "visitante": "Cincinnati Reds",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-08-29T18:20:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
@@ -98,7 +98,7 @@
         "pitcher_visitante": "Andrew Abbott",
         "pitcher_local_id": 592332,
         "pitcher_visitante_id": 671096,
-        "ballpark_factor": 0.97,
+        "ballpark_factor": 0.984,
         "probabilidad": 69.0
     },
     {
@@ -115,8 +115,8 @@
         "pitcher_visitante": "Kade Anderson",
         "pitcher_local_id": 667755,
         "pitcher_visitante_id": 807739,
-        "ballpark_factor": 0.979,
-        "probabilidad": 62.9
+        "ballpark_factor": 0.98,
+        "probabilidad": 62.8
     },
     {
         "gamePk": 823177,
@@ -132,8 +132,8 @@
         "pitcher_visitante": "Merrill Kelly",
         "pitcher_local_id": null,
         "pitcher_visitante_id": 518876,
-        "ballpark_factor": 0.96,
-        "probabilidad": 55.8
+        "ballpark_factor": 0.972,
+        "probabilidad": 55.7
     },
     {
         "gamePk": 823176,
@@ -149,7 +149,7 @@
         "pitcher_visitante": "Mitch Bratt",
         "pitcher_local_id": null,
         "pitcher_visitante_id": 683352,
-        "ballpark_factor": 0.96,
+        "ballpark_factor": 0.972,
         "probabilidad": 54.2
     },
     {
@@ -167,7 +167,7 @@
         "pitcher_local_id": 676917,
         "pitcher_visitante_id": 645261,
         "ballpark_factor": 1.175,
-        "probabilidad": 54.2
+        "probabilidad": 54.1
     },
     {
         "gamePk": 824392,
@@ -183,7 +183,7 @@
         "pitcher_visitante": "Daniel Lynch IV",
         "pitcher_local_id": 656492,
         "pitcher_visitante_id": 663738,
-        "ballpark_factor": 1.054,
+        "ballpark_factor": 1.044,
         "probabilidad": 60.7
     },
     {
@@ -200,7 +200,7 @@
         "pitcher_visitante": "Bennett Sousa",
         "pitcher_local_id": 690997,
         "pitcher_visitante_id": 656986,
-        "ballpark_factor": 1.005,
+        "ballpark_factor": 0.997,
         "probabilidad": 57.8
     },
     {
@@ -217,7 +217,7 @@
         "pitcher_visitante": "Walker Buehler",
         "pitcher_local_id": 607259,
         "pitcher_visitante_id": 621111,
-        "ballpark_factor": 1.01,
+        "ballpark_factor": 1.017,
         "probabilidad": 57.1
     },
     {
@@ -234,8 +234,8 @@
         "pitcher_visitante": "Ryan Feltner",
         "pitcher_local_id": 527048,
         "pitcher_visitante_id": 663372,
-        "ballpark_factor": 1.062,
-        "probabilidad": 75.2
+        "ballpark_factor": 1.064,
+        "probabilidad": 75.1
     },
     {
         "gamePk": 823741,
@@ -251,8 +251,8 @@
         "pitcher_visitante": "Cal Quantrill",
         "pitcher_local_id": 675660,
         "pitcher_visitante_id": 615698,
-        "ballpark_factor": 0.997,
-        "probabilidad": 71.3
+        "ballpark_factor": 0.994,
+        "probabilidad": 71.2
     },
     {
         "gamePk": 824961,
@@ -286,6 +286,6 @@
         "pitcher_local_id": 696270,
         "pitcher_visitante_id": 650911,
         "ballpark_factor": 0.814,
-        "probabilidad": 32.8
+        "probabilidad": 32.7
     }
 ]

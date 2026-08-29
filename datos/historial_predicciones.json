@@ -5238,10 +5238,10 @@
     "probabilidad_local": 52.7,
     "pitcher_local": "Reid Detmers",
     "pitcher_visitante": "Andrew Painter",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 5,
+    "acerto": false
   },
   "823178": {
     "local": "San Francisco Giants",
@@ -5250,10 +5250,10 @@
     "probabilidad_local": 55.8,
     "pitcher_local": "Blade Tidwell",
     "pitcher_visitante": "Kohl Drake",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 6,
+    "marcador_visitante_final": 10,
+    "acerto": false
   },
   "822769": {
     "local": "Toronto Blue Jays",
@@ -5274,10 +5274,10 @@
     "probabilidad_local": 41.1,
     "pitcher_local": "Jacob Lopez",
     "pitcher_visitante": "Brandon Young",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 4,
+    "acerto": true
   },
   "823539": {
     "local": "New York Yankees",
@@ -5418,6 +5418,30 @@
     "probabilidad_local": 33.3,
     "pitcher_local": "Ryan Johnson",
     "pitcher_visitante": "Cristopher Sánchez",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823011": {
+    "local": "St. Louis Cardinals",
+    "visitante": "Pittsburgh Pirates",
+    "hora": "2026-08-29T18:15:00Z",
+    "probabilidad_local": 53.0,
+    "pitcher_local": "Kyle Leahy",
+    "pitcher_visitante": "Lake Bachar",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824961": {
+    "local": "Athletics",
+    "visitante": "Baltimore Orioles",
+    "hora": "2026-08-30T02:05:00Z",
+    "probabilidad_local": 40.7,
+    "pitcher_local": "Jack Perkins",
+    "pitcher_visitante": "Shane Baz",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

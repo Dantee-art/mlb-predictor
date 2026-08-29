@@ -5346,10 +5346,10 @@
     "probabilidad_local": 54.2,
     "pitcher_local": "Cade Cavalli",
     "pitcher_visitante": "Sandy Alcantara",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 5,
+    "marcador_visitante_final": 4,
+    "acerto": true
   },
   "824392": {
     "local": "Cleveland Guardians",
@@ -5382,10 +5382,10 @@
     "probabilidad_local": 57.1,
     "pitcher_local": "Nick Martinez",
     "pitcher_visitante": "Walker Buehler",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 7,
+    "marcador_visitante_final": 6,
+    "acerto": true
   },
   "824874": {
     "local": "Atlanta Braves",
@@ -5394,10 +5394,10 @@
     "probabilidad_local": 75.2,
     "pitcher_local": "Martín Pérez",
     "pitcher_visitante": "Ryan Feltner",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 2,
+    "marcador_visitante_final": 1,
+    "acerto": true
   },
   "823741": {
     "local": "Milwaukee Brewers",
@@ -5466,6 +5466,18 @@
     "probabilidad_local": 55.9,
     "pitcher_local": "Max Fried",
     "pitcher_visitante": "Alec Gamboa",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823176": {
+    "local": "San Francisco Giants",
+    "visitante": "Arizona Diamondbacks",
+    "hora": "2026-08-30T02:05:00Z",
+    "probabilidad_local": 53.5,
+    "pitcher_local": "Yunior Marte",
+    "pitcher_visitante": "Mitch Bratt",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

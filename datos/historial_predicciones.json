@@ -5286,10 +5286,10 @@
     "probabilidad_local": 54.2,
     "pitcher_local": "Carlos Rodón",
     "pitcher_visitante": "Jake Bennett",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 0,
+    "marcador_visitante_final": 6,
+    "acerto": false
   },
   "824230": {
     "local": "Detroit Tigers",
@@ -5298,10 +5298,10 @@
     "probabilidad_local": 41.0,
     "pitcher_local": "Keider Montero",
     "pitcher_visitante": "Blake Snell",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 2,
+    "marcador_visitante_final": 1,
+    "acerto": false
   },
   "823665": {
     "local": "Minnesota Twins",
@@ -5310,10 +5310,10 @@
     "probabilidad_local": 49.1,
     "pitcher_local": "Bailey Ober",
     "pitcher_visitante": "Erick Fedde",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 2,
+    "marcador_visitante_final": 3,
+    "acerto": true
   },
   "824637": {
     "local": "Chicago Cubs",
@@ -5322,10 +5322,10 @@
     "probabilidad_local": 69.0,
     "pitcher_local": "Kevin Gausman",
     "pitcher_visitante": "Andrew Abbott",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 17,
+    "marcador_visitante_final": 5,
+    "acerto": true
   },
   "822770": {
     "local": "Toronto Blue Jays",
@@ -5430,10 +5430,10 @@
     "probabilidad_local": 53.0,
     "pitcher_local": "Kyle Leahy",
     "pitcher_visitante": "Lake Bachar",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 2,
+    "marcador_visitante_final": 6,
+    "acerto": false
   },
   "824961": {
     "local": "Athletics",
@@ -5454,6 +5454,18 @@
     "probabilidad_local": 51.7,
     "pitcher_local": "Matt Wilkinson",
     "pitcher_visitante": "Merrill Kelly",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823501": {
+    "local": "New York Yankees",
+    "visitante": "Boston Red Sox",
+    "hora": "2026-08-29T23:15:00Z",
+    "probabilidad_local": 55.9,
+    "pitcher_local": "Max Fried",
+    "pitcher_visitante": "Alec Gamboa",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

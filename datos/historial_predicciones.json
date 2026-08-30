@@ -5406,10 +5406,10 @@
     "probabilidad_local": 71.3,
     "pitcher_local": "Shane Drohan",
     "pitcher_visitante": "Cal Quantrill",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 5,
+    "marcador_visitante_final": 3,
+    "acerto": true
   },
   "823986": {
     "local": "Los Angeles Angels",
@@ -5418,10 +5418,10 @@
     "probabilidad_local": 33.3,
     "pitcher_local": "Ryan Johnson",
     "pitcher_visitante": "Cristopher Sánchez",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 2,
+    "marcador_visitante_final": 4,
+    "acerto": true
   },
   "823011": {
     "local": "St. Louis Cardinals",
@@ -5442,10 +5442,10 @@
     "probabilidad_local": 40.7,
     "pitcher_local": "Jack Perkins",
     "pitcher_visitante": "Shane Baz",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 5,
+    "acerto": true
   },
   "823177": {
     "local": "San Francisco Giants",
@@ -5466,10 +5466,10 @@
     "probabilidad_local": 55.9,
     "pitcher_local": "Max Fried",
     "pitcher_visitante": "Alec Gamboa",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 9,
+    "marcador_visitante_final": 2,
+    "acerto": true
   },
   "823176": {
     "local": "San Francisco Giants",
@@ -5478,10 +5478,10 @@
     "probabilidad_local": 53.5,
     "pitcher_local": "Yunior Marte",
     "pitcher_visitante": "Mitch Bratt",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 7,
+    "marcador_visitante_final": 2,
+    "acerto": true
   },
   "822688": {
     "local": "Washington Nationals",
@@ -5634,6 +5634,18 @@
     "probabilidad_local": 61.0,
     "pitcher_local": "Shota Imanaga",
     "pitcher_visitante": "Chase Burns",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824959": {
+    "local": "Athletics",
+    "visitante": "Baltimore Orioles",
+    "hora": "2026-08-30T20:05:00Z",
+    "probabilidad_local": 36.7,
+    "pitcher_local": "Jeffrey Springs",
+    "pitcher_visitante": "Chris Bassitt",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

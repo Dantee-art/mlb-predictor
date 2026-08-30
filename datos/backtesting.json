@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 457,
+  "total_partidos_evaluados": 458,
   "total_aciertos": 269,
-  "total_errores": 188,
-  "precision_general": 58.9,
-  "error_general": 41.1,
+  "total_errores": 189,
+  "precision_general": 58.7,
+  "error_general": 41.3,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 275,
+      "partidos": 276,
       "aciertos": 166,
-      "pct_acierto_real": 60.4
+      "pct_acierto_real": 60.1
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "822688",
+      "local": "Washington Nationals",
+      "visitante": "Miami Marlins",
+      "hora": "2026-08-30T16:15:00Z",
+      "probabilidad_local": 53.9,
+      "resultado": "visitante",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 6,
+      "acerto": false
+    },
     {
       "gamePk": "823986",
       "local": "Los Angeles Angels",
@@ -575,17 +586,6 @@
       "marcador_local_final": 0,
       "marcador_visitante_final": 6,
       "acerto": true
-    },
-    {
-      "gamePk": "823255",
-      "local": "San Diego Padres",
-      "visitante": "Pittsburgh Pirates",
-      "hora": "2026-08-26T20:10:00Z",
-      "probabilidad_local": 49.6,
-      "resultado": "local",
-      "marcador_local_final": 3,
-      "marcador_visitante_final": 0,
-      "acerto": false
     }
   ]
 }

@@ -298,10 +298,38 @@
                     },
                     "season": "2026",
                     "numTeams": 1
+                },
+                {
+                    "rank": 5,
+                    "value": ".203",
+                    "team": {
+                        "id": 139,
+                        "name": "Tampa Bay Rays",
+                        "link": "/api/v1/teams/139"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 656876,
+                        "fullName": "Drew Rasmussen",
+                        "link": "/api/v1/people/656876",
+                        "firstName": "Drew",
+                        "lastName": "Rasmussen"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 54
+            "totalSplits": 53
         },
         {
             "leaderCategory": "homeRuns",
@@ -370,34 +398,6 @@
                     "rank": 2,
                     "value": "37",
                     "team": {
-                        "id": 144,
-                        "name": "Atlanta Braves",
-                        "link": "/api/v1/teams/144"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 621566,
-                        "fullName": "Matt Olson",
-                        "link": "/api/v1/people/621566",
-                        "firstName": "Matt",
-                        "lastName": "Olson"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 4,
-                    "value": "36",
-                    "team": {
                         "id": 139,
                         "name": "Tampa Bay Rays",
                         "link": "/api/v1/teams/139"
@@ -423,7 +423,35 @@
                     "numTeams": 1
                 },
                 {
-                    "rank": 4,
+                    "rank": 2,
+                    "value": "37",
+                    "team": {
+                        "id": 144,
+                        "name": "Atlanta Braves",
+                        "link": "/api/v1/teams/144"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 621566,
+                        "fullName": "Matt Olson",
+                        "link": "/api/v1/people/621566",
+                        "firstName": "Matt",
+                        "lastName": "Olson"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 5,
                     "value": "36",
                     "team": {
                         "id": 112,
@@ -451,7 +479,7 @@
                     "numTeams": 1
                 },
                 {
-                    "rank": 4,
+                    "rank": 5,
                     "value": "36",
                     "team": {
                         "id": 115,
@@ -491,7 +519,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": ".320",
+                    "value": ".319",
                     "team": {
                         "id": 117,
                         "name": "Houston Astros",
@@ -547,7 +575,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": ".311",
+                    "value": ".310",
                     "team": {
                         "id": 139,
                         "name": "Tampa Bay Rays",
@@ -698,7 +726,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": "793",
+                    "value": "794",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -726,7 +754,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "772",
+                    "value": "777",
                     "team": {
                         "id": 116,
                         "name": "Detroit Tigers",
@@ -972,7 +1000,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "99",
+                    "value": "100",
                     "team": {
                         "id": 138,
                         "name": "St. Louis Cardinals",
@@ -1509,7 +1537,7 @@
                 },
                 {
                     "rank": 5,
-                    "value": "2.50",
+                    "value": "2.46",
                     "team": {
                         "id": 114,
                         "name": "Cleveland Guardians",
@@ -1537,7 +1565,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 54
+            "totalSplits": 53
         },
         {
             "leaderCategory": "earnedRunAverage",
@@ -1548,7 +1576,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "2.94",
+                    "value": "2.95",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -1660,7 +1688,7 @@
                 },
                 {
                     "rank": 5,
-                    "value": "3.55",
+                    "value": "3.57",
                     "team": {
                         "id": 121,
                         "name": "New York Mets",
@@ -1895,7 +1923,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 509
+            "totalSplits": 510
         },
         {
             "leaderCategory": "homeRuns",

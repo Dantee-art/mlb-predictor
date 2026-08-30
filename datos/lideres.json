@@ -519,7 +519,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": ".319",
+                    "value": ".317",
                     "team": {
                         "id": 117,
                         "name": "Houston Astros",
@@ -575,7 +575,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": ".310",
+                    "value": ".309",
                     "team": {
                         "id": 139,
                         "name": "Tampa Bay Rays",
@@ -698,7 +698,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "1001",
+                    "value": "1009",
                     "team": {
                         "id": 143,
                         "name": "Philadelphia Phillies",
@@ -754,7 +754,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "777",
+                    "value": "781",
                     "team": {
                         "id": 116,
                         "name": "Detroit Tigers",
@@ -1302,7 +1302,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "183",
+                    "value": "184",
                     "team": {
                         "id": 145,
                         "name": "Chicago White Sox",
@@ -1358,6 +1358,34 @@
                 },
                 {
                     "rank": 4,
+                    "value": "171",
+                    "team": {
+                        "id": 144,
+                        "name": "Atlanta Braves",
+                        "link": "/api/v1/teams/144"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 663586,
+                        "fullName": "Austin Riley",
+                        "link": "/api/v1/people/663586",
+                        "firstName": "Austin",
+                        "lastName": "Riley"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 5,
                     "value": "170",
                     "team": {
                         "id": 112,
@@ -1375,34 +1403,6 @@
                         "link": "/api/v1/people/664023",
                         "firstName": "Ian",
                         "lastName": "Happ"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 4,
-                    "value": "170",
-                    "team": {
-                        "id": 144,
-                        "name": "Atlanta Braves",
-                        "link": "/api/v1/teams/144"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 663586,
-                        "fullName": "Austin Riley",
-                        "link": "/api/v1/people/663586",
-                        "firstName": "Austin",
-                        "lastName": "Riley"
                     },
                     "sport": {
                         "id": 1,
@@ -1576,7 +1576,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "2.95",
+                    "value": "2.94",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -1688,7 +1688,7 @@
                 },
                 {
                     "rank": 5,
-                    "value": "3.57",
+                    "value": "3.58",
                     "team": {
                         "id": 121,
                         "name": "New York Mets",
@@ -1813,6 +1813,34 @@
                     "rank": 4,
                     "value": "14",
                     "team": {
+                        "id": 134,
+                        "name": "Pittsburgh Pirates",
+                        "link": "/api/v1/teams/134"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 677952,
+                        "fullName": "Braxton Ashcraft",
+                        "link": "/api/v1/people/677952",
+                        "firstName": "Braxton",
+                        "lastName": "Ashcraft"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 4,
+                    "value": "14",
+                    "team": {
                         "id": 113,
                         "name": "Cincinnati Reds",
                         "link": "/api/v1/teams/113"
@@ -1923,7 +1951,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 510
+            "totalSplits": 511
         },
         {
             "leaderCategory": "homeRuns",
@@ -1934,6 +1962,34 @@
             "leaders": [
                 {
                     "rank": 1,
+                    "value": "33",
+                    "team": {
+                        "id": 133,
+                        "name": "Athletics",
+                        "link": "/api/v1/teams/133"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 605488,
+                        "fullName": "Jeffrey Springs",
+                        "link": "/api/v1/people/605488",
+                        "firstName": "Jeffrey",
+                        "lastName": "Springs"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 2,
                     "value": "32",
                     "team": {
                         "id": 143,
@@ -1961,7 +2017,7 @@
                     "numTeams": 1
                 },
                 {
-                    "rank": 2,
+                    "rank": 3,
                     "value": "30",
                     "team": {
                         "id": 112,
@@ -1989,7 +2045,7 @@
                     "numTeams": 1
                 },
                 {
-                    "rank": 2,
+                    "rank": 3,
                     "value": "30",
                     "team": {
                         "id": 109,
@@ -2015,34 +2071,6 @@
                     },
                     "season": "2026",
                     "numTeams": 2
-                },
-                {
-                    "rank": 2,
-                    "value": "30",
-                    "team": {
-                        "id": 133,
-                        "name": "Athletics",
-                        "link": "/api/v1/teams/133"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 605488,
-                        "fullName": "Jeffrey Springs",
-                        "link": "/api/v1/people/605488",
-                        "firstName": "Jeffrey",
-                        "lastName": "Springs"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
                 },
                 {
                     "rank": 5,
@@ -2130,7 +2158,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 718
+            "totalSplits": 719
         }
     ]
 }

@@ -1,21 +1,21 @@
 {
-  "total_partidos_evaluados": 468,
-  "total_aciertos": 274,
+  "total_partidos_evaluados": 470,
+  "total_aciertos": 276,
   "total_errores": 194,
-  "precision_general": 58.5,
-  "error_general": 41.5,
+  "precision_general": 58.7,
+  "error_general": 41.3,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 281,
-      "aciertos": 168,
-      "pct_acierto_real": 59.8
+      "partidos": 282,
+      "aciertos": 169,
+      "pct_acierto_real": 59.9
     },
     {
       "rango": "60-70",
-      "partidos": 154,
-      "aciertos": 85,
-      "pct_acierto_real": 55.2
+      "partidos": 155,
+      "aciertos": 86,
+      "pct_acierto_real": 55.5
     },
     {
       "rango": "70-80",
@@ -37,6 +37,28 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823987",
+      "local": "Los Angeles Angels",
+      "visitante": "Philadelphia Phillies",
+      "hora": "2026-08-30T20:07:00Z",
+      "probabilidad_local": 42.1,
+      "resultado": "visitante",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 5,
+      "acerto": true
+    },
+    {
+      "gamePk": "824959",
+      "local": "Athletics",
+      "visitante": "Baltimore Orioles",
+      "hora": "2026-08-30T20:05:00Z",
+      "probabilidad_local": 36.7,
+      "resultado": "visitante",
+      "marcador_local_final": 5,
+      "marcador_visitante_final": 8,
+      "acerto": true
+    },
     {
       "gamePk": "823580",
       "local": "New York Mets",
@@ -564,28 +586,6 @@
       "marcador_local_final": 1,
       "marcador_visitante_final": 5,
       "acerto": false
-    },
-    {
-      "gamePk": "823014",
-      "local": "St. Louis Cardinals",
-      "visitante": "Baltimore Orioles",
-      "hora": "2026-08-27T18:15:00Z",
-      "probabilidad_local": 52.1,
-      "resultado": "local",
-      "marcador_local_final": 7,
-      "marcador_visitante_final": 5,
-      "acerto": true
-    },
-    {
-      "gamePk": "822694",
-      "local": "Washington Nationals",
-      "visitante": "Colorado Rockies",
-      "hora": "2026-08-27T17:05:00Z",
-      "probabilidad_local": 59.9,
-      "resultado": "local",
-      "marcador_local_final": 7,
-      "marcador_visitante_final": 1,
-      "acerto": true
     }
   ]
 }

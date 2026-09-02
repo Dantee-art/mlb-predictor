@@ -3,34 +3,34 @@
         "gamePk": 824470,
         "local": "Cincinnati Reds",
         "visitante": "San Diego Padres",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-02T16:40:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Brandon Williamson",
         "pitcher_visitante": "Casey Mize",
         "pitcher_local_id": 682227,
         "pitcher_visitante_id": 663554,
-        "ballpark_factor": 0.898,
-        "probabilidad": 36.4
+        "ballpark_factor": 0.896,
+        "probabilidad": 36.3
     },
     {
         "gamePk": 822686,
         "local": "Washington Nationals",
         "visitante": "Atlanta Braves",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-02T17:05:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Brad Lord",
         "pitcher_visitante": "Grant Holmes",
         "pitcher_local_id": 695418,
         "pitcher_visitante_id": 656550,
-        "ballpark_factor": 1.164,
+        "ballpark_factor": 1.169,
         "probabilidad": 48.9
     },
     {
@@ -47,8 +47,8 @@
         "pitcher_visitante": "Jacob Lopez",
         "pitcher_local_id": 674003,
         "pitcher_visitante_id": 682052,
-        "ballpark_factor": 0.885,
-        "probabilidad": 65.9
+        "ballpark_factor": 0.893,
+        "probabilidad": 66.1
     },
     {
         "gamePk": 824312,
@@ -64,8 +64,8 @@
         "pitcher_visitante": "Trevor Rogers",
         "pitcher_local_id": 608372,
         "pitcher_visitante_id": 669432,
-        "ballpark_factor": 1.158,
-        "probabilidad": 38.8
+        "ballpark_factor": 1.15,
+        "probabilidad": 38.7
     },
     {
         "gamePk": 825037,
@@ -81,7 +81,7 @@
         "pitcher_visitante": "Andrew Painter",
         "pitcher_local_id": 664199,
         "pitcher_visitante_id": 691725,
-        "ballpark_factor": 0.995,
+        "ballpark_factor": 0.994,
         "probabilidad": 51.4
     },
     {
@@ -98,8 +98,8 @@
         "pitcher_visitante": "Bryce Miller",
         "pitcher_local_id": 663776,
         "pitcher_visitante_id": 682243,
-        "ballpark_factor": 1.062,
-        "probabilidad": 63.5
+        "ballpark_factor": 1.073,
+        "probabilidad": 63.6
     },
     {
         "gamePk": 823339,
@@ -111,12 +111,12 @@
         "marcador_visitante": 0,
         "inning": null,
         "inning_estado": null,
-        "pitcher_local": "Jared Jones",
+        "pitcher_local": "Bubba Chandler",
         "pitcher_visitante": "Landen Roupp",
-        "pitcher_local_id": 683003,
+        "pitcher_local_id": 696149,
         "pitcher_visitante_id": 694738,
-        "ballpark_factor": 1.192,
-        "probabilidad": 60.6
+        "ballpark_factor": 1.217,
+        "probabilidad": 59.9
     },
     {
         "gamePk": 822931,
@@ -132,8 +132,8 @@
         "pitcher_visitante": "Justin Hagenman",
         "pitcher_local_id": 643377,
         "pitcher_visitante_id": 663795,
-        "ballpark_factor": 1.019,
-        "probabilidad": 61.8
+        "ballpark_factor": 1.018,
+        "probabilidad": 61.9
     },
     {
         "gamePk": 824390,
@@ -149,7 +149,7 @@
         "pitcher_visitante": "Dylan Cease",
         "pitcher_local_id": 676282,
         "pitcher_visitante_id": 656302,
-        "ballpark_factor": 1.056,
+        "ballpark_factor": 1.053,
         "probabilidad": 50.9
     },
     {
@@ -166,7 +166,7 @@
         "pitcher_visitante": "Drew Anderson",
         "pitcher_local_id": 665152,
         "pitcher_visitante_id": 623454,
-        "ballpark_factor": 0.879,
+        "ballpark_factor": 0.89,
         "probabilidad": 43.7
     },
     {
@@ -183,7 +183,7 @@
         "pitcher_visitante": "Eury Pérez",
         "pitcher_local_id": 702070,
         "pitcher_visitante_id": 691587,
-        "ballpark_factor": 1.117,
+        "ballpark_factor": 1.116,
         "probabilidad": 44.4
     },
     {
@@ -200,8 +200,8 @@
         "pitcher_visitante": "Jacob Misiorowski",
         "pitcher_local_id": 656849,
         "pitcher_visitante_id": 694819,
-        "ballpark_factor": 1.023,
-        "probabilidad": 36.9
+        "ballpark_factor": 1.027,
+        "probabilidad": 36.8
     },
     {
         "gamePk": 824147,
@@ -217,7 +217,7 @@
         "pitcher_visitante": "Davis Martin",
         "pitcher_local_id": 669713,
         "pitcher_visitante_id": 663436,
-        "ballpark_factor": 0.979,
+        "ballpark_factor": 0.974,
         "probabilidad": 47.8
     },
     {
@@ -234,8 +234,8 @@
         "pitcher_visitante": "Cam Schlittler",
         "pitcher_local_id": 672282,
         "pitcher_visitante_id": 693645,
-        "ballpark_factor": 0.814,
-        "probabilidad": 36.6
+        "ballpark_factor": 0.818,
+        "probabilidad": 36.5
     },
     {
         "gamePk": 823906,
@@ -251,7 +251,7 @@
         "pitcher_visitante": "Sin anunciar",
         "pitcher_local_id": 808967,
         "pitcher_visitante_id": null,
-        "ballpark_factor": 0.923,
-        "probabilidad": 67.6
+        "ballpark_factor": 0.944,
+        "probabilidad": 67.8
     }
 ]

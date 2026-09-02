@@ -1,21 +1,21 @@
 {
-  "total_partidos_evaluados": 483,
-  "total_aciertos": 281,
+  "total_partidos_evaluados": 485,
+  "total_aciertos": 283,
   "total_errores": 202,
-  "precision_general": 58.2,
-  "error_general": 41.8,
+  "precision_general": 58.4,
+  "error_general": 41.6,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 290,
-      "aciertos": 172,
-      "pct_acierto_real": 59.3
+      "partidos": 291,
+      "aciertos": 173,
+      "pct_acierto_real": 59.5
     },
     {
       "rango": "60-70",
-      "partidos": 160,
-      "aciertos": 88,
-      "pct_acierto_real": 55.0
+      "partidos": 161,
+      "aciertos": 89,
+      "pct_acierto_real": 55.3
     },
     {
       "rango": "70-80",
@@ -37,6 +37,28 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "822929",
+      "local": "Tampa Bay Rays",
+      "visitante": "New York Mets",
+      "hora": "2026-09-01T22:40:00Z",
+      "probabilidad_local": 58.8,
+      "resultado": "local",
+      "marcador_local_final": 6,
+      "marcador_visitante_final": 2,
+      "acerto": true
+    },
+    {
+      "gamePk": "824391",
+      "local": "Cleveland Guardians",
+      "visitante": "Toronto Blue Jays",
+      "hora": "2026-09-01T22:40:00Z",
+      "probabilidad_local": 61.8,
+      "resultado": "local",
+      "marcador_local_final": 6,
+      "marcador_visitante_final": 1,
+      "acerto": true
+    },
     {
       "gamePk": "825040",
       "local": "Arizona Diamondbacks",
@@ -563,28 +585,6 @@
       "resultado": "visitante",
       "marcador_local_final": 4,
       "marcador_visitante_final": 7,
-      "acerto": true
-    },
-    {
-      "gamePk": "823744",
-      "local": "Milwaukee Brewers",
-      "visitante": "Texas Rangers",
-      "hora": "2026-08-28T23:40:00Z",
-      "probabilidad_local": 71.6,
-      "resultado": "local",
-      "marcador_local_final": 6,
-      "marcador_visitante_final": 1,
-      "acerto": true
-    },
-    {
-      "gamePk": "824877",
-      "local": "Atlanta Braves",
-      "visitante": "Colorado Rockies",
-      "hora": "2026-08-28T23:15:00Z",
-      "probabilidad_local": 73.2,
-      "resultado": "local",
-      "marcador_local_final": 6,
-      "marcador_visitante_final": 4,
       "acerto": true
     }
   ]

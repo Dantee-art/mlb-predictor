@@ -1,21 +1,21 @@
 {
-  "total_partidos_evaluados": 498,
-  "total_aciertos": 291,
-  "total_errores": 207,
+  "total_partidos_evaluados": 500,
+  "total_aciertos": 292,
+  "total_errores": 208,
   "precision_general": 58.4,
   "error_general": 41.6,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 298,
-      "aciertos": 176,
-      "pct_acierto_real": 59.1
+      "partidos": 299,
+      "aciertos": 177,
+      "pct_acierto_real": 59.2
     },
     {
       "rango": "60-70",
-      "partidos": 166,
+      "partidos": 167,
       "aciertos": 93,
-      "pct_acierto_real": 56.0
+      "pct_acierto_real": 55.7
     },
     {
       "rango": "70-80",
@@ -37,6 +37,28 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "822686",
+      "local": "Washington Nationals",
+      "visitante": "Atlanta Braves",
+      "hora": "2026-09-02T17:05:00Z",
+      "probabilidad_local": 48.9,
+      "resultado": "visitante",
+      "marcador_local_final": 0,
+      "marcador_visitante_final": 9,
+      "acerto": true
+    },
+    {
+      "gamePk": "824470",
+      "local": "Cincinnati Reds",
+      "visitante": "San Diego Padres",
+      "hora": "2026-09-02T16:40:00Z",
+      "probabilidad_local": 36.5,
+      "resultado": "local",
+      "marcador_local_final": 7,
+      "marcador_visitante_final": 3,
+      "acerto": false
+    },
     {
       "gamePk": "823908",
       "local": "Los Angeles Dodgers",
@@ -563,28 +585,6 @@
       "resultado": "local",
       "marcador_local_final": 6,
       "marcador_visitante_final": 2,
-      "acerto": true
-    },
-    {
-      "gamePk": "822936",
-      "local": "Tampa Bay Rays",
-      "visitante": "San Diego Padres",
-      "hora": "2026-08-29T20:10:00Z",
-      "probabilidad_local": 57.1,
-      "resultado": "local",
-      "marcador_local_final": 7,
-      "marcador_visitante_final": 6,
-      "acerto": true
-    },
-    {
-      "gamePk": "824874",
-      "local": "Atlanta Braves",
-      "visitante": "Colorado Rockies",
-      "hora": "2026-08-29T20:10:00Z",
-      "probabilidad_local": 75.2,
-      "resultado": "local",
-      "marcador_local_final": 2,
-      "marcador_visitante_final": 1,
       "acerto": true
     }
   ]

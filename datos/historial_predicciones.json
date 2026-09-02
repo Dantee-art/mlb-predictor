@@ -5994,10 +5994,10 @@
     "probabilidad_local": 65.8,
     "pitcher_local": "Cody Bradford",
     "pitcher_visitante": "Jacob Lopez",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 2,
+    "marcador_visitante_final": 9,
+    "acerto": false
   },
   "824312": {
     "local": "Colorado Rockies",
@@ -6006,10 +6006,10 @@
     "probabilidad_local": 38.6,
     "pitcher_local": "Tomoyuki Sugano",
     "pitcher_visitante": "Trevor Rogers",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 6,
+    "marcador_visitante_final": 5,
+    "acerto": false
   },
   "824717": {
     "local": "Boston Red Sox",
@@ -6018,10 +6018,10 @@
     "probabilidad_local": 63.1,
     "pitcher_local": "Patrick Sandoval",
     "pitcher_visitante": "Bryce Miller",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 8,
+    "acerto": false
   },
   "823339": {
     "local": "Pittsburgh Pirates",
@@ -6126,10 +6126,10 @@
     "probabilidad_local": 51.4,
     "pitcher_local": "Taylor Clarke",
     "pitcher_visitante": "Andrew Painter",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 1,
+    "marcador_visitante_final": 0,
+    "acerto": true
   },
   "824147": {
     "local": "Houston Astros",
@@ -6138,6 +6138,18 @@
     "probabilidad_local": 47.8,
     "pitcher_local": "Hayden Wesneski",
     "pitcher_visitante": "Davis Martin",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823906": {
+    "local": "Los Angeles Dodgers",
+    "visitante": "St. Louis Cardinals",
+    "hora": "2026-09-03T02:10:00Z",
+    "probabilidad_local": 63.3,
+    "pitcher_local": "Yoshinobu Yamamoto",
+    "pitcher_visitante": "Brycen Mautz",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

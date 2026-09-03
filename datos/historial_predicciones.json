@@ -6030,10 +6030,10 @@
     "probabilidad_local": 61.0,
     "pitcher_local": "Jared Jones",
     "pitcher_visitante": "Landen Roupp",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 4,
+    "marcador_visitante_final": 5,
+    "acerto": false
   },
   "822931": {
     "local": "Tampa Bay Rays",
@@ -6042,10 +6042,10 @@
     "probabilidad_local": 61.8,
     "pitcher_local": "Griffin Jax",
     "pitcher_visitante": "Justin Hagenman",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 4,
+    "marcador_visitante_final": 10,
+    "acerto": false
   },
   "824390": {
     "local": "Cleveland Guardians",
@@ -6066,10 +6066,10 @@
     "probabilidad_local": 42.5,
     "pitcher_local": "Dean Kremer",
     "pitcher_visitante": "Drew Anderson",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 6,
+    "marcador_visitante_final": 11,
+    "acerto": true
   },
   "824068": {
     "local": "Kansas City Royals",
@@ -6078,10 +6078,10 @@
     "probabilidad_local": 44.1,
     "pitcher_local": "Noah Cameron",
     "pitcher_visitante": "Eury Pérez",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 6,
+    "marcador_visitante_final": 9,
+    "acerto": true
   },
   "824634": {
     "local": "Chicago Cubs",
@@ -6090,10 +6090,10 @@
     "probabilidad_local": 37.9,
     "pitcher_local": "David Peterson",
     "pitcher_visitante": "Jacob Misiorowski",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 5,
+    "marcador_visitante_final": 9,
+    "acerto": true
   },
   "823983": {
     "local": "Los Angeles Angels",
@@ -6102,10 +6102,10 @@
     "probabilidad_local": 37.1,
     "pitcher_local": "Reid Detmers",
     "pitcher_visitante": "Cam Schlittler",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 6,
+    "acerto": true
   },
   "822686": {
     "local": "Washington Nationals",
@@ -6138,10 +6138,10 @@
     "probabilidad_local": 47.8,
     "pitcher_local": "Hayden Wesneski",
     "pitcher_visitante": "Davis Martin",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 2,
+    "marcador_visitante_final": 0,
+    "acerto": false
   },
   "823906": {
     "local": "Los Angeles Dodgers",
@@ -6150,10 +6150,10 @@
     "probabilidad_local": 63.3,
     "pitcher_local": "Yoshinobu Yamamoto",
     "pitcher_visitante": "Brycen Mautz",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 6,
+    "marcador_visitante_final": 8,
+    "acerto": false
   },
   "824388": {
     "local": "Cleveland Guardians",
@@ -6246,6 +6246,18 @@
     "probabilidad_local": 67.1,
     "pitcher_local": "Tarik Skubal",
     "pitcher_visitante": "Quinn Mathews",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823337": {
+    "local": "Pittsburgh Pirates",
+    "visitante": "San Francisco Giants",
+    "hora": "2026-09-03T16:35:00Z",
+    "probabilidad_local": 61.1,
+    "pitcher_local": "Lake Bachar",
+    "pitcher_visitante": "Blade Tidwell",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

@@ -10,7 +10,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "222",
+                    "value": "227",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -38,7 +38,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "219",
+                    "value": "221",
                     "team": {
                         "id": 141,
                         "name": "Toronto Blue Jays",
@@ -150,7 +150,186 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 786
+            "totalSplits": 787
+        },
+        {
+            "leaderCategory": "battingAverage",
+            "gameType": {
+                "id": "R",
+                "description": "Regular Season"
+            },
+            "leaders": [
+                {
+                    "rank": 1,
+                    "value": ".155",
+                    "team": {
+                        "id": 158,
+                        "name": "Milwaukee Brewers",
+                        "link": "/api/v1/teams/158"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 694819,
+                        "fullName": "Jacob Misiorowski",
+                        "link": "/api/v1/people/694819",
+                        "firstName": "Jacob",
+                        "lastName": "Misiorowski"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 2,
+                    "value": ".176",
+                    "team": {
+                        "id": 141,
+                        "name": "Toronto Blue Jays",
+                        "link": "/api/v1/teams/141"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 656302,
+                        "fullName": "Dylan Cease",
+                        "link": "/api/v1/people/656302",
+                        "firstName": "Dylan",
+                        "lastName": "Cease"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 3,
+                    "value": ".187",
+                    "team": {
+                        "id": 119,
+                        "name": "Los Angeles Dodgers",
+                        "link": "/api/v1/teams/119"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 808967,
+                        "fullName": "Yoshinobu Yamamoto",
+                        "link": "/api/v1/people/808967",
+                        "firstName": "Yoshinobu",
+                        "lastName": "Yamamoto"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 4,
+                    "value": ".197",
+                    "team": {
+                        "id": 147,
+                        "name": "New York Yankees",
+                        "link": "/api/v1/teams/147"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 693645,
+                        "fullName": "Cam Schlittler",
+                        "link": "/api/v1/people/693645",
+                        "firstName": "Cam",
+                        "lastName": "Schlittler"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 5,
+                    "value": ".203",
+                    "team": {
+                        "id": 121,
+                        "name": "New York Mets",
+                        "link": "/api/v1/teams/121"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 690997,
+                        "fullName": "Nolan McLean",
+                        "link": "/api/v1/people/690997",
+                        "firstName": "Nolan",
+                        "lastName": "McLean"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 5,
+                    "value": ".203",
+                    "team": {
+                        "id": 139,
+                        "name": "Tampa Bay Rays",
+                        "link": "/api/v1/teams/139"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 656876,
+                        "fullName": "Drew Rasmussen",
+                        "link": "/api/v1/people/656876",
+                        "firstName": "Drew",
+                        "lastName": "Rasmussen"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                }
+            ],
+            "statGroup": "pitching",
+            "totalSplits": 51
         },
         {
             "leaderCategory": "homeRuns",
@@ -312,185 +491,6 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": ".150",
-                    "team": {
-                        "id": 158,
-                        "name": "Milwaukee Brewers",
-                        "link": "/api/v1/teams/158"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 694819,
-                        "fullName": "Jacob Misiorowski",
-                        "link": "/api/v1/people/694819",
-                        "firstName": "Jacob",
-                        "lastName": "Misiorowski"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 2,
-                    "value": ".175",
-                    "team": {
-                        "id": 141,
-                        "name": "Toronto Blue Jays",
-                        "link": "/api/v1/teams/141"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 656302,
-                        "fullName": "Dylan Cease",
-                        "link": "/api/v1/people/656302",
-                        "firstName": "Dylan",
-                        "lastName": "Cease"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 3,
-                    "value": ".187",
-                    "team": {
-                        "id": 119,
-                        "name": "Los Angeles Dodgers",
-                        "link": "/api/v1/teams/119"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 808967,
-                        "fullName": "Yoshinobu Yamamoto",
-                        "link": "/api/v1/people/808967",
-                        "firstName": "Yoshinobu",
-                        "lastName": "Yamamoto"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 4,
-                    "value": ".197",
-                    "team": {
-                        "id": 147,
-                        "name": "New York Yankees",
-                        "link": "/api/v1/teams/147"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 693645,
-                        "fullName": "Cam Schlittler",
-                        "link": "/api/v1/people/693645",
-                        "firstName": "Cam",
-                        "lastName": "Schlittler"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 5,
-                    "value": ".203",
-                    "team": {
-                        "id": 121,
-                        "name": "New York Mets",
-                        "link": "/api/v1/teams/121"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 690997,
-                        "fullName": "Nolan McLean",
-                        "link": "/api/v1/people/690997",
-                        "firstName": "Nolan",
-                        "lastName": "McLean"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 5,
-                    "value": ".203",
-                    "team": {
-                        "id": 139,
-                        "name": "Tampa Bay Rays",
-                        "link": "/api/v1/teams/139"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 656876,
-                        "fullName": "Drew Rasmussen",
-                        "link": "/api/v1/people/656876",
-                        "firstName": "Drew",
-                        "lastName": "Rasmussen"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                }
-            ],
-            "statGroup": "pitching",
-            "totalSplits": 51
-        },
-        {
-            "leaderCategory": "battingAverage",
-            "gameType": {
-                "id": "R",
-                "description": "Regular Season"
-            },
-            "leaders": [
-                {
-                    "rank": 1,
                     "value": ".316",
                     "team": {
                         "id": 117,
@@ -547,35 +547,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": ".309",
-                    "team": {
-                        "id": 134,
-                        "name": "Pittsburgh Pirates",
-                        "link": "/api/v1/teams/134"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 693304,
-                        "fullName": "Nick Gonzales",
-                        "link": "/api/v1/people/693304",
-                        "firstName": "Nick",
-                        "lastName": "Gonzales"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 3,
-                    "value": ".309",
+                    "value": ".312",
                     "team": {
                         "id": 139,
                         "name": "Tampa Bay Rays",
@@ -592,6 +564,34 @@
                         "link": "/api/v1/people/802415",
                         "firstName": "Chandler",
                         "lastName": "Simpson"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 4,
+                    "value": ".308",
+                    "team": {
+                        "id": 134,
+                        "name": "Pittsburgh Pirates",
+                        "link": "/api/v1/teams/134"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 693304,
+                        "fullName": "Nick Gonzales",
+                        "link": "/api/v1/people/693304",
+                        "firstName": "Nick",
+                        "lastName": "Gonzales"
                     },
                     "sport": {
                         "id": 1,
@@ -642,7 +642,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "1037",
+                    "value": "1042",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -793,7 +793,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": ".219",
+                    "value": ".220",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -905,23 +905,23 @@
                 },
                 {
                     "rank": 5,
-                    "value": ".226",
+                    "value": ".227",
                     "team": {
-                        "id": 146,
-                        "name": "Miami Marlins",
-                        "link": "/api/v1/teams/146"
+                        "id": 117,
+                        "name": "Houston Astros",
+                        "link": "/api/v1/teams/117"
                     },
                     "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
                     },
                     "person": {
-                        "id": 691788,
-                        "fullName": "Joe Mack",
-                        "link": "/api/v1/people/691788",
-                        "firstName": "Joe",
-                        "lastName": "Mack"
+                        "id": 543877,
+                        "fullName": "Christian Vázquez",
+                        "link": "/api/v1/people/543877",
+                        "firstName": "Christian",
+                        "lastName": "Vázquez"
                     },
                     "sport": {
                         "id": 1,
@@ -1084,7 +1084,7 @@
                 }
             ],
             "statGroup": "hitting",
-            "totalSplits": 597
+            "totalSplits": 599
         },
         {
             "leaderCategory": "homeRuns",
@@ -1207,7 +1207,7 @@
                 },
                 {
                     "rank": 5,
-                    "value": "105",
+                    "value": "106",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -1236,157 +1236,6 @@
             ],
             "statGroup": "catching",
             "totalSplits": 109
-        },
-        {
-            "leaderCategory": "earnedRunAverage",
-            "gameType": {
-                "id": "R",
-                "description": "Regular Season"
-            },
-            "leaders": [
-                {
-                    "rank": 1,
-                    "value": "1.73",
-                    "team": {
-                        "id": 158,
-                        "name": "Milwaukee Brewers",
-                        "link": "/api/v1/teams/158"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 694819,
-                        "fullName": "Jacob Misiorowski",
-                        "link": "/api/v1/people/694819",
-                        "firstName": "Jacob",
-                        "lastName": "Misiorowski"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 2,
-                    "value": "2.06",
-                    "team": {
-                        "id": 144,
-                        "name": "Atlanta Braves",
-                        "link": "/api/v1/teams/144"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 519242,
-                        "fullName": "Chris Sale",
-                        "link": "/api/v1/people/519242",
-                        "firstName": "Chris",
-                        "lastName": "Sale"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 3,
-                    "value": "2.09",
-                    "team": {
-                        "id": 147,
-                        "name": "New York Yankees",
-                        "link": "/api/v1/teams/147"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 693645,
-                        "fullName": "Cam Schlittler",
-                        "link": "/api/v1/people/693645",
-                        "firstName": "Cam",
-                        "lastName": "Schlittler"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 4,
-                    "value": "2.30",
-                    "team": {
-                        "id": 141,
-                        "name": "Toronto Blue Jays",
-                        "link": "/api/v1/teams/141"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 656302,
-                        "fullName": "Dylan Cease",
-                        "link": "/api/v1/people/656302",
-                        "firstName": "Dylan",
-                        "lastName": "Cease"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 5,
-                    "value": "2.46",
-                    "team": {
-                        "id": 114,
-                        "name": "Cleveland Guardians",
-                        "link": "/api/v1/teams/114"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 800048,
-                        "fullName": "Parker Messick",
-                        "link": "/api/v1/people/800048",
-                        "firstName": "Parker",
-                        "lastName": "Messick"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                }
-            ],
-            "statGroup": "pitching",
-            "totalSplits": 51
         },
         {
             "leaderCategory": "strikeouts",
@@ -1425,7 +1274,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "187",
+                    "value": "188",
                     "team": {
                         "id": 145,
                         "name": "Chicago White Sox",
@@ -1509,7 +1358,7 @@
                 },
                 {
                     "rank": 5,
-                    "value": "170",
+                    "value": "171",
                     "team": {
                         "id": 112,
                         "name": "Chicago Cubs",
@@ -1548,6 +1397,157 @@
             "leaders": [
                 {
                     "rank": 1,
+                    "value": "1.97",
+                    "team": {
+                        "id": 158,
+                        "name": "Milwaukee Brewers",
+                        "link": "/api/v1/teams/158"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 694819,
+                        "fullName": "Jacob Misiorowski",
+                        "link": "/api/v1/people/694819",
+                        "firstName": "Jacob",
+                        "lastName": "Misiorowski"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 2,
+                    "value": "2.06",
+                    "team": {
+                        "id": 144,
+                        "name": "Atlanta Braves",
+                        "link": "/api/v1/teams/144"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 519242,
+                        "fullName": "Chris Sale",
+                        "link": "/api/v1/people/519242",
+                        "firstName": "Chris",
+                        "lastName": "Sale"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 3,
+                    "value": "2.09",
+                    "team": {
+                        "id": 147,
+                        "name": "New York Yankees",
+                        "link": "/api/v1/teams/147"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 693645,
+                        "fullName": "Cam Schlittler",
+                        "link": "/api/v1/people/693645",
+                        "firstName": "Cam",
+                        "lastName": "Schlittler"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 4,
+                    "value": "2.25",
+                    "team": {
+                        "id": 141,
+                        "name": "Toronto Blue Jays",
+                        "link": "/api/v1/teams/141"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 656302,
+                        "fullName": "Dylan Cease",
+                        "link": "/api/v1/people/656302",
+                        "firstName": "Dylan",
+                        "lastName": "Cease"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 5,
+                    "value": "2.46",
+                    "team": {
+                        "id": 114,
+                        "name": "Cleveland Guardians",
+                        "link": "/api/v1/teams/114"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 800048,
+                        "fullName": "Parker Messick",
+                        "link": "/api/v1/people/800048",
+                        "firstName": "Parker",
+                        "lastName": "Messick"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                }
+            ],
+            "statGroup": "pitching",
+            "totalSplits": 51
+        },
+        {
+            "leaderCategory": "earnedRunAverage",
+            "gameType": {
+                "id": "R",
+                "description": "Regular Season"
+            },
+            "leaders": [
+                {
+                    "rank": 1,
                     "value": "3.02",
                     "team": {
                         "id": 147,
@@ -1576,7 +1576,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "3.30",
+                    "value": "3.34",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -1632,7 +1632,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "3.51",
+                    "value": "3.57",
                     "team": {
                         "id": 146,
                         "name": "Miami Marlins",
@@ -1660,7 +1660,7 @@
                 },
                 {
                     "rank": 5,
-                    "value": "3.56",
+                    "value": "3.59",
                     "team": {
                         "id": 121,
                         "name": "New York Mets",
@@ -1895,7 +1895,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 725
+            "totalSplits": 727
         },
         {
             "leaderCategory": "wins",

@@ -3,41 +3,41 @@
         "gamePk": 823337,
         "local": "Pittsburgh Pirates",
         "visitante": "San Francisco Giants",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-03T16:35:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Lake Bachar",
         "pitcher_visitante": "Blade Tidwell",
         "pitcher_local_id": 669199,
         "pitcher_visitante_id": 694918,
-        "ballpark_factor": 1.217,
-        "probabilidad": 61.1
+        "ballpark_factor": 1.214,
+        "probabilidad": 60.8
     },
     {
         "gamePk": 824388,
         "local": "Cleveland Guardians",
         "visitante": "Toronto Blue Jays",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-03T17:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Tanner Bibee",
         "pitcher_visitante": "José Soriano",
         "pitcher_local_id": 676440,
         "pitcher_visitante_id": 667755,
-        "ballpark_factor": 1.053,
-        "probabilidad": 52.1
+        "ballpark_factor": 1.058,
+        "probabilidad": 51.9
     },
     {
         "gamePk": 824144,
         "local": "Houston Astros",
         "visitante": "Chicago White Sox",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-03T18:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
@@ -47,8 +47,8 @@
         "pitcher_visitante": "Luis Castillo",
         "pitcher_local_id": 686613,
         "pitcher_visitante_id": 622491,
-        "ballpark_factor": 0.974,
-        "probabilidad": 50.7
+        "ballpark_factor": 0.963,
+        "probabilidad": 50.5
     },
     {
         "gamePk": 824796,
@@ -64,7 +64,7 @@
         "pitcher_visitante": "Jake Bennett",
         "pitcher_local_id": 687064,
         "pitcher_visitante_id": 687562,
-        "ballpark_factor": 0.917,
+        "ballpark_factor": 0.915,
         "probabilidad": 42.9
     },
     {
@@ -81,7 +81,7 @@
         "pitcher_visitante": "Logan Henderson",
         "pitcher_local_id": 592332,
         "pitcher_visitante_id": 701656,
-        "ballpark_factor": 1.027,
+        "ballpark_factor": 1.033,
         "probabilidad": 43.4
     },
     {
@@ -98,7 +98,7 @@
         "pitcher_visitante": "Sandy Alcantara",
         "pitcher_local_id": 608379,
         "pitcher_visitante_id": 645261,
-        "ballpark_factor": 1.116,
+        "ballpark_factor": 1.125,
         "probabilidad": 44.1
     },
     {
@@ -115,7 +115,7 @@
         "pitcher_visitante": "Shane McClanahan",
         "pitcher_local_id": 615698,
         "pitcher_visitante_id": 663556,
-        "ballpark_factor": 0.893,
+        "ballpark_factor": 0.898,
         "probabilidad": 44.4
     },
     {
@@ -132,8 +132,8 @@
         "pitcher_visitante": "Jack Perkins",
         "pitcher_local_id": 807739,
         "pitcher_visitante_id": 678022,
-        "ballpark_factor": 0.843,
-        "probabilidad": 60.5
+        "ballpark_factor": 0.841,
+        "probabilidad": 60.3
     },
     {
         "gamePk": 823907,
@@ -149,7 +149,7 @@
         "pitcher_visitante": "Quinn Mathews",
         "pitcher_local_id": 669373,
         "pitcher_visitante_id": 687273,
-        "ballpark_factor": 0.944,
-        "probabilidad": 66.9
+        "ballpark_factor": 0.953,
+        "probabilidad": 66.6
     }
 ]

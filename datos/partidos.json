@@ -3,17 +3,17 @@
         "gamePk": 824424,
         "local": "Cleveland Guardians",
         "visitante": "Detroit Tigers",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-04T18:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Logan Allen",
         "pitcher_visitante": "Keider Montero",
         "pitcher_local_id": 671106,
         "pitcher_visitante_id": 672456,
-        "ballpark_factor": 1.058,
+        "ballpark_factor": 1.059,
         "probabilidad": 49.4
     },
     {
@@ -30,8 +30,8 @@
         "pitcher_visitante": "Andrew Sears",
         "pitcher_local_id": 656492,
         "pitcher_visitante_id": 808825,
-        "ballpark_factor": 1.058,
-        "probabilidad": 54.4
+        "ballpark_factor": 1.059,
+        "probabilidad": 54.5
     },
     {
         "gamePk": 824471,
@@ -81,7 +81,7 @@
         "pitcher_visitante": "Ryan Johnson",
         "pitcher_local_id": 683003,
         "pitcher_visitante_id": 696270,
-        "ballpark_factor": 1.214,
+        "ballpark_factor": 1.208,
         "probabilidad": 68.6
     },
     {
@@ -98,8 +98,8 @@
         "pitcher_visitante": "Ranger Suarez",
         "pitcher_local_id": 669358,
         "pitcher_visitante_id": 624133,
-        "ballpark_factor": 0.915,
-        "probabilidad": 43.5
+        "ballpark_factor": 0.918,
+        "probabilidad": 43.6
     },
     {
         "gamePk": 823579,
@@ -132,7 +132,7 @@
         "pitcher_visitante": "Shota Imanaga",
         "pitcher_local_id": 676083,
         "pitcher_visitante_id": 684007,
-        "ballpark_factor": 0.86,
+        "ballpark_factor": 0.859,
         "probabilidad": 49.7
     },
     {
@@ -149,7 +149,7 @@
         "pitcher_visitante": "Zebby Matthews",
         "pitcher_local_id": 607200,
         "pitcher_visitante_id": 805673,
-        "ballpark_factor": 0.976,
+        "ballpark_factor": 0.978,
         "probabilidad": 55.1
     },
     {
@@ -166,7 +166,7 @@
         "pitcher_visitante": "Nick Martinez",
         "pitcher_local_id": 592866,
         "pitcher_visitante_id": 607259,
-        "ballpark_factor": 0.898,
+        "ballpark_factor": 0.895,
         "probabilidad": 49.3
     },
     {
@@ -183,8 +183,8 @@
         "pitcher_visitante": "Merrill Kelly",
         "pitcher_local_id": 664299,
         "pitcher_visitante_id": 518876,
-        "ballpark_factor": 0.963,
-        "probabilidad": 53.3
+        "ballpark_factor": 0.961,
+        "probabilidad": 53.4
     },
     {
         "gamePk": 824067,
@@ -251,8 +251,8 @@
         "pitcher_visitante": "Jackson Kent",
         "pitcher_local_id": 605483,
         "pitcher_visitante_id": 800600,
-        "ballpark_factor": 0.953,
-        "probabilidad": 74.7
+        "ballpark_factor": 0.947,
+        "probabilidad": 74.8
     },
     {
         "gamePk": 823093,
@@ -268,7 +268,7 @@
         "pitcher_visitante": "Kade Morris",
         "pitcher_local_id": 669302,
         "pitcher_visitante_id": 695034,
-        "ballpark_factor": 0.841,
+        "ballpark_factor": 0.846,
         "probabilidad": 74.2
     }
 ]

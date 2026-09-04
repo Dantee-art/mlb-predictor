@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 522,
+  "total_partidos_evaluados": 523,
   "total_aciertos": 301,
-  "total_errores": 221,
-  "precision_general": 57.7,
-  "error_general": 42.3,
+  "total_errores": 222,
+  "precision_general": 57.6,
+  "error_general": 42.4,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 310,
+      "partidos": 311,
       "aciertos": 182,
-      "pct_acierto_real": 58.7
+      "pct_acierto_real": 58.5
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824424",
+      "local": "Cleveland Guardians",
+      "visitante": "Detroit Tigers",
+      "hora": "2026-09-04T18:10:00Z",
+      "probabilidad_local": 49.4,
+      "resultado": "local",
+      "marcador_local_final": 7,
+      "marcador_visitante_final": 6,
+      "acerto": false
+    },
     {
       "gamePk": "823907",
       "local": "Los Angeles Dodgers",
@@ -575,17 +586,6 @@
       "marcador_local_final": 0,
       "marcador_visitante_final": 5,
       "acerto": true
-    },
-    {
-      "gamePk": "822932",
-      "local": "Tampa Bay Rays",
-      "visitante": "New York Mets",
-      "hora": "2026-08-31T22:40:00Z",
-      "probabilidad_local": 63.6,
-      "resultado": "visitante",
-      "marcador_local_final": 2,
-      "marcador_visitante_final": 3,
-      "acerto": false
     }
   ]
 }

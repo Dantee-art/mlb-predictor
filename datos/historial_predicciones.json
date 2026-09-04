@@ -6186,10 +6186,10 @@
     "probabilidad_local": 42.9,
     "pitcher_local": "Brandon Young",
     "pitcher_visitante": "Jake Bennett",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 5,
+    "marcador_visitante_final": 6,
+    "acerto": true
   },
   "824632": {
     "local": "Chicago Cubs",
@@ -6198,10 +6198,10 @@
     "probabilidad_local": 43.8,
     "pitcher_local": "Kevin Gausman",
     "pitcher_visitante": "Logan Henderson",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 2,
+    "marcador_visitante_final": 1,
+    "acerto": false
   },
   "824069": {
     "local": "Kansas City Royals",
@@ -6210,10 +6210,10 @@
     "probabilidad_local": 44.7,
     "pitcher_local": "Michael Wacha",
     "pitcher_visitante": "Sandy Alcantara",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 7,
+    "marcador_visitante_final": 3,
+    "acerto": false
   },
   "822853": {
     "local": "Texas Rangers",
@@ -6222,10 +6222,10 @@
     "probabilidad_local": 44.4,
     "pitcher_local": "Cal Quantrill",
     "pitcher_visitante": "Shane McClanahan",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 6,
+    "marcador_visitante_final": 0,
+    "acerto": false
   },
   "823095": {
     "local": "Seattle Mariners",
@@ -6234,10 +6234,10 @@
     "probabilidad_local": 60.5,
     "pitcher_local": "Kade Anderson",
     "pitcher_visitante": "Jack Perkins",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 4,
+    "marcador_visitante_final": 7,
+    "acerto": false
   },
   "823907": {
     "local": "Los Angeles Dodgers",
@@ -6246,10 +6246,10 @@
     "probabilidad_local": 67.1,
     "pitcher_local": "Tarik Skubal",
     "pitcher_visitante": "Quinn Mathews",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 2,
+    "acerto": true
   },
   "823337": {
     "local": "Pittsburgh Pirates",
@@ -6438,6 +6438,18 @@
     "probabilidad_local": 74.6,
     "pitcher_local": "Blake Snell",
     "pitcher_visitante": "Jackson Kent",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823093": {
+    "local": "Seattle Mariners",
+    "visitante": "Athletics",
+    "hora": "2026-09-05T02:10:00Z",
+    "probabilidad_local": 74.2,
+    "pitcher_local": "Logan Gilbert",
+    "pitcher_visitante": "Kade Morris",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

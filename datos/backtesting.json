@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 538,
+  "total_partidos_evaluados": 540,
   "total_aciertos": 313,
-  "total_errores": 225,
-  "precision_general": 58.2,
-  "error_general": 41.8,
+  "total_errores": 227,
+  "precision_general": 58.0,
+  "error_general": 42.0,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 320,
+      "partidos": 322,
       "aciertos": 190,
-      "pct_acierto_real": 59.4
+      "pct_acierto_real": 59.0
     },
     {
       "rango": "60-70",
@@ -37,6 +37,28 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823577",
+      "local": "New York Mets",
+      "visitante": "San Francisco Giants",
+      "hora": "2026-09-05T20:10:00Z",
+      "probabilidad_local": 56.4,
+      "resultado": "visitante",
+      "marcador_local_final": 5,
+      "marcador_visitante_final": 9,
+      "acerto": false
+    },
+    {
+      "gamePk": "823823",
+      "local": "Miami Marlins",
+      "visitante": "Chicago Cubs",
+      "hora": "2026-09-05T20:10:00Z",
+      "probabilidad_local": 51.6,
+      "resultado": "visitante",
+      "marcador_local_final": 5,
+      "marcador_visitante_final": 6,
+      "acerto": false
+    },
     {
       "gamePk": "823905",
       "local": "Los Angeles Dodgers",
@@ -564,28 +586,6 @@
       "marcador_local_final": 3,
       "marcador_visitante_final": 6,
       "acerto": true
-    },
-    {
-      "gamePk": "824633",
-      "local": "Chicago Cubs",
-      "visitante": "Milwaukee Brewers",
-      "hora": "2026-09-01T23:40:00Z",
-      "probabilidad_local": 45.4,
-      "resultado": "visitante",
-      "marcador_local_final": 4,
-      "marcador_visitante_final": 9,
-      "acerto": true
-    },
-    {
-      "gamePk": "822687",
-      "local": "Washington Nationals",
-      "visitante": "Atlanta Braves",
-      "hora": "2026-09-01T22:45:00Z",
-      "probabilidad_local": 45.2,
-      "resultado": "local",
-      "marcador_local_final": 9,
-      "marcador_visitante_final": 5,
-      "acerto": false
     }
   ]
 }

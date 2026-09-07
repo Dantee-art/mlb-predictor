@@ -6774,10 +6774,10 @@
     "probabilidad_local": 64.3,
     "pitcher_local": "Bryan Woo",
     "pitcher_visitante": "Gage Jump",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 2,
+    "marcador_visitante_final": 0,
+    "acerto": true
   },
   "823253": {
     "local": "San Diego Padres",
@@ -6786,10 +6786,10 @@
     "probabilidad_local": 41.3,
     "pitcher_local": "Michael King",
     "pitcher_visitante": "Gerrit Cole",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 4,
+    "marcador_visitante_final": 3,
+    "acerto": false
   },
   "824552": {
     "local": "Chicago White Sox",
@@ -6810,6 +6810,78 @@
     "probabilidad_local": 63.3,
     "pitcher_local": "Justin Wrobleski",
     "pitcher_visitante": "Andrew Alvarez",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823415": {
+    "local": "Philadelphia Phillies",
+    "visitante": "Atlanta Braves",
+    "hora": "2026-09-07T17:05:00Z",
+    "probabilidad_local": 57.9,
+    "pitcher_local": "Jesús Luzardo",
+    "pitcher_visitante": "Grant Holmes",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823820": {
+    "local": "Miami Marlins",
+    "visitante": "New York Mets",
+    "hora": "2026-09-07T17:10:00Z",
+    "probabilidad_local": 61.7,
+    "pitcher_local": "Eury Pérez",
+    "pitcher_visitante": "Jonah Tong",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824793": {
+    "local": "Baltimore Orioles",
+    "visitante": "Cleveland Guardians",
+    "hora": "2026-09-07T17:35:00Z",
+    "probabilidad_local": 52.1,
+    "pitcher_local": "Trevor Rogers",
+    "pitcher_visitante": "Joey Cantillo",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823742": {
+    "local": "Milwaukee Brewers",
+    "visitante": "Chicago Cubs",
+    "hora": "2026-09-07T18:10:00Z",
+    "probabilidad_local": 60.2,
+    "pitcher_local": "Robert Gasser",
+    "pitcher_visitante": "Matthew Boyd",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823175": {
+    "local": "San Francisco Giants",
+    "visitante": "St. Louis Cardinals",
+    "hora": "2026-09-08T00:10:00Z",
+    "probabilidad_local": 53.0,
+    "pitcher_local": "Logan Webb",
+    "pitcher_visitante": "Michael McGreevy",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824958": {
+    "local": "Athletics",
+    "visitante": "Toronto Blue Jays",
+    "hora": "2026-09-08T02:05:00Z",
+    "probabilidad_local": 34.4,
+    "pitcher_local": "Jacob Lopez",
+    "pitcher_visitante": "Dylan Cease",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

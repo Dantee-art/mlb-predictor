@@ -6798,10 +6798,10 @@
     "probabilidad_local": 62.6,
     "pitcher_local": "Bryan Hudson",
     "pitcher_visitante": "Bailey Ober",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 10,
+    "marcador_visitante_final": 1,
+    "acerto": true
   },
   "823903": {
     "local": "Los Angeles Dodgers",
@@ -6882,6 +6882,18 @@
     "probabilidad_local": 34.4,
     "pitcher_local": "Jacob Lopez",
     "pitcher_visitante": "Dylan Cease",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823254": {
+    "local": "San Diego Padres",
+    "visitante": "Washington Nationals",
+    "hora": "2026-09-07T21:10:00Z",
+    "probabilidad_local": 67.2,
+    "pitcher_local": "Nick Pivetta",
+    "pitcher_visitante": "Jake Irvin",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

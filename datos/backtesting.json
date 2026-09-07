@@ -1,9 +1,9 @@
 {
-  "total_partidos_evaluados": 566,
-  "total_aciertos": 326,
+  "total_partidos_evaluados": 567,
+  "total_aciertos": 327,
   "total_errores": 240,
-  "precision_general": 57.6,
-  "error_general": 42.4,
+  "precision_general": 57.7,
+  "error_general": 42.3,
   "por_rango": [
     {
       "rango": "50-60",
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 186,
-      "aciertos": 103,
-      "pct_acierto_real": 55.4
+      "partidos": 187,
+      "aciertos": 104,
+      "pct_acierto_real": 55.6
     },
     {
       "rango": "70-80",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824552",
+      "local": "Chicago White Sox",
+      "visitante": "Minnesota Twins",
+      "hora": "2026-09-06T22:20:00Z",
+      "probabilidad_local": 62.6,
+      "resultado": "local",
+      "marcador_local_final": 10,
+      "marcador_visitante_final": 1,
+      "acerto": true
+    },
     {
       "gamePk": "823091",
       "local": "Seattle Mariners",
@@ -575,17 +586,6 @@
       "marcador_local_final": 5,
       "marcador_visitante_final": 6,
       "acerto": true
-    },
-    {
-      "gamePk": "824632",
-      "local": "Chicago Cubs",
-      "visitante": "Milwaukee Brewers",
-      "hora": "2026-09-03T23:15:00Z",
-      "probabilidad_local": 43.8,
-      "resultado": "local",
-      "marcador_local_final": 2,
-      "marcador_visitante_final": 1,
-      "acerto": false
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "total_partidos_evaluados": 567,
-  "total_aciertos": 327,
+  "total_partidos_evaluados": 568,
+  "total_aciertos": 328,
   "total_errores": 240,
   "precision_general": 57.7,
   "error_general": 42.3,
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 187,
-      "aciertos": 104,
-      "pct_acierto_real": 55.6
+      "partidos": 188,
+      "aciertos": 105,
+      "pct_acierto_real": 55.9
     },
     {
       "rango": "70-80",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823903",
+      "local": "Los Angeles Dodgers",
+      "visitante": "Washington Nationals",
+      "hora": "2026-09-07T02:10:00Z",
+      "probabilidad_local": 63.3,
+      "resultado": "local",
+      "marcador_local_final": 7,
+      "marcador_visitante_final": 5,
+      "acerto": true
+    },
     {
       "gamePk": "824552",
       "local": "Chicago White Sox",
@@ -575,17 +586,6 @@
       "marcador_local_final": 7,
       "marcador_visitante_final": 3,
       "acerto": false
-    },
-    {
-      "gamePk": "824796",
-      "local": "Baltimore Orioles",
-      "visitante": "Boston Red Sox",
-      "hora": "2026-09-03T23:15:00Z",
-      "probabilidad_local": 42.9,
-      "resultado": "visitante",
-      "marcador_local_final": 5,
-      "marcador_visitante_final": 6,
-      "acerto": true
     }
   ]
 }

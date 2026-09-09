@@ -3,24 +3,24 @@
         "gamePk": 824226,
         "local": "Detroit Tigers",
         "visitante": "Minnesota Twins",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-09T17:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Keider Montero",
         "pitcher_visitante": "Zebby Matthews",
         "pitcher_local_id": 672456,
         "pitcher_visitante_id": 805673,
-        "ballpark_factor": 0.913,
-        "probabilidad": 62.1
+        "ballpark_factor": 0.908,
+        "probabilidad": 61.9
     },
     {
         "gamePk": 824956,
         "local": "Athletics",
         "visitante": "Toronto Blue Jays",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-09T19:05:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
@@ -31,13 +31,13 @@
         "pitcher_local_id": 669620,
         "pitcher_visitante_id": 680755,
         "ballpark_factor": 1.35,
-        "probabilidad": 44.0
+        "probabilidad": 43.9
     },
     {
         "gamePk": 823172,
         "local": "San Francisco Giants",
         "visitante": "St. Louis Cardinals",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-09T19:45:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
@@ -47,8 +47,8 @@
         "pitcher_visitante": "Andre Pallante",
         "pitcher_local_id": 694918,
         "pitcher_visitante_id": 669467,
-        "ballpark_factor": 0.938,
-        "probabilidad": 48.0
+        "ballpark_factor": 0.929,
+        "probabilidad": 47.9
     },
     {
         "gamePk": 823251,
@@ -64,8 +64,8 @@
         "pitcher_visitante": "Jackson Kent",
         "pitcher_local_id": 621111,
         "pitcher_visitante_id": 800600,
-        "ballpark_factor": 0.833,
-        "probabilidad": 56.6
+        "ballpark_factor": 0.835,
+        "probabilidad": 56.5
     },
     {
         "gamePk": 823090,
@@ -81,7 +81,7 @@
         "pitcher_visitante": "Cody Bradford",
         "pitcher_local_id": 807739,
         "pitcher_visitante_id": 674003,
-        "ballpark_factor": 0.846,
+        "ballpark_factor": 0.857,
         "probabilidad": 49.7
     },
     {
@@ -98,8 +98,8 @@
         "pitcher_visitante": "Foster Griffin",
         "pitcher_local_id": 669358,
         "pitcher_visitante_id": 656492,
-        "ballpark_factor": 0.897,
-        "probabilidad": 50.3
+        "ballpark_factor": 0.904,
+        "probabilidad": 50.2
     },
     {
         "gamePk": 823416,
@@ -115,8 +115,8 @@
         "pitcher_visitante": "Hunter Brown",
         "pitcher_local_id": 650911,
         "pitcher_visitante_id": 686613,
-        "ballpark_factor": 1.191,
-        "probabilidad": 66.3
+        "ballpark_factor": 1.194,
+        "probabilidad": 66.2
     },
     {
         "gamePk": 823818,
@@ -132,8 +132,8 @@
         "pitcher_visitante": "Robert Stock",
         "pitcher_local_id": 676083,
         "pitcher_visitante_id": 476594,
-        "ballpark_factor": 0.877,
-        "probabilidad": 54.6
+        "ballpark_factor": 0.883,
+        "probabilidad": 54.5
     },
     {
         "gamePk": 824713,
@@ -149,8 +149,8 @@
         "pitcher_visitante": "Ryan Johnson",
         "pitcher_local_id": 687562,
         "pitcher_visitante_id": 696270,
-        "ballpark_factor": 1.095,
-        "probabilidad": 73.0
+        "ballpark_factor": 1.092,
+        "probabilidad": 72.9
     },
     {
         "gamePk": 823497,
@@ -166,8 +166,8 @@
         "pitcher_visitante": "Tomoyuki Sugano",
         "pitcher_local_id": 701542,
         "pitcher_visitante_id": 608372,
-        "ballpark_factor": 1.147,
-        "probabilidad": 77.4
+        "ballpark_factor": 1.145,
+        "probabilidad": 77.2
     },
     {
         "gamePk": 824871,
@@ -183,8 +183,8 @@
         "pitcher_visitante": "Griffin Jax",
         "pitcher_local_id": null,
         "pitcher_visitante_id": 643377,
-        "ballpark_factor": 1.057,
-        "probabilidad": 55.4
+        "ballpark_factor": 1.056,
+        "probabilidad": 55.3
     },
     {
         "gamePk": 824064,
@@ -200,8 +200,8 @@
         "pitcher_visitante": "Zac Gallen",
         "pitcher_local_id": 663738,
         "pitcher_visitante_id": 668678,
-        "ballpark_factor": 1.117,
-        "probabilidad": 53.3
+        "ballpark_factor": 1.115,
+        "probabilidad": 53.2
     },
     {
         "gamePk": 824549,
@@ -217,7 +217,7 @@
         "pitcher_visitante": "Lake Bachar",
         "pitcher_local_id": 663436,
         "pitcher_visitante_id": 669199,
-        "ballpark_factor": 0.976,
+        "ballpark_factor": 0.981,
         "probabilidad": 54.0
     },
     {
@@ -234,8 +234,8 @@
         "pitcher_visitante": "Kevin Gausman",
         "pitcher_local_id": 701656,
         "pitcher_visitante_id": 592332,
-        "ballpark_factor": 0.943,
-        "probabilidad": 62.7
+        "ballpark_factor": 0.941,
+        "probabilidad": 62.6
     },
     {
         "gamePk": 823900,
@@ -251,7 +251,7 @@
         "pitcher_visitante": "Rhett Lowder",
         "pitcher_local_id": 808967,
         "pitcher_visitante_id": 695076,
-        "ballpark_factor": 0.956,
-        "probabilidad": 77.3
+        "ballpark_factor": 0.95,
+        "probabilidad": 77.1
     }
 ]

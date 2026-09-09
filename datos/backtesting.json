@@ -1,21 +1,21 @@
 {
-  "total_partidos_evaluados": 593,
-  "total_aciertos": 342,
-  "total_errores": 251,
-  "precision_general": 57.7,
-  "error_general": 42.3,
+  "total_partidos_evaluados": 595,
+  "total_aciertos": 343,
+  "total_errores": 252,
+  "precision_general": 57.6,
+  "error_general": 42.4,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 355,
+      "partidos": 356,
       "aciertos": 207,
-      "pct_acierto_real": 58.3
+      "pct_acierto_real": 58.1
     },
     {
       "rango": "60-70",
-      "partidos": 196,
-      "aciertos": 109,
-      "pct_acierto_real": 55.6
+      "partidos": 197,
+      "aciertos": 110,
+      "pct_acierto_real": 55.8
     },
     {
       "rango": "70-80",
@@ -37,6 +37,28 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824956",
+      "local": "Athletics",
+      "visitante": "Toronto Blue Jays",
+      "hora": "2026-09-09T19:05:00Z",
+      "probabilidad_local": 44.0,
+      "resultado": "local",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 0,
+      "acerto": false
+    },
+    {
+      "gamePk": "824226",
+      "local": "Detroit Tigers",
+      "visitante": "Minnesota Twins",
+      "hora": "2026-09-09T17:10:00Z",
+      "probabilidad_local": 62.1,
+      "resultado": "local",
+      "marcador_local_final": 7,
+      "marcador_visitante_final": 2,
+      "acerto": true
+    },
     {
       "gamePk": "823901",
       "local": "Los Angeles Dodgers",
@@ -564,28 +586,6 @@
       "marcador_local_final": 0,
       "marcador_visitante_final": 5,
       "acerto": true
-    },
-    {
-      "gamePk": "822850",
-      "local": "Texas Rangers",
-      "visitante": "Tampa Bay Rays",
-      "hora": "2026-09-05T23:05:00Z",
-      "probabilidad_local": 46.6,
-      "resultado": "visitante",
-      "marcador_local_final": 3,
-      "marcador_visitante_final": 6,
-      "acerto": true
-    },
-    {
-      "gamePk": "823335",
-      "local": "Pittsburgh Pirates",
-      "visitante": "Los Angeles Angels",
-      "hora": "2026-09-05T22:40:00Z",
-      "probabilidad_local": 66.2,
-      "resultado": "visitante",
-      "marcador_local_final": 1,
-      "marcador_visitante_final": 6,
-      "acerto": false
     }
   ]
 }

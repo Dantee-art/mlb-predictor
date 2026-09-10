@@ -1,6 +1,6 @@
 {
-  "total_partidos_evaluados": 607,
-  "total_aciertos": 350,
+  "total_partidos_evaluados": 608,
+  "total_aciertos": 351,
   "total_errores": 257,
   "precision_general": 57.7,
   "error_general": 42.3,
@@ -19,9 +19,9 @@
     },
     {
       "rango": "70-80",
-      "partidos": 36,
-      "aciertos": 22,
-      "pct_acierto_real": 61.1
+      "partidos": 37,
+      "aciertos": 23,
+      "pct_acierto_real": 62.2
     },
     {
       "rango": "80-90",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823900",
+      "local": "Los Angeles Dodgers",
+      "visitante": "Cincinnati Reds",
+      "hora": "2026-09-10T02:10:00Z",
+      "probabilidad_local": 77.2,
+      "resultado": "local",
+      "marcador_local_final": 14,
+      "marcador_visitante_final": 1,
+      "acerto": true
+    },
     {
       "gamePk": "823739",
       "local": "Milwaukee Brewers",
@@ -575,17 +586,6 @@
       "marcador_local_final": 4,
       "marcador_visitante_final": 2,
       "acerto": true
-    },
-    {
-      "gamePk": "823822",
-      "local": "Miami Marlins",
-      "visitante": "Chicago Cubs",
-      "hora": "2026-09-06T17:40:00Z",
-      "probabilidad_local": 45.5,
-      "resultado": "local",
-      "marcador_local_final": 10,
-      "marcador_visitante_final": 3,
-      "acerto": false
     }
   ]
 }

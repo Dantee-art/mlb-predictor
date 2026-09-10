@@ -7134,10 +7134,10 @@
     "probabilidad_local": 47.8,
     "pitcher_local": "Blade Tidwell",
     "pitcher_visitante": "Andre Pallante",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 7,
+    "marcador_visitante_final": 6,
+    "acerto": false
   },
   "823251": {
     "local": "San Diego Padres",
@@ -7146,10 +7146,10 @@
     "probabilidad_local": 56.5,
     "pitcher_local": "Walker Buehler",
     "pitcher_visitante": "Jackson Kent",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 9,
+    "marcador_visitante_final": 2,
+    "acerto": true
   },
   "823090": {
     "local": "Seattle Mariners",
@@ -7158,10 +7158,10 @@
     "probabilidad_local": 50.4,
     "pitcher_local": "Kade Anderson",
     "pitcher_visitante": "Cody Bradford",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 2,
+    "acerto": true
   },
   "824791": {
     "local": "Baltimore Orioles",
@@ -7290,6 +7290,54 @@
     "probabilidad_local": 55.3,
     "pitcher_local": "Reynaldo López",
     "pitcher_visitante": "Griffin Jax",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824872": {
+    "local": "Atlanta Braves",
+    "visitante": "Tampa Bay Rays",
+    "hora": "2026-09-10T16:15:00Z",
+    "probabilidad_local": 54.5,
+    "pitcher_local": "Martín Pérez",
+    "pitcher_visitante": "Nick Martinez",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823413": {
+    "local": "Philadelphia Phillies",
+    "visitante": "Houston Astros",
+    "hora": "2026-09-10T17:05:00Z",
+    "probabilidad_local": 66.2,
+    "pitcher_local": "Zack Wheeler",
+    "pitcher_visitante": "Cristian Javier",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823088": {
+    "local": "Seattle Mariners",
+    "visitante": "Texas Rangers",
+    "hora": "2026-09-10T20:10:00Z",
+    "probabilidad_local": 49.4,
+    "pitcher_local": "Logan Gilbert",
+    "pitcher_visitante": "Jacob deGrom",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823499": {
+    "local": "New York Yankees",
+    "visitante": "Colorado Rockies",
+    "hora": "2026-09-10T23:05:00Z",
+    "probabilidad_local": 81.6,
+    "pitcher_local": "Max Fried",
+    "pitcher_visitante": "Ryan Feltner",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

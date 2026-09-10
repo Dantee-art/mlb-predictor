@@ -7170,10 +7170,10 @@
     "probabilidad_local": 50.3,
     "pitcher_local": "Shane Baz",
     "pitcher_visitante": "Foster Griffin",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 9,
+    "marcador_visitante_final": 5,
+    "acerto": true
   },
   "823416": {
     "local": "Philadelphia Phillies",
@@ -7182,10 +7182,10 @@
     "probabilidad_local": 66.2,
     "pitcher_local": "Cristopher Sánchez",
     "pitcher_visitante": "Hunter Brown",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 11,
+    "marcador_visitante_final": 7,
+    "acerto": true
   },
   "823818": {
     "local": "Miami Marlins",
@@ -7194,10 +7194,10 @@
     "probabilidad_local": 54.6,
     "pitcher_local": "Janson Junk",
     "pitcher_visitante": "Robert Stock",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 14,
+    "marcador_visitante_final": 15,
+    "acerto": false
   },
   "824713": {
     "local": "Boston Red Sox",
@@ -7206,10 +7206,10 @@
     "probabilidad_local": 73.3,
     "pitcher_local": "Jake Bennett",
     "pitcher_visitante": "Ryan Johnson",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 4,
+    "marcador_visitante_final": 6,
+    "acerto": false
   },
   "823497": {
     "local": "New York Yankees",
@@ -7218,10 +7218,10 @@
     "probabilidad_local": 77.7,
     "pitcher_local": "Will Warren",
     "pitcher_visitante": "Tomoyuki Sugano",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 6,
+    "marcador_visitante_final": 1,
+    "acerto": true
   },
   "823739": {
     "local": "Milwaukee Brewers",
@@ -7230,10 +7230,10 @@
     "probabilidad_local": 62.6,
     "pitcher_local": "Logan Henderson",
     "pitcher_visitante": "Kevin Gausman",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 8,
+    "marcador_visitante_final": 6,
+    "acerto": true
   },
   "823900": {
     "local": "Los Angeles Dodgers",
@@ -7266,10 +7266,10 @@
     "probabilidad_local": 53.3,
     "pitcher_local": "Daniel Lynch IV",
     "pitcher_visitante": "Zac Gallen",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 5,
+    "marcador_visitante_final": 2,
+    "acerto": true
   },
   "824549": {
     "local": "Chicago White Sox",
@@ -7278,10 +7278,10 @@
     "probabilidad_local": 54.0,
     "pitcher_local": "Davis Martin",
     "pitcher_visitante": "Lake Bachar",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 2,
+    "marcador_visitante_final": 4,
+    "acerto": false
   },
   "824871": {
     "local": "Atlanta Braves",
@@ -7290,10 +7290,10 @@
     "probabilidad_local": 55.3,
     "pitcher_local": "Reynaldo López",
     "pitcher_visitante": "Griffin Jax",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 2,
+    "marcador_visitante_final": 7,
+    "acerto": false
   },
   "824872": {
     "local": "Atlanta Braves",
@@ -7338,6 +7338,18 @@
     "probabilidad_local": 81.6,
     "pitcher_local": "Max Fried",
     "pitcher_visitante": "Ryan Feltner",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824550": {
+    "local": "Chicago White Sox",
+    "visitante": "Pittsburgh Pirates",
+    "hora": "2026-09-10T23:40:00Z",
+    "probabilidad_local": 56.3,
+    "pitcher_local": "Hagen Smith",
+    "pitcher_visitante": "Jared Jones",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

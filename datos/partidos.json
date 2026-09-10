@@ -3,35 +3,35 @@
         "gamePk": 824872,
         "local": "Atlanta Braves",
         "visitante": "Tampa Bay Rays",
-        "estado": "Pre-Game",
+        "estado": "In Progress",
         "hora": "2026-09-10T16:15:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 5,
+        "inning_estado": "Bottom",
         "pitcher_local": "Martín Pérez",
         "pitcher_visitante": "Nick Martinez",
         "pitcher_local_id": 527048,
         "pitcher_visitante_id": 607259,
         "ballpark_factor": 1.056,
-        "probabilidad": 54.4
+        "probabilidad": 54.5
     },
     {
         "gamePk": 823413,
         "local": "Philadelphia Phillies",
         "visitante": "Houston Astros",
-        "estado": "Scheduled",
+        "estado": "In Progress",
         "hora": "2026-09-10T17:05:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Bottom",
         "pitcher_local": "Zack Wheeler",
         "pitcher_visitante": "Cristian Javier",
         "pitcher_local_id": 554430,
         "pitcher_visitante_id": 664299,
         "ballpark_factor": 1.209,
-        "probabilidad": 67.0
+        "probabilidad": 67.5
     },
     {
         "gamePk": 823088,
@@ -65,7 +65,7 @@
         "pitcher_local_id": 608331,
         "pitcher_visitante_id": 663372,
         "ballpark_factor": 1.142,
-        "probabilidad": 82.1
+        "probabilidad": 82.3
     },
     {
         "gamePk": 824550,
@@ -82,6 +82,6 @@
         "pitcher_local_id": 696146,
         "pitcher_visitante_id": 683003,
         "ballpark_factor": 0.976,
-        "probabilidad": 56.3
+        "probabilidad": 56.4
     }
 ]

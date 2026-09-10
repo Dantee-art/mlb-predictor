@@ -1,21 +1,21 @@
 {
-  "total_partidos_evaluados": 608,
-  "total_aciertos": 351,
-  "total_errores": 257,
+  "total_partidos_evaluados": 610,
+  "total_aciertos": 352,
+  "total_errores": 258,
   "precision_general": 57.7,
   "error_general": 42.3,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 364,
-      "aciertos": 211,
-      "pct_acierto_real": 58.0
+      "partidos": 365,
+      "aciertos": 212,
+      "pct_acierto_real": 58.1
     },
     {
       "rango": "60-70",
-      "partidos": 199,
+      "partidos": 200,
       "aciertos": 112,
-      "pct_acierto_real": 56.3
+      "pct_acierto_real": 56.0
     },
     {
       "rango": "70-80",
@@ -37,6 +37,28 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823413",
+      "local": "Philadelphia Phillies",
+      "visitante": "Houston Astros",
+      "hora": "2026-09-10T17:05:00Z",
+      "probabilidad_local": 66.2,
+      "resultado": "visitante",
+      "marcador_local_final": 1,
+      "marcador_visitante_final": 2,
+      "acerto": false
+    },
+    {
+      "gamePk": "824872",
+      "local": "Atlanta Braves",
+      "visitante": "Tampa Bay Rays",
+      "hora": "2026-09-10T16:15:00Z",
+      "probabilidad_local": 54.5,
+      "resultado": "local",
+      "marcador_local_final": 3,
+      "marcador_visitante_final": 1,
+      "acerto": true
+    },
     {
       "gamePk": "823900",
       "local": "Los Angeles Dodgers",
@@ -564,28 +586,6 @@
       "marcador_local_final": 6,
       "marcador_visitante_final": 1,
       "acerto": false
-    },
-    {
-      "gamePk": "824385",
-      "local": "Cleveland Guardians",
-      "visitante": "Detroit Tigers",
-      "hora": "2026-09-06T17:40:00Z",
-      "probabilidad_local": 57.9,
-      "resultado": "local",
-      "marcador_local_final": 3,
-      "marcador_visitante_final": 2,
-      "acerto": true
-    },
-    {
-      "gamePk": "823578",
-      "local": "New York Mets",
-      "visitante": "San Francisco Giants",
-      "hora": "2026-09-06T17:40:00Z",
-      "probabilidad_local": 59.6,
-      "resultado": "local",
-      "marcador_local_final": 4,
-      "marcador_visitante_final": 2,
-      "acerto": true
     }
   ]
 }

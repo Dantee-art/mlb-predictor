@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 613,
-  "total_aciertos": 353,
+  "total_partidos_evaluados": 614,
+  "total_aciertos": 354,
   "total_errores": 260,
-  "precision_general": 57.6,
-  "error_general": 42.4,
+  "precision_general": 57.7,
+  "error_general": 42.3,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 367,
-      "aciertos": 212,
-      "pct_acierto_real": 57.8
+      "partidos": 368,
+      "aciertos": 213,
+      "pct_acierto_real": 57.9
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824631",
+      "local": "Chicago Cubs",
+      "visitante": "Pittsburgh Pirates",
+      "hora": "2026-09-11T18:20:00Z",
+      "probabilidad_local": 50.7,
+      "resultado": "local",
+      "marcador_local_final": 12,
+      "marcador_visitante_final": 2,
+      "acerto": true
+    },
     {
       "gamePk": "824550",
       "local": "Chicago White Sox",
@@ -575,17 +586,6 @@
       "marcador_local_final": 4,
       "marcador_visitante_final": 3,
       "acerto": false
-    },
-    {
-      "gamePk": "824309",
-      "local": "Colorado Rockies",
-      "visitante": "St. Louis Cardinals",
-      "hora": "2026-09-06T19:10:00Z",
-      "probabilidad_local": 40.0,
-      "resultado": "visitante",
-      "marcador_local_final": 8,
-      "marcador_visitante_final": 10,
-      "acerto": true
     }
   ]
 }

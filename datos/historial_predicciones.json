@@ -7338,10 +7338,10 @@
     "probabilidad_local": 81.6,
     "pitcher_local": "Max Fried",
     "pitcher_visitante": "Ryan Feltner",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 10,
+    "marcador_visitante_final": 3,
+    "acerto": true
   },
   "824550": {
     "local": "Chicago White Sox",
@@ -7350,10 +7350,10 @@
     "probabilidad_local": 56.3,
     "pitcher_local": "Hagen Smith",
     "pitcher_visitante": "Jared Jones",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 0,
+    "marcador_visitante_final": 2,
+    "acerto": false
   },
   "824227": {
     "local": "Detroit Tigers",
@@ -7494,6 +7494,18 @@
     "probabilidad_local": 50.3,
     "pitcher_local": "Anthony Molina",
     "pitcher_visitante": "Robbie Ray",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824631": {
+    "local": "Chicago Cubs",
+    "visitante": "Pittsburgh Pirates",
+    "hora": "2026-09-11T18:20:00Z",
+    "probabilidad_local": 50.7,
+    "pitcher_local": "Shota Imanaga",
+    "pitcher_visitante": "Wilber Dotel",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

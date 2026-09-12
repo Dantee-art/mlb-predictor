@@ -1,27 +1,27 @@
 {
-  "total_partidos_evaluados": 631,
-  "total_aciertos": 366,
-  "total_errores": 265,
+  "total_partidos_evaluados": 636,
+  "total_aciertos": 369,
+  "total_errores": 267,
   "precision_general": 58.0,
   "error_general": 42.0,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 374,
-      "aciertos": 217,
-      "pct_acierto_real": 58.0
+      "partidos": 377,
+      "aciertos": 219,
+      "pct_acierto_real": 58.1
     },
     {
       "rango": "60-70",
-      "partidos": 207,
+      "partidos": 208,
       "aciertos": 117,
-      "pct_acierto_real": 56.5
+      "pct_acierto_real": 56.2
     },
     {
       "rango": "70-80",
-      "partidos": 41,
-      "aciertos": 26,
-      "pct_acierto_real": 63.4
+      "partidos": 42,
+      "aciertos": 27,
+      "pct_acierto_real": 64.3
     },
     {
       "rango": "80-90",
@@ -37,6 +37,61 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824712",
+      "local": "Boston Red Sox",
+      "visitante": "Kansas City Royals",
+      "hora": "2026-09-12T20:10:00Z",
+      "probabilidad_local": 71.4,
+      "resultado": "local",
+      "marcador_local_final": 5,
+      "marcador_visitante_final": 1,
+      "acerto": true
+    },
+    {
+      "gamePk": "823819",
+      "local": "Miami Marlins",
+      "visitante": "Los Angeles Dodgers",
+      "hora": "2026-09-12T20:10:00Z",
+      "probabilidad_local": 35.5,
+      "resultado": "local",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 3,
+      "acerto": false
+    },
+    {
+      "gamePk": "823657",
+      "local": "Minnesota Twins",
+      "visitante": "Cleveland Guardians",
+      "hora": "2026-09-12T20:10:00Z",
+      "probabilidad_local": 40.7,
+      "resultado": "local",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 3,
+      "acerto": false
+    },
+    {
+      "gamePk": "823170",
+      "local": "San Francisco Giants",
+      "visitante": "San Diego Padres",
+      "hora": "2026-09-12T20:05:00Z",
+      "probabilidad_local": 49.9,
+      "resultado": "visitante",
+      "marcador_local_final": 6,
+      "marcador_visitante_final": 7,
+      "acerto": true
+    },
+    {
+      "gamePk": "822768",
+      "local": "Toronto Blue Jays",
+      "visitante": "Baltimore Orioles",
+      "hora": "2026-09-12T19:07:00Z",
+      "probabilidad_local": 58.0,
+      "resultado": "local",
+      "marcador_local_final": 7,
+      "marcador_visitante_final": 3,
+      "acerto": true
+    },
     {
       "gamePk": "824630",
       "local": "Chicago Cubs",
@@ -530,61 +585,6 @@
       "resultado": "visitante",
       "marcador_local_final": 3,
       "marcador_visitante_final": 9,
-      "acerto": false
-    },
-    {
-      "gamePk": "823738",
-      "local": "Milwaukee Brewers",
-      "visitante": "Chicago Cubs",
-      "hora": "2026-09-08T23:40:00Z",
-      "probabilidad_local": 69.5,
-      "resultado": "local",
-      "marcador_local_final": 4,
-      "marcador_visitante_final": 3,
-      "acerto": true
-    },
-    {
-      "gamePk": "824875",
-      "local": "Atlanta Braves",
-      "visitante": "Tampa Bay Rays",
-      "hora": "2026-09-08T23:15:00Z",
-      "probabilidad_local": 55.6,
-      "resultado": "visitante",
-      "marcador_local_final": 1,
-      "marcador_visitante_final": 7,
-      "acerto": false
-    },
-    {
-      "gamePk": "823500",
-      "local": "New York Yankees",
-      "visitante": "Colorado Rockies",
-      "hora": "2026-09-08T23:05:00Z",
-      "probabilidad_local": 80.0,
-      "resultado": "local",
-      "marcador_local_final": 5,
-      "marcador_visitante_final": 3,
-      "acerto": true
-    },
-    {
-      "gamePk": "824714",
-      "local": "Boston Red Sox",
-      "visitante": "Los Angeles Angels",
-      "hora": "2026-09-08T22:45:00Z",
-      "probabilidad_local": 60.9,
-      "resultado": "visitante",
-      "marcador_local_final": 1,
-      "marcador_visitante_final": 6,
-      "acerto": false
-    },
-    {
-      "gamePk": "824228",
-      "local": "Detroit Tigers",
-      "visitante": "Minnesota Twins",
-      "hora": "2026-09-08T22:40:00Z",
-      "probabilidad_local": 63.7,
-      "resultado": "visitante",
-      "marcador_local_final": 2,
-      "marcador_visitante_final": 3,
       "acerto": false
     }
   ]

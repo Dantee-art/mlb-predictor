@@ -7614,10 +7614,10 @@
     "probabilidad_local": 61.3,
     "pitcher_local": "Ian Seymour",
     "pitcher_visitante": "Peter Lambert",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 2,
+    "acerto": true
   },
   "824870": {
     "local": "Atlanta Braves",
@@ -7626,10 +7626,10 @@
     "probabilidad_local": 49.6,
     "pitcher_local": "Tyler Mahle",
     "pitcher_visitante": "Jesús Luzardo",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 12,
+    "marcador_visitante_final": 2,
+    "acerto": false
   },
   "823009": {
     "local": "St. Louis Cardinals",
@@ -7638,10 +7638,10 @@
     "probabilidad_local": 56.2,
     "pitcher_local": "Kyle Leahy",
     "pitcher_visitante": "Luis Castillo",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 5,
+    "marcador_visitante_final": 6,
+    "acerto": false
   },
   "825035": {
     "local": "Arizona Diamondbacks",
@@ -7650,10 +7650,10 @@
     "probabilidad_local": 55.9,
     "pitcher_local": "Brandon Pfaadt",
     "pitcher_visitante": "Kumar Rocker",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 2,
+    "marcador_visitante_final": 6,
+    "acerto": false
   },
   "824955": {
     "local": "Athletics",
@@ -7662,10 +7662,10 @@
     "probabilidad_local": 43.4,
     "pitcher_local": "Gage Jump",
     "pitcher_visitante": "Bryan Woo",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 1,
+    "marcador_visitante_final": 19,
+    "acerto": true
   },
   "824224": {
     "local": "Detroit Tigers",
@@ -7710,10 +7710,10 @@
     "probabilidad_local": 81.4,
     "pitcher_local": "Shane Drohan",
     "pitcher_visitante": "Brady Singer",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 13,
+    "marcador_visitante_final": 9,
+    "acerto": true
   },
   "824225": {
     "local": "Detroit Tigers",
@@ -7842,6 +7842,30 @@
     "probabilidad_local": 41.1,
     "pitcher_local": "Logan Webb",
     "pitcher_visitante": "Nick Pivetta",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823734": {
+    "local": "Milwaukee Brewers",
+    "visitante": "Cincinnati Reds",
+    "hora": "2026-09-13T18:10:00Z",
+    "probabilidad_local": 70.4,
+    "pitcher_local": "Robert Gasser",
+    "pitcher_visitante": "Chase Burns",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "825033": {
+    "local": "Arizona Diamondbacks",
+    "visitante": "Texas Rangers",
+    "hora": "2026-09-13T20:10:00Z",
+    "probabilidad_local": 56.0,
+    "pitcher_local": "Eduardo Rodriguez",
+    "pitcher_visitante": "Cal Quantrill",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

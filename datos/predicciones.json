@@ -3,18 +3,18 @@
         "gamePk": 824225,
         "local": "Detroit Tigers",
         "visitante": "Colorado Rockies",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-13T16:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Jackson Jobe",
         "pitcher_visitante": "Gabriel Hughes",
         "pitcher_local_id": 695549,
         "pitcher_visitante_id": 687312,
-        "ballpark_factor": 0.909,
-        "probabilidad": 66.8
+        "ballpark_factor": 0.925,
+        "probabilidad": 66.9
     },
     {
         "gamePk": 822682,
@@ -37,7 +37,7 @@
         "gamePk": 824869,
         "local": "Atlanta Braves",
         "visitante": "Philadelphia Phillies",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-13T17:35:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
@@ -47,14 +47,14 @@
         "pitcher_visitante": "Andrew Painter",
         "pitcher_local_id": 656550,
         "pitcher_visitante_id": 691725,
-        "ballpark_factor": 1.053,
-        "probabilidad": 59.0
+        "ballpark_factor": 1.061,
+        "probabilidad": 59.1
     },
     {
         "gamePk": 823495,
         "local": "New York Yankees",
         "visitante": "New York Mets",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-13T17:35:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
@@ -64,14 +64,14 @@
         "pitcher_visitante": "Christian Scott",
         "pitcher_local_id": 693645,
         "pitcher_visitante_id": 681035,
-        "ballpark_factor": 1.152,
-        "probabilidad": 67.7
+        "ballpark_factor": 1.161,
+        "probabilidad": 67.8
     },
     {
         "gamePk": 822764,
         "local": "Toronto Blue Jays",
         "visitante": "Baltimore Orioles",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-13T17:37:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
@@ -81,14 +81,14 @@
         "pitcher_visitante": "Trevor Rogers",
         "pitcher_local_id": 656302,
         "pitcher_visitante_id": 669432,
-        "ballpark_factor": 0.988,
-        "probabilidad": 58.7
+        "ballpark_factor": 0.991,
+        "probabilidad": 58.8
     },
     {
         "gamePk": 822928,
         "local": "Tampa Bay Rays",
         "visitante": "Houston Astros",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-13T17:40:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
@@ -98,14 +98,14 @@
         "pitcher_visitante": "Hayden Wesneski",
         "pitcher_local_id": 642547,
         "pitcher_visitante_id": 669713,
-        "ballpark_factor": 1.014,
+        "ballpark_factor": 1.008,
         "probabilidad": 58.1
     },
     {
         "gamePk": 823815,
         "local": "Miami Marlins",
         "visitante": "Los Angeles Dodgers",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-13T17:40:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
@@ -115,7 +115,7 @@
         "pitcher_visitante": "Emmet Sheehan",
         "pitcher_local_id": 691587,
         "pitcher_visitante_id": 686218,
-        "ballpark_factor": 0.912,
+        "ballpark_factor": 0.91,
         "probabilidad": 43.8
     },
     {
@@ -132,7 +132,7 @@
         "pitcher_visitante": "Tanner Bibee",
         "pitcher_local_id": null,
         "pitcher_visitante_id": 676440,
-        "ballpark_factor": 0.913,
+        "ballpark_factor": 0.91,
         "probabilidad": 51.6
     },
     {
@@ -149,8 +149,8 @@
         "pitcher_visitante": "Chase Burns",
         "pitcher_local_id": 688107,
         "pitcher_visitante_id": 695505,
-        "ballpark_factor": 0.965,
-        "probabilidad": 70.4
+        "ballpark_factor": 0.983,
+        "probabilidad": 70.5
     },
     {
         "gamePk": 823008,
@@ -166,7 +166,7 @@
         "pitcher_visitante": "Sin anunciar",
         "pitcher_local_id": 700241,
         "pitcher_visitante_id": null,
-        "ballpark_factor": 0.838,
+        "ballpark_factor": 0.841,
         "probabilidad": 49.8
     },
     {
@@ -183,7 +183,7 @@
         "pitcher_visitante": "Bubba Chandler",
         "pitcher_local_id": 571510,
         "pitcher_visitante_id": 696149,
-        "ballpark_factor": 1.027,
+        "ballpark_factor": 1.023,
         "probabilidad": 55.3
     },
     {
@@ -200,8 +200,8 @@
         "pitcher_visitante": "Noah Cameron",
         "pitcher_local_id": 801139,
         "pitcher_visitante_id": 702070,
-        "ballpark_factor": 1.088,
-        "probabilidad": 70.3
+        "ballpark_factor": 1.083,
+        "probabilidad": 70.4
     },
     {
         "gamePk": 824952,
@@ -234,7 +234,7 @@
         "pitcher_visitante": "Cal Quantrill",
         "pitcher_local_id": 593958,
         "pitcher_visitante_id": 615698,
-        "ballpark_factor": 1.004,
+        "ballpark_factor": 1.003,
         "probabilidad": 56.0
     },
     {
@@ -251,7 +251,7 @@
         "pitcher_visitante": "Nick Pivetta",
         "pitcher_local_id": 657277,
         "pitcher_visitante_id": 601713,
-        "ballpark_factor": 0.941,
+        "ballpark_factor": 0.947,
         "probabilidad": 41.1
     }
 ]

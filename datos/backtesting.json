@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 636,
-  "total_aciertos": 369,
+  "total_partidos_evaluados": 637,
+  "total_aciertos": 370,
   "total_errores": 267,
-  "precision_general": 58.0,
-  "error_general": 42.0,
+  "precision_general": 58.1,
+  "error_general": 41.9,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 377,
-      "aciertos": 219,
-      "pct_acierto_real": 58.1
+      "partidos": 378,
+      "aciertos": 220,
+      "pct_acierto_real": 58.2
     },
     {
       "rango": "60-70",
@@ -69,6 +69,17 @@
       "marcador_local_final": 4,
       "marcador_visitante_final": 3,
       "acerto": false
+    },
+    {
+      "gamePk": "822685",
+      "local": "Washington Nationals",
+      "visitante": "Los Angeles Angels",
+      "hora": "2026-09-12T20:05:00Z",
+      "probabilidad_local": 56.1,
+      "resultado": "local",
+      "marcador_local_final": 6,
+      "marcador_visitante_final": 5,
+      "acerto": true
     },
     {
       "gamePk": "823170",
@@ -575,17 +586,6 @@
       "marcador_local_final": 3,
       "marcador_visitante_final": 5,
       "acerto": true
-    },
-    {
-      "gamePk": "824551",
-      "local": "Chicago White Sox",
-      "visitante": "Pittsburgh Pirates",
-      "hora": "2026-09-08T23:40:00Z",
-      "probabilidad_local": 55.9,
-      "resultado": "visitante",
-      "marcador_local_final": 3,
-      "marcador_visitante_final": 9,
-      "acerto": false
     }
   ]
 }

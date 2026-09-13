@@ -1,9 +1,9 @@
 {
-  "total_partidos_evaluados": 643,
-  "total_aciertos": 373,
+  "total_partidos_evaluados": 644,
+  "total_aciertos": 374,
   "total_errores": 270,
-  "precision_general": 58.0,
-  "error_general": 42.0,
+  "precision_general": 58.1,
+  "error_general": 41.9,
   "por_rango": [
     {
       "rango": "50-60",
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 209,
-      "aciertos": 118,
-      "pct_acierto_real": 56.5
+      "partidos": 210,
+      "aciertos": 119,
+      "pct_acierto_real": 56.7
     },
     {
       "rango": "70-80",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824225",
+      "local": "Detroit Tigers",
+      "visitante": "Colorado Rockies",
+      "hora": "2026-09-13T16:10:00Z",
+      "probabilidad_local": 66.8,
+      "resultado": "local",
+      "marcador_local_final": 8,
+      "marcador_visitante_final": 1,
+      "acerto": true
+    },
     {
       "gamePk": "824955",
       "local": "Athletics",
@@ -575,17 +586,6 @@
       "marcador_local_final": 2,
       "marcador_visitante_final": 0,
       "acerto": false
-    },
-    {
-      "gamePk": "824226",
-      "local": "Detroit Tigers",
-      "visitante": "Minnesota Twins",
-      "hora": "2026-09-09T17:10:00Z",
-      "probabilidad_local": 62.1,
-      "resultado": "local",
-      "marcador_local_final": 7,
-      "marcador_visitante_final": 2,
-      "acerto": true
     }
   ]
 }

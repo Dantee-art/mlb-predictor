@@ -1747,157 +1747,6 @@
             "totalSplits": 26
         },
         {
-            "leaderCategory": "wins",
-            "gameType": {
-                "id": "R",
-                "description": "Regular Season"
-            },
-            "leaders": [
-                {
-                    "rank": 1,
-                    "value": "17",
-                    "team": {
-                        "id": 111,
-                        "name": "Boston Red Sox",
-                        "link": "/api/v1/teams/111"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 543243,
-                        "fullName": "Sonny Gray",
-                        "link": "/api/v1/people/543243",
-                        "firstName": "Sonny",
-                        "lastName": "Gray"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 1,
-                    "value": "17",
-                    "team": {
-                        "id": 143,
-                        "name": "Philadelphia Phillies",
-                        "link": "/api/v1/teams/143"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 650911,
-                        "fullName": "Cristopher Sánchez",
-                        "link": "/api/v1/people/650911",
-                        "firstName": "Cristopher",
-                        "lastName": "Sánchez"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 3,
-                    "value": "15",
-                    "team": {
-                        "id": 113,
-                        "name": "Cincinnati Reds",
-                        "link": "/api/v1/teams/113"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 695505,
-                        "fullName": "Chase Burns",
-                        "link": "/api/v1/people/695505",
-                        "firstName": "Chase",
-                        "lastName": "Burns"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 3,
-                    "value": "15",
-                    "team": {
-                        "id": 114,
-                        "name": "Cleveland Guardians",
-                        "link": "/api/v1/teams/114"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 656492,
-                        "fullName": "Foster Griffin",
-                        "link": "/api/v1/people/656492",
-                        "firstName": "Foster",
-                        "lastName": "Griffin"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 2
-                },
-                {
-                    "rank": 3,
-                    "value": "15",
-                    "team": {
-                        "id": 109,
-                        "name": "Arizona Diamondbacks",
-                        "link": "/api/v1/teams/109"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 593958,
-                        "fullName": "Eduardo Rodriguez",
-                        "link": "/api/v1/people/593958",
-                        "firstName": "Eduardo",
-                        "lastName": "Rodriguez"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                }
-            ],
-            "statGroup": "pitching",
-            "totalSplits": 534
-        },
-        {
             "leaderCategory": "homeRuns",
             "gameType": {
                 "id": "R",
@@ -2047,6 +1896,157 @@
             ],
             "statGroup": "pitching",
             "totalSplits": 743
+        },
+        {
+            "leaderCategory": "wins",
+            "gameType": {
+                "id": "R",
+                "description": "Regular Season"
+            },
+            "leaders": [
+                {
+                    "rank": 1,
+                    "value": "17",
+                    "team": {
+                        "id": 111,
+                        "name": "Boston Red Sox",
+                        "link": "/api/v1/teams/111"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 543243,
+                        "fullName": "Sonny Gray",
+                        "link": "/api/v1/people/543243",
+                        "firstName": "Sonny",
+                        "lastName": "Gray"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 1,
+                    "value": "17",
+                    "team": {
+                        "id": 143,
+                        "name": "Philadelphia Phillies",
+                        "link": "/api/v1/teams/143"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 650911,
+                        "fullName": "Cristopher Sánchez",
+                        "link": "/api/v1/people/650911",
+                        "firstName": "Cristopher",
+                        "lastName": "Sánchez"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 3,
+                    "value": "15",
+                    "team": {
+                        "id": 113,
+                        "name": "Cincinnati Reds",
+                        "link": "/api/v1/teams/113"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 695505,
+                        "fullName": "Chase Burns",
+                        "link": "/api/v1/people/695505",
+                        "firstName": "Chase",
+                        "lastName": "Burns"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 3,
+                    "value": "15",
+                    "team": {
+                        "id": 114,
+                        "name": "Cleveland Guardians",
+                        "link": "/api/v1/teams/114"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 656492,
+                        "fullName": "Foster Griffin",
+                        "link": "/api/v1/people/656492",
+                        "firstName": "Foster",
+                        "lastName": "Griffin"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 2
+                },
+                {
+                    "rank": 3,
+                    "value": "15",
+                    "team": {
+                        "id": 109,
+                        "name": "Arizona Diamondbacks",
+                        "link": "/api/v1/teams/109"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 593958,
+                        "fullName": "Eduardo Rodriguez",
+                        "link": "/api/v1/people/593958",
+                        "firstName": "Eduardo",
+                        "lastName": "Rodriguez"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                }
+            ],
+            "statGroup": "pitching",
+            "totalSplits": 534
         }
     ]
 }

@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 657,
-  "total_aciertos": 380,
+  "total_partidos_evaluados": 658,
+  "total_aciertos": 381,
   "total_errores": 277,
-  "precision_general": 57.8,
-  "error_general": 42.2,
+  "precision_general": 57.9,
+  "error_general": 42.1,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 392,
-      "aciertos": 225,
-      "pct_acierto_real": 57.4
+      "partidos": 393,
+      "aciertos": 226,
+      "pct_acierto_real": 57.5
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823171",
+      "local": "San Francisco Giants",
+      "visitante": "San Diego Padres",
+      "hora": "2026-09-13T23:20:00Z",
+      "probabilidad_local": 41.1,
+      "resultado": "visitante",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 6,
+      "acerto": true
+    },
     {
       "gamePk": "825033",
       "local": "Arizona Diamondbacks",
@@ -573,17 +584,6 @@
       "probabilidad_local": 54.5,
       "resultado": "local",
       "marcador_local_final": 3,
-      "marcador_visitante_final": 1,
-      "acerto": true
-    },
-    {
-      "gamePk": "823900",
-      "local": "Los Angeles Dodgers",
-      "visitante": "Cincinnati Reds",
-      "hora": "2026-09-10T02:10:00Z",
-      "probabilidad_local": 77.2,
-      "resultado": "local",
-      "marcador_local_final": 14,
       "marcador_visitante_final": 1,
       "acerto": true
     }

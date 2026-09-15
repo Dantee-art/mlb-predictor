@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 658,
-  "total_aciertos": 381,
-  "total_errores": 277,
+  "total_partidos_evaluados": 660,
+  "total_aciertos": 382,
+  "total_errores": 278,
   "precision_general": 57.9,
   "error_general": 42.1,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 393,
+      "partidos": 394,
       "aciertos": 226,
-      "pct_acierto_real": 57.5
+      "pct_acierto_real": 57.4
     },
     {
       "rango": "60-70",
@@ -19,9 +19,9 @@
     },
     {
       "rango": "70-80",
-      "partidos": 44,
-      "aciertos": 28,
-      "pct_acierto_real": 63.6
+      "partidos": 45,
+      "aciertos": 29,
+      "pct_acierto_real": 64.4
     },
     {
       "rango": "80-90",
@@ -37,6 +37,28 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824465",
+      "local": "Cincinnati Reds",
+      "visitante": "Los Angeles Dodgers",
+      "hora": "2026-09-14T22:40:00Z",
+      "probabilidad_local": 22.3,
+      "resultado": "visitante",
+      "marcador_local_final": 1,
+      "marcador_visitante_final": 4,
+      "acerto": true
+    },
+    {
+      "gamePk": "824386",
+      "local": "Cleveland Guardians",
+      "visitante": "Chicago White Sox",
+      "hora": "2026-09-14T22:40:00Z",
+      "probabilidad_local": 53.9,
+      "resultado": "visitante",
+      "marcador_local_final": 3,
+      "marcador_visitante_final": 7,
+      "acerto": false
+    },
     {
       "gamePk": "823171",
       "local": "San Francisco Giants",
@@ -564,28 +586,6 @@
       "marcador_local_final": 4,
       "marcador_visitante_final": 3,
       "acerto": false
-    },
-    {
-      "gamePk": "823413",
-      "local": "Philadelphia Phillies",
-      "visitante": "Houston Astros",
-      "hora": "2026-09-10T17:05:00Z",
-      "probabilidad_local": 66.2,
-      "resultado": "visitante",
-      "marcador_local_final": 1,
-      "marcador_visitante_final": 2,
-      "acerto": false
-    },
-    {
-      "gamePk": "824872",
-      "local": "Atlanta Braves",
-      "visitante": "Tampa Bay Rays",
-      "hora": "2026-09-10T16:15:00Z",
-      "probabilidad_local": 54.5,
-      "resultado": "local",
-      "marcador_local_final": 3,
-      "marcador_visitante_final": 1,
-      "acerto": true
     }
   ]
 }

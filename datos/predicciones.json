@@ -3,68 +3,68 @@
         "gamePk": 824382,
         "local": "Cleveland Guardians",
         "visitante": "Chicago White Sox",
-        "estado": "Scheduled",
+        "estado": "Warmup",
         "hora": "2026-09-16T17:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Parker Messick",
         "pitcher_visitante": "Anthony Kay",
         "pitcher_local_id": 800048,
         "pitcher_visitante_id": 641743,
-        "ballpark_factor": 1.031,
+        "ballpark_factor": 1.038,
         "probabilidad": 58.1
     },
     {
         "gamePk": 823004,
         "local": "St. Louis Cardinals",
         "visitante": "San Francisco Giants",
-        "estado": "Scheduled",
+        "estado": "Warmup",
         "hora": "2026-09-16T17:15:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Matthew Liberatore",
         "pitcher_visitante": "Anthony Molina",
         "pitcher_local_id": 669461,
         "pitcher_visitante_id": 683627,
-        "ballpark_factor": 0.829,
+        "ballpark_factor": 0.835,
         "probabilidad": 53.6
     },
     {
         "gamePk": 823655,
         "local": "Minnesota Twins",
         "visitante": "New York Yankees",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-16T17:40:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Zebby Matthews",
         "pitcher_visitante": "Carlos Rodón",
         "pitcher_local_id": 805673,
         "pitcher_visitante_id": 607074,
-        "ballpark_factor": 0.915,
+        "ballpark_factor": 0.914,
         "probabilidad": 33.1
     },
     {
         "gamePk": 822763,
         "local": "Toronto Blue Jays",
         "visitante": "Detroit Tigers",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-16T19:07:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Max Scherzer",
         "pitcher_visitante": "Keider Montero",
         "pitcher_local_id": 453286,
         "pitcher_visitante_id": 672456,
-        "ballpark_factor": 0.996,
+        "ballpark_factor": 1.0,
         "probabilidad": 41.6
     },
     {
@@ -81,7 +81,7 @@
         "pitcher_visitante": "Blake Snell",
         "pitcher_local_id": 671096,
         "pitcher_visitante_id": 605483,
-        "ballpark_factor": 0.894,
+        "ballpark_factor": 0.888,
         "probabilidad": 18.3
     },
     {
@@ -98,7 +98,7 @@
         "pitcher_visitante": "Brady Basso",
         "pitcher_local_id": 607259,
         "pitcher_visitante_id": 669620,
-        "ballpark_factor": 1.022,
+        "ballpark_factor": 1.013,
         "probabilidad": 71.1
     },
     {
@@ -115,7 +115,7 @@
         "pitcher_visitante": "Logan Henderson",
         "pitcher_local_id": 683003,
         "pitcher_visitante_id": 701656,
-        "ballpark_factor": 1.18,
+        "ballpark_factor": 1.173,
         "probabilidad": 41.4
     },
     {
@@ -132,7 +132,7 @@
         "pitcher_visitante": "Zack Wheeler",
         "pitcher_local_id": 688692,
         "pitcher_visitante_id": 554430,
-        "ballpark_factor": 1.161,
+        "ballpark_factor": 1.158,
         "probabilidad": 48.3
     },
     {
@@ -149,7 +149,7 @@
         "pitcher_visitante": "Chris Bassitt",
         "pitcher_local_id": 476594,
         "pitcher_visitante_id": 605135,
-        "ballpark_factor": 0.96,
+        "ballpark_factor": 0.965,
         "probabilidad": 55.8
     },
     {
@@ -166,7 +166,7 @@
         "pitcher_visitante": "JR Ritchie",
         "pitcher_local_id": 684007,
         "pitcher_visitante_id": 702275,
-        "ballpark_factor": 1.02,
+        "ballpark_factor": 1.018,
         "probabilidad": 54.4
     },
     {
@@ -183,7 +183,7 @@
         "pitcher_visitante": "Jake Bennett",
         "pitcher_local_id": 669022,
         "pitcher_visitante_id": 687562,
-        "ballpark_factor": 0.908,
+        "ballpark_factor": 0.904,
         "probabilidad": 44.2
     },
     {
@@ -200,7 +200,7 @@
         "pitcher_visitante": "Daniel Lynch IV",
         "pitcher_local_id": 664299,
         "pitcher_visitante_id": 663738,
-        "ballpark_factor": 0.943,
+        "ballpark_factor": 0.939,
         "probabilidad": 54.9
     },
     {
@@ -217,7 +217,7 @@
         "pitcher_visitante": "Robbie Ray",
         "pitcher_local_id": 690279,
         "pitcher_visitante_id": 592662,
-        "ballpark_factor": 1.169,
+        "ballpark_factor": 1.17,
         "probabilidad": 40.1
     },
     {
@@ -234,7 +234,7 @@
         "pitcher_visitante": "George Kirby",
         "pitcher_local_id": 579328,
         "pitcher_visitante_id": 669923,
-        "ballpark_factor": 0.851,
+        "ballpark_factor": 0.844,
         "probabilidad": 51.9
     },
     {
@@ -251,7 +251,7 @@
         "pitcher_visitante": "Ryan Gusto",
         "pitcher_local_id": 518876,
         "pitcher_visitante_id": 687473,
-        "ballpark_factor": 1.018,
-        "probabilidad": 47.4
+        "ballpark_factor": 1.014,
+        "probabilidad": 47.3
     }
 ]

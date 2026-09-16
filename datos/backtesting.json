@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 683,
-  "total_aciertos": 396,
+  "total_partidos_evaluados": 684,
+  "total_aciertos": 397,
   "total_errores": 287,
   "precision_general": 58.0,
   "error_general": 42.0,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 409,
-      "aciertos": 234,
-      "pct_acierto_real": 57.2
+      "partidos": 410,
+      "aciertos": 235,
+      "pct_acierto_real": 57.3
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824382",
+      "local": "Cleveland Guardians",
+      "visitante": "Chicago White Sox",
+      "hora": "2026-09-16T17:10:00Z",
+      "probabilidad_local": 58.1,
+      "resultado": "local",
+      "marcador_local_final": 6,
+      "marcador_visitante_final": 3,
+      "acerto": true
+    },
     {
       "gamePk": "825030",
       "local": "Arizona Diamondbacks",
@@ -575,17 +586,6 @@
       "marcador_local_final": 4,
       "marcador_visitante_final": 3,
       "acerto": false
-    },
-    {
-      "gamePk": "822685",
-      "local": "Washington Nationals",
-      "visitante": "Los Angeles Angels",
-      "hora": "2026-09-12T20:05:00Z",
-      "probabilidad_local": 56.1,
-      "resultado": "local",
-      "marcador_local_final": 6,
-      "marcador_visitante_final": 5,
-      "acerto": true
     }
   ]
 }

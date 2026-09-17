@@ -8442,10 +8442,10 @@
     "probabilidad_local": 44.6,
     "pitcher_local": "Wilber Dotel",
     "pitcher_visitante": "Kyle Harrison",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 7,
+    "marcador_visitante_final": 4,
+    "acerto": false
   },
   "824464": {
     "local": "Cincinnati Reds",
@@ -8454,10 +8454,10 @@
     "probabilidad_local": 27.1,
     "pitcher_local": "Brady Singer",
     "pitcher_visitante": "Justin Wrobleski",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 2,
+    "marcador_visitante_final": 8,
+    "acerto": true
   },
   "822845": {
     "local": "Texas Rangers",
@@ -8466,6 +8466,18 @@
     "probabilidad_local": 44.6,
     "pitcher_local": "Tyler Alexander",
     "pitcher_visitante": "Sonny Gray",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824141": {
+    "local": "Houston Astros",
+    "visitante": "Kansas City Royals",
+    "hora": "2026-09-17T23:15:00Z",
+    "probabilidad_local": 58.8,
+    "pitcher_local": "Miguel Ullola",
+    "pitcher_visitante": "Seth Lugo",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

@@ -8250,10 +8250,10 @@
     "probabilidad_local": 71.1,
     "pitcher_local": "Nick Martinez",
     "pitcher_visitante": "Brady Basso",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 4,
+    "marcador_visitante_final": 3,
+    "acerto": true
   },
   "823332": {
     "local": "Pittsburgh Pirates",
@@ -8374,5 +8374,65 @@
     "marcador_local_final": 6,
     "marcador_visitante_final": 3,
     "acerto": true
+  },
+  "822924": {
+    "local": "Tampa Bay Rays",
+    "visitante": "Athletics",
+    "hora": "2026-09-17T17:10:00Z",
+    "probabilidad_local": 84.2,
+    "pitcher_local": "Drew Rasmussen",
+    "pitcher_visitante": "Jeffrey Springs",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824305": {
+    "local": "Colorado Rockies",
+    "visitante": "San Diego Padres",
+    "hora": "2026-09-17T19:10:00Z",
+    "probabilidad_local": 39.3,
+    "pitcher_local": "Tanner Gordon",
+    "pitcher_visitante": "Michael King",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823573": {
+    "local": "New York Mets",
+    "visitante": "Philadelphia Phillies",
+    "hora": "2026-09-17T23:15:00Z",
+    "probabilidad_local": 53.5,
+    "pitcher_local": "Nolan McLean",
+    "pitcher_visitante": "Aaron Nola",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824548": {
+    "local": "Chicago White Sox",
+    "visitante": "Detroit Tigers",
+    "hora": "2026-09-17T23:40:00Z",
+    "probabilidad_local": 46.5,
+    "pitcher_local": "Erick Fedde",
+    "pitcher_visitante": "Framber Valdez",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823978": {
+    "local": "Los Angeles Angels",
+    "visitante": "Minnesota Twins",
+    "hora": "2026-09-18T01:38:00Z",
+    "probabilidad_local": 53.3,
+    "pitcher_local": "Walbert Ureña",
+    "pitcher_visitante": "Taj Bradley",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
   }
 }

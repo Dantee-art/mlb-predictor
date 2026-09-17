@@ -3,69 +3,69 @@
         "gamePk": 823334,
         "local": "Pittsburgh Pirates",
         "visitante": "Milwaukee Brewers",
-        "estado": "Scheduled",
+        "estado": "In Progress",
         "hora": "2026-09-17T16:35:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Bottom",
         "pitcher_local": "Wilber Dotel",
         "pitcher_visitante": "Kyle Harrison",
         "pitcher_local_id": 696062,
         "pitcher_visitante_id": 690986,
-        "ballpark_factor": 1.173,
-        "probabilidad": 44.6
+        "ballpark_factor": 1.171,
+        "probabilidad": 44.5
     },
     {
         "gamePk": 824464,
         "local": "Cincinnati Reds",
         "visitante": "Los Angeles Dodgers",
-        "estado": "Scheduled",
+        "estado": "In Progress",
         "hora": "2026-09-17T16:40:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Brady Singer",
         "pitcher_visitante": "Justin Wrobleski",
         "pitcher_local_id": 663903,
         "pitcher_visitante_id": 680736,
-        "ballpark_factor": 0.888,
+        "ballpark_factor": 0.887,
         "probabilidad": 27.1
     },
     {
         "gamePk": 822924,
         "local": "Tampa Bay Rays",
         "visitante": "Athletics",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-17T17:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Drew Rasmussen",
         "pitcher_visitante": "Jeffrey Springs",
         "pitcher_local_id": 656876,
         "pitcher_visitante_id": 605488,
-        "ballpark_factor": 1.013,
-        "probabilidad": 84.2
+        "ballpark_factor": 1.011,
+        "probabilidad": 83.9
     },
     {
         "gamePk": 824305,
         "local": "Colorado Rockies",
         "visitante": "San Diego Padres",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-17T19:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Tanner Gordon",
         "pitcher_visitante": "Michael King",
         "pitcher_local_id": 685299,
         "pitcher_visitante_id": 650633,
-        "ballpark_factor": 1.17,
-        "probabilidad": 38.9
+        "ballpark_factor": 1.171,
+        "probabilidad": 39.0
     },
     {
         "gamePk": 824141,
@@ -81,8 +81,8 @@
         "pitcher_visitante": "Seth Lugo",
         "pitcher_local_id": null,
         "pitcher_visitante_id": 607625,
-        "ballpark_factor": 0.939,
-        "probabilidad": 56.4
+        "ballpark_factor": 0.936,
+        "probabilidad": 56.3
     },
     {
         "gamePk": 823573,
@@ -98,8 +98,8 @@
         "pitcher_visitante": "Aaron Nola",
         "pitcher_local_id": 690997,
         "pitcher_visitante_id": 605400,
-        "ballpark_factor": 0.965,
-        "probabilidad": 53.5
+        "ballpark_factor": 0.964,
+        "probabilidad": 53.4
     },
     {
         "gamePk": 824548,
@@ -132,7 +132,7 @@
         "pitcher_visitante": "Sonny Gray",
         "pitcher_local_id": 641302,
         "pitcher_visitante_id": 543243,
-        "ballpark_factor": 0.904,
+        "ballpark_factor": 0.907,
         "probabilidad": 44.6
     },
     {
@@ -149,7 +149,7 @@
         "pitcher_visitante": "Taj Bradley",
         "pitcher_local_id": 700712,
         "pitcher_visitante_id": 671737,
-        "ballpark_factor": 0.844,
+        "ballpark_factor": 0.846,
         "probabilidad": 53.1
     }
 ]

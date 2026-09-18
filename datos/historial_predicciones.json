@@ -8406,10 +8406,10 @@
     "probabilidad_local": 53.5,
     "pitcher_local": "Nolan McLean",
     "pitcher_visitante": "Aaron Nola",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 0,
+    "marcador_visitante_final": 3,
+    "acerto": false
   },
   "824548": {
     "local": "Chicago White Sox",
@@ -8418,10 +8418,10 @@
     "probabilidad_local": 46.5,
     "pitcher_local": "Erick Fedde",
     "pitcher_visitante": "Framber Valdez",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 1,
+    "acerto": false
   },
   "823978": {
     "local": "Los Angeles Angels",
@@ -8430,10 +8430,10 @@
     "probabilidad_local": 53.3,
     "pitcher_local": "Walbert Ureña",
     "pitcher_visitante": "Taj Bradley",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 5,
+    "marcador_visitante_final": 4,
+    "acerto": true
   },
   "823334": {
     "local": "Pittsburgh Pirates",
@@ -8466,10 +8466,10 @@
     "probabilidad_local": 44.6,
     "pitcher_local": "Tyler Alexander",
     "pitcher_visitante": "Sonny Gray",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 4,
+    "acerto": true
   },
   "824141": {
     "local": "Houston Astros",
@@ -8478,10 +8478,10 @@
     "probabilidad_local": 58.8,
     "pitcher_local": "Miguel Ullola",
     "pitcher_visitante": "Seth Lugo",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 6,
+    "marcador_visitante_final": 2,
+    "acerto": true
   },
   "823331": {
     "local": "Pittsburgh Pirates",
@@ -8610,6 +8610,18 @@
     "probabilidad_local": 75.5,
     "pitcher_local": "Tyler Glasnow",
     "pitcher_visitante": "Cesar Perdomo",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824463": {
+    "local": "Cincinnati Reds",
+    "visitante": "Chicago Cubs",
+    "hora": "2026-09-18T22:40:00Z",
+    "probabilidad_local": 41.7,
+    "pitcher_local": "Chase Burns",
+    "pitcher_visitante": "Clay Holmes",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 722,
-  "total_aciertos": 418,
+  "total_partidos_evaluados": 723,
+  "total_aciertos": 419,
   "total_errores": 304,
-  "precision_general": 57.9,
-  "error_general": 42.1,
+  "precision_general": 58.0,
+  "error_general": 42.0,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 435,
-      "aciertos": 245,
-      "pct_acierto_real": 56.3
+      "partidos": 436,
+      "aciertos": 246,
+      "pct_acierto_real": 56.4
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824545",
+      "local": "Chicago White Sox",
+      "visitante": "Detroit Tigers",
+      "hora": "2026-09-19T18:10:00Z",
+      "probabilidad_local": 54.3,
+      "resultado": "local",
+      "marcador_local_final": 3,
+      "marcador_visitante_final": 1,
+      "acerto": true
+    },
     {
       "gamePk": "823898",
       "local": "Los Angeles Dodgers",
@@ -575,17 +586,6 @@
       "marcador_local_final": 1,
       "marcador_visitante_final": 10,
       "acerto": true
-    },
-    {
-      "gamePk": "822683",
-      "local": "Washington Nationals",
-      "visitante": "Philadelphia Phillies",
-      "hora": "2026-09-15T22:45:00Z",
-      "probabilidad_local": 40.9,
-      "resultado": "local",
-      "marcador_local_final": 6,
-      "marcador_visitante_final": 3,
-      "acerto": false
     }
   ]
 }

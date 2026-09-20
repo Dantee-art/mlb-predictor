@@ -94,7 +94,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "230",
+                    "value": "234",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -245,7 +245,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": ".182",
+                    "value": ".184",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -547,7 +547,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": ".308",
+                    "value": ".307",
                     "team": {
                         "id": 146,
                         "name": "Miami Marlins",
@@ -577,9 +577,9 @@
                     "rank": 5,
                     "value": ".304",
                     "team": {
-                        "id": 134,
-                        "name": "Pittsburgh Pirates",
-                        "link": "/api/v1/teams/134"
+                        "id": 109,
+                        "name": "Arizona Diamondbacks",
+                        "link": "/api/v1/teams/109"
                     },
                     "league": {
                         "id": 104,
@@ -587,11 +587,11 @@
                         "link": "/api/v1/league/104"
                     },
                     "person": {
-                        "id": 693304,
-                        "fullName": "Nick Gonzales",
-                        "link": "/api/v1/people/693304",
-                        "firstName": "Nick",
-                        "lastName": "Gonzales"
+                        "id": 672515,
+                        "fullName": "Gabriel Moreno",
+                        "link": "/api/v1/people/672515",
+                        "firstName": "Gabriel",
+                        "lastName": "Moreno"
                     },
                     "sport": {
                         "id": 1,
@@ -603,7 +603,7 @@
                 }
             ],
             "statGroup": "hitting",
-            "totalSplits": 134
+            "totalSplits": 135
         },
         {
             "leaderCategory": "strikeouts",
@@ -670,7 +670,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": "924",
+                    "value": "931",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -1210,157 +1210,6 @@
             "totalSplits": 110
         },
         {
-            "leaderCategory": "strikeouts",
-            "gameType": {
-                "id": "R",
-                "description": "Regular Season"
-            },
-            "leaders": [
-                {
-                    "rank": 1,
-                    "value": "216",
-                    "team": {
-                        "id": 145,
-                        "name": "Chicago White Sox",
-                        "link": "/api/v1/teams/145"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 695657,
-                        "fullName": "Colson Montgomery",
-                        "link": "/api/v1/people/695657",
-                        "firstName": "Colson",
-                        "lastName": "Montgomery"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 1,
-                    "value": "216",
-                    "team": {
-                        "id": 143,
-                        "name": "Philadelphia Phillies",
-                        "link": "/api/v1/teams/143"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 656941,
-                        "fullName": "Kyle Schwarber",
-                        "link": "/api/v1/people/656941",
-                        "firstName": "Kyle",
-                        "lastName": "Schwarber"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 3,
-                    "value": "204",
-                    "team": {
-                        "id": 108,
-                        "name": "Los Angeles Angels",
-                        "link": "/api/v1/teams/108"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 687263,
-                        "fullName": "Zach Neto",
-                        "link": "/api/v1/people/687263",
-                        "firstName": "Zach",
-                        "lastName": "Neto"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 4,
-                    "value": "193",
-                    "team": {
-                        "id": 144,
-                        "name": "Atlanta Braves",
-                        "link": "/api/v1/teams/144"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 663586,
-                        "fullName": "Austin Riley",
-                        "link": "/api/v1/people/663586",
-                        "firstName": "Austin",
-                        "lastName": "Riley"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 5,
-                    "value": "187",
-                    "team": {
-                        "id": 145,
-                        "name": "Chicago White Sox",
-                        "link": "/api/v1/teams/145"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 808959,
-                        "fullName": "Munetaka Murakami",
-                        "link": "/api/v1/people/808959",
-                        "firstName": "Munetaka",
-                        "lastName": "Murakami"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                }
-            ],
-            "statGroup": "hitting",
-            "totalSplits": 649
-        },
-        {
             "leaderCategory": "earnedRunAverage",
             "gameType": {
                 "id": "R",
@@ -1397,7 +1246,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "1.91",
+                    "value": "1.94",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -1510,6 +1359,157 @@
             ],
             "statGroup": "pitching",
             "totalSplits": 46
+        },
+        {
+            "leaderCategory": "strikeouts",
+            "gameType": {
+                "id": "R",
+                "description": "Regular Season"
+            },
+            "leaders": [
+                {
+                    "rank": 1,
+                    "value": "216",
+                    "team": {
+                        "id": 145,
+                        "name": "Chicago White Sox",
+                        "link": "/api/v1/teams/145"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 695657,
+                        "fullName": "Colson Montgomery",
+                        "link": "/api/v1/people/695657",
+                        "firstName": "Colson",
+                        "lastName": "Montgomery"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 1,
+                    "value": "216",
+                    "team": {
+                        "id": 143,
+                        "name": "Philadelphia Phillies",
+                        "link": "/api/v1/teams/143"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 656941,
+                        "fullName": "Kyle Schwarber",
+                        "link": "/api/v1/people/656941",
+                        "firstName": "Kyle",
+                        "lastName": "Schwarber"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 3,
+                    "value": "207",
+                    "team": {
+                        "id": 108,
+                        "name": "Los Angeles Angels",
+                        "link": "/api/v1/teams/108"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 687263,
+                        "fullName": "Zach Neto",
+                        "link": "/api/v1/people/687263",
+                        "firstName": "Zach",
+                        "lastName": "Neto"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 4,
+                    "value": "193",
+                    "team": {
+                        "id": 144,
+                        "name": "Atlanta Braves",
+                        "link": "/api/v1/teams/144"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 663586,
+                        "fullName": "Austin Riley",
+                        "link": "/api/v1/people/663586",
+                        "firstName": "Austin",
+                        "lastName": "Riley"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 5,
+                    "value": "187",
+                    "team": {
+                        "id": 145,
+                        "name": "Chicago White Sox",
+                        "link": "/api/v1/teams/145"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 808959,
+                        "fullName": "Munetaka Murakami",
+                        "link": "/api/v1/people/808959",
+                        "firstName": "Munetaka",
+                        "lastName": "Murakami"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                }
+            ],
+            "statGroup": "hitting",
+            "totalSplits": 649
         },
         {
             "leaderCategory": "earnedRunAverage",
@@ -1895,7 +1895,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 540
+            "totalSplits": 542
         },
         {
             "leaderCategory": "homeRuns",

@@ -1,9 +1,9 @@
 {
-  "total_partidos_evaluados": 726,
-  "total_aciertos": 422,
+  "total_partidos_evaluados": 729,
+  "total_aciertos": 425,
   "total_errores": 304,
-  "precision_general": 58.1,
-  "error_general": 41.9,
+  "precision_general": 58.3,
+  "error_general": 41.7,
   "por_rango": [
     {
       "rango": "50-60",
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 224,
-      "aciertos": 130,
-      "pct_acierto_real": 58.0
+      "partidos": 227,
+      "aciertos": 133,
+      "pct_acierto_real": 58.6
     },
     {
       "rango": "70-80",
@@ -37,6 +37,39 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824461",
+      "local": "Cincinnati Reds",
+      "visitante": "Chicago Cubs",
+      "hora": "2026-09-19T22:40:00Z",
+      "probabilidad_local": 33.6,
+      "resultado": "visitante",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 5,
+      "acerto": true
+    },
+    {
+      "gamePk": "823330",
+      "local": "Pittsburgh Pirates",
+      "visitante": "Kansas City Royals",
+      "hora": "2026-09-19T22:40:00Z",
+      "probabilidad_local": 62.7,
+      "resultado": "local",
+      "marcador_local_final": 6,
+      "marcador_visitante_final": 5,
+      "acerto": true
+    },
+    {
+      "gamePk": "824380",
+      "local": "Cleveland Guardians",
+      "visitante": "Athletics",
+      "hora": "2026-09-19T22:10:00Z",
+      "probabilidad_local": 68.9,
+      "resultado": "local",
+      "marcador_local_final": 12,
+      "marcador_visitante_final": 6,
+      "acerto": true
+    },
     {
       "gamePk": "823571",
       "local": "New York Mets",
@@ -553,39 +586,6 @@
       "marcador_local_final": 4,
       "marcador_visitante_final": 2,
       "acerto": true
-    },
-    {
-      "gamePk": "822849",
-      "local": "Texas Rangers",
-      "visitante": "Boston Red Sox",
-      "hora": "2026-09-16T00:05:00Z",
-      "probabilidad_local": 48.9,
-      "resultado": "local",
-      "marcador_local_final": 4,
-      "marcador_visitante_final": 2,
-      "acerto": false
-    },
-    {
-      "gamePk": "823007",
-      "local": "St. Louis Cardinals",
-      "visitante": "San Francisco Giants",
-      "hora": "2026-09-15T23:45:00Z",
-      "probabilidad_local": 60.2,
-      "resultado": "visitante",
-      "marcador_local_final": 3,
-      "marcador_visitante_final": 10,
-      "acerto": false
-    },
-    {
-      "gamePk": "824627",
-      "local": "Chicago Cubs",
-      "visitante": "Atlanta Braves",
-      "hora": "2026-09-15T23:40:00Z",
-      "probabilidad_local": 54.6,
-      "resultado": "visitante",
-      "marcador_local_final": 3,
-      "marcador_visitante_final": 6,
-      "acerto": false
     }
   ]
 }

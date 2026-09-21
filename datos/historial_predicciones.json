@@ -8898,10 +8898,10 @@
     "probabilidad_local": 50.1,
     "pitcher_local": "Davis Martin",
     "pitcher_visitante": "Troy Melton",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 8,
+    "marcador_visitante_final": 1,
+    "acerto": true
   },
   "823001": {
     "local": "St. Louis Cardinals",
@@ -9022,5 +9022,41 @@
     "marcador_local_final": 3,
     "marcador_visitante_final": 1,
     "acerto": true
+  },
+  "824787": {
+    "local": "Baltimore Orioles",
+    "visitante": "Toronto Blue Jays",
+    "hora": "2026-09-21T22:35:00Z",
+    "probabilidad_local": 53.3,
+    "pitcher_local": "Shane Baz",
+    "pitcher_visitante": "Trey Yesavage",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "824221": {
+    "local": "Detroit Tigers",
+    "visitante": "Washington Nationals",
+    "hora": "2026-09-21T22:40:00Z",
+    "probabilidad_local": 59.8,
+    "pitcher_local": "River Ryan",
+    "pitcher_visitante": "DJ Herz",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823169": {
+    "local": "San Francisco Giants",
+    "visitante": "Minnesota Twins",
+    "hora": "2026-09-22T01:45:00Z",
+    "probabilidad_local": 53.0,
+    "pitcher_local": "Blade Tidwell",
+    "pitcher_visitante": "Zebby Matthews",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
   }
 }

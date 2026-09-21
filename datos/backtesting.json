@@ -1,9 +1,9 @@
 {
-  "total_partidos_evaluados": 751,
-  "total_aciertos": 441,
+  "total_partidos_evaluados": 752,
+  "total_aciertos": 442,
   "total_errores": 310,
-  "precision_general": 58.7,
-  "error_general": 41.3,
+  "precision_general": 58.8,
+  "error_general": 41.2,
   "por_rango": [
     {
       "rango": "50-60",
@@ -19,9 +19,9 @@
     },
     {
       "rango": "70-80",
-      "partidos": 53,
-      "aciertos": 37,
-      "pct_acierto_real": 69.8
+      "partidos": 54,
+      "aciertos": 38,
+      "pct_acierto_real": 70.4
     },
     {
       "rango": "80-90",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824789",
+      "local": "Baltimore Orioles",
+      "visitante": "Milwaukee Brewers",
+      "hora": "2026-09-20T23:20:00Z",
+      "probabilidad_local": 28.3,
+      "resultado": "visitante",
+      "marcador_local_final": 0,
+      "marcador_visitante_final": 3,
+      "acerto": true
+    },
     {
       "gamePk": "823247",
       "local": "San Diego Padres",
@@ -574,17 +585,6 @@
       "resultado": "local",
       "marcador_local_final": 6,
       "marcador_visitante_final": 2,
-      "acerto": true
-    },
-    {
-      "gamePk": "824305",
-      "local": "Colorado Rockies",
-      "visitante": "San Diego Padres",
-      "hora": "2026-09-17T19:10:00Z",
-      "probabilidad_local": 39.3,
-      "resultado": "visitante",
-      "marcador_local_final": 2,
-      "marcador_visitante_final": 9,
       "acerto": true
     }
   ]

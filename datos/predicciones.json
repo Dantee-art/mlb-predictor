@@ -3,7 +3,7 @@
         "gamePk": 824787,
         "local": "Baltimore Orioles",
         "visitante": "Toronto Blue Jays",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-21T22:35:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
@@ -13,25 +13,25 @@
         "pitcher_visitante": "Trey Yesavage",
         "pitcher_local_id": 669358,
         "pitcher_visitante_id": 702056,
-        "ballpark_factor": 0.91,
+        "ballpark_factor": 0.902,
         "probabilidad": 53.3
     },
     {
         "gamePk": 824221,
         "local": "Detroit Tigers",
         "visitante": "Washington Nationals",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-21T22:40:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "River Ryan",
         "pitcher_visitante": "DJ Herz",
         "pitcher_local_id": 689981,
         "pitcher_visitante_id": 687792,
         "ballpark_factor": 0.923,
-        "probabilidad": 59.8
+        "probabilidad": 59.9
     },
     {
         "gamePk": 823169,
@@ -47,7 +47,7 @@
         "pitcher_visitante": "Zebby Matthews",
         "pitcher_local_id": 694918,
         "pitcher_visitante_id": 805673,
-        "ballpark_factor": 0.943,
-        "probabilidad": 53.0
+        "ballpark_factor": 0.949,
+        "probabilidad": 53.1
     }
 ]

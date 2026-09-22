@@ -1,9 +1,9 @@
 {
-  "total_partidos_evaluados": 755,
-  "total_aciertos": 445,
+  "total_partidos_evaluados": 756,
+  "total_aciertos": 446,
   "total_errores": 310,
-  "precision_general": 58.9,
-  "error_general": 41.1,
+  "precision_general": 59.0,
+  "error_general": 41.0,
   "por_rango": [
     {
       "rango": "50-60",
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 232,
-      "aciertos": 135,
-      "pct_acierto_real": 58.2
+      "partidos": 233,
+      "aciertos": 136,
+      "pct_acierto_real": 58.4
     },
     {
       "rango": "70-80",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "823543",
+      "local": "New York Yankees",
+      "visitante": "Tampa Bay Rays",
+      "hora": "2026-09-22T17:05:00Z",
+      "probabilidad_local": 61.0,
+      "resultado": "local",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 0,
+      "acerto": true
+    },
     {
       "gamePk": "823169",
       "local": "San Francisco Giants",
@@ -573,17 +584,6 @@
       "probabilidad_local": 53.3,
       "resultado": "local",
       "marcador_local_final": 5,
-      "marcador_visitante_final": 4,
-      "acerto": true
-    },
-    {
-      "gamePk": "822845",
-      "local": "Texas Rangers",
-      "visitante": "Boston Red Sox",
-      "hora": "2026-09-18T00:05:00Z",
-      "probabilidad_local": 44.6,
-      "resultado": "visitante",
-      "marcador_local_final": 3,
       "marcador_visitante_final": 4,
       "acerto": true
     }

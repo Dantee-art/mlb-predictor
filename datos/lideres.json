@@ -178,7 +178,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 805
+            "totalSplits": 807
         },
         {
             "leaderCategory": "battingAverage",
@@ -726,7 +726,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "875",
+                    "value": "885",
                     "team": {
                         "id": 116,
                         "name": "Detroit Tigers",
@@ -1028,7 +1028,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "105",
+                    "value": "106",
                     "team": {
                         "id": 110,
                         "name": "Baltimore Orioles",
@@ -1224,6 +1224,34 @@
                         "link": "/api/v1/people/661388",
                         "firstName": "William",
                         "lastName": "Contreras"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 5,
+                    "value": "118",
+                    "team": {
+                        "id": 116,
+                        "name": "Detroit Tigers",
+                        "link": "/api/v1/teams/116"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 693307,
+                        "fullName": "Dillon Dingler",
+                        "link": "/api/v1/people/693307",
+                        "firstName": "Dillon",
+                        "lastName": "Dingler"
                     },
                     "sport": {
                         "id": 1,
@@ -1537,7 +1565,7 @@
                 }
             ],
             "statGroup": "hitting",
-            "totalSplits": 649
+            "totalSplits": 650
         },
         {
             "leaderCategory": "earnedRunAverage",
@@ -2074,7 +2102,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 755
+            "totalSplits": 756
         }
     ]
 }

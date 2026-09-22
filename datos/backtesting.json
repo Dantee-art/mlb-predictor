@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 752,
-  "total_aciertos": 442,
+  "total_partidos_evaluados": 753,
+  "total_aciertos": 443,
   "total_errores": 310,
   "precision_general": 58.8,
   "error_general": 41.2,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 453,
-      "aciertos": 260,
-      "pct_acierto_real": 57.4
+      "partidos": 454,
+      "aciertos": 261,
+      "pct_acierto_real": 57.5
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824221",
+      "local": "Detroit Tigers",
+      "visitante": "Washington Nationals",
+      "hora": "2026-09-21T22:40:00Z",
+      "probabilidad_local": 59.8,
+      "resultado": "local",
+      "marcador_local_final": 9,
+      "marcador_visitante_final": 2,
+      "acerto": true
+    },
     {
       "gamePk": "824789",
       "local": "Baltimore Orioles",
@@ -575,17 +586,6 @@
       "marcador_local_final": 0,
       "marcador_visitante_final": 3,
       "acerto": false
-    },
-    {
-      "gamePk": "824141",
-      "local": "Houston Astros",
-      "visitante": "Kansas City Royals",
-      "hora": "2026-09-17T23:15:00Z",
-      "probabilidad_local": 58.8,
-      "resultado": "local",
-      "marcador_local_final": 6,
-      "marcador_visitante_final": 2,
-      "acerto": true
     }
   ]
 }

@@ -3,12 +3,12 @@
         "gamePk": 823543,
         "local": "New York Yankees",
         "visitante": "Tampa Bay Rays",
-        "estado": "Scheduled",
+        "estado": "Warmup",
         "hora": "2026-09-22T17:05:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Carlos Rodón",
         "pitcher_visitante": "Nick Martinez",
         "pitcher_local_id": 607074,
@@ -31,7 +31,7 @@
         "pitcher_local_id": 608331,
         "pitcher_visitante_id": 656876,
         "ballpark_factor": 1.124,
-        "probabilidad": 57.8
+        "probabilidad": 57.9
     },
     {
         "gamePk": 824785,
@@ -47,8 +47,8 @@
         "pitcher_visitante": "Max Scherzer",
         "pitcher_local_id": 605135,
         "pitcher_visitante_id": 453286,
-        "ballpark_factor": 0.902,
-        "probabilidad": 58.1
+        "ballpark_factor": 0.9,
+        "probabilidad": 58.2
     },
     {
         "gamePk": 824222,
@@ -61,11 +61,11 @@
         "inning": null,
         "inning_estado": null,
         "pitcher_local": "Drew Anderson",
-        "pitcher_visitante": "Jackson Kent",
+        "pitcher_visitante": "Riley Cornelio",
         "pitcher_local_id": 623454,
-        "pitcher_visitante_id": 800600,
-        "ballpark_factor": 0.923,
-        "probabilidad": 63.9
+        "pitcher_visitante_id": 683000,
+        "ballpark_factor": 0.927,
+        "probabilidad": 61.3
     },
     {
         "gamePk": 823328,
@@ -82,7 +82,7 @@
         "pitcher_local_id": 683003,
         "pitcher_visitante_id": 669467,
         "ballpark_factor": 1.173,
-        "probabilidad": 61.1
+        "probabilidad": 61.2
     },
     {
         "gamePk": 823412,
@@ -99,7 +99,7 @@
         "pitcher_local_id": 554430,
         "pitcher_visitante_id": 669160,
         "ballpark_factor": 1.174,
-        "probabilidad": 46.4
+        "probabilidad": 46.5
     },
     {
         "gamePk": 824709,
@@ -116,7 +116,7 @@
         "pitcher_local_id": 801139,
         "pitcher_visitante_id": 800048,
         "ballpark_factor": 1.094,
-        "probabilidad": 59.9
+        "probabilidad": 60.0
     },
     {
         "gamePk": 824867,
@@ -150,7 +150,7 @@
         "pitcher_local_id": 663738,
         "pitcher_visitante_id": 641743,
         "ballpark_factor": 1.127,
-        "probabilidad": 45.9
+        "probabilidad": 46.0
     },
     {
         "gamePk": 824624,
@@ -162,12 +162,12 @@
         "marcador_visitante": 0,
         "inning": null,
         "inning_estado": null,
-        "pitcher_local": "Sin anunciar",
+        "pitcher_local": "Shota Imanaga",
         "pitcher_visitante": "Janson Junk",
-        "pitcher_local_id": null,
+        "pitcher_local_id": 684007,
         "pitcher_visitante_id": 676083,
         "ballpark_factor": 1.024,
-        "probabilidad": 60.8
+        "probabilidad": 61.0
     },
     {
         "gamePk": 822840,
@@ -184,7 +184,7 @@
         "pitcher_local_id": 669022,
         "pitcher_visitante_id": 640455,
         "ballpark_factor": 0.906,
-        "probabilidad": 55.1
+        "probabilidad": 55.2
     },
     {
         "gamePk": 824302,
@@ -235,7 +235,7 @@
         "pitcher_local_id": 669302,
         "pitcher_visitante_id": 664299,
         "ballpark_factor": 0.845,
-        "probabilidad": 60.2
+        "probabilidad": 60.3
     },
     {
         "gamePk": 823166,
@@ -251,7 +251,7 @@
         "pitcher_visitante": "Taj Bradley",
         "pitcher_local_id": 683627,
         "pitcher_visitante_id": 671737,
-        "ballpark_factor": 0.949,
+        "ballpark_factor": 0.947,
         "probabilidad": 52.6
     },
     {
@@ -269,6 +269,6 @@
         "pitcher_local_id": null,
         "pitcher_visitante_id": 650633,
         "ballpark_factor": 0.978,
-        "probabilidad": 63.0
+        "probabilidad": 63.1
     }
 ]

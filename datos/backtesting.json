@@ -1,21 +1,21 @@
 {
-  "total_partidos_evaluados": 770,
-  "total_aciertos": 450,
-  "total_errores": 320,
+  "total_partidos_evaluados": 772,
+  "total_aciertos": 451,
+  "total_errores": 321,
   "precision_general": 58.4,
   "error_general": 41.6,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 463,
-      "aciertos": 264,
-      "pct_acierto_real": 57.0
+      "partidos": 464,
+      "aciertos": 265,
+      "pct_acierto_real": 57.1
     },
     {
       "rango": "60-70",
-      "partidos": 239,
+      "partidos": 240,
       "aciertos": 139,
-      "pct_acierto_real": 58.2
+      "pct_acierto_real": 57.9
     },
     {
       "rango": "70-80",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824223",
+      "local": "Detroit Tigers",
+      "visitante": "Washington Nationals",
+      "hora": "2026-09-23T17:10:00Z",
+      "probabilidad_local": 62.9,
+      "resultado": "visitante",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 4,
+      "acerto": false
+    },
     {
       "gamePk": "823897",
       "local": "Los Angeles Dodgers",
@@ -190,6 +201,17 @@
       "marcador_local_final": 6,
       "marcador_visitante_final": 4,
       "acerto": false
+    },
+    {
+      "gamePk": "824785",
+      "local": "Baltimore Orioles",
+      "visitante": "Toronto Blue Jays",
+      "hora": "2026-09-22T22:35:00Z",
+      "probabilidad_local": 57.8,
+      "resultado": "local",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 2,
+      "acerto": true
     },
     {
       "gamePk": "823543",
@@ -563,28 +585,6 @@
       "resultado": "local",
       "marcador_local_final": 3,
       "marcador_visitante_final": 1,
-      "acerto": true
-    },
-    {
-      "gamePk": "823898",
-      "local": "Los Angeles Dodgers",
-      "visitante": "San Francisco Giants",
-      "hora": "2026-09-19T02:15:00Z",
-      "probabilidad_local": 75.5,
-      "resultado": "local",
-      "marcador_local_final": 8,
-      "marcador_visitante_final": 2,
-      "acerto": true
-    },
-    {
-      "gamePk": "823252",
-      "local": "San Diego Padres",
-      "visitante": "Miami Marlins",
-      "hora": "2026-09-19T01:40:00Z",
-      "probabilidad_local": 64.0,
-      "resultado": "local",
-      "marcador_local_final": 8,
-      "marcador_visitante_final": 2,
       "acerto": true
     }
   ]

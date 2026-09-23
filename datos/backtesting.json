@@ -1,21 +1,21 @@
 {
-  "total_partidos_evaluados": 756,
-  "total_aciertos": 446,
-  "total_errores": 310,
-  "precision_general": 59.0,
-  "error_general": 41.0,
+  "total_partidos_evaluados": 759,
+  "total_aciertos": 447,
+  "total_errores": 312,
+  "precision_general": 58.9,
+  "error_general": 41.1,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 456,
+      "partidos": 457,
       "aciertos": 263,
-      "pct_acierto_real": 57.7
+      "pct_acierto_real": 57.5
     },
     {
       "rango": "60-70",
-      "partidos": 233,
-      "aciertos": 136,
-      "pct_acierto_real": 58.4
+      "partidos": 235,
+      "aciertos": 137,
+      "pct_acierto_real": 58.3
     },
     {
       "rango": "70-80",
@@ -37,6 +37,39 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "824222",
+      "local": "Detroit Tigers",
+      "visitante": "Washington Nationals",
+      "hora": "2026-09-22T22:40:00Z",
+      "probabilidad_local": 63.9,
+      "resultado": "visitante",
+      "marcador_local_final": 1,
+      "marcador_visitante_final": 3,
+      "acerto": false
+    },
+    {
+      "gamePk": "823328",
+      "local": "Pittsburgh Pirates",
+      "visitante": "St. Louis Cardinals",
+      "hora": "2026-09-22T22:40:00Z",
+      "probabilidad_local": 61.1,
+      "resultado": "local",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 0,
+      "acerto": true
+    },
+    {
+      "gamePk": "823412",
+      "local": "Philadelphia Phillies",
+      "visitante": "Milwaukee Brewers",
+      "hora": "2026-09-22T22:40:00Z",
+      "probabilidad_local": 46.4,
+      "resultado": "local",
+      "marcador_local_final": 6,
+      "marcador_visitante_final": 4,
+      "acerto": false
+    },
     {
       "gamePk": "823543",
       "local": "New York Yankees",
@@ -552,39 +585,6 @@
       "resultado": "visitante",
       "marcador_local_final": 5,
       "marcador_visitante_final": 6,
-      "acerto": true
-    },
-    {
-      "gamePk": "823331",
-      "local": "Pittsburgh Pirates",
-      "visitante": "Kansas City Royals",
-      "hora": "2026-09-18T22:40:00Z",
-      "probabilidad_local": 68.8,
-      "resultado": "local",
-      "marcador_local_final": 8,
-      "marcador_visitante_final": 5,
-      "acerto": true
-    },
-    {
-      "gamePk": "824463",
-      "local": "Cincinnati Reds",
-      "visitante": "Chicago Cubs",
-      "hora": "2026-09-18T22:40:00Z",
-      "probabilidad_local": 41.7,
-      "resultado": "local",
-      "marcador_local_final": 6,
-      "marcador_visitante_final": 4,
-      "acerto": false
-    },
-    {
-      "gamePk": "823978",
-      "local": "Los Angeles Angels",
-      "visitante": "Minnesota Twins",
-      "hora": "2026-09-18T01:38:00Z",
-      "probabilidad_local": 53.3,
-      "resultado": "local",
-      "marcador_local_final": 5,
-      "marcador_visitante_final": 4,
       "acerto": true
     }
   ]

@@ -3,85 +3,85 @@
         "gamePk": 823326,
         "local": "Pittsburgh Pirates",
         "visitante": "St. Louis Cardinals",
-        "estado": "Scheduled",
+        "estado": "In Progress",
         "hora": "2026-09-24T16:35:00Z",
-        "marcador_local": 0,
-        "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "marcador_local": 1,
+        "marcador_visitante": 1,
+        "inning": 3,
+        "inning_estado": "Bottom",
         "pitcher_local": "Paul Skenes",
         "pitcher_visitante": "Kyle Leahy",
         "pitcher_local_id": 694973,
         "pitcher_visitante_id": 681517,
-        "ballpark_factor": 1.161,
-        "probabilidad": 60.4
+        "ballpark_factor": 1.156,
+        "probabilidad": 60.2
     },
     {
         "gamePk": 824059,
         "local": "Kansas City Royals",
         "visitante": "Chicago White Sox",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-24T18:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Randy Dobnak",
         "pitcher_visitante": "David Sandlin",
         "pitcher_local_id": 677976,
         "pitcher_visitante_id": 689818,
-        "ballpark_factor": 1.15,
+        "ballpark_factor": 1.149,
         "probabilidad": 44.0
     },
     {
         "gamePk": 824623,
         "local": "Chicago Cubs",
         "visitante": "Miami Marlins",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-24T18:20:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Matthew Boyd",
         "pitcher_visitante": "Tyler Phillips",
         "pitcher_local_id": 571510,
         "pitcher_visitante_id": 663969,
-        "ballpark_factor": 1.024,
+        "ballpark_factor": 1.018,
         "probabilidad": 60.4
     },
     {
         "gamePk": 822842,
         "local": "Texas Rangers",
         "visitante": "New York Mets",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-24T18:35:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Kumar Rocker",
         "pitcher_visitante": "Zac Thornton",
         "pitcher_local_id": 677958,
         "pitcher_visitante_id": 804267,
-        "ballpark_factor": 0.907,
-        "probabilidad": 52.5
+        "ballpark_factor": 0.908,
+        "probabilidad": 52.4
     },
     {
         "gamePk": 824298,
         "local": "Colorado Rockies",
         "visitante": "Arizona Diamondbacks",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-24T19:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Tanner Gordon",
         "pitcher_visitante": "Eduardo Rodriguez",
         "pitcher_local_id": 685299,
         "pitcher_visitante_id": 593958,
-        "ballpark_factor": 1.149,
+        "ballpark_factor": 1.145,
         "probabilidad": 38.8
     },
     {
@@ -95,11 +95,11 @@
         "inning": null,
         "inning_estado": null,
         "pitcher_local": "Andrew Painter",
-        "pitcher_visitante": "Bryse Wilson",
+        "pitcher_visitante": "Shane Drohan",
         "pitcher_local_id": 691725,
-        "pitcher_visitante_id": 669060,
-        "ballpark_factor": 1.175,
-        "probabilidad": 38.1
+        "pitcher_visitante_id": 675660,
+        "ballpark_factor": 1.168,
+        "probabilidad": 39.8
     },
     {
         "gamePk": 824707,
@@ -115,7 +115,7 @@
         "pitcher_visitante": "Daniel Espino",
         "pitcher_local_id": 624133,
         "pitcher_visitante_id": 682982,
-        "ballpark_factor": 1.088,
+        "ballpark_factor": 1.075,
         "probabilidad": 59.9
     },
     {
@@ -132,8 +132,8 @@
         "pitcher_visitante": "Ian Seymour",
         "pitcher_local_id": 693645,
         "pitcher_visitante_id": 693855,
-        "ballpark_factor": 1.109,
-        "probabilidad": 64.5
+        "ballpark_factor": 1.113,
+        "probabilidad": 64.4
     },
     {
         "gamePk": 824866,
@@ -149,8 +149,8 @@
         "pitcher_visitante": "Brady Singer",
         "pitcher_local_id": 641816,
         "pitcher_visitante_id": 663903,
-        "ballpark_factor": 1.052,
-        "probabilidad": 77.4
+        "ballpark_factor": 1.047,
+        "probabilidad": 77.3
     },
     {
         "gamePk": 824950,
@@ -183,7 +183,7 @@
         "pitcher_visitante": "Grayson Rodriguez",
         "pitcher_local_id": 693433,
         "pitcher_visitante_id": 680570,
-        "ballpark_factor": 0.843,
+        "ballpark_factor": 0.848,
         "probabilidad": 61.3
     },
     {
@@ -200,7 +200,7 @@
         "pitcher_visitante": "Nick Pivetta",
         "pitcher_local_id": 607192,
         "pitcher_visitante_id": 601713,
-        "ballpark_factor": 0.976,
+        "ballpark_factor": 0.972,
         "probabilidad": 63.7
     }
 ]

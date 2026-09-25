@@ -9,12 +9,12 @@
         "marcador_visitante": 0,
         "inning": null,
         "inning_estado": null,
-        "pitcher_local": "Sin anunciar",
+        "pitcher_local": "Alec Gamboa",
         "pitcher_visitante": "Clay Holmes",
-        "pitcher_local_id": null,
+        "pitcher_local_id": 687941,
         "pitcher_visitante_id": 605280,
         "ballpark_factor": 1.075,
-        "probabilidad": 53.8
+        "probabilidad": 56.5
     },
     {
         "gamePk": 824706,
@@ -26,36 +26,19 @@
         "marcador_visitante": 0,
         "inning": null,
         "inning_estado": null,
-        "pitcher_local": "Sin anunciar",
+        "pitcher_local": "Brayan Bello",
         "pitcher_visitante": "David Peterson",
-        "pitcher_local_id": null,
+        "pitcher_local_id": 678394,
         "pitcher_visitante_id": 656849,
         "ballpark_factor": 1.075,
-        "probabilidad": 54.4
-    },
-    {
-        "gamePk": 823489,
-        "local": "New York Yankees",
-        "visitante": "Baltimore Orioles",
-        "estado": "Scheduled",
-        "hora": "2026-09-25T20:05:00Z",
-        "marcador_local": 0,
-        "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
-        "pitcher_local": "Sin anunciar",
-        "pitcher_visitante": "Trevor Rogers",
-        "pitcher_local_id": null,
-        "pitcher_visitante_id": 669432,
-        "ballpark_factor": 1.113,
-        "probabilidad": 62.7
+        "probabilidad": 54.8
     },
     {
         "gamePk": 823491,
         "local": "New York Yankees",
         "visitante": "Baltimore Orioles",
         "estado": "Scheduled",
-        "hora": "2026-09-25T20:10:00Z",
+        "hora": "2026-09-25T20:05:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
         "inning": null,
@@ -66,6 +49,23 @@
         "pitcher_visitante_id": 687064,
         "ballpark_factor": 1.113,
         "probabilidad": 65.7
+    },
+    {
+        "gamePk": 823489,
+        "local": "New York Yankees",
+        "visitante": "Baltimore Orioles",
+        "estado": "Scheduled",
+        "hora": "2026-09-25T20:10:00Z",
+        "marcador_local": 0,
+        "marcador_visitante": 0,
+        "inning": null,
+        "inning_estado": null,
+        "pitcher_local": "Brendan Beck",
+        "pitcher_visitante": "Trevor Rogers",
+        "pitcher_local_id": 694341,
+        "pitcher_visitante_id": 669432,
+        "ballpark_factor": 1.113,
+        "probabilidad": 43.8
     },
     {
         "gamePk": 824220,
@@ -231,11 +231,11 @@
         "inning": null,
         "inning_estado": null,
         "pitcher_local": "Jacob Lopez",
-        "pitcher_visitante": "Sin anunciar",
+        "pitcher_visitante": "Hunter Brown",
         "pitcher_local_id": 682052,
-        "pitcher_visitante_id": null,
+        "pitcher_visitante_id": 686613,
         "ballpark_factor": 1.35,
-        "probabilidad": 42.2
+        "probabilidad": 38.6
     },
     {
         "gamePk": 823248,
@@ -252,7 +252,7 @@
         "pitcher_local_id": null,
         "pitcher_visitante_id": 694297,
         "ballpark_factor": 0.836,
-        "probabilidad": 54.9
+        "probabilidad": 55.1
     },
     {
         "gamePk": 823085,
@@ -269,7 +269,7 @@
         "pitcher_local_id": 682243,
         "pitcher_visitante_id": 672282,
         "ballpark_factor": 0.848,
-        "probabilidad": 50.2
+        "probabilidad": 50.0
     },
     {
         "gamePk": 823167,

@@ -9762,10 +9762,10 @@
     "probabilidad_local": 66.2,
     "pitcher_local": "Trey Yesavage",
     "pitcher_visitante": "Rhett Lowder",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 1,
+    "marcador_visitante_final": 5,
+    "acerto": false
   },
   "822678": {
     "local": "Washington Nationals",
@@ -9786,10 +9786,10 @@
     "probabilidad_local": 25.7,
     "pitcher_local": "Matt Wilkinson",
     "pitcher_visitante": "Blake Snell",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 4,
+    "acerto": true
   },
   "824057": {
     "local": "Kansas City Royals",
@@ -9870,10 +9870,10 @@
     "probabilidad_local": 42.8,
     "pitcher_local": "Jack Ralston",
     "pitcher_visitante": "Brent Suter",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 8,
+    "acerto": true
   },
   "824949": {
     "local": "Athletics",
@@ -9882,6 +9882,18 @@
     "probabilidad_local": 42.5,
     "pitcher_local": "Jack Perkins",
     "pitcher_visitante": "Hayden Wesneski",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "823407": {
+    "local": "Philadelphia Phillies",
+    "visitante": "Tampa Bay Rays",
+    "hora": "2026-09-26T23:15:00Z",
+    "probabilidad_local": 48.3,
+    "pitcher_local": "Aaron Nola",
+    "pitcher_visitante": "Griffin Jax",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

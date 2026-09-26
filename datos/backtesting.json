@@ -1,21 +1,21 @@
 {
-  "total_partidos_evaluados": 813,
+  "total_partidos_evaluados": 815,
   "total_aciertos": 477,
-  "total_errores": 336,
-  "precision_general": 58.7,
-  "error_general": 41.3,
+  "total_errores": 338,
+  "precision_general": 58.5,
+  "error_general": 41.5,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 483,
+      "partidos": 484,
       "aciertos": 277,
-      "pct_acierto_real": 57.3
+      "pct_acierto_real": 57.2
     },
     {
       "rango": "60-70",
-      "partidos": 258,
+      "partidos": 259,
       "aciertos": 150,
-      "pct_acierto_real": 58.1
+      "pct_acierto_real": 57.9
     },
     {
       "rango": "70-80",
@@ -37,6 +37,28 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "822678",
+      "local": "Washington Nationals",
+      "visitante": "New York Mets",
+      "hora": "2026-09-26T20:05:00Z",
+      "probabilidad_local": 52.4,
+      "resultado": "visitante",
+      "marcador_local_final": 1,
+      "marcador_visitante_final": 7,
+      "acerto": false
+    },
+    {
+      "gamePk": "824219",
+      "local": "Detroit Tigers",
+      "visitante": "Pittsburgh Pirates",
+      "hora": "2026-09-26T17:10:00Z",
+      "probabilidad_local": 36.2,
+      "resultado": "local",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 3,
+      "acerto": false
+    },
     {
       "gamePk": "823167",
       "local": "San Francisco Giants",
@@ -563,28 +585,6 @@
       "resultado": "visitante",
       "marcador_local_final": 3,
       "marcador_visitante_final": 6,
-      "acerto": false
-    },
-    {
-      "gamePk": "824061",
-      "local": "Kansas City Royals",
-      "visitante": "Chicago White Sox",
-      "hora": "2026-09-22T23:40:00Z",
-      "probabilidad_local": 45.9,
-      "resultado": "visitante",
-      "marcador_local_final": 11,
-      "marcador_visitante_final": 14,
-      "acerto": true
-    },
-    {
-      "gamePk": "824624",
-      "local": "Chicago Cubs",
-      "visitante": "Miami Marlins",
-      "hora": "2026-09-22T23:40:00Z",
-      "probabilidad_local": 61.0,
-      "resultado": "visitante",
-      "marcador_local_final": 2,
-      "marcador_visitante_final": 8,
       "acerto": false
     }
   ]

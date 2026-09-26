@@ -3,80 +3,80 @@
         "gamePk": 822678,
         "local": "Washington Nationals",
         "visitante": "New York Mets",
-        "estado": "Scheduled",
+        "estado": "In Progress",
         "hora": "2026-09-26T16:35:00Z",
-        "marcador_local": 0,
+        "marcador_local": 1,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 4,
+        "inning_estado": "Bottom",
         "pitcher_local": "Connelly Early",
         "pitcher_visitante": "Jonah Tong",
         "pitcher_local_id": 813349,
         "pitcher_visitante_id": 804636,
         "ballpark_factor": 1.158,
-        "probabilidad": 52.4
+        "probabilidad": 51.2
     },
     {
         "gamePk": 824219,
         "local": "Detroit Tigers",
         "visitante": "Pittsburgh Pirates",
-        "estado": "Scheduled",
+        "estado": "In Progress",
         "hora": "2026-09-26T17:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 2,
+        "inning_estado": "Bottom",
         "pitcher_local": "Justin Verlander",
         "pitcher_visitante": "Kirby Yates",
         "pitcher_local_id": 434378,
         "pitcher_visitante_id": 489446,
         "ballpark_factor": 0.928,
-        "probabilidad": 36.3
+        "probabilidad": 40.8
     },
     {
         "gamePk": 822759,
         "local": "Toronto Blue Jays",
         "visitante": "Cincinnati Reds",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-26T19:07:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Trey Yesavage",
         "pitcher_visitante": "Rhett Lowder",
         "pitcher_local_id": 702056,
         "pitcher_visitante_id": 695076,
         "ballpark_factor": 1.01,
-        "probabilidad": 66.7
+        "probabilidad": 66.8
     },
     {
         "gamePk": 823165,
         "local": "San Francisco Giants",
         "visitante": "Los Angeles Dodgers",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-26T20:05:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Matt Wilkinson",
         "pitcher_visitante": "Blake Snell",
         "pitcher_local_id": 683363,
         "pitcher_visitante_id": 605483,
         "ballpark_factor": 0.929,
-        "probabilidad": 25.4
+        "probabilidad": 25.3
     },
     {
         "gamePk": 823653,
         "local": "Minnesota Twins",
         "visitante": "Texas Rangers",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-26T20:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Bailey Ober",
         "pitcher_visitante": "Nathan Eovaldi",
         "pitcher_local_id": 641927,
@@ -88,12 +88,12 @@
         "gamePk": 823813,
         "local": "Miami Marlins",
         "visitante": "Atlanta Braves",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-09-26T20:10:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Jack Ralston",
         "pitcher_visitante": "Brent Suter",
         "pitcher_local_id": 667652,
@@ -133,7 +133,7 @@
         "pitcher_local_id": 663436,
         "pitcher_visitante_id": 500779,
         "ballpark_factor": 0.941,
-        "probabilidad": 76.8
+        "probabilidad": 77.0
     },
     {
         "gamePk": 823733,
@@ -150,7 +150,7 @@
         "pitcher_local_id": 669160,
         "pitcher_visitante_id": 687273,
         "ballpark_factor": 1.013,
-        "probabilidad": 69.4
+        "probabilidad": 69.5
     },
     {
         "gamePk": 823407,
@@ -184,7 +184,7 @@
         "pitcher_local_id": 621111,
         "pitcher_visitante_id": null,
         "ballpark_factor": 0.849,
-        "probabilidad": 54.3
+        "probabilidad": 54.4
     },
     {
         "gamePk": 824949,
@@ -218,6 +218,6 @@
         "pitcher_local_id": 807739,
         "pitcher_visitante_id": 696270,
         "ballpark_factor": 0.857,
-        "probabilidad": 59.8
+        "probabilidad": 59.9
     }
 ]

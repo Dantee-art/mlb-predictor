@@ -10,6 +10,34 @@
             "leaders": [
                 {
                     "rank": 1,
+                    "value": "248",
+                    "team": {
+                        "id": 114,
+                        "name": "Cleveland Guardians",
+                        "link": "/api/v1/teams/114"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 668909,
+                        "fullName": "Gavin Williams",
+                        "link": "/api/v1/people/668909",
+                        "firstName": "Gavin",
+                        "lastName": "Williams"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 2,
                     "value": "247",
                     "team": {
                         "id": 158,
@@ -27,34 +55,6 @@
                         "link": "/api/v1/people/694819",
                         "firstName": "Jacob",
                         "lastName": "Misiorowski"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 2,
-                    "value": "244",
-                    "team": {
-                        "id": 114,
-                        "name": "Cleveland Guardians",
-                        "link": "/api/v1/teams/114"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 668909,
-                        "fullName": "Gavin Williams",
-                        "link": "/api/v1/people/668909",
-                        "firstName": "Gavin",
-                        "lastName": "Williams"
                     },
                     "sport": {
                         "id": 1,
@@ -122,7 +122,7 @@
                 },
                 {
                     "rank": 5,
-                    "value": "228",
+                    "value": "231",
                     "team": {
                         "id": 143,
                         "name": "Philadelphia Phillies",
@@ -150,7 +150,7 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 809
+            "totalSplits": 811
         },
         {
             "leaderCategory": "battingAverage",
@@ -547,6 +547,34 @@
                 },
                 {
                     "rank": 2,
+                    "value": ".311",
+                    "team": {
+                        "id": 109,
+                        "name": "Arizona Diamondbacks",
+                        "link": "/api/v1/teams/109"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 672515,
+                        "fullName": "Gabriel Moreno",
+                        "link": "/api/v1/people/672515",
+                        "firstName": "Gabriel",
+                        "lastName": "Moreno"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 3,
                     "value": ".310",
                     "team": {
                         "id": 143,
@@ -572,34 +600,6 @@
                     },
                     "season": "2026",
                     "numTeams": 2
-                },
-                {
-                    "rank": 3,
-                    "value": ".308",
-                    "team": {
-                        "id": 109,
-                        "name": "Arizona Diamondbacks",
-                        "link": "/api/v1/teams/109"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 672515,
-                        "fullName": "Gabriel Moreno",
-                        "link": "/api/v1/people/672515",
-                        "firstName": "Gabriel",
-                        "lastName": "Moreno"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
                 },
                 {
                     "rank": 4,
@@ -659,7 +659,7 @@
                 }
             ],
             "statGroup": "hitting",
-            "totalSplits": 133
+            "totalSplits": 134
         },
         {
             "leaderCategory": "strikeouts",
@@ -670,7 +670,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "1182",
+                    "value": "1187",
                     "team": {
                         "id": 143,
                         "name": "Philadelphia Phillies",
@@ -698,7 +698,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "1171",
+                    "value": "1179",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -726,7 +726,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": "956",
+                    "value": "966",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -754,7 +754,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "898",
+                    "value": "907",
                     "team": {
                         "id": 116,
                         "name": "Detroit Tigers",
@@ -972,6 +972,34 @@
             "leaders": [
                 {
                     "rank": 1,
+                    "value": "115",
+                    "team": {
+                        "id": 138,
+                        "name": "St. Louis Cardinals",
+                        "link": "/api/v1/teams/138"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 676475,
+                        "fullName": "Alec Burleson",
+                        "link": "/api/v1/people/676475",
+                        "firstName": "Alec",
+                        "lastName": "Burleson"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 2,
                     "value": "113",
                     "team": {
                         "id": 110,
@@ -989,34 +1017,6 @@
                         "link": "/api/v1/people/624413",
                         "firstName": "Pete",
                         "lastName": "Alonso"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 1,
-                    "value": "113",
-                    "team": {
-                        "id": 138,
-                        "name": "St. Louis Cardinals",
-                        "link": "/api/v1/teams/138"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 676475,
-                        "fullName": "Alec Burleson",
-                        "link": "/api/v1/people/676475",
-                        "firstName": "Alec",
-                        "lastName": "Burleson"
                     },
                     "sport": {
                         "id": 1,
@@ -1235,7 +1235,35 @@
                 },
                 {
                     "rank": 5,
-                    "value": "120",
+                    "value": "122",
+                    "team": {
+                        "id": 158,
+                        "name": "Milwaukee Brewers",
+                        "link": "/api/v1/teams/158"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 661388,
+                        "fullName": "William Contreras",
+                        "link": "/api/v1/people/661388",
+                        "firstName": "William",
+                        "lastName": "Contreras"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 5,
+                    "value": "122",
                     "team": {
                         "id": 118,
                         "name": "Kansas City Royals",
@@ -1425,7 +1453,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "223",
+                    "value": "224",
                     "team": {
                         "id": 145,
                         "name": "Chicago White Sox",
@@ -1481,7 +1509,7 @@
                 },
                 {
                     "rank": 3,
-                    "value": "211",
+                    "value": "212",
                     "team": {
                         "id": 108,
                         "name": "Los Angeles Angels",
@@ -1509,7 +1537,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "196",
+                    "value": "197",
                     "team": {
                         "id": 144,
                         "name": "Atlanta Braves",
@@ -1537,7 +1565,7 @@
                 },
                 {
                     "rank": 5,
-                    "value": "192",
+                    "value": "193",
                     "team": {
                         "id": 145,
                         "name": "Chicago White Sox",
@@ -1576,7 +1604,7 @@
             "leaders": [
                 {
                     "rank": 1,
-                    "value": "3.04",
+                    "value": "3.03",
                     "team": {
                         "id": 147,
                         "name": "New York Yankees",
@@ -1604,7 +1632,7 @@
                 },
                 {
                     "rank": 2,
-                    "value": "3.32",
+                    "value": "3.34",
                     "team": {
                         "id": 158,
                         "name": "Milwaukee Brewers",
@@ -1660,7 +1688,7 @@
                 },
                 {
                     "rank": 4,
-                    "value": "3.59",
+                    "value": "3.57",
                     "team": {
                         "id": 139,
                         "name": "Tampa Bay Rays",
@@ -1717,157 +1745,6 @@
             ],
             "statGroup": "catching",
             "totalSplits": 24
-        },
-        {
-            "leaderCategory": "homeRuns",
-            "gameType": {
-                "id": "R",
-                "description": "Regular Season"
-            },
-            "leaders": [
-                {
-                    "rank": 1,
-                    "value": "36",
-                    "team": {
-                        "id": 143,
-                        "name": "Philadelphia Phillies",
-                        "link": "/api/v1/teams/143"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 605400,
-                        "fullName": "Aaron Nola",
-                        "link": "/api/v1/people/605400",
-                        "firstName": "Aaron",
-                        "lastName": "Nola"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 2,
-                    "value": "35",
-                    "team": {
-                        "id": 133,
-                        "name": "Athletics",
-                        "link": "/api/v1/teams/133"
-                    },
-                    "league": {
-                        "id": 103,
-                        "name": "AL",
-                        "link": "/api/v1/league/103"
-                    },
-                    "person": {
-                        "id": 605488,
-                        "fullName": "Jeffrey Springs",
-                        "link": "/api/v1/people/605488",
-                        "firstName": "Jeffrey",
-                        "lastName": "Springs"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 3,
-                    "value": "34",
-                    "team": {
-                        "id": 112,
-                        "name": "Chicago Cubs",
-                        "link": "/api/v1/teams/112"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 684007,
-                        "fullName": "Shota Imanaga",
-                        "link": "/api/v1/people/684007",
-                        "firstName": "Shota",
-                        "lastName": "Imanaga"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 4,
-                    "value": "32",
-                    "team": {
-                        "id": 113,
-                        "name": "Cincinnati Reds",
-                        "link": "/api/v1/teams/113"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 663903,
-                        "fullName": "Brady Singer",
-                        "link": "/api/v1/people/663903",
-                        "firstName": "Brady",
-                        "lastName": "Singer"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                },
-                {
-                    "rank": 4,
-                    "value": "32",
-                    "team": {
-                        "id": 115,
-                        "name": "Colorado Rockies",
-                        "link": "/api/v1/teams/115"
-                    },
-                    "league": {
-                        "id": 104,
-                        "name": "NL",
-                        "link": "/api/v1/league/104"
-                    },
-                    "person": {
-                        "id": 608372,
-                        "fullName": "Tomoyuki Sugano",
-                        "link": "/api/v1/people/608372",
-                        "firstName": "Tomoyuki",
-                        "lastName": "Sugano"
-                    },
-                    "sport": {
-                        "id": 1,
-                        "link": "/api/v1/sports/1",
-                        "abbreviation": "MLB"
-                    },
-                    "season": "2026",
-                    "numTeams": 1
-                }
-            ],
-            "statGroup": "pitching",
-            "totalSplits": 759
         },
         {
             "leaderCategory": "wins",
@@ -2102,7 +1979,158 @@
                 }
             ],
             "statGroup": "pitching",
-            "totalSplits": 545
+            "totalSplits": 546
+        },
+        {
+            "leaderCategory": "homeRuns",
+            "gameType": {
+                "id": "R",
+                "description": "Regular Season"
+            },
+            "leaders": [
+                {
+                    "rank": 1,
+                    "value": "36",
+                    "team": {
+                        "id": 143,
+                        "name": "Philadelphia Phillies",
+                        "link": "/api/v1/teams/143"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 605400,
+                        "fullName": "Aaron Nola",
+                        "link": "/api/v1/people/605400",
+                        "firstName": "Aaron",
+                        "lastName": "Nola"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 2,
+                    "value": "35",
+                    "team": {
+                        "id": 133,
+                        "name": "Athletics",
+                        "link": "/api/v1/teams/133"
+                    },
+                    "league": {
+                        "id": 103,
+                        "name": "AL",
+                        "link": "/api/v1/league/103"
+                    },
+                    "person": {
+                        "id": 605488,
+                        "fullName": "Jeffrey Springs",
+                        "link": "/api/v1/people/605488",
+                        "firstName": "Jeffrey",
+                        "lastName": "Springs"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 3,
+                    "value": "34",
+                    "team": {
+                        "id": 112,
+                        "name": "Chicago Cubs",
+                        "link": "/api/v1/teams/112"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 684007,
+                        "fullName": "Shota Imanaga",
+                        "link": "/api/v1/people/684007",
+                        "firstName": "Shota",
+                        "lastName": "Imanaga"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 4,
+                    "value": "33",
+                    "team": {
+                        "id": 115,
+                        "name": "Colorado Rockies",
+                        "link": "/api/v1/teams/115"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 608372,
+                        "fullName": "Tomoyuki Sugano",
+                        "link": "/api/v1/people/608372",
+                        "firstName": "Tomoyuki",
+                        "lastName": "Sugano"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                },
+                {
+                    "rank": 5,
+                    "value": "32",
+                    "team": {
+                        "id": 113,
+                        "name": "Cincinnati Reds",
+                        "link": "/api/v1/teams/113"
+                    },
+                    "league": {
+                        "id": 104,
+                        "name": "NL",
+                        "link": "/api/v1/league/104"
+                    },
+                    "person": {
+                        "id": 663903,
+                        "fullName": "Brady Singer",
+                        "link": "/api/v1/people/663903",
+                        "firstName": "Brady",
+                        "lastName": "Singer"
+                    },
+                    "sport": {
+                        "id": 1,
+                        "link": "/api/v1/sports/1",
+                        "abbreviation": "MLB"
+                    },
+                    "season": "2026",
+                    "numTeams": 1
+                }
+            ],
+            "statGroup": "pitching",
+            "totalSplits": 760
         }
     ]
 }

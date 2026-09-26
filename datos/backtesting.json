@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 812,
+  "total_partidos_evaluados": 813,
   "total_aciertos": 477,
-  "total_errores": 335,
+  "total_errores": 336,
   "precision_general": 58.7,
   "error_general": 41.3,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 482,
+      "partidos": 483,
       "aciertos": 277,
-      "pct_acierto_real": 57.5
+      "pct_acierto_real": 57.3
     },
     {
       "rango": "60-70",
@@ -47,6 +47,17 @@
       "marcador_local_final": 0,
       "marcador_visitante_final": 2,
       "acerto": true
+    },
+    {
+      "gamePk": "823085",
+      "local": "Seattle Mariners",
+      "visitante": "Los Angeles Angels",
+      "hora": "2026-09-26T02:10:00Z",
+      "probabilidad_local": 50.2,
+      "resultado": "visitante",
+      "marcador_local_final": 5,
+      "marcador_visitante_final": 7,
+      "acerto": false
     },
     {
       "gamePk": "824947",
@@ -574,17 +585,6 @@
       "resultado": "visitante",
       "marcador_local_final": 2,
       "marcador_visitante_final": 8,
-      "acerto": false
-    },
-    {
-      "gamePk": "824867",
-      "local": "Atlanta Braves",
-      "visitante": "Cincinnati Reds",
-      "hora": "2026-09-22T23:15:00Z",
-      "probabilidad_local": 74.8,
-      "resultado": "visitante",
-      "marcador_local_final": 0,
-      "marcador_visitante_final": 4,
       "acerto": false
     }
   ]

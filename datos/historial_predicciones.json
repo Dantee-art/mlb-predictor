@@ -10110,10 +10110,10 @@
     "probabilidad_local": 59.4,
     "pitcher_local": "Cam Schlittler",
     "pitcher_visitante": "Payton Tolle",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 9,
+    "marcador_visitante_final": 0,
+    "acerto": true
   },
   "849843": {
     "local": "San Diego Padres",
@@ -10122,10 +10122,10 @@
     "probabilidad_local": 50.1,
     "pitcher_local": "Michael King",
     "pitcher_visitante": "Matthew Boyd",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 8,
+    "marcador_visitante_final": 0,
+    "acerto": true
   },
   "849841": {
     "local": "Atlanta Braves",
@@ -10158,6 +10158,18 @@
     "probabilidad_local": 58.1,
     "pitcher_local": "Max Fried",
     "pitcher_visitante": "Sonny Gray",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "849842": {
+    "local": "San Diego Padres",
+    "visitante": "Chicago Cubs",
+    "hora": "2026-10-01T02:00:00Z",
+    "probabilidad_local": 55.6,
+    "pitcher_local": "Nick Pivetta",
+    "pitcher_visitante": "Kevin Gausman",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

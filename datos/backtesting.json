@@ -1,6 +1,6 @@
 {
-  "total_partidos_evaluados": 847,
-  "total_aciertos": 498,
+  "total_partidos_evaluados": 848,
+  "total_aciertos": 499,
   "total_errores": 349,
   "precision_general": 58.8,
   "error_general": 41.2,
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 265,
-      "aciertos": 154,
-      "pct_acierto_real": 58.1
+      "partidos": 266,
+      "aciertos": 155,
+      "pct_acierto_real": 58.3
     },
     {
       "rango": "70-80",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "849844",
+      "local": "Atlanta Braves",
+      "visitante": "Philadelphia Phillies",
+      "hora": "2026-10-02T00:00:00Z",
+      "probabilidad_local": 60.8,
+      "resultado": "local",
+      "marcador_local_final": 6,
+      "marcador_visitante_final": 2,
+      "acerto": true
+    },
     {
       "gamePk": "849842",
       "local": "San Diego Padres",
@@ -575,17 +586,6 @@
       "marcador_local_final": 4,
       "marcador_visitante_final": 3,
       "acerto": true
-    },
-    {
-      "gamePk": "823895",
-      "local": "Los Angeles Dodgers",
-      "visitante": "San Diego Padres",
-      "hora": "2026-09-25T02:10:00Z",
-      "probabilidad_local": 64.2,
-      "resultado": "visitante",
-      "marcador_local_final": 2,
-      "marcador_visitante_final": 4,
-      "acerto": false
     }
   ]
 }

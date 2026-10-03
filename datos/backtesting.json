@@ -1,6 +1,6 @@
 {
-  "total_partidos_evaluados": 849,
-  "total_aciertos": 500,
+  "total_partidos_evaluados": 850,
+  "total_aciertos": 501,
   "total_errores": 349,
   "precision_general": 58.9,
   "error_general": 41.1,
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 266,
-      "aciertos": 155,
-      "pct_acierto_real": 58.3
+      "partidos": 267,
+      "aciertos": 156,
+      "pct_acierto_real": 58.4
     },
     {
       "rango": "70-80",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "849828",
+      "local": "Los Angeles Dodgers",
+      "visitante": "Atlanta Braves",
+      "hora": "2026-10-03T20:00:00Z",
+      "probabilidad_local": 64.7,
+      "resultado": "local",
+      "marcador_local_final": 5,
+      "marcador_visitante_final": 3,
+      "acerto": true
+    },
     {
       "gamePk": "849829",
       "local": "Cleveland Guardians",
@@ -575,17 +586,6 @@
       "marcador_local_final": 6,
       "marcador_visitante_final": 3,
       "acerto": false
-    },
-    {
-      "gamePk": "823491",
-      "local": "New York Yankees",
-      "visitante": "Baltimore Orioles",
-      "hora": "2026-09-25T20:05:00Z",
-      "probabilidad_local": 43.8,
-      "resultado": "visitante",
-      "marcador_local_final": 2,
-      "marcador_visitante_final": 10,
-      "acerto": true
     }
   ]
 }

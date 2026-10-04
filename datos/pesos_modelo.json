@@ -1,19 +1,19 @@
 {
   "activo": true,
-  "motivo": "Pesos recalibrados con 848 partidos evaluados.",
+  "motivo": "Pesos recalibrados con 852 partidos evaluados.",
   "pesos": {
-    "p5": 0.3792,
-    "elo": 0.2495,
-    "home_adv": 0.0998,
-    "woba": 0.5987,
-    "fip": 0.0798,
-    "pitcher_fip": 0.0499,
-    "pitcher_whip": 0.0299,
+    "p5": 0.3809,
+    "elo": 0.2506,
+    "home_adv": 0.1002,
+    "woba": 0.6015,
+    "fip": 0.0802,
+    "pitcher_fip": 0.0501,
+    "pitcher_whip": 0.0301,
     "pitcher_k9": 0.01,
     "bullpen": 0.02,
-    "ballpark": 0.0998
+    "ballpark": 0.1002
   },
-  "factor_escala": 0.9979,
-  "ajuste_sesgo_local": -0.0175,
-  "partidos_usados": 848
+  "factor_escala": 1.0024,
+  "ajuste_sesgo_local": -0.0174,
+  "partidos_usados": 852
 }

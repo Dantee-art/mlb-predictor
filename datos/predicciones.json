@@ -3,12 +3,12 @@
         "gamePk": 849825,
         "local": "Milwaukee Brewers",
         "visitante": "San Diego Padres",
-        "estado": "Scheduled",
+        "estado": "Pre-Game",
         "hora": "2026-10-04T20:00:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": null,
-        "inning_estado": null,
+        "inning": 1,
+        "inning_estado": "Top",
         "pitcher_local": "Logan Henderson",
         "pitcher_visitante": "Michael King",
         "pitcher_local_id": 701656,
@@ -27,10 +27,10 @@
         "inning": null,
         "inning_estado": null,
         "pitcher_local": "Blake Snell",
-        "pitcher_visitante": "Sin anunciar",
+        "pitcher_visitante": "Ray Kerr",
         "pitcher_local_id": 605483,
-        "pitcher_visitante_id": null,
+        "pitcher_visitante_id": 678061,
         "ballpark_factor": 0.984,
-        "probabilidad": 70.3
+        "probabilidad": 69.1
     }
 ]

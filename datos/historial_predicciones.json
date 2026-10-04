@@ -10206,10 +10206,10 @@
     "probabilidad_local": 53.8,
     "pitcher_local": "Drew Rasmussen",
     "pitcher_visitante": "Gerrit Cole",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "local",
+    "marcador_local_final": 1,
+    "marcador_visitante_final": 0,
+    "acerto": true
   },
   "849830": {
     "local": "Milwaukee Brewers",
@@ -10234,5 +10234,17 @@
     "marcador_local_final": 5,
     "marcador_visitante_final": 3,
     "acerto": true
+  },
+  "849825": {
+    "local": "Milwaukee Brewers",
+    "visitante": "San Diego Padres",
+    "hora": "2026-10-04T20:00:00Z",
+    "probabilidad_local": 69.3,
+    "pitcher_local": "Logan Henderson",
+    "pitcher_visitante": "Michael King",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
   }
 }

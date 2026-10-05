@@ -1,9 +1,9 @@
 {
-  "total_partidos_evaluados": 853,
+  "total_partidos_evaluados": 854,
   "total_aciertos": 504,
-  "total_errores": 349,
-  "precision_general": 59.1,
-  "error_general": 40.9,
+  "total_errores": 350,
+  "precision_general": 59.0,
+  "error_general": 41.0,
   "por_rango": [
     {
       "rango": "50-60",
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 268,
+      "partidos": 269,
       "aciertos": 157,
-      "pct_acierto_real": 58.6
+      "pct_acierto_real": 58.4
     },
     {
       "rango": "70-80",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "849823",
+      "local": "Los Angeles Dodgers",
+      "visitante": "Atlanta Braves",
+      "hora": "2026-10-05T00:00:00Z",
+      "probabilidad_local": 69.1,
+      "resultado": "visitante",
+      "marcador_local_final": 2,
+      "marcador_visitante_final": 3,
+      "acerto": false
+    },
     {
       "gamePk": "849825",
       "local": "Milwaukee Brewers",
@@ -574,17 +585,6 @@
       "resultado": "local",
       "marcador_local_final": 6,
       "marcador_visitante_final": 5,
-      "acerto": true
-    },
-    {
-      "gamePk": "824220",
-      "local": "Detroit Tigers",
-      "visitante": "Pittsburgh Pirates",
-      "hora": "2026-09-25T22:40:00Z",
-      "probabilidad_local": 55.3,
-      "resultado": "local",
-      "marcador_local_final": 8,
-      "marcador_visitante_final": 7,
       "acerto": true
     }
   ]

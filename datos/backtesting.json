@@ -1,9 +1,9 @@
 {
-  "total_partidos_evaluados": 852,
-  "total_aciertos": 503,
+  "total_partidos_evaluados": 853,
+  "total_aciertos": 504,
   "total_errores": 349,
-  "precision_general": 59.0,
-  "error_general": 41.0,
+  "precision_general": 59.1,
+  "error_general": 40.9,
   "por_rango": [
     {
       "rango": "50-60",
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 267,
-      "aciertos": 156,
-      "pct_acierto_real": 58.4
+      "partidos": 268,
+      "aciertos": 157,
+      "pct_acierto_real": 58.6
     },
     {
       "rango": "70-80",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "849825",
+      "local": "Milwaukee Brewers",
+      "visitante": "San Diego Padres",
+      "hora": "2026-10-04T20:00:00Z",
+      "probabilidad_local": 69.3,
+      "resultado": "local",
+      "marcador_local_final": 4,
+      "marcador_visitante_final": 3,
+      "acerto": true
+    },
     {
       "gamePk": "849830",
       "local": "Milwaukee Brewers",
@@ -575,17 +586,6 @@
       "marcador_local_final": 8,
       "marcador_visitante_final": 7,
       "acerto": true
-    },
-    {
-      "gamePk": "823409",
-      "local": "Philadelphia Phillies",
-      "visitante": "Tampa Bay Rays",
-      "hora": "2026-09-25T22:40:00Z",
-      "probabilidad_local": 58.6,
-      "resultado": "visitante",
-      "marcador_local_final": 0,
-      "marcador_visitante_final": 2,
-      "acerto": false
     }
   ]
 }

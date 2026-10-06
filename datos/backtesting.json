@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 855,
+  "total_partidos_evaluados": 856,
   "total_aciertos": 504,
-  "total_errores": 351,
+  "total_errores": 352,
   "precision_general": 58.9,
   "error_general": 41.1,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 508,
+      "partidos": 509,
       "aciertos": 292,
-      "pct_acierto_real": 57.5
+      "pct_acierto_real": 57.4
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "849839",
+      "local": "Tampa Bay Rays",
+      "visitante": "New York Yankees",
+      "hora": "2026-10-06T00:00:00Z",
+      "probabilidad_local": 41.3,
+      "resultado": "local",
+      "marcador_local_final": 5,
+      "marcador_visitante_final": 2,
+      "acerto": false
+    },
     {
       "gamePk": "849834",
       "local": "Cleveland Guardians",
@@ -575,17 +586,6 @@
       "marcador_local_final": 8,
       "marcador_visitante_final": 4,
       "acerto": true
-    },
-    {
-      "gamePk": "823816",
-      "local": "Miami Marlins",
-      "visitante": "Atlanta Braves",
-      "hora": "2026-09-25T23:10:00Z",
-      "probabilidad_local": 46.2,
-      "resultado": "local",
-      "marcador_local_final": 3,
-      "marcador_visitante_final": 0,
-      "acerto": false
     }
   ]
 }

@@ -10338,10 +10338,10 @@
     "probabilidad_local": 62.9,
     "pitcher_local": "Max Fried",
     "pitcher_visitante": "Nick Martinez",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 3,
+    "marcador_visitante_final": 4,
+    "acerto": false
   },
   "849827": {
     "local": "San Diego Padres",
@@ -10350,10 +10350,10 @@
     "probabilidad_local": 40.4,
     "pitcher_local": "Walker Buehler",
     "pitcher_visitante": "Robert Gasser",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 1,
+    "marcador_visitante_final": 3,
+    "acerto": true
   },
   "849837": {
     "local": "New York Yankees",
@@ -10362,6 +10362,18 @@
     "probabilidad_local": 55.9,
     "pitcher_local": "Carlos Rodón",
     "pitcher_visitante": "Drew Rasmussen",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "849832": {
+    "local": "Chicago White Sox",
+    "visitante": "Cleveland Guardians",
+    "hora": "2026-10-09T00:00:00Z",
+    "probabilidad_local": 57.7,
+    "pitcher_local": "Hagen Smith",
+    "pitcher_visitante": "Parker Messick",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

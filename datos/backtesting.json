@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 859,
-  "total_aciertos": 504,
+  "total_partidos_evaluados": 860,
+  "total_aciertos": 505,
   "total_errores": 355,
   "precision_general": 58.7,
   "error_general": 41.3,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 512,
-      "aciertos": 292,
-      "pct_acierto_real": 57.0
+      "partidos": 513,
+      "aciertos": 293,
+      "pct_acierto_real": 57.1
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "849822",
+      "local": "Atlanta Braves",
+      "visitante": "Los Angeles Dodgers",
+      "hora": "2026-10-07T22:00:00Z",
+      "probabilidad_local": 40.2,
+      "resultado": "visitante",
+      "marcador_local_final": 1,
+      "marcador_visitante_final": 4,
+      "acerto": true
+    },
     {
       "gamePk": "849833",
       "local": "Chicago White Sox",
@@ -574,17 +585,6 @@
       "resultado": "local",
       "marcador_local_final": 6,
       "marcador_visitante_final": 5,
-      "acerto": false
-    },
-    {
-      "gamePk": "823652",
-      "local": "Minnesota Twins",
-      "visitante": "Texas Rangers",
-      "hora": "2026-09-26T00:10:00Z",
-      "probabilidad_local": 49.2,
-      "resultado": "local",
-      "marcador_local_final": 10,
-      "marcador_visitante_final": 2,
       "acerto": false
     }
   ]

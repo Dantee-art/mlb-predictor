@@ -10326,10 +10326,10 @@
     "probabilidad_local": 40.2,
     "pitcher_local": "Tyler Mahle",
     "pitcher_visitante": "Tyler Glasnow",
-    "resultado": null,
-    "marcador_local_final": null,
-    "marcador_visitante_final": null,
-    "acerto": null
+    "resultado": "visitante",
+    "marcador_local_final": 1,
+    "marcador_visitante_final": 4,
+    "acerto": true
   },
   "849838": {
     "local": "New York Yankees",
@@ -10350,6 +10350,18 @@
     "probabilidad_local": 40.4,
     "pitcher_local": "Walker Buehler",
     "pitcher_visitante": "Robert Gasser",
+    "resultado": null,
+    "marcador_local_final": null,
+    "marcador_visitante_final": null,
+    "acerto": null
+  },
+  "849837": {
+    "local": "New York Yankees",
+    "visitante": "Tampa Bay Rays",
+    "hora": "2026-10-09T00:00:00Z",
+    "probabilidad_local": 55.9,
+    "pitcher_local": "Carlos Rodón",
+    "pitcher_visitante": "Drew Rasmussen",
     "resultado": null,
     "marcador_local_final": null,
     "marcador_visitante_final": null,

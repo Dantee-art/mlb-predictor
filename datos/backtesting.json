@@ -1,14 +1,14 @@
 {
-  "total_partidos_evaluados": 865,
-  "total_aciertos": 508,
+  "total_partidos_evaluados": 866,
+  "total_aciertos": 509,
   "total_errores": 357,
-  "precision_general": 58.7,
-  "error_general": 41.3,
+  "precision_general": 58.8,
+  "error_general": 41.2,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 517,
-      "aciertos": 296,
+      "partidos": 518,
+      "aciertos": 297,
       "pct_acierto_real": 57.3
     },
     {
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "849812",
+      "local": "Milwaukee Brewers",
+      "visitante": "Los Angeles Dodgers",
+      "hora": "2026-10-12T21:00:00Z",
+      "probabilidad_local": 54.5,
+      "resultado": "local",
+      "marcador_local_final": 7,
+      "marcador_visitante_final": 4,
+      "acerto": true
+    },
     {
       "gamePk": "849809",
       "local": "Milwaukee Brewers",
@@ -575,17 +586,6 @@
       "marcador_local_final": 1,
       "marcador_visitante_final": 7,
       "acerto": false
-    },
-    {
-      "gamePk": "823165",
-      "local": "San Francisco Giants",
-      "visitante": "Los Angeles Dodgers",
-      "hora": "2026-09-26T20:05:00Z",
-      "probabilidad_local": 25.7,
-      "resultado": "visitante",
-      "marcador_local_final": 3,
-      "marcador_visitante_final": 4,
-      "acerto": true
     }
   ]
 }

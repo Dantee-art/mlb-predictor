@@ -1,19 +1,36 @@
 [
     {
-        "gamePk": 849811,
-        "local": "Los Angeles Dodgers",
-        "visitante": "Milwaukee Brewers",
-        "estado": "Pre-Game",
-        "hora": "2026-10-15T00:00:00Z",
+        "gamePk": 849818,
+        "local": "Cleveland Guardians",
+        "visitante": "Tampa Bay Rays",
+        "estado": "Scheduled",
+        "hora": "2026-10-15T17:00:00Z",
         "marcador_local": 0,
         "marcador_visitante": 0,
-        "inning": 1,
-        "inning_estado": "Top",
-        "pitcher_local": "Blake Snell",
-        "pitcher_visitante": "Robert Gasser",
-        "pitcher_local_id": 605483,
-        "pitcher_visitante_id": 688107,
+        "inning": null,
+        "inning_estado": null,
+        "pitcher_local": "Gavin Williams",
+        "pitcher_visitante": "Griffin Jax",
+        "pitcher_local_id": 668909,
+        "pitcher_visitante_id": 643377,
+        "ballpark_factor": 1.041,
+        "probabilidad": 54.1
+    },
+    {
+        "gamePk": 849810,
+        "local": "Los Angeles Dodgers",
+        "visitante": "Milwaukee Brewers",
+        "estado": "Scheduled",
+        "hora": "2026-10-16T00:00:00Z",
+        "marcador_local": 0,
+        "marcador_visitante": 0,
+        "inning": null,
+        "inning_estado": null,
+        "pitcher_local": "Tyler Glasnow",
+        "pitcher_visitante": "Sin anunciar",
+        "pitcher_local_id": 607192,
+        "pitcher_visitante_id": null,
         "ballpark_factor": 0.984,
-        "probabilidad": 62.0
+        "probabilidad": 60.7
     }
 ]

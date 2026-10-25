@@ -1,9 +1,9 @@
 {
-  "total_partidos_evaluados": 875,
-  "total_aciertos": 513,
+  "total_partidos_evaluados": 876,
+  "total_aciertos": 514,
   "total_errores": 362,
-  "precision_general": 58.6,
-  "error_general": 41.4,
+  "precision_general": 58.7,
+  "error_general": 41.3,
   "por_rango": [
     {
       "rango": "50-60",
@@ -13,9 +13,9 @@
     },
     {
       "rango": "60-70",
-      "partidos": 272,
-      "aciertos": 157,
-      "pct_acierto_real": 57.7
+      "partidos": 273,
+      "aciertos": 158,
+      "pct_acierto_real": 57.9
     },
     {
       "rango": "70-80",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "849802",
+      "local": "Milwaukee Brewers",
+      "visitante": "Tampa Bay Rays",
+      "hora": "2026-10-25T00:00:00Z",
+      "probabilidad_local": 60.3,
+      "resultado": "local",
+      "marcador_local_final": 5,
+      "marcador_visitante_final": 4,
+      "acerto": true
+    },
     {
       "gamePk": "849805",
       "local": "Milwaukee Brewers",
@@ -575,17 +586,6 @@
       "marcador_local_final": 1,
       "marcador_visitante_final": 5,
       "acerto": true
-    },
-    {
-      "gamePk": "822679",
-      "local": "Washington Nationals",
-      "visitante": "New York Mets",
-      "hora": "2026-09-27T17:05:00Z",
-      "probabilidad_local": 47.5,
-      "resultado": "local",
-      "marcador_local_final": 6,
-      "marcador_visitante_final": 4,
-      "acerto": false
     }
   ]
 }

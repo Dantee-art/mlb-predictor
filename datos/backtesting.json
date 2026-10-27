@@ -1,14 +1,14 @@
 {
-  "total_partidos_evaluados": 876,
-  "total_aciertos": 514,
+  "total_partidos_evaluados": 877,
+  "total_aciertos": 515,
   "total_errores": 362,
   "precision_general": 58.7,
   "error_general": 41.3,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 524,
-      "aciertos": 300,
+      "partidos": 525,
+      "aciertos": 301,
       "pct_acierto_real": 57.3
     },
     {
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "849804",
+      "local": "Tampa Bay Rays",
+      "visitante": "Milwaukee Brewers",
+      "hora": "2026-10-27T00:00:00Z",
+      "probabilidad_local": 44.6,
+      "resultado": "visitante",
+      "marcador_local_final": 1,
+      "marcador_visitante_final": 10,
+      "acerto": true
+    },
     {
       "gamePk": "849802",
       "local": "Milwaukee Brewers",
@@ -575,17 +586,6 @@
       "marcador_local_final": 2,
       "marcador_visitante_final": 6,
       "acerto": false
-    },
-    {
-      "gamePk": "823164",
-      "local": "San Francisco Giants",
-      "visitante": "Los Angeles Dodgers",
-      "hora": "2026-09-27T19:05:00Z",
-      "probabilidad_local": 25.9,
-      "resultado": "visitante",
-      "marcador_local_final": 1,
-      "marcador_visitante_final": 5,
-      "acerto": true
     }
   ]
 }

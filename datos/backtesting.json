@@ -1,15 +1,15 @@
 {
-  "total_partidos_evaluados": 878,
-  "total_aciertos": 515,
+  "total_partidos_evaluados": 879,
+  "total_aciertos": 516,
   "total_errores": 363,
   "precision_general": 58.7,
   "error_general": 41.3,
   "por_rango": [
     {
       "rango": "50-60",
-      "partidos": 526,
-      "aciertos": 301,
-      "pct_acierto_real": 57.2
+      "partidos": 527,
+      "aciertos": 302,
+      "pct_acierto_real": 57.3
     },
     {
       "rango": "60-70",
@@ -37,6 +37,17 @@
     }
   ],
   "partidos_recientes": [
+    {
+      "gamePk": "849799",
+      "local": "Tampa Bay Rays",
+      "visitante": "Milwaukee Brewers",
+      "hora": "2026-10-29T00:00:00Z",
+      "probabilidad_local": 41.3,
+      "resultado": "visitante",
+      "marcador_local_final": 1,
+      "marcador_visitante_final": 4,
+      "acerto": true
+    },
     {
       "gamePk": "849803",
       "local": "Tampa Bay Rays",
@@ -574,17 +585,6 @@
       "resultado": "local",
       "marcador_local_final": 7,
       "marcador_visitante_final": 3,
-      "acerto": true
-    },
-    {
-      "gamePk": "824948",
-      "local": "Athletics",
-      "visitante": "Houston Astros",
-      "hora": "2026-09-27T19:05:00Z",
-      "probabilidad_local": 41.8,
-      "resultado": "visitante",
-      "marcador_local_final": 0,
-      "marcador_visitante_final": 9,
       "acerto": true
     }
   ]
